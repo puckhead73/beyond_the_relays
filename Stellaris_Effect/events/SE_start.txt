@@ -1,0 +1,208 @@
+namespace = Codex
+
+event = {
+	id = Codex.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+immediate = {
+	every_planet = {
+		limit = { 
+			has_planet_flag = junthor_codex
+			}
+		add_modifier = { 
+			modifier = junthor_codex_modifier 
+			days = -1 
+		}
+	}
+	every_planet = {
+		limit = { 
+			has_planet_flag = pressha_codex
+			}
+		add_modifier = { 
+			modifier = pressha_codex_modifier 
+			days = -1 
+		}
+	}
+	every_planet = {
+		limit = { 
+			has_planet_flag = rayingri_codex
+			}
+		add_modifier = { 
+			modifier = rayingri_codex_modifier 
+			days = -1 
+		}
+	}
+	every_planet = {
+		limit = { 
+			has_planet_flag = vahtz_codex
+			}
+		add_modifier = { 
+			modifier = vahtz_codex_modifier 
+			days = -1 
+		}
+	}
+	every_planet = {
+		limit = { 
+			has_planet_flag = sogelrus_codex
+			}
+		add_modifier = { 
+			modifier = sogelrus_codex_modifier 
+			days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = antirumgon_codex
+			}
+		add_modifier = { 
+		modifier = antirumgon_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = benda_codex
+			}
+		add_modifier = { modifier = benda_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = zaherux_codex
+			}
+		add_modifier = { modifier = zaherux_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = notanban_codex
+			}
+		add_modifier = { modifier = notanban_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = solcrum_codex
+			}
+		add_modifier = { modifier = solcrum_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = pomal_codex
+			}
+		add_modifier = { modifier = pomal_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = casbin_codex
+			}
+		add_modifier = { modifier = casbin_codex_modifier 
+		days = -1 
+		}
+	}			
+	every_planet = {
+		limit = { 
+			has_planet_flag = matar_codex
+			}
+		add_modifier = { modifier = matar_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = theshaca_codex
+			}
+		add_modifier = { modifier = theshaca_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = treagir_codex
+			}
+		add_modifier = { modifier = treagir_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = antibaar_codex
+			}
+		add_modifier = { modifier = antibaar_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = patamalrus_codex
+			}
+		add_modifier = { modifier = patamalrus_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = hunsalra_codex
+			}
+		add_modifier = { modifier = hunsalra_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = thegeuse_codex
+			}
+		add_modifier = { modifier = thegeuse_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = solmarlon_codex
+			}
+		add_modifier = { modifier = solmarlon_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = mawinor_codex
+			}
+		add_modifier = { modifier = mawinor_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = maji_codex
+			}
+		add_modifier = { modifier = maji_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = pregel_codex
+			}
+		add_modifier = { modifier = pregel_codex_modifier 
+		days = -1 
+		}
+	}		
+	every_planet = {
+		limit = { 
+			has_planet_flag = almos_codex
+			}
+		add_modifier = { modifier = almos_codex_modifier 
+		days = -1 
+		}
+	}			
+}

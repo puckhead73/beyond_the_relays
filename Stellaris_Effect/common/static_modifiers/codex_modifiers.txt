@@ -1,0 +1,133 @@
+##### Stellaris Effect Planet Codex Modifiers #####
+
+####ATTICAN TRAVERSE####
+###Armstrong Nebula###
+#Junthor
+junthor_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Pressha
+pressha_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Rayingri
+rayingri_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Vahtz
+vahtz_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Sogelrus
+sogelrus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Antirumgon
+antirumgon_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Benda
+benda_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Zaherux
+zaherux_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Notanban
+notanban_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Solcrum
+solcrum_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Pomal
+pomal_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Casbin
+casbin_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Matar
+matar_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Theshaca
+theshaca_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Treagir
+treagir_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Antibaar
+antibaar_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Hunsalra
+hunsalra_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Thegeuse
+thegeuse_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Solmarlon
+solmarlon_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Maji
+maji_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#pregel
+pregel_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Almos
+almos_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

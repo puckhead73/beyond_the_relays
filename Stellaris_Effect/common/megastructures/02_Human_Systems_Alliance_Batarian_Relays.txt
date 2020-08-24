@@ -1,0 +1,715 @@
+##############################
+### EARTH SYSTEMS ALLIANCE ###
+##############################
+
+#####ARCTURUS STREAM#####
+
+arcturusstream_exoduscluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_arcturusstream_exoduscluster
+}
+
+arcturusstream_localcluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_arcturusstream_localcluster
+}
+
+
+#####ARGOS RHO#####
+
+argosrho_geminisigma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_geminisigma
+}
+
+argosrho_horseheadnebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_horseheadnebula
+}
+
+argosrho_maroonsea_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_maroonsea
+}
+
+argosrho_mkalipool_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_mkalipool
+}
+
+argosrho_maroonsea_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_maroonsea
+}
+
+
+#####ARTEMIS TAU#####
+
+artemistau_hadesgamma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_artemistau_hadesgamma
+}
+
+artemistau_kitesnest_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_artemistau_kitesnest
+}
+
+
+#####ATTICAN BETA#####
+
+atticanbeta_geminisigma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_geminisigma
+}
+
+atticanbeta_hadesgamma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_hadesgamma
+}
+
+atticanbeta_keplerverge_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_keplerverge
+}
+
+atticanbeta_maroonsea_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_maroonsea
+}
+
+atticanbeta_nubianexpanse_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_nubianexpanse
+}
+
+atticanbeta_sentryomega_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_sentryomega
+}
+
+atticanbeta_voyagercluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_voyagercluster
+}
+
+
+#####EXODUS CLUSTER#####
+
+exoduscluster_arcturusstream_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_arcturusstream_exoduscluster
+}
+
+exoduscluster_horseheadnebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_horseheadcluster
+}
+
+exoduscluster_kitesnest_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_kitesnest
+}
+
+exoduscluster_localclsuter_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_localcluster
+}
+
+exoduscluster_mkalipool_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_mkalipool
+}
+
+exoduscluster_petranebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_petranebula
+}
+
+
+#####GEMINI SIGMA#####
+
+geminisigma_argosrho_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_geminisigma
+}
+
+geminisigma_atticanbeta_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_geminisigma
+}
+
+geminisigma_hadesgamma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_geminisigma_hadesgamma
+}
+
+geminisigma_maroonsea_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_geminisigma_maroonsea
+}
+
+geminisigma_mkalipool_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_geminisigma_mkalipool
+}
+
+
+#####HADES GAMMA#####
+
+hadesgamma_artemistau_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_artemistau_hadesgamma
+}
+
+hadesgamma_atticanbeta_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_hadesgamma
+}
+
+hadesgamma_geminisigma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_geminisigma_hadesgamma
+}
+
+hadesgamma_mkalipool_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_hadesgamma_mkalipool
+}
+
+hadesgamma_voyagercluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_hadesgamma_voyagercluster
+}
+
+
+#####HORSE HEAD NEBULA#####
+
+horseheadnebula_annosbasin_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_annosbasin_horseheadnebula
+}
+
+horseheadnebula_argosrho_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_horseheadnebula
+}
+
+horseheadnebula_exoduscluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_horseheadnebula
+}
+
+horseheadnebula_localcluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_horseheadnebula_localcluster
+}
+
+horseheadnebula_olynprotectorate_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_horseheadnebula_olynprotectorate
+}
+
+horseheadnebula_shadowsea_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_horseheadnebula_shadowsea
+}
+
+
+#####KITE'S NEST#####
+
+kitesnest_artemistau_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_artemistau_kitesnest
+}
+
+kitesnest_exoduscluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_kitesnest
+}
+
+kitesnest_mkalipool_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_kitesnest_mkalipool
+}
+
+kitesnest_petranebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_kitesnest_petranebula
+}
+
+kitesnest_vipernebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_kitesnest_vipernebula
+}
+
+
+#####LOCAL CLUSTER#####
+
+localcluster_arcturusstream_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_arcturusstream_localcluster
+}
+
+localcluster_exoduscluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_localcluster
+}
+
+localcluster_horseheadnebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_horseheadnebula_localcluster
+}
+
+localcluster_serpentnebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_localcluster_serpentnebula
+}
+
+localcluster_xingyuncluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_localcluster_xingyuncluster
+}
+
+
+#####MKALI POOL#####
+
+mkalipool_argosrho_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_argosrho_mkalipool
+}
+
+mkalipool_exoduscluster_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_exoduscluster_mkalipool
+}
+
+mkalipool_geminisigma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_geminisigma_mkalipool
+}
+
+mkalipool_hadesgamma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_hadesgamma_mkalipool
+}
+
+mkalipool_kitesnest_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_kitesnest_mkalipool
+}
+
+
+#####PETRA NEBULA#####
+
+petranebula_kitesnest_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_kitesnest_petranebula
+}
+
+petranebula_vipernebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_petranebula_vipernebula
+}
+
+
+#####VIPER NEBULA#####
+
+vipernebula_kitesnest_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_kitesnest_vipernebula
+}
+
+vipernebula_llewynnebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_vipernebula_llewynnebula
+}
+
+vipernebula_petranebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_petranebula_vipernebula
+}
+
+
+#####VOYAGER CLUSTER#####
+
+voyagercluster_atticanbeta_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_atticanbeta_voyagercluster
+}
+
+voyagercluster_hadesgamma_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_hadesgamma_voyagercluster
+}
+
+voyagercluster_nubianexpanse_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_nubianexpanse_voyagercluster
+}

@@ -1,0 +1,16 @@
+### BINARY STARS
+
+sc_vamshi = { # Binary System: Red star paired with White star
+    class             = m_giant_star
+    icon              = mg_b_binary_star
+	icon_scale		  = 1.0
+    planet            = {
+                        key = pc_m_giant_star
+                        class = m_giant_star
+                    }
+    planet            = {
+                        key = pc_a_star
+                        class = a_star
+                    }
+    spawn_odds         = 0
+}

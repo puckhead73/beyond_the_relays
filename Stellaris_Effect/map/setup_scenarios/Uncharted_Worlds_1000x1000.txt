@@ -1,0 +1,2461 @@
+#Made with Retalyx Static Galaxy Generator v0.9
+static_galaxy_scenario = {
+    name = "ME Systems 1000x1000"
+    priority = 1
+    default = yes
+    colonizable_planet_odds = 1.0
+    num_empires = { min = 1 max = 1 }
+    num_empire_default = 1
+    advanced_empire_default = 0
+    core_radius = 0
+    random_hyperlanes = yes
+
+    system = {
+        name = "Hoplos"
+        id = "0"
+        position = {
+            x = -416.5559
+            y = -69.91139
+        }
+        initializer = sys_hoplos_init
+    }
+
+    system = {
+        name = "Vamshi"
+        id = "1"
+        position = {
+            x = -413
+            y = 0
+        }
+        initializer = sys_vamshi_init
+    }
+
+    system = {
+        name = "Tikkun"
+        id = "2"
+        position = {
+            x = -409.759
+            y = -188.3725
+        }
+        initializer = sys_tikkun_init
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        name = "Hekate"
+        id = "3"
+        position = {
+            x = -406.846
+            y = -49.52055
+        }
+        initializer = sys_hekate_init
+    }
+
+    system = {
+        name = "Grissom"
+        id = "4"
+        position = {
+            x = -403
+            y = 18
+        }
+        initializer = sys_grissom_init
+    }
+
+    system = {
+        name = "Pamyat"
+        id = "5"
+        position = {
+            x = -398.1071
+            y = -68.94041
+        }
+        initializer = sys_pamyat_init
+    }
+
+    system = {
+        name = "Hong"
+        id = "6"
+        position = {
+            x = -399
+            y = 0
+        }
+        initializer = sys_hong_init
+    }
+
+    system = {
+        name = "Sheol"
+        id = "7"
+        position = {
+            x = -387.4261
+            y = -51.46253
+        }
+        initializer = sys_sheol_init
+    }
+
+    system = {
+        name = "Tereshkova"
+        id = "8"
+        position = {
+            x = -387
+            y = 3
+        }
+        initializer = sys_tereshkova_init
+    }
+
+    system = {
+        name = "Gagarin"
+        id = "9"
+        position = {
+            x = -385
+            y = 18
+        }
+        initializer = sys_gagarin_init
+    }
+
+    system = {
+        name = "Qertassi"
+        id = "10"
+        position = {
+            x = -363.1513
+            y = 78.6505
+        }
+        initializer = sys_qertassi_init
+    }
+
+    system = {
+        name = "Columbia"
+        id = "11"
+        position = {
+            x = -355
+            y = 166
+        }
+        initializer = sys_columbia_init
+    }
+
+    system = {
+        name = "Ma-at"
+        id = "12"
+        position = {
+            x = -357.3253
+            y = -217.5023
+        }
+        initializer = sys_maat_init
+    }
+
+    system = {
+        name = "Yangtze"
+        id = "13"
+        position = {
+            x = -354
+            y = 144
+        }
+        initializer = sys_yangtze_init
+    }
+
+    system = {
+        name = "Kalabsha"
+        id = "14"
+        position = {
+            x = -351.4993
+            y = 71.85355
+        }
+        initializer = sys_kalabsha_init
+    }
+
+    system = {
+        name = "Dakka"
+        id = "15"
+        position = {
+            x = -349.5574
+            y = 91.27341
+        }
+        initializer = sys_dakka_init
+    }
+
+    system = {
+        name = "Dholen"
+        id = "16"
+        position = {
+            x = -343.7315
+            y = -239.8351
+        }
+        initializer = sys_dholen_init
+    }
+
+    system = {
+        name = "Amazon"
+        id = "17"
+        position = {
+            x = -336
+            y = 146
+        }
+        initializer = sys_amazon_init
+    }
+
+    system = {
+        name = "Hoc"
+        id = "18"
+        position = {
+            x = -308.7757
+            y = -34.95566
+        }
+        initializer = sys_hoc_init
+    }
+
+    system = {
+        name = "Chomos"
+        id = "19"
+        position = {
+            x = -313
+            y = -108
+        }
+        initializer = sys_chomos_init
+    }
+
+    system = {
+        name = "Salahiel"
+        id = "20"
+        position = {
+            x = -306
+            y = -122
+        }
+        initializer = sys_salahiel_init
+    }
+
+    system = {
+        name = "Typhon"
+        id = "21"
+        position = {
+            x = -300
+            y = -133
+        }
+        initializer = sys_typhon_init
+    }
+
+    system = {
+        name = "Tassrah"
+        id = "22"
+        position = {
+            x = -298
+            y = -110
+        }
+        initializer = sys_tassrah_init
+    }
+
+    system = {
+        name = "The Sea of Storms"
+        id = "23"
+        position = {
+            x = -291
+            y = -124
+        }
+        initializer = sys_theseaofstorms_init
+    }
+
+    system = {
+        name = "Cacus"
+        id = "24"
+        position = {
+            x = -280
+            y = 224
+        }
+        initializer = sys_cacus_init
+    }
+
+    system = {
+        name = "Farinata"
+        id = "25"
+        position = {
+            x = -274
+            y = 213
+        }
+        initializer = sys_farinata_init
+    }
+
+    system = {
+        name = "Antaeus"
+        id = "26"
+        position = {
+            x = -266
+            y = 235
+        }
+        initializer = sys_antaeus_init
+    }
+
+    system = {
+        name = "Hercules"
+        id = "27"
+        position = {
+            x = -261
+            y = 160
+        }
+        initializer = sys_hercules_init
+    }
+
+    system = {
+        name = "Plutus"
+        id = "28"
+        position = {
+            x = -259
+            y = 224
+        }
+        initializer = sys_plutus_init
+    }
+
+    system = {
+        name = "Sparta"
+        id = "29"
+        position = {
+            x = -253
+            y = 327
+        }
+        initializer = sys_sparta_init
+    }
+
+    system = {
+        name = "Dis"
+        id = "30"
+        position = {
+            x = -259.255
+            y = 212.6475
+        }
+        initializer = sys_dis_init
+    }
+
+    system = {
+        name = "Theseus"
+        id = "31"
+        position = {
+            x = -251
+            y = 136
+        }
+        initializer = sys_theseus_init
+    }
+
+    system = {
+        name = "Knossos"
+        id = "32"
+        position = {
+            x = -251
+            y = 314
+        }
+        initializer = sys_knossos_init
+    }
+
+    system = {
+        name = "Athens"
+        id = "33"
+        position = {
+            x = -239
+            y = 310
+        }
+        initializer = sys_athens_init
+    }
+
+    system = {
+        name = "Newton"
+        id = "34"
+        position = {
+            x = -240.8062
+            y = 23.3039
+        }
+        initializer = sys_newton_init
+    }
+
+    system = {
+        name = "Macedon"
+        id = "35"
+        position = {
+            x = -234
+            y = 325
+        }
+        initializer = sys_macedon_init
+    }
+
+    system = {
+        name = "Yakawa"
+        id = "36"
+        position = {
+            x = -232.0673
+            y = -97.09921
+        }
+        initializer = sys_yakawa_init
+    }
+
+    system = {
+        name = "Aysur"
+        id = "37"
+        position = {
+            x = -239.8352
+            y = -78.65034
+        }
+        initializer = sys_aysur_init
+    }
+
+    system = {
+        name = "Herschel"
+        id = "38"
+        position = {
+            x = -226.2413
+            y = 46.60772
+        }
+        initializer = sys_herschel_init
+    }
+
+    system = {
+        name = "Solveig"
+        id = "39"
+        position = {
+            x = -220.4154
+            y = -88.36027
+        }
+        initializer = sys_solveig_init
+    }
+
+    system = {
+        name = "Balor"
+        id = "40"
+        position = {
+            x = -221.3864
+            y = -72.82439
+        }
+        initializer = sys_balor_init
+    }
+
+    system = {
+        name = "Talava"
+        id = "41"
+        position = {
+            x = -207.7924
+            y = -82.53432
+        }
+        initializer = sys_talava_init
+    }
+
+    system = {
+        name = "Ming"
+        id = "42"
+        position = {
+            x = -197
+            y = 185
+        }
+        initializer = sys_ming_init
+    }
+
+    system = {
+        name = "Caspian"
+        id = "43"
+        position = {
+            x = -193
+            y = 116
+        }
+        initializer = sys_caspian_init
+    }
+
+    system = {
+        name = "Alpha Draconis"
+        id = "44"
+        position = {
+            x = -194.1986
+            y = -334.9925
+        }
+        initializer = sys_alphadraconis_init
+    }
+
+    system = {
+        name = "Kriseroi"
+        id = "45"
+        position = {
+            x = -187.4016
+            y = -217.5023
+        }
+        initializer = sys_kriseroi_init
+    }
+
+    system = {
+        name = "Vostok"
+        id = "46"
+        position = {
+            x = -184
+            y = 101
+        }
+        initializer = sys_vostok_init
+    }
+
+    system = {
+        name = "Han"
+        id = "47"
+        position = {
+            x = -183
+            y = 198
+        }
+        initializer = sys_han_init
+    }
+
+    system = {
+        name = "Acheron"
+        id = "48"
+        position = {
+            x = -188.3726
+            y = 0.9710642
+        }
+        initializer = sys_acheron_init
+    }
+
+    system = {
+        name = "Enoch"
+        id = "49"
+        position = {
+            x = -171.8658
+            y = -318.4856
+        }
+        initializer = sys_enoch_init
+    }
+
+    system = {
+        name = "Untrel"
+        id = "50"
+        position = {
+            x = -183.5176
+            y = 348.5864
+        }
+        initializer = sys_untrel_init
+    }
+
+    system = {
+        name = "Phi Clio"
+        id = "51"
+        position = {
+            x = -180.6047
+            y = -345.6734
+        }
+        initializer = sys_phiclio_init
+    }
+
+    system = {
+        name = "Matano"
+        id = "52"
+        position = {
+            x = -174
+            y = 116
+        }
+        initializer = sys_matano_init
+    }
+
+    system = {
+        name = "Satent"
+        id = "53"
+        position = {
+            x = -167.0108
+            y = -223.3283
+        }
+        initializer = sys_satent_init
+    }
+
+    system = {
+        name = "Harsa"
+        id = "54"
+        position = {
+            x = -171.8657
+            y = 330.1376
+        }
+        initializer = sys_harsa_init
+    }
+
+    system = {
+        name = "Erebus"
+        id = "55"
+        position = {
+            x = -165.0688
+            y = -9.709859
+        }
+        initializer = sys_erebus_init
+    }
+
+    system = {
+        name = "Nariph"
+        id = "56"
+        position = {
+            x = -165.0688
+            y = -200.0244
+        }
+        initializer = sys_nariph_init
+    }
+
+    system = {
+        name = "Vular"
+        id = "57"
+        position = {
+            x = -157
+            y = 352
+        }
+        initializer = sys_vular_init
+    }
+
+    system = {
+        name = "Refuge"
+        id = "58"
+        position = {
+            x = -139.823
+            y = -142.7359
+        }
+        initializer = sys_refuge_init
+    }
+
+    system = {
+        name = "Iera"
+        id = "59"
+        position = {
+            x = -153
+            y = 75
+        }
+        initializer = sys_iera_init
+    }
+
+    system = {
+        name = "Mulla Xul"
+        id = "60"
+        position = {
+            x = -150.5039
+            y = -30.10071
+        }
+        initializer = sys_mullaxul_init
+    }
+
+    system = {
+        name = "Dirada"
+        id = "61"
+        position = {
+            x = -149.5329
+            y = -208.7634
+        }
+        initializer = sys_dirada_init
+    }
+
+    system = {
+        name = "Hydra"
+        id = "62"
+        position = {
+            x = -141
+            y = 145
+        }
+        initializer = sys_hydra_init
+    }
+
+    system = {
+        name = "Verr"
+        id = "63"
+        position = {
+            x = -134
+            y = -84
+        }
+        initializer = sys_verr_init
+    }
+
+    system = {
+        name = "Thorne"
+        id = "64"
+        position = {
+            x = -128.1711
+            y = -63.11448
+        }
+        initializer = sys_thorne_init
+    }
+
+    system = {
+        name = "Maskim Xul"
+        id = "65"
+        position = {
+            x = -133.997
+            y = -41.75263
+        }
+        initializer = sys_maskimxul_init
+    }
+
+    system = {
+        name = "Phoenix"
+        id = "66"
+        position = {
+            x = -125
+            y = 135
+        }
+        initializer = sys_phoenix_init
+    }
+
+    system = {
+        name = "Gorgon"
+        id = "67"
+        position = {
+            x = -125
+            y = 160
+        }
+        initializer = sys_gorgon_init
+    }
+
+    system = {
+        name = "Century"
+        id = "68"
+        position = {
+            x = -119
+            y = -86
+        }
+        initializer = sys_century_init
+    }
+
+    system = {
+        name = "Schwarzschild"
+        id = "69"
+        position = {
+            x = -103.2111
+            y = -60.50301
+        }
+        initializer = sys_schwarzschild_init
+    }
+
+    system = {
+        name = "Chandrasekhar"
+        id = "70"
+        position = {
+            x = -111
+            y = -76
+        }
+        initializer = sys_chandrasekhar_init
+    }
+
+    system = {
+        name = "Psi Tophet"
+        id = "71"
+        position = {
+            x = -76
+            y = -273
+        }
+        initializer = sys_psitophet_init
+    }
+
+    system = {
+        name = "Decoris"
+        id = "72"
+        position = {
+            x = -71.85349
+            y = -290.3268
+        }
+        initializer = sys_decoris_init
+    }
+
+    system = {
+        name = "Skepsis"
+        id = "73"
+        position = {
+            x = -55.34661
+            y = -275.7619
+        }
+        initializer = sys_skepsis_init
+    }
+
+    system = {
+        name = "Mil"
+        id = "74"
+        position = {
+            x = -49.52065
+            y = -264.11
+        }
+        initializer = sys_mil_init
+    }
+
+    system = {
+        name = "Lenal"
+        id = "75"
+        position = {
+            x = -47.57867
+            y = -287.4138
+        }
+        initializer = sys_lenal_init
+    }
+
+    system = {
+        name = "Kairavamori"
+        id = "76"
+        position = {
+            x = -42.7237
+            y = -222.3573
+        }
+        initializer = sys_kairavamori_init
+    }
+
+    system = {
+        name = "Arinlarkan"
+        id = "77"
+        position = {
+            x = -36
+            y = -211
+        }
+        initializer = sys_arinlarkan_init
+    }
+
+    system = {
+        name = "Vetus"
+        id = "78"
+        position = {
+            x = -23.30379
+            y = 323.3406
+        }
+        initializer = sys_vetus_init
+    }
+
+    system = {
+        name = "Amada"
+        id = "79"
+        position = {
+            x = -36.89775
+            y = -238.8642
+        }
+        initializer = sys_amada_init
+    }
+
+    system = {
+        name = "Fathar"
+        id = "80"
+        position = {
+            x = -22.33286
+            y = -235.9512
+        }
+        initializer = sys_fathar_init
+    }
+
+    system = {
+        name = "Haskins"
+        id = "81"
+        position = {
+            x = -14.56493
+            y = -401.991
+        }
+        initializer = sys_haskins_init
+    }
+
+    system = {
+        name = "Batalla"
+        id = "82"
+        position = {
+            x = -18.44888
+            y = -213.6184
+        }
+        initializer = sys_batalla_init
+    }
+
+    system = {
+        name = "Asgard"
+        id = "83"
+        position = {
+            x = -15
+            y = 256
+        }
+        initializer = sys_asgard_init
+    }
+
+    system = {
+        name = "Pax"
+        id = "84"
+        position = {
+            x = -2.912961
+            y = 186.4307
+        }
+        initializer = sys_pax_init
+    }
+
+    system = {
+        name = "Strenuus"
+        id = "85"
+        position = {
+            x = -4.854949
+            y = 167.0108
+        }
+        initializer = sys_strenuus_init
+    }
+
+    system = {
+        name = "Tartarus Debris Field"
+        id = "86"
+        position = {
+            x = 0.9709928
+            y = 0.9710475
+        }
+        initializer = sys_tartarusdebrisfield_init
+    }
+
+    system = {
+        name = "Utopia"
+        id = "87"
+        position = {
+            x = 3.883992
+            y = 251.4872
+        }
+        initializer = sys_utopia_init
+    }
+
+    system = {
+        name = "Anadius"
+        id = "88"
+        position = {
+            x = 12.62292
+            y = 194.1986
+        }
+        initializer = sys_anadius_init
+    }
+
+    system = {
+        name = "Fortuna"
+        id = "89"
+        position = {
+            x = 14.56491
+            y = 173.8078
+        }
+        initializer = sys_fortuna_init
+    }
+
+    system = {
+        name = "Bahak"
+        id = "90"
+        position = {
+            x = 33
+            y = 412
+        }
+        initializer = sys_bahak_init
+    }
+
+    system = {
+        name = "Euler"
+        id = "91"
+        position = {
+            x = 42
+            y = 276
+        }
+        initializer = sys_euler_init
+    }
+
+    system = {
+        name = "Arcturus"
+        id = "92"
+        position = {
+            x = 56
+            y = 280
+        }
+        initializer = sys_arcturus_init
+    }
+
+    system = {
+        name = "Sol"
+        id = "93"
+        position = {
+            x = 94.18631
+            y = 252.4582
+        }
+        initializer = sys_sol_init
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        name = "Pranas"
+        id = "94"
+        position = {
+            x = 100.0123
+            y = 150.5039
+        }
+        initializer = sys_pranas_init
+    }
+
+    system = {
+        name = "Micah"
+        id = "95"
+        position = {
+            x = 110
+            y = -386
+        }
+        initializer = sys_micah_init
+    }
+
+    system = {
+        name = "Paz"
+        id = "96"
+        position = {
+            x = 121.3741
+            y = -368.0063
+        }
+        initializer = sys_paz_init
+    }
+
+    system = {
+        name = "Faryar"
+        id = "97"
+        position = {
+            x = 135.2421
+            y = -255.3585
+        }
+        initializer = sys_faryar_init
+    }
+
+    system = {
+        name = "Raheel-Leyya"
+        id = "98"
+        position = {
+            x = 139.8229
+            y = -363.1513
+        }
+        initializer = sys_raheelleyya_init
+    }
+
+    system = {
+        name = "Relic"
+        id = "99"
+        position = {
+            x = 140
+            y = -101
+        }
+        initializer = sys_relic_init
+    }
+
+    system = {
+        name = "Sowilo"
+        id = "100"
+        position = {
+            x = 143.2499
+            y = -266.0355
+        }
+        initializer = sys_sowilo_init
+    }
+
+    system = {
+        name = "Osun"
+        id = "101"
+        position = {
+            x = 143
+            y = -234
+        }
+        initializer = sys_osun_init
+    }
+
+    system = {
+        name = "Amun"
+        id = "102"
+        position = {
+            x = 146
+            y = -113
+        }
+        initializer = sys_amun_init
+    }
+
+    system = {
+        name = "Imir"
+        id = "103"
+        position = {
+            x = 151
+            y = -93
+        }
+        initializer = sys_imir_init
+    }
+
+    system = {
+        name = "Malgus"
+        id = "104"
+        position = {
+            x = 157
+            y = -106
+        }
+        initializer = sys_malgus_init
+    }
+
+    system = {
+        name = "Ploitari"
+        id = "105"
+        position = {
+            x = 158
+            y = -255
+        }
+        initializer = sys_ploitari_init
+    }
+
+    system = {
+        name = "Strabo"
+        id = "106"
+        position = {
+            x = 169
+            y = -86
+        }
+        initializer = sys_strabo_init
+    }
+
+    system = {
+        name = "Nura"
+        id = "107"
+        position = {
+            x = 174.3912
+            y = 313.1923
+        }
+        initializer = sys_nura_init
+    }
+
+    system = {
+        name = "Aru"
+        id = "108"
+        position = {
+            x = 180.6195
+            y = 295.3973
+        }
+        initializer = sys_aru_init
+    }
+
+    system = {
+        name = "Esori"
+        id = "109"
+        position = {
+            x = 193.9657
+            y = 303.4051
+        }
+        initializer = sys_esori_init
+    }
+
+    system = {
+        name = "Aralakh"
+        id = "110"
+        position = {
+            x = 188
+            y = 170
+        }
+        initializer = sys_aralakh_init
+    }
+
+    system = {
+        name = "Boltzmann"
+        id = "111"
+        position = {
+            x = 192
+            y = 117
+        }
+        initializer = sys_boltzmann_init
+    }
+
+    system = {
+        name = "Dranek"
+        id = "112"
+        position = {
+            x = 198.0825
+            y = 163.1268
+        }
+        initializer = sys_dranek_init
+    }
+
+    system = {
+        name = "Satu Arrd"
+        id = "113"
+        position = {
+            x = 198.4144
+            y = 322.0898
+        }
+        initializer = sys_satuarrd_init
+    }
+
+    system = {
+        name = "Widow"
+        id = "114"
+        position = {
+            x = 206
+            y = 104
+        }
+        initializer = sys_widow_init
+    }
+
+    system = {
+        name = "Nith"
+        id = "115"
+        position = {
+            x = 210.7054
+            y = 174.7787
+        }
+        initializer = sys_nith_init
+    }
+
+    system = {
+        name = "Gemmae"
+        id = "116"
+        position = {
+            x = 248.5742
+            y = 250.5162
+        }
+        initializer = sys_gemmae_init
+    }
+
+    system = {
+        name = "Trebia"
+        id = "117"
+        position = {
+            x = 254.4001
+            y = 233.0383
+        }
+        initializer = sys_trebia_init
+    }
+
+    system = {
+        name = "Tasale"
+        id = "118"
+        position = {
+            x = 261.1971
+            y = -171.8657
+        }
+        initializer = sys_tasale_init
+    }
+
+    system = {
+        name = "Xe Cha"
+        id = "119"
+        position = {
+            x = 263.139
+            y = -313.6307
+        }
+        initializer = sys_xecha_init
+    }
+
+    system = {
+        name = "Castellus"
+        id = "120"
+        position = {
+            x = 270.907
+            y = 228.1833
+        }
+        initializer = sys_castellus_init
+    }
+
+    system = {
+        name = "Zelene"
+        id = "121"
+        position = {
+            x = 273
+            y = -164
+        }
+        initializer = sys_zelene_init
+    }
+
+    system = {
+        name = "Lusarn"
+        id = "122"
+        position = {
+            x = 277.7039
+            y = -183.5176
+        }
+        initializer = sys_lusarn_init
+    }
+
+    system = {
+        name = "Urla Rast"
+        id = "123"
+        position = {
+            x = 282.5589
+            y = -322.3696
+        }
+        initializer = sys_urlarast_init
+    }
+
+    system = {
+        name = "Ondeste"
+        id = "124"
+        position = {
+            x = 288.3848
+            y = -190.3146
+        }
+        initializer = sys_ondeste_init
+    }
+
+    system = {
+        name = "Ialessa"
+        id = "125"
+        position = {
+            x = 292.2688
+            y = 80.59242
+        }
+        initializer = sys_ialessa_init
+    }
+
+    system = {
+        name = "Vernio"
+        id = "126"
+        position = {
+            x = 292.2688
+            y = 103.8963
+        }
+        initializer = sys_vernio_init
+    }
+
+    system = {
+        name = "Parnitha"
+        id = "127"
+        position = {
+            x = 302.9497
+            y = 91.27335
+        }
+        initializer = sys_parnitha_init
+    }
+
+    system = {
+        name = "Teyolia"
+        id = "128"
+        position = {
+            x = 309.7467
+            y = 137.881
+        }
+        initializer = sys_teyolia_init
+    }
+
+    system = {
+        name = "Orisoni"
+        id = "129"
+        position = {
+            x = 315.5727
+            y = 84.47639
+        }
+        initializer = sys_orisoni_init
+    }
+
+    system = {
+        name = "Tomaros"
+        id = "130"
+        position = {
+            x = 314.6017
+            y = 105.8382
+        }
+        initializer = sys_tomaros_init
+    }
+
+    system = {
+        name = "Phontes"
+        id = "131"
+        position = {
+            x = 323.3406
+            y = 140.794
+        }
+        initializer = sys_phontes_init
+    }
+
+    system = {
+        name = "Kypladon"
+        id = "132"
+        position = {
+            x = 324.3116
+            y = 161.1848
+        }
+        initializer = sys_kypladon_init
+    }
+
+    system = {
+        name = "Nahuala"
+        id = "133"
+        position = {
+            x = 334.0215
+            y = 150.5039
+        }
+        initializer = sys_nahuala_init
+    }
+
+    system = {
+        name = "Loropi"
+        id = "134"
+        position = {
+            x = 336.9344
+            y = 164.0978
+        }
+        initializer = sys_loropi_init
+    }
+
+    system = {
+        name = "Fortis"
+        id = "135"
+        position = {
+            x = 346
+            y = -12
+        }
+        initializer = sys_fortis_init
+    }
+
+    system = {
+        name = "Caestus"
+        id = "136"
+        position = {
+            x = 358.2963
+            y = 3.883995
+        }
+        initializer = sys_caestus_init
+    }
+
+    system = {
+        name = "Kallini"
+        id = "137"
+        position = {
+            x = 365.0933
+            y = 61.17256
+        }
+        initializer = sys_kallini_init
+    }
+
+    system = {
+        name = "Pelion"
+        id = "138"
+        position = {
+            x = 375.7741
+            y = 76.70845
+        }
+        initializer = sys_pelion_init
+    }
+
+    system = {
+        name = "Elysta"
+        id = "139"
+        position = {
+            x = 382.5711
+            y = -102.9252
+        }
+        initializer = sys_elysta_init
+    }
+
+    system = {
+        name = "Mesana"
+        id = "140"
+        position = {
+            x = 380.6291
+            y = 60.20157
+        }
+        initializer = sys_mesana_init
+    }
+
+    system = {
+        name = "Agaiou"
+        id = "141"
+        position = {
+            x = 392.2811
+            y = 74.76646
+        }
+        initializer = sys_agaiou_init
+    }
+
+    system = {
+        name = "Aquila"
+        id = "142"
+        position = {
+            x = 395.1941
+            y = -90.30231
+        }
+        initializer = sys_aquila_init
+    }
+
+    system = {
+        name = "Faia"
+        id = "143"
+        position = {
+            x = 403.933
+            y = -104.8672
+        }
+        initializer = sys_faia_init
+    }
+
+    system = {
+        name = "Thal"
+        id = "144"
+        position = {
+            x = 268.965
+            y = -329.1666
+        }
+        initializer = sys_thal_init
+    }
+
+    system = {
+        name = "Kyzil"
+        id = "145"
+        position = {
+            x = 288.3849
+            y = -336.9345
+        }
+        initializer = sys_kyzil_init
+    }
+
+    system = {
+        name = "Sahrabarik"
+        id = "146"
+        position = {
+            x = -25.24583
+            y = -225.2703
+        }
+        initializer = sys_sahrabarik_init
+    }
+
+    system = {
+        name = "Arrae"
+        id = "147"
+        position = {
+            x = 362.1803
+            y = -9.709905
+        }
+        initializer = sys_arrae_init
+    }
+
+    system = {
+        name = "Indris"
+        id = "148"
+        position = {
+            x = -160.2137
+            y = 337.9055
+        }
+        initializer = sys_indris_init
+    }
+
+    system = {
+        name = "NAME_Kanala"
+        id = "149"
+        position = {
+            x = 15.2304
+            y = 105.3436
+        }
+        initializer = sys_kanala_init
+    }
+
+    system = {
+        name = "NAME_Iota_Urania"
+        id = "150"
+        position = {
+            x = -161.6115
+            y = -334.6457
+        }
+        initializer = sys_iotaurania_init
+    }
+
+    system = {
+        name = "NAME_Dark_Current"
+        id = "151"
+        position = {
+            x = 17.7688
+            y = 94.34389
+        }
+        initializer = sys_darkcurrent_init
+    }
+
+    system = {
+        name = "NAME_Obek"
+        id = "152"
+        position = {
+            x = 37.22987
+            y = 120.574
+        }
+        initializer = sys_obek_init
+    }
+
+    system = {
+        name = "NAME_Thundering_Trench"
+        id = "153"
+        position = {
+            x = 43.99893
+            y = 97.72843
+        }
+        initializer = sys_thunderingtrench_init
+    }
+
+    system = {
+        name = "NAME_Warmest_Shoal"
+        id = "154"
+        position = {
+            x = 16.07654
+            y = 124.8047
+        }
+        initializer = sys_warmestshoal_init
+    }
+
+    system = {
+        name = "NAME_Herculaneum"
+        id = "155"
+        position = {
+            x = 132.8429
+            y = 19.88417
+        }
+        initializer = sys_herculaneum_init
+    }
+
+    system = {
+        name = "NAME_Stabiae"
+        id = "156"
+        position = {
+            x = 151.4578
+            y = 36.80683
+        }
+        initializer = sys_stabiae_init
+    }
+
+    system = {
+        name = "NAME_Pompeii"
+        id = "157"
+        position = {
+            x = 153.1501
+            y = 12.26897
+        }
+        initializer = sys_pompeii_init
+    }
+
+    system = {
+        name = "NAME_Zuzel"
+        id = "158"
+        position = {
+            x = 38.9221
+            y = -309.2616
+        }
+        initializer = sys_zuzel_init
+    }
+
+    system = {
+        name = "NAME_Taesin"
+        id = "159"
+        position = {
+            x = 51.61409
+            y = -287.2622
+        }
+        initializer = sys_taesin_init
+    }
+
+    system = {
+        name = "NAME_Testudo"
+        id = "160"
+        position = {
+            x = 63.86562
+            y = -175.4175
+        }
+        initializer = sys_testudo_init
+    }
+
+    system = {
+        name = "NAME_Volucris"
+        id = "161"
+        position = {
+            x = 83.45107
+            y = -202.6669
+        }
+        initializer = sys_volucris_init
+    }
+
+    system = {
+        name = "NAME_Chabtan"
+        id = "162"
+        position = {
+            x = 293.6082
+            y = -88.42089
+        }
+        initializer = sys_chabtan_init
+    }
+
+    system = {
+        name = "NAME_Fragotz"
+        id = "163"
+        position = {
+            x = 269.9165
+            y = -105.3436
+        }
+        initializer = sys_fragotz_init
+    }
+
+    system = {
+        name = "NAME_Ubroni"
+        id = "164"
+        position = {
+            x = 274.1472
+            y = -86.72861
+        }
+        initializer = sys_ubroni_init
+    }
+
+    system = {
+        name = "NAME_Alrami_Alpha"
+        id = "165"
+        position = {
+            x = 193.7645
+            y = -162.0345
+        }
+        initializer = sys_alramialpha_init
+    }
+
+    system = {
+        name = "NAME_Elios_Theta"
+        id = "166"
+        position = {
+            x = 192.0722
+            y = -188.2646
+        }
+        initializer = sys_eliostheta_init
+    }
+
+    system = {
+        name = "NAME_Deasius_Prime"
+        id = "167"
+        position = {
+            x = 167.5344
+            y = -181.4955
+        }
+        initializer = sys_deasiusprime_init
+    }
+
+    system = {
+        name = "NAME_Linitel"
+        id = "168"
+        position = {
+            x = 178.5341
+            y = -166.2651
+        }
+        initializer = sys_linitel_init
+    }
+
+    system = {
+        name = "NAME_Fen"
+        id = "169"
+        position = {
+            x = -19.59653
+            y = -140.9082
+        }
+        initializer = sys_fen_init
+    }
+
+    system = {
+        name = "NAME_Hedek"
+        id = "170"
+        position = {
+            x = -38.25988
+            y = -117.5791
+        }
+        initializer = sys_hedek_init
+    }
+
+    system = {
+        name = "NAME_Baldr"
+        id = "171"
+        position = {
+            x = -32.66087
+            y = -154.9058
+        }
+        initializer = sys_baldr_init
+    }
+
+    system = {
+        name = "NAME_Vali"
+        id = "172"
+        position = {
+            x = -37.32671
+            y = -140.9082
+        }
+        initializer = sys_vali_init
+    }
+
+    system = {
+        name = "NAME_Brekkenz"
+        id = "173"
+        position = {
+            x = -49.45789
+            y = -130.6434
+        }
+        initializer = sys_brekkenz_init
+    }
+
+    system = {
+        name = "NAME_Qedek"
+        id = "174"
+        position = {
+            x = -23.3292
+            y = -125.9776
+        }
+        initializer = sys_qedek_init
+    }
+
+    system = {
+        name = "NAME_Cosmas"
+        id = "175"
+        position = {
+            x = 102.3821
+            y = 329.5689
+        }
+        initializer = sys_cosmas_init
+    }
+
+    system = {
+        name = "NAME_Foillan"
+        id = "176"
+        position = {
+            x = 87.15173
+            y = 321.9537
+        }
+        initializer = sys_foillan_init
+    }
+
+    system = {
+        name = "NAME_Quentin"
+        id = "177"
+        position = {
+            x = 83.76719
+            y = 338.8763
+        }
+        initializer = sys_quentin_init
+    }
+
+    system = {
+        name = "NAME_St._Luke"
+        id = "178"
+        position = {
+            x = 102.3821
+            y = 355.799
+        }
+        initializer = sys_stluke_init
+    }
+
+    system = {
+        name = "NAME_Roch"
+        id = "179"
+        position = {
+            x = 71.0752
+            y = 332.1073
+        }
+        initializer = sys_roch_init
+    }
+
+    system = {
+        name = "NAME_Akili"
+        id = "180"
+        position = {
+            x = -99.87524
+            y = 262.4274
+        }
+        initializer = sys_akili_init
+    }
+
+    system = {
+        name = "NAME_Upanga"
+        id = "181"
+        position = {
+            x = -92.74129
+            y = 241.0256
+        }
+        initializer = sys_upanga_init
+    }
+
+    system = {
+        name = "NAME_Berendi"
+        id = "182"
+        position = {
+            x = -108.0283
+            y = 232.8725
+        }
+        initializer = sys_berendi_init
+    }
+
+    system = {
+        name = "NAME_Kisu"
+        id = "183"
+        position = {
+            x = -124.3345
+            y = 251.2169
+        }
+        initializer = sys_kisu_init
+    }
+
+    system = {
+        name = "NAME_Jin"
+        id = "184"
+        position = {
+            x = 139.6216
+            y = 233.8916
+        }
+        initializer = sys_jin_init
+    }
+
+    system = {
+        name = "NAME_Wai"
+        id = "185"
+        position = {
+            x = 162.0425
+            y = 228.7959
+        }
+        initializer = sys_wai_init
+    }
+
+    system = {
+        name = "Name_Yuan"
+        id = "186"
+        position = {
+            x = 164.2966
+            y = 247.1412
+        }
+        initializer = sys_yuan_init
+    }
+	
+    nebula = {
+        name = "NAME_Nimbus_Cluster"
+        position = {
+            x = 378.3499
+            y = 72.00198
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Minos_Wasteland"
+        position = {
+            x = 350.5284
+            y = -2.912954
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Ismar_Frontier"
+        position = {
+            x = 393.2521
+            y = -100.9832
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Crescent_Nebula"
+        position = {
+            x = 275.1018
+            y = -175.25
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Athena_Nebula"
+        position = {
+            x = 302.9516
+            y = 98.49327
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Silean_Nebula"
+        position = {
+            x = 320.6125
+            y = 151.4758
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Apien_Crest"
+        position = {
+            x = 260.8373
+            y = 238.4216
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Aethon_Cluster"
+        position = {
+            x = 186.7975
+            y = 309.7443
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Krogan_DMZ"
+        position = {
+            x = 197.6657
+            y = 169.816
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Serpent_Nebula"
+        position = {
+            x = 201.7413
+            y = 110.0408
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Annos_Cluster"
+        position = {
+            x = 91.70061
+            y = 159.627
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Local_Cluster"
+        position = {
+            x = 84.22871
+            y = 251.3276
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Arcturus_Cluster"
+        position = {
+            x = 46.28066
+            y = 287.6012
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Viper_Nebula"
+        position = {
+            x = 31.92542
+            y = 402.1241
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Petra_Nebula"
+        position = {
+            x = -29.27955
+            y = 320.1865
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Exodus_Cluster"
+        position = {
+            x = -4.07556
+            y = 257.441
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Horse_Head_Nebula"
+        position = {
+            x = 4.075598
+            y = 180.0049
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Argos_Rho"
+        position = {
+            x = -131.7771
+            y = 150.7966
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Gemini_Sigma"
+        position = {
+            x = -188.156
+            y = 194.9488
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Hades_Gamma"
+        position = {
+            x = -268.3091
+            y = 224.8364
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Artemis_Tau"
+        position = {
+            x = -245.8934
+            y = 319.254
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Kite's_Nest"
+        position = {
+            x = -168.4573
+            y = 341.6697
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Voyager_Cluster"
+        position = {
+            x = -350.5001
+            y = 152.8344
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Attican_Beta"
+        position = {
+            x = -255.4031
+            y = 150.7966
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Maroon_Sea"
+        position = {
+            x = -184.0805
+            y = 112.0786
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Shadow_Sea"
+        position = {
+            x = -159.627
+            y = 73.36056
+        }
+        radius = 15
+    }
+
+    nebula = {
+        name = "NAME_Kepler_Verge"
+        position = {
+            x = -232.9875
+            y = 34.64252
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Nubian_Expanse"
+        position = {
+            x = -353.8964
+            y = 80.15321
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Armstrong_Nebula"
+        position = {
+            x = -399.9969
+            y = 9.445118
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Sentry_Omega"
+        position = {
+            x = -317.2162
+            y = -42.79354
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Hades_Nexus"
+        position = {
+            x = -398.7278
+            y = -57.05807
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_The_Phoenix_Massing"
+        position = {
+            x = -299.5553
+            y = -116.8333
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Perseus_Veil"
+        position = {
+            x = -398.7278
+            y = -183.4012
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Far_Rim"
+        position = {
+            x = -347.7831
+            y = -228.9118
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Caleston_Rift"
+        position = {
+            x = -223.4778
+            y = -84.22864
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Styx_Theta"
+        position = {
+            x = -175.9293
+            y = -7.471832
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Ninmah_Cluster"
+        position = {
+            x = -142.1477
+            y = -37.3078
+        }
+        radius = 15
+    }
+
+    nebula = {
+        name = "NAME_Hawking_Eta"
+        position = {
+            x = -119.5504
+            y = -73.36043
+        }
+        radius = 18
+    }
+
+    nebula = {
+        name = "NAME_Galactic_Core"
+        position = {
+            x = -3.778012
+            y = -5.666963
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Eagle_Nebula"
+        position = {
+            x = 154.1929
+            y = -98.49321
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Hourglass_Nebula"
+        position = {
+            x = 146.0417
+            y = -249.2898
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Omega_Nebula"
+        position = {
+            x = -29.20836
+            y = -222.7985
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Pylos_Nebula"
+        position = {
+            x = -167.6493
+            y = -211.0963
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Pangaea_Expanse"
+        position = {
+            x = -154.1929
+            y = -152.155
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Rosetta_Nebula"
+        position = {
+            x = -182.0427
+            y = -330.8014
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Sigurd's_Cradle"
+        position = {
+            x = -62.49229
+            y = -279.8566
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Titan_Nebula"
+        position = {
+            x = -15.6231
+            y = -385.8219
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Valhallan_Threshold"
+        position = {
+            x = 124.9845
+            y = -375.6329
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_The_Shrike_Abyssal"
+        position = {
+            x = 273.4336
+            y = -316.8807
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Olyn_Protectorate"
+        position = {
+            x = 26.23013
+            y = 107.882
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Vesuvius_Nebula"
+        position = {
+            x = 147.2272
+            y = 24.96097
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Byenzine_Cloud"
+        position = {
+            x = 49.0757
+            y = -297.4157
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Nemean_Abyss"
+        position = {
+            x = 68.97486
+            y = -192.4484
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "Buluc_Nebula"
+        position = {
+            x = 280.0701
+            y = -96.88223
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Oculus_Frontier"
+        position = {
+            x = 182.0939
+            y = -175.2342
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Yggdrasil_Nebula"
+        position = {
+            x = -34.52721
+            y = -136.2424
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Llewyn_Nebula"
+        position = {
+            x = 90.53626
+            y = 338.8763
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Mkali_Pool"
+        position = {
+            x = -110.0666
+            y = 250.1978
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Meade_Cluster"
+        position = {
+            x = 246.9492
+            y = 8.106952
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Xingyun_Cluster"
+        position = {
+            x = 152.8703
+            y = 236.949
+        }
+        radius = 20
+    }	
+	
+	    nebula = {
+        name = "NAME_Homunculus_Cluster"
+        position = {
+            x = 232.6697
+            y = -245.4187
+        }
+        radius = 20
+    }
+	
+    nebula = {
+        name = "NAME_Sin'kelar_Cluster"
+        position = {
+            x = -240.7572
+            y = -75.4355
+        }
+        radius = 20
+    }	
+
+    nebula = {
+        name = "NAME_Savian_Abyssal"
+        position = {
+            x = 72.20948
+            y = -110.9886
+        }
+        radius = 20
+    }	
+
+    nebula = {
+        name = "NAME_Radana_Burst"
+        position = {
+            x = -101.7153
+            y = -191.2993
+        }
+        radius = 20
+    }	
+
+}

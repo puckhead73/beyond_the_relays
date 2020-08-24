@@ -1,0 +1,136 @@
+﻿l_english:
+
+ ###################################################
+ # Codex Modifiers
+ ###################################################
+ 
+ #####ATTICAN TRAVERSE#####
+ 
+ ####Armstrong Nebula####
+ 
+ ###Gagarin###
+ 
+ #Junthor
+ junthor_codex_modifier:0 "Junthor"
+ junthor_codex_modifier_desc:0 "Junthor is a large terrestrial planet with a thick atmosphere of carbon dioxide and chlorine. The surface is mainly composed of aluminum with deposits of nickel. Surveyors found the ruins of a technical civilization near the equator — evidently the colony of an ancient spacefaring race. The ruins had subsided to almost nothing — merely wind hollowed husks of arcologies and other megastructures. In the center of the ruins was a single column whose inscriptions defied translation for several centuries. When asari linguists finally managed a translation, the elaborate relief carvings said merely, "Walk among these works, and know our greatness." The crude scratches on the base of the reverse side said, "Monsters from the id." 
+ 
+ #Pressha
+ pressha_codex_modifier:0 "Pressha"
+ pressha_codex_modifier_desc:0 "Pressha is a relatively small hydrogen-helium gas giant with large amounts of hydrocarbons in the middle layers of the atmosphere. When the Krogan Rebellions ended three millennia ago, the turian chief of naval operations, a distinguished soldier named Mehrkuri, declared his immediate retirement. He disappeared into what was then uncharted territory. It was only two hundred years ago that his ship was found on the surface of Pressha's largest moon. It had landed gently and been deliberately shut down. Of Admiral Mehrkuri, however, no trace was ever found."
+ 
+ #Rayingri
+ rayingri_codex_modifier:0 "Rayingri"
+ rayingri_codex_modifier_desc:0 "Rayingri is a small, barren terrestrial world. While it possesses a reasonably temperate climate and a number of useful resources, no mining corporation is willing to risk substantial investment. A rogue planetoid, dubbed Vahtz by the initial salarian surveyor team, entered the system approximately ten thousand years ago, and was trapped in a decaying orbit around Rayingri. It is nearing the end of its slow spiral inwards. Earthquakes and cyclonic windstorms are increasingly common on Rayingri. Within a few hundred years, the planets will rip each other apart."
+ 
+ #Vahtz
+ vahtz_codex_modifier:0 "Vahtz"
+ vahtz_codex_modifier_desc:0 "A rogue planetoid trapped in a decaying orbit around Rayingri, the tidal effects of Vahtz are creating earthquakes and cylconic windstorms increasingly common. Within a few hundred years, the planets will rip each other apart. Some asari travel consortiums have already announced sponsorship of cruises to observe the spectacle."
+ 
+ #Sogelrus
+ sogelrus_codex_modifier:0 "Sogelrus"
+ sogelrus_codex_modifier_desc:0 "Sogelrus is a small terrestrial planet with a thin atmosphere of nitrogen and argon. The frigid surface is mainly composed of water ice, which can be plainly seen in the bottoms of recent craters. The dark coloration of the surface is caused by a carbon and ferrous material, pushed up from the denser core by cryovolcanic processes."
+ 
+ #Antirumgon
+ antirumgon_codex_modifier:0 "Antirumgon"
+ antirumgon_codex_modifier_desc:0 "Antirumgon is a small rock and ice planet, with a trace atmosphere of methane and ethane. The frozen surface is mainly composed of carbon with deposits of calcium. Antirumgon has been used as a crude anchorage for Terminus pirates for many years. The shells of temporary dwellings blasted by Alliance frigate patrols dot the surface. But always, the pirates return to ground their ships' drive charges, chip out some water ice, and trade slaves and stories. The deeper layers of Antirumgon's interior are semi-liquid slush, due to the presence of methanol. It is thought that bacterium in the deep core create this natural anti-freeze. Some species of Terminus pirate drill through the ice crust to recover this natural alcohol."
+ 
+ 
+ ###Grissom###
+ 
+ #Benda
+ benda_codex_modifier:0 "Benda"
+ benda_codex_modifier_desc:0 "Benda has a dense atmosphere of sulphur dioxide and chlorine. Though technically classified as a "terrestrial" world, the surface of the planet has never cooled enough for a crust to form. It is a global sea of molten rock. Like Zaherux, its atmosphere is being blasted away by the solar wind. Once its thick atmosphere is gone, Benda's surface will be a "mere" 400 degree C."
+ 
+ #Zaherux
+ zaherux_codex_modifier:0 "Zaherux"
+ zaherux_codex_modifier_desc:0 "Zaherux's nitrogen-argon atmosphere is being blasted away by the solar wind of the blue giant Grissom. Its surface consists of "seas" of loose silica dust, some kilometers deep, which periodically swirl into global sandstorms. Many unmanned probes to Zaherux have been lost over the years. Though investigation has attributed all to mechanical failure or computational error, a popular extranet meme insists the entire planet is composed of dormant nanotechnology, created millennia ago by a race even more advanced than the Protheans. According to the story, Zaherux's silica dust is actually "disassembler" robots which periodically awaken to defend themselves. Though discounted by every reputable scientist, this theory has been popularized by a series of sensationalistic texts by asari author Delsae Orthysa."
+ 
+ #Notanban
+ notanban_codex_modifier:0 "Notanban"
+ notanban_codex_modifier_desc:0 "Notanban is a hydrogen-helium gas giant with traces of ammonia. Molecular nitrogen is present in the highest levels of the atmosphere, giving the planet its odd violet tint. The upper levels of Notanban's atmosphere are inhabited by "shoals" of tiny ammonia-based lifeforms, no larger or more complex than the plankton of Earth's oceans. Held aloft by air pressure and wind, these bioluminescent creatures constantly flee from the approach of the terminator. Should they be exposed to the light and heat of Grissom, they die."
+ 
+ #Solcrum
+ 
+ solcrum_codex_modifier:0 "Solcrum"
+ solcrum_codex_modifier_desc:0 "Solcrum is the largest moon of the gas giant Notanban. It has a trace atmosphere of krypton and xenon. The crust is composed of various metals with deposits of sodium. As with every body in the solar system, the surface is scorching hot and thoroughly irradiated by the blue giant Grissom. Surface excursions without proper protective gear are certain to prove fatal. On approach to Notanban, Normandy's passive sensor array intercepted a fragmentary coded transmission from the surface of Solcrum. Attempts to decrypt the message were fruitless; it does not appear to be in any software coding language used by the Citadel races."
+ 
+ 
+ ###HONG###
+ 
+ #Pomal
+ pomal_codex_modifier:0 "Pomal"
+ pomal_codex_modifier_desc:0 "Pomal is an enormous terrestrial planet, with a very dense atmosphere of carbon dioxide and sodium. The surface is scorching hot, and mainly composed of sodium oxides and deposits of nickel. There is evidence that Pomal was once covered with broad, shallow seas. Should a probe ever be sent to the surface, a check for ancient fossil life might prove valuable."
+ 
+ #Casbin
+ casbin_codex_modifier:0 "Casbin"
+ casbin_codex_modifier_desc:0 "Casbin is a classic "pre-garden" terrestrial world, with conditions similar to those on Earth millions of years ago. Its hot, humid atmosphere is mainly composed of nitrogen and carbon dioxide. An increasing amount of the surface is covered by simple lichen and algae. Should no unexpected calamity occur, these tiny plants will change the atmosphere to an Earth-like nitrogen-oxygen mix over the next few millennia. Due to its potential for future habitability and sapient life, Casbin has been designated a Sanctuary World by the Citadel Council. Landing is prohibited by law, and any disturbance of the fragile young ecosystem will result in harsh fines and imprisonment. At present, the planet is passing through the debris trail of a long-period comet."
+  
+ #Matar
+ matar_codex_modifier:0 "Matar"
+ matar_codex_modifier_desc:0 "Matar is a terrestrial planet with a thick atmosphere composed of nitrogen and krypton. Its frigid surface is mainly composed of sodium oxide with deposits of copper. Because of noxious surface gases, explorers are warned to use extreme caution. Matar lacks a magnetic field. This makes it useless for discharging FTL drive cores in orbit. The energetic particles of solar wind from Hong strike the upper atmosphere directly, ionizing the krypton. This gives the planet its distinctive "minty" green-white hue."
+ 
+ #Theshaca
+ theshaca_codex_modifier:0 "Theshaca"
+ theshaca_codex_modifier_desc:0 "Theshaca is a standard hydrogen-helium gas giant. In the past, it was often used as a drive discharge point for pirates raiding human settlements from the Terminus Systems. In 2178 the Alliance set up a network of covert sensing devices on Theshaca's moons. Recordings of pirate FTL exit vectors over the course of six months led the Alliance Navy to eight major pirate anchorages. Since the "Theshaca Raids," no ships from the Terminus have been reported in the Hong system."
+ 
+ #Treagir
+ treagir_codex_modifier:0 "Treagir"
+ treagir_codex_modifier_desc:) "Treagir is a tiny "ice dwarf", with a trace atmosphere of xenon and krypton. The frozen surface is mainly composed of water ice and ammonia. Cryovolcanic processes are gradually repaving the surface with sheets of fresh ice."
+ 
+ 
+ ###Tereshkova###
+ 
+ #Antibaar
+ antibaar_codex_modifier:0 "Antibaar"
+ antibaar_codex_modifier_desc:0 "Antibaar is a cold terrestrial world with an atmosphere of methane and argon. Its frozen surface is mainly composed of iron with deposits of magnesium. The world has been noted as a possible target for long-term terraforming; if the atmosphere could be increased to the thickness of Earth's, the global average temperature would rise by 10 degrees Celsius. Antibaar's combination of low temperatures, high speed surface winds, and low visibility make it dangerous to explore on foot."
+ 
+ #Patamalrus
+ patamalrus_codex_modifier:0 "Patamalrus"
+ patamalrus_codex_modifier_desc:0 "Patamalrus' atmosphere is very similar to Venus in terms of pressure and temperature. Unlike Venus, however, Patamalrus' atmosphere has a significant quantity of oxygen, both free and bound in sulphur dioxides. The surface is largely composed of magnesia with deposits of carbon. It is possible, if unlikely, that simple life may be developing on Patamalrus. Computer modeling suggests that the powerful solar winds from the Tereshkova stars will blow off Patamalrus' atmosphere in a few million years, lowering the temperature on the surface to the −70s."
+ 
+ #Hunsalra
+ hunsalra_codex_modifier:0 "Hunsalra"
+ hunsalra_codex_modifier_Desc:0 "Hunsalra is a small hydrogen-helium gas giant. It has unusually large amounts of nitrogen in the upper atmosphere, which glow purple when ionized by the solar wind. Hunsalra's convenience as a place to dump drive charge has left its orbit littered with debris "dumped overboard" by visiting crews."
+ 
+ #Thegeuse
+ thegeuse_codex_modifier:0 "Thegeuse"
+ thegeuse_codex_modifier_desc:0 "Thegeuse is a terrestrial world with an atmosphere of chlorine and krypton. The surface is mainly composed of silicates with deposits of carbon. Thegeuse has a low mass for its size, and is tidally locked to the star Tereshkova-A. The temperature difference between the sunward "hot pole" and the dark side "cold pole" creates constant gale-force winds across the terminator."
+ 
+ #Solmarlon
+ solmarlon_codex_modifer:0 "Solmarlon"
+ solmarlon_codex_modifer_desc:0 "Solmarlon is one of Tereshkova's two outer worlds. Significantly removed from the rest of the system, and with unstable elliptical orbits, it is thought they may have formed within 3 AU of the binary stars, and were hurled outward due to the instability of such an orbit. Solmarlon is a hydrogen-helium gas giant with significant quantities of sodium in the upper atmosphere, giving it a distinct grey color."
+ 
+ 
+ ###Vamshi###
+ 
+ #Maji
+ maji_codex_modifier:0 "Maji"
+ maji_codex_modifier_desc:0 "Maji orbits the Vamshi binary giant stars. Vamshi-A is a blue star of spectral class A4III which burns at half again the temperature of Sol. Vamshi-B is an aging red giant of class M5III, over 220 times the size of Sol. Maji has a thin atmosphere of methane and carbon monoxide. The difference in temperature between the hemisphere facing the suns and that facing deep space causes constant wind, stirring the silica and sodium dust of the surface. Unsavory characters from the Terminus Systems occasionally use Maji for forms of cruel sport, dumping slaves, hostages, quarreling shipmates, or even (when bored) vicious animals on the surface. One must kill the other before they will be rescued from the lethal radiation of the giant stars."
+ 
+ #Pregel
+ pregel_codex_modifier:0 "Pregel"
+ pregel_codex_modifier_desc:0 "Pregel is an enormous terrestrial world with an atmosphere of chlorine and ethane. Its surface is mainly composed of sulphur with deposits of aluminum. No landing has ever been attempted."
+ 
+ #Almos
+ almos_codex_modifier:0 "Almos"
+ almos_codex_modifier_desc:0 "Almos is a hydrogen-helium gas giant with traces of sodium darkening its atmosphere."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Suen
+ suen_codex_modifier:0 "Suen"
+ suen_codex_modifier_desc:0 "Suen, the rachni homeworld, is tidally locked to the system's red dwarf. With one side constantly bombarded by the sun and the other completely frozen, life evolved in the terminator, the perpetual twilight zone between Suen's two extremes. The rachni mainly foraged underground: Suen's abundant subterranean rivers presented them with a place to thrive. Wrestling with the engineering problems of Suen's extreme surface environment may have given the rachni their first insights into how to build interstellar spacecraft."
+
+ #
