@@ -931,6 +931,7 @@ sys_spaedar_init = {
 	}	
 }
 
+
 #####MINOS WASTELAND#####
 
 sys_arrae_init = {

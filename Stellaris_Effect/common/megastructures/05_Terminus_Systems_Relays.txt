@@ -590,6 +590,17 @@ thephoenixmassing_sinkelarcluster_massrelay = {
 
 #####ROSETTA NEBULA#####
 
+rosettanebula_pylosnebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_pylosnebula_rosettanebula
+}
+
 rosettanebula_sigurdscradle_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
@@ -682,6 +693,17 @@ sigurdscradle_rosettanebula_massrelay = {
 	construction_blocked_by_others = no
 	potential = { always = no }	
 	bypass_type = massrelay_rosettanebula_sigurdscradle
+}
+
+sigurdscradle_pylosnebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_pylosnebula_sigurdscradle
 }
 
 sigurdscradle_titannebula_massrelay = {

@@ -3271,6 +3271,26 @@ sys_satent_init = {
 		size = 26
 
     }
+
+	init_effect = { 
+		spawn_megastructure = { 
+			type = "pylosnebula_sigurdscradle_massrelay" 
+			name = "Pylos 6 Relay"
+			random_pos = NO 
+			orbit_distance = 170
+			
+		} 
+	}	
+	
+	init_effect = { 
+		spawn_megastructure = { 
+			type = "pylosnebula_rosettanebula_massrelay" 
+			name = "Pylos 6 Relay"
+			random_pos = NO 
+			orbit_distance = 170
+			
+		} 
+	}	
 }
 
 sys_zaherin_init = {
@@ -3416,7 +3436,7 @@ sys_carnit_init = {
 	}
 }
 	
-		
+
 #####SAVIAN ABYSSAL#####
 
 

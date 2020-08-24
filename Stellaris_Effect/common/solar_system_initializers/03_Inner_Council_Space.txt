@@ -355,8 +355,8 @@ sys_nasurn_init = {
 	}	
 }	
 	
-sys_prannas_init = {
-    name = "NAME_Prannas"
+sys_pranas_init = {
+    name = "NAME_Pranas"
     class = "sc_a"
     
     asteroid_belt = {
@@ -486,6 +486,7 @@ sys_rothila_init = {
         size = 20
 	}	
 }	
+
 
 #####APIEN CREST#####
 

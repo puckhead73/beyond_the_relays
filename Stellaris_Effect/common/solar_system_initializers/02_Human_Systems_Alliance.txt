@@ -2247,7 +2247,7 @@ sys_vular_init = {
 
 #####LOCAL CLUSTER#####
 
-alpha_centauri_system = {	
+sys_alpha_centauri_system = {	
 	name = "NAME_Alpha_Centauri"
 	class = sc_trinary_1
 	max_instances = 1
@@ -2457,7 +2457,7 @@ alpha_centauri_system = {
 	}	
 }	
 
-sirius_system = {
+sys_sirius_system = {
 	name = "NAME_Sirius"
 	class = sc_binary_a_d
 	max_instances = 1

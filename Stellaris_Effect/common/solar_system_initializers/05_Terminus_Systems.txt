@@ -1246,6 +1246,7 @@ sys_tartarusdebrisfield_init = {
 	}
 }	
 	
+	
 #####HOMUNCULUS CLUSTER#####
 
 sys_bifur_init = {
@@ -1622,7 +1623,7 @@ sys_sowilo_init = {
 }
 
 
-#####NEMEAN ABYSS#####
+#####NEMEAN ALPHA#####
 
 sys_testudo_init = {
     name = "NAME_Testudo"
@@ -1882,7 +1883,6 @@ sys_eliostheta_init = {
 		} 
 	}		
 }
-
 
 sys_linitel_init = {
     name = "NAME_Linitel"
@@ -2733,6 +2733,8 @@ sys_alphadraconis_init = {
 
         }
     }
+	
+	
 }
 
 sys_enoch_init = {
@@ -2785,6 +2787,15 @@ sys_enoch_init = {
 
     }
 
+	init_effect = { 
+		spawn_megastructure = { 
+			type = "rosettanebula_pylosnebula_massrelay" 
+			name = "Rosetta 2 Relay"
+			random_pos = NO 
+			orbit_distance = 170
+			
+		} 
+	}
 }
 
 sys_phiclio_init = {
@@ -2884,6 +2895,9 @@ sys_iotaurania_init = {
 
     }
 }
+
+
+#####SAKURA NEBULA######
 
 
 #####THE SHRIKE ABYSSAL#####
@@ -3440,6 +3454,16 @@ sys_psitophet_init = {
 		size = 33
 
     }
+
+	init_effect = { 
+		spawn_megastructure = { 
+			type = "sigurdscradle_pylosnebula_massrelay" 
+			name = "Sigurd's Cradle 5 Relay"
+			random_pos = NO 
+			orbit_distance = 170
+			
+		} 
+	}
 }
 
 sys_skepsis_init = {
@@ -3536,7 +3560,6 @@ sys_skepsis_init = {
 
 
 #####SIN'KELAR CLUSTER#####
-
 
 
 #####TITAN NEBULA#####
