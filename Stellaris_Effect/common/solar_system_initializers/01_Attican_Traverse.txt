@@ -3519,6 +3519,13 @@ sys_cubseh_init = {
 		size = 6
 		
 	}
+	
+	planet = { 
+		name = "NAME_Toaloc"
+		class = "pc_hothouse"
+		orbit_distance = 45
+		size = 16
+	}
 
 	planet = {
 		name = "NAME_Phelinia"
@@ -3540,13 +3547,6 @@ sys_cubseh_init = {
 		class = "pc_chlorine"
 		orbit_distance = 50
 		size = 13
-	}
-	
-	planet = { 
-		name = "NAME_Toaloc"
-		class = "pc_hothouse"
-		orbit_distance = 45
-		size = 16
 	}
 
 	planet = {
