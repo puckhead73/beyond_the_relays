@@ -11,11 +11,13 @@ l_english:
 
  ##### ATTICAN TRAVERSE SYSTEMS #####
  #### ARMSTRONG NEBULA ####
+ NAME_Armstrong_Nebula:0 "Armstrong Nebula"
  ### Gagarin System
  NAME_Gagarin:0 "Gagarin"
  NAME_Junthor:0 "Junthor"
  NAME_Junthor_a:0 "Junthor a"
  NAME_Junthor_b:0 "Junthor b"
+ NAME_Junthor_c:0 "Junthor c"
  NAME_Pressha:0 "Pressha"
  NAME_Pressha_a:0 "Pressha a"
  NAME_Pressha_b:0 "Pressha b"
@@ -32,6 +34,7 @@ l_english:
  NAME_Notanban:0 "Notanban"
  NAME_Notanban_a:0 "Notanban a"
  NAME_Solcrum:0 "Solcrum"
+ NAME_Armstrong_2_Relay:0 "Armstrong 2 Relay"
  
  ### Hong System
  NAME_Hong:0 "Hong"
@@ -39,28 +42,138 @@ l_english:
  NAME_Casbin:0 "Casbin"
  NAME_Matar:0 "Matar"
  NAME_Theshaca:0 "Theshaca"
+ NAME_Theshaca_a:0 "Theshaca a"
+ NAME_Theshaca_b:0 "Theshaca b"
+ NAME_Theshaca_c:0 "Theshaca c" 
  NAME_Treagir:0 "Treagir"
  
  ### Tereshkova System
  NAME_Tereshkova:0 "Tereshkova"
- NAME_Tereshkova-A:0 "Tereshkova A"
- NAME_Tereshkova-B:0 "Tereshkova B"
+ NAME_Tereshkova-A:0 "Tereshkova-A"
+ NAME_Tereshkova-B:0 "Tereshkova-B"
  NAME_Antibaar:0 "Antibaar"
  NAME_Patamalrus:0 "Patamalrus"
  NAME_Hunsalra:0 "Hunsalra"
  NAME_Thegeuse:0 "Thegeuse"
  NAME_Solmarlon:0 "Solmarlon"
  NAME_Mawinor:0 "Mawinor"
+ NAME_Armstrong_1_Relay:0 "Armstrong 1 Relay"
  
  ### Vamshi System
  NAME_Vamshi:0 "Vamshi"
- NAME_Vamshi-A:0 "Vamshi A"
- NAME_Vamshi-B:0 "Vamshi B"
+ NAME_Vamshi-A:0 "Vamshi-A"
+ NAME_Vamshi-B:0 "Vamshi-B"
  NAME_Maji:0 "Maji"
  NAME_Pregel:0 "Pregel"
  NAME_Almos:0 "Almos"
+ NAME_Armstrong_3_Relay:0 "Armstrong 3 Relay"
+ 
+ #### BULUC NEBULA 
+ NAME_Buluc_Nebula:0 "Buluc Nebula"
+ ### Chabtan System
+ NAME_Chabtan:0 "Chabtan"
+ NAME_Parnack:0 "Parnack"
+ NAME_Noviz:0 "Noviz"
+ NAME_Buluc_3_Relay:0 "Buluc 3 Relay"
+ 
+ ### Fragotz System
+ NAME_Fragotz:0 "Fragotz"
+ NAME_Buluc_1_Relay:0 "Buluc 1 Relay"
+ 
+ ### Ubroni System
+ NAME_Ubroni:0 "Ubroni"
+ NAME_Zankep:0 "Zankep"
+ NAME_Zankep_a:0 "Zankep a"
+ NAME_Zankep_b:0 "Zankep b"
+ NAME_Zankep_c:0 "Zankep c"
+ NAME_Unoweb:0 "Unoweb"
+ NAME_Hasik:0 "Hasik"
+ NAME_Buluc_2_Relay:0 "Buluc 2 Relay"
+ NAME_Buluc_4_Relay:0 "Buluc 4 Relay"
+ 
+ #### EAGLE NEBULA ####
+ NAME_Eagle_Nebula:0 "Eagle Nebula"
+ ### Amun System
+ NAME_Amun:0 "Amun"
+ NAME_Sekhmet:0 "Sekhmet"
+ NAME_Sobek:0 "Sobek"
+ NAME_Sobek_a:0 "Sobek a"
+ NAME_Heqet:0 "Heqet"
+ NAME_Anhur:0 "Anhur"
+ NAME_Neith:0 "Neith"
+ NAME_Bast:0 "Bast"
+ NAME_Bast_a:0 "Bast a"
+ NAME_Bast_b:0 "Bast b"
+ NAME_Eagle_5_Relay:0 "Eagle 5 Relay
+ 
+ ### Imir System
+ NAME_Imir:0 "Imir"
+ NAME_Osalri:0 "Osalri"
+ NAME_Korlus:0 "Korlus"
+ NAME_Quodis:0 "Quodis"
+ NAME_Gregas:0 "Gregas"
+ NAME_Eagle_2_Relay:0 "Eagle 2 Relay"
+ 
+ ### Malgus System
+ NAME_Malgus:0 "Malgus"
+ NAME_Uzin:0 "Uzin"
+ NAME_Uzin_a:0 "Uzin a"
+ NAME_Uzin_b:0 "Uzin b"
+ NAME_Wrill:0 "Wrill"
+ NAME_Flett:0 "Flett"
+ NAME_Eagle_3_Relay:0 "Eagle 3 Relay"
+ 
+ ### Relic System
+ NAME_Relic:0 "Relic"
+ NAME_Murky_Water:0 "Murky Water"
+ NAME_Fitful_Current:0 "Fitful Current"
+ NAME_First_Land:0 "First Land"
+ NAME_Island_Wind:0 "Island Wind"
+ NAME_Rough_Tide:0 "Rough Tide"
+ NAME_Preying_Mouth:0 "Preying Mouth"
+ NAME_Beach_Thunder:0 "Beach Thunder"
+ NAME_Eagle_6_Relay:0 "Eagle 6 Relay"
+ 
+ ### Strabo System
+ NAME_Strabo:0 "Strabo"
+ NAME_Antigar:0 "Antigar"
+ NAME_Antigar_a:0 "Antigar a"
+ NAME_Antigar_b:0 "Antigar b"
+ NAME_Antigar_c:0 "Antigar c"
+ NAME_Antigar_d:0 "Antigar d"
+ NAME_Antigar_e:0 "Antigar e"
+ NAME_Antigar_f:0 "Antigar f"
+ NAME_Antigar_g:0 "Antigar g"
+ NAME_Antigar_h:0 "Antigar h"
+ NAME_Antigar_i:0 "Antigar i"
+ NAME_Antigar_j:0 "Antigar j"
+ NAME_Antigar_k:0 "Antigar k"
+ NAME_Eagle_5_Relay:0 "Eagle 5 Relay"
+ NAME_Eagle_4_Relay:0 "Eagle 4 Relay"
  
  #### HADES NEXUS ####
+ NAME_Hades_Nexus:0 "Hades Nexus"
+ ### Azedes System
+ NAME_Azedes:0 "Azedes"
+ NAME_Vesskur:0 "Vess'kur"
+ NAME_Vesskur_a:0 "Vess'kur a"
+ NAME_Turvess:0 "Turvess"
+ NAME_Turvess_a:0 "Turvess a"
+ NAME_Turvess_b:0 "Turvess b"
+ NAME_Ikura:0 "Ikura"
+ NAME_Ikura_a:0 "Ikura a"
+ NAME_Ikura_b:0 "Ikura b"
+ NAME_Ikura_c:0 "Ikura c"
+ NAME_Vaal:0 "Vaal"
+ NAME_Vaal_a:0 "Vaal a"
+ NAME_Sakur:0 "Sakur"
+ NAME_Sakur_a:0 "Sakur a"
+ NAME_Sakur_b:0 "Sakur b"
+ NAME_Sakur_c:0 "Sakur c"
+ NAME_Kuroi:0 "Kuroi"
+ NAME_Kuroi_a:0 "Kuroi a"
+ NAME_Kuroi_b:0 "Kuroi b"
+
  ### Hekate System
  NAME_Hekate:0 "Hekate"
  NAME_Asteria:0 "Asteria"
@@ -71,19 +184,26 @@ l_english:
  NAME_Triodia_c:0 "Triodia c"
  NAME_Triodia_d:0 "Triodia d"
  NAME_Triodia_e:0 "Triodia e"
+ NAME_Triodia_f:0 "Triodia f" 
+ NAME_Triodia_g:0 "Triodia g" 
+ NAME_Triodia_h:0 "Triodia h" 
+ NAME_Triodia_i:0 "Triodia i" 
+ NAME_Triodia_j:0 "Triodia j" 
+ NAME_Triodia_k:0 "Triodia k" 
+ NAME_Triodia_l:0 "Triodia l" 
+ NAME_Triodia_m:0 "Triodia m" 
+ NAME_Triodia_n:0 "Triodia n" 
  NAME_Bothros:0 "Bothros"
+ NAME_Hades_Nexus_1_Relay:0 "Nexus 1 Relay"
  
  ### Hoplos System
  NAME_Hoplos:0 "Hoplos"
  NAME_Talaria:0 "Talaria"
- NAME_Talaria_a:0 "Talaria a"
  NAME_Makhaira:0 "Makhaira"
+ NAME_Makhaira_a:0 "Makhaira a" 
  NAME_Kopis:0 "Kopis"
- NAME_Makhaira_a:0 "Makhaira a"
  NAME_Trident:0 "Trident"
  NAME_Aegis:0 "Aegis"
- NAME_Aegis_a:0 "Aegis a"
- NAME_Aegis_b:0 "Aegis b"
  
  ### Pamyat System
  NAME_Pamyat:0 "Pamyat"
@@ -94,29 +214,36 @@ l_english:
  NAME_Zenevieva:0 "Zenevieva"
  NAME_Alena:0 "Alena"
  NAME_Quiet_Eddy:0 "Quiet Eddy"
+ NAME_Hades_Nexus_3_Relay:0 "Nexus 3 Relay"
+ NAME_Hades_Nexus_5_Relay:0 "Nexus 5 Relay"
  
  ### Sheol System
  NAME_Sheol:0 "Sheol"
  NAME_Gei_Hinnom:0 "Gei Hinnom"
+ NAME_Hades_Nexus_2_Relay:0 "Nexus 2 Relay"
+ NAME_Hades_Nexus_4_Relay:0 "Nexus 4 Relay"
  
  #### HAWKING ETA ####
+ NAME_Hawking_Eta:0 "Hawking Eta"
  ### Century System
  NAME_Century:0 "Century"
  NAME_Tamahera:0 "Tamahera"
  NAME_Klendagon:0 "Klendagon"
  NAME_Presrop:0 "Presrop"
+ NAME_Lukap:0 "Lukap"
+ NAME_Morule:0 "Morule"
  NAME_Canctra:0 "Canctra"
  NAME_Tharopto:0 "Tharopto"
- NAME_Tharoptoa:0 "Tharopto a"
- NAME_Tharoptob:0 "Tharopto b" 
- NAME_Tharoptoc:0 "Tharopto c" 
- NAME_Tharoptod:0 "Tharopto d" 
- NAME_Tharoptoe:0 "Tharopto e"  
+ NAME_Tharopto_a:0 "Tharopto a"
+ NAME_Tharopto_b:0 "Tharopto b" 
+ NAME_Tharopto_c:0 "Tharopto c" 
+ NAME_Hawking_Eta_1_Relay:0 "Hawking 1 Relay"
  
  ### Chandrasekhar System
  NAME_Chandrasekhar:0 "Chandrasekhar"
  NAME_Teshub:0 "Teshub"
  NAME_Hebat:0 "Hebat"
+ NAME_Hawking_Eta_4_Relay:0 "Hawking 4 Relay"
  
  ### Schwarzschild System
  NAME_Schwarzschild:0 "Schwarzschild"
@@ -124,39 +251,41 @@ l_english:
  NAME_Etamis:0 "Etamis"
  NAME_Linossa:0 "Linossa"
  NAME_Rihali:0 "Rihali"
- NAME_Rihalia:0 "Rihali a" 
- NAME_Rihalib:0 "Rihali b"
- NAME_Rihalic:0 "Rihali c" 
+ NAME_Rihali_a:0 "Rihali a" 
+ NAME_Rihali_b:0 "Rihali b"
+ NAME_Hawking_Eta_3_Relay:0 "Hawking 3 Relay"
   
  ### Thorne System
  NAME_Thorne:0 "Thorne"
  NAME_Mnemosyne:0 "Mnemosyne"
  NAME_Lethe:0 "Lethe"
- NAME_Mnemosyneb:0 "Mnemosyne b"
+ NAME_Mnemosyne_b:0 "Mnemosyne b"
+ NAME_Hawking_Eta_2_Relay:0 "Hawking 2 Relay"
  
  ### Verr System
  NAME_Verr:0 "Verr"
  NAME_Corang:0 "Corang"
  NAME_Allusah:0 "Allusah"
  NAME_Serao:0 "Serao"
- NAME_Seraoa:0 "Serao a"
- NAME_Seraob:0 "Serao b"
- NAME_Seraoc:0 "Serao c"
- NAME_Seraod:0 "Serao d" 
+ NAME_Serao_a:0 "Serao a"
+ NAME_Serao_b:0 "Serao b"
+ NAME_Serao_c:0 "Serao c"
+ NAME_Serao_d:0 "Serao d" 
 
  #### ISMAR FRONTIER #### 
+ NAME_Ismar_Frontier:0 "Ismar Frontier"
  ### Aquila System
  NAME_Aquila:0 "Aquila"
  NAME_Lepini:0 "Lepini"
- NAME_Lepinia:0 "Lepini a"
- NAME_Lepinib:0 "Lepini b"
+ NAME_Lepini_a:0 "Lepini a"
+ NAME_Lepini_b:0 "Lepini b"
  NAME_Vecchio:0 "Vecchio"
  NAME_Volturno:0 "Volturno"
  NAME_Metaponto:0 "Metaponto"
  NAME_Pollino:0 "Pollino"
- NAME_Pollinoa:0 "Pollino a"
- NAME_Pollinob:0 "Pollino b"
- NAME_Pollinoc:0 "Pollino c"
+ NAME_Pollino_a:0 "Pollino a"
+ NAME_Pollino_b:0 "Pollino b"
+ NAME_Ismar_Frontier_3_Relay:0 "Ismar 3 Relay"
  
  ### Elysta System
  NAME_Elysta:0 "Elysta"
@@ -164,26 +293,29 @@ l_english:
  NAME_Zeona:0 "Zeona"
  NAME_Odasst:0 "Odasst"
  NAME_Hesano:0 "Hesano"
- Name_Hesanoa:0 "Hesano a"
+ Name_Hesano_a:0 "Hesano a"
+ Name_Hesano_b:0 "Hesano b" 
  NAME_Melile:0 "Melile"
- NAME_Melilea:0 "Melile a"
- NAME_Melileb:0 "Melile b"
+ NAME_Melile_a:0 "Melile a"
+ NAME_Melile_b:0 "Melile b"
+ NAME_Ismar_Frontier_1_Relay:0 "Ismar 1 Relay"
+ NAME_Ismar_Frontier_2_Relay:0 "Ismar 2 Relay"
  
  ### Faia System
  NAME_Faia:0 "Faia"
  NAME_Imaen:0 "Imaen"
  NAME_Zorya:0 "Zorya"
- NAME_Zoryaa:0 "Zorya a"
- NAME_Zoryab:0 "Zorya b"
+ NAME_Utrenn:0 "Utrenn"
+ NAME_Vechern:0 "Vechern"
  NAME_Viantel:0 "Viantel"
  NAME_Hito:0 "Hito"
- NAME_Hitoa:0 "Hito a" 
- NAME_Hitob:0 "Hito b"
- NAME_Hitoc:0 "Hito c" 
- NAME_Hitod:0 "Hito d" 
- NAME_Hitoe:0 "Hito e" 
+ NAME_Hito_a:0 "Hito a" 
+ NAME_Hito_b:0 "Hito b"
+ NAME_Hito_c:0 "Hito c" 
+ NAME_Ismar_Frontier_4_Relay:0 "Ismar 4 Relay"
   
  #### KEPLER VERGE ####
+ NAME_Kepler_Verge:0 "Kepler Verge"
  ### Herschel System
  NAME_Herschel:0 "Herschel"
  NAME_Tungel:0 "Tungel"
@@ -192,9 +324,9 @@ l_english:
  NAME_Clugona:0 "Clugon a"
  NAME_Clugonb:0 "Clugon b"
  NAME_Clugonc:0 "Clugon c"
- NAME_Clugond:0 "Clugon d"
- NAME_Clugone:0 "Clugon e"
  NAME_Cobaka:0 "Clobaka" 
+ NAME_Kepler_Verge_1_Relay:0 "Kepler 1 Relay"
+ NAME_Kepler_Verge_2_Relay:0 "Kepler 2 Relay"
  
  ### Newton System
  NAME_Newton:0 "Newton"
@@ -205,9 +337,362 @@ l_english:
  NAME_Juncro:0 "Juncro"
  NAME_Sesmose:0 "Sesmose"
  
+ #### MAROON CLUSTER ####
+ NAME_Maroon_Cluster:0 "Maroon Cluster"
+ ### Caspian System
+ NAME_Caspian:0 "Caspian"
+ NAME_Clotanca:0 "Clotanca"
+ NAME_Farnuri:0 "Farnuri"
+ NAME_Almarcrux:0 "Almarcrux"
+ NAME_Antida:0 "Antida"
+ NAME_Maroon_2_Relay:0 "Maroon 2 Relay"
+ 
+ ### Matano System
+ NAME_Matano:0 "Matano"
+ NAME_Inti:0 "Inti"
+ NAME_Chasca:0 "Chasca"
+ NAME_Apo:0 "Apo"
+ NAME_Illapa:0 "Illapa"
+ NAME_Illapa_a:0 "Illapa a"
+ NAME_Illapa_b:0 "Illapa b"
+ NAME_Corinaya:0 "Corinaya"
+ NAME_Supay:0 "Supay"
+ NAME_Maroon_1_Relay:0 "Maroon 1 Relay"
+ NAME_Maroon_3_Relay:0 "Maroon 3 Relay"
+ 
+ ### Vostok System
+ NAME_Vostok:0 "Vostok"
+ NAME_Clomarthu:0 "Clomarthu"
+ NAME_Nodacrux:0 "Nodacrux"
+ NAME_Alko:0 "Alko"
+ NAME_Pataiton:0 "Pataiton"
+ NAME_Maroon_4_Relay:0 "Maroon 4 Relay"
+ 
  #### NINMAH CLUSTER ####
+ NAME_Ninmah_Cluster:0 "Ninmah Cluster"
  ### Maskim Xul System
  NAME_Maskim_Xul:0 "Maskim Xul"
  NAME_Suen:0 "Suen"
  NAME_Kashshaptu:0 "Kashshaptu"
  NAME_Damkianna:0 "Damkianna"
+ NAME_Ninmah_Cluster_1_Relay:0 "Ninmah Cluster Relay"
+ 
+ ### Mulla Xul System
+ NAME_Mulla_Xul:0 "Mulla Xul"
+ NAME_Maldor:0 "Maldor"
+ NAME_Utukku:0 "Utukku"
+ NAME_Inakhos:0 "Inakhos"
+ NAME_Keph:0 "Keph"
+ 
+ #### NUBIAN EXPANSE ####
+ NAME_Nubian_Expanse:0 "Nubian Expanse"
+ ### Dakka System
+ NAME_Dakka:0 "Dakka"
+ NAME_Bannik:0 "Bannik"
+ NAME_Pragia:0 "Pragia"
+ NAME_Alkonost:0 "Alkonost"
+ NAME_Gamayun:0 "Gamayun"
+ NAME_Gamayun_a:0 "Gamayun a"
+ NAME_Gamayun_b:0 "Gamayun b"
+ NAME_Gamayun_c:0 "Gamayun c"
+ NAME_Gamayun_d:0 "Gamayun d"
+ NAME_Gamayun_e:0 "Gamayun e"
+ NAME_Gigula:0 "Gigula"
+ NAME_Zirnitra:0 "Zirnitra"
+ NAME_Nubian_Expanse_2_Relay:0 "Nubian 2 Relay"
+ NAME_Nubian_Expanse_5_Relay:0 "Nubian 5 Relay"
+ 
+ ### Kalabsha System
+ NAME_Kalabsha:0 "Kalabsha"
+ NAME_Yamm:0 "Yamm"
+ NAME_Tefnut:0 "Tefnut"
+ NAME_Nubian_Expanse_3_Relay:0 "Nubian 3 Relay"
+ NAME_Nubian_Expanse_4_Relay:0 "Nubian 4 Relay"
+ 
+ ### Qertassi System
+ NAME_Qertassi:0 "Qertassi"
+ NAME_Norehsa:0 "Norehsa"
+ NAME_Norehsa_a:0 "Norehsa a"
+ NAME_Norehsa_b:0 "Norehsa b"
+ NAME_Norehsa_c:0 "Norehsa c"
+ NAME_Nubian_Expanse_1_Relay:0 "Nubian 1 Relay"
+ 
+ ### NX-2185 System
+ NAME_nx2185:0 "NX-2185"
+ NAME_113_Kerad:0 "113 Kerad"
+ NAME_433_Spidau:0 "433 Spidau"
+ NAME_433_Spidau_a:0 "433 Spidau a"
+ NAME_704_Jarwinar:0 "704 Jarwinar"
+ NAME_704_Jawinor_a:0 "Jarwinar a"
+ NAME_704_Jawinor_b:0 "Jarwinar b"
+ 
+ ### NX-2176 System
+ NAME_NX2176:0 "NX-2176"
+ NAME_NX2176I:0 "NX-2176-I"
+ NAME_NX2176II:0 "NX-2176-II"
+ NAME_NX2176III:0 "NX-2176-III" 
+ NAME_NX2176IV:0 "NX-2176-IV"
+ NAME_NX2176V:0 "NX-2176-V"
+ NAME_NX2176V_a:0 "NX-2176-V a"
+ NAME_NX2176V_b:0 "NX-2176-V b"
+
+ #### OSHIBKA CLIFF ####
+ NAME_Oshibka_Cliff:0 "Oshibka Cliff"
+ ### Cubseh System
+ NAME_Cubseh:0 "Cubseh"
+ NAME_Qualog:0 "Qualog"
+ NAME_Phelinia:0 "Phelinia"
+ NAME_Jarg:0 "Jarg"
+ NAME_Senarc:0 "Senarc"
+ NAME_Toaloc:0 "Toaloc"
+ NAME_Asta:0 "Asta"
+ NAME_Tonat:0 Tonat"
+ NAME_Oshibka_Cliff_4_Relay:0 "OShibka 4 Relay"
+ NAME_Oshibka_Cliff_3_Relay:0 "Oshibka 3 Relay"
+ 
+ ### Klin System
+ NAME_Klin:0 "Klin"
+ NAME_Orbid:0 "Orbid"
+ NAME_Oshibka_Cliff_1_Relay:0 "OShibka 1 Relay"
+ NAME_Oshibka_Cliff_2_Relay:0 "Oshibka 2 Relay"
+ 
+ #### PANGAEA EXPANSE ####
+ NAME_Pangaea_Expanse:0 "Pangaea Expanse"
+ ### Refuge System
+ NAME_Refuge:0 "Refuge"
+ NAME_Refuge_A:0 "Refuge-A"
+ NAME_Refuge_B:0 "Refuge-B"
+ NAME_Agetoton:0 "Agetoton"
+ NAME_Ilos:0 "Ilos"
+ NAME_Zafe:0 "Zafe"
+ NAME_Pangaea_Expanse_1_Relay:0 "Pangaea 1 Relay"
+ 
+ #### PYLOS NEBULA ####
+ NAME_Pylos_Nebula:0 "Pylos Nebula"
+ ### Dirada System
+ NAME_Dirada:0 "Dirada"
+ NAME_Siano:0 "Siano"
+ NAME_Thenusi:0 "Thenusi"
+ NAME_Canalus:0 "Canalus"
+ NAME_Zeth:0 "Zeth"
+ NAME_Sineus:0 "Sineus"
+ NAME_Sineus_a:0 "Sineus a"
+ NAME_Sineus_b:0 "Sineus b"
+ NAME_Sineus_c:0 "Sineus c"
+ NAME_Vioresa:0 "Vioresa"
+ NAME_Vioresa_a:0 "Vioresa a"
+ NAME_Vioresa_b:0 "Vioresa b"
+ NAME_Pylos_3_Relay:0 "Pylos 3 Relay"
+ NAME_Pylos_4_Relay:0 "Pylos 4 Relay"
+ 
+ ### Kriseroi System
+ NAME_Kriseroi:0 "Kriseroi"
+ NAME_Neidus:0 "Neidus"
+ NAME_Theonax:0 "Theonax"
+ NAME_Uzin_Kriseroi:0 "Uzin"
+ NAME_Chithess:0 "Chithess"
+ NAME_Geus:0 "Geus"
+ NAME_Tenoth:0 "Tenoth"
+ NAME_Pylos_2_Relay:0 "Pylos 2 Relay"
+ NAME_Pylos_5_Relay:0 "Pylos 5 Relay"
+ 
+ ### Nariph System
+ NAME_Nariph:0 "Nariph"
+ NAME_Isale:0 "Isale"
+ NAME_Jonus:0 "Jonus"
+ NAME_Jonus_a:0 "Jonus a"
+ NAME_Pylos_1_Relay:0 "Pylos 1 Relay"
+ 
+ ### Satent System
+ NAME_Satent:0 "Satent"
+ NAME_Rescel:0 "Rescel"
+ NAME_Anedia:0 "Anedia"
+ NAME_Boro:0 "Boro"
+ NAME_Nataisa:0 "Nataisa"
+ NAME_Pylos_6_Relay:0 "Pylos 6 Relay"
+ NAME_Pylos_7_Relay:0 "Pylos 7 Relay"
+ 
+ ### Zaherin System
+ NAME_Zaherin:0 "Zaherin"
+ NAME_Ehstag:0 "Ehstag"
+ NAME_Namakli:0 "Nemakli"
+ NAME_Azrahas:0 "Azrahas"
+ NAME_Rotesk:0 "Rostek"
+ 
+ #### RADANA BURST ####
+ NAME_Radana_Burst:0 "Radana Burst"
+ ### Tied'caur System
+ NAME_Tiedcaur:0 "Tied'caur"
+ NAME_Bystryo:0 "Bystryo"
+ NAME_Ziednar:0 "Zied'nar"
+ NAME_Undak:0 "Undak"
+ NAME_Radana_2_Relay:0 "Radana 2 Relay"
+ 
+ ### Maita System
+ NAME_Maita:0 "Maita"
+ NAME_Esse:0 "Esse"
+ NAME_Esse_a:0 "Esse a"
+ NAME_Angom:0 "Angom"
+ NAME_Pella:0 "Pella"
+ NAME_Radana_1_Relay:0 "Radana 1 Relay"
+ 
+ ### Carnit System
+ NAME_Carnit:0 "Carnit"
+ NAME_Satur:0 "Satur"
+ NAME_Yanoc:0 "Yanoc"
+ NAME_Hobgaad:0 "Hobgaad"
+ NAME_Radana_3_Relay:0 "Radana 3 Relay"
+ 
+ #### SENTRY OMEGA ####
+ NAME_Sentry_Omega:0 "Sentry Omega"
+ ### Hoc System
+ NAME_Hoc:0 "Hoc"
+ NAME_Jarfor:0 "Jarfor"
+ NAME_Nemata:0 "Nemata"
+ NAME_Virmire:0 "Virmire"
+ NAME_Cloroplon:0 "Cloroplon"
+ NAME_Prescyla:0 "Prescyla"
+ NAME_Sentry_Omega_1_Relay:0 "Sentry 1 Relay"
+ NAME_Sentry_Omega_2_Relay:0 "Sentry 2 Relay"
+ 
+ ### Telith System
+ NAME_Telith:0 "Telith"
+ NAME_Sapfir:0 "Sapfir"
+ NAME_Sentry_Omega_3_Relay:0 "Sentry 3 Relay"
+ NAME_Sentry_Omega_4_Relay:0 "Sentry 4 Relay"
+ 
+ #### SHADOW SEA ####
+ NAME_Shadow_Sea:0 "Shadow Sea"
+ ### Anauroch System
+ NAME_Anauroch:0 "Anauroch"
+ NAME_Thultanthar:0 "Thultanthar"
+ NAME_Drannor:0 "Drannor"
+ NAME_Drannor_a:0 "Drannor a"
+ NAME_Drannor_b:0 "Drannor b"
+ NAME_Shadow_Sea_1_Relay:0 "Shadow 1 Relay"
+ NAME_Shadow_Sea_5_Relay:0 "Shadow 5 Relay"
+ 
+ ### Bahanak System
+ NAME_Bahanak:0 "Bahanak"
+ NAME_Elgarnan:0 "Elgar'nan"
+ NAME_Mythal:0 "Mythal"
+ NAME_FalonDin:0 "Falon'Din"
+ NAME_Dirthamen:0 "Dirthamen"
+ NAME_Andruil:0 "Andruil"
+ NAME_Sylaise:0 "Sylaise"
+ NAME_June:0 "June"
+ NAME_Shadow_Sea_4_Relay:0 "Shadow 4 Relay"
+ 
+ ### Iera System
+ NAME_Iera:0 "Iera"
+ NAME_Venture:0 "Venture"
+ NAME_Prospect:0 "Prospect"
+ NAME_Prospect_a:0 "Prospect a"
+ NAME_Prospect_b:0 "Prospect b"
+ NAME_Prospect_c:0 "Prospect c"
+ NAME_Horizon:0 "Horizon"
+ NAME_Watchman:0 "Watchman"
+ NAME_Watchman_a:0 "Watchman a"
+ NAME_Watchman_b:0 "Watchman b"
+ NAME_Shadow_Sea_3_Relay:0 "Shadow 3 Relay"
+ 
+ ### Nethiril System
+ NAME_Netheril:0 "Netheril"
+ NAME_Landeth:0 "Landeth"
+ NAME_Oreme:0 "Oreme"
+ NAME_Shadow_Sea_2_Relay:0 "Shadow 2 Relay"
+ NAME_Shadow_Sea_7_Relay:0 "Shadow 7 Relay"
+ 
+ #### STYX THETA ####
+ NAME_Styx_Theta:0 "Styx Theta"
+ ### Acheron System
+ NAME_Acheron:0 "Acheron"
+ NAME_Farthorl:0 "Farthorl"
+ NAME_Altahe:0 "Altahe"
+ NAME_Ontahe:0 "Ontahe"
+ NAME_Grosalgen:0 "Grosalgen"
+ NAME_Imaneya:0 "Imaneya"
+ NAME_Styx_Theta_2_Relay:0 "Styx 2 Relay"
+ 
+ ### Erebus System
+ NAME_Erebus:0 "Erebus"
+ NAME_Nepmos:0 "Nepmos"
+ NAME_Quaji:0 "Quaji"
+ NAME_Wermani:0 "Wermani"
+ NAME_Chofen:0 "Chofen"
+ NAME_Styx_Theta_1_Relay:0 "Styx 1 Relay"
+ 
+ #### YGGDRASIL NEBULA ####
+ NAME_Yggdrasil_Nebula:0 "Yggdrasil Nebula"
+ ###Baldr System
+ NAME_Baldr:0 "Baldr"
+ NAME_Yggdrasil_1_Relay:0 "Yggdrasil 1 Relay"
+ 
+ ### Brekkenz System
+ NAME_Brekkenz:0 "Brekkenz"
+ NAME_Bil:0 "Bil"
+ NAME_Yuki:0 "Yuki"
+ NAME_Yggdrasil_2_Relay:0 "Yggdrasil 2 Relay"
+ 
+ ### Fen System
+ NAME_Fen:0 "Fen"
+ NAME_Vingolf:0 "Vingolf"
+ NAME_Amsvartnir:0 "Amsvartnir"
+ NAME_Amsvartnir_a:0 "Amsvartnir a"
+ NAME_Lyngvi:0 "Lyngvi"
+ 
+ ### Hedek System
+ NAME_Hedek:0 "Hedek"
+ NAME_Nuuk:0 "Nu'uk"
+ 
+ ### Qedek System
+ NAME_Qedek:0 "Qedek"
+ 
+ ### Vali System
+ NAME_Vali:0 "Vali"
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
