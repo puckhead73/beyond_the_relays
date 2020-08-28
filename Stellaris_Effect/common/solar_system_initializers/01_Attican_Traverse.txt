@@ -21,13 +21,13 @@ sys_gagarin_init = {
 		class = "pc_k_star"
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 50
+		size = 33
 		has_ring = no
 	}
 
     planet = {
         name = "NAME_Junthor"
-        class = "pc_chlorine"
+        class = "pc_chlorine_barren"
         orbit_distance = 80
         orbit_angle = 289
         has_ring = no
@@ -38,22 +38,20 @@ sys_gagarin_init = {
 			}			
 		moon = {
 			name = "NAME_Junthor_a"
-			class = "pc_barren_warm"
+			class = "pc_barren"
 			orbit_distance = 8
 			size = 5
 		}
 		moon = {
 			name = "NAME_Junthor_b"
-			class = "pc_barren_warm"
+			class = "pc_barren"
 			orbit_distance = 8
-			
 			size = 3
 		}
 		moon = {
 			name = "NAME_Junthor_c"
-			class = "pc_barren_cold"
+			class = "pc_frozen"
 			orbit_distance = 8
-			
 			size = 3
 		}		
     }
@@ -71,23 +69,21 @@ sys_gagarin_init = {
 			}		
 		moon = {
 			name = "NAME_Pressha_a"
-			class = "pc_barren_cold"
-			orbit_distance = 16
-			
-			size = 8
+			class = "pc_desolate"
+			orbit_distance = 8
+			size = 7			
 		}
 		moon = {
 			name = "NAME_Pressha_b"
-			class = "pc_barren_warm"
-			orbit_distance = 8
-			
-			size = 7
+			class = "pc_frozen"
+			orbit_distance = 16
+			size = 8
 		}
     }
 
     planet = {
         name = "NAME_Rayingri"
-        class = "pc_barren_warm"
+        class = "pc_barren"
         orbit_distance = 50
         orbit_angle = 236
         has_ring = no
@@ -98,9 +94,8 @@ sys_gagarin_init = {
 			}		
 		moon = {
 			name = "NAME_Vahtz"
-			class = "pc_barren"
+			class = "pc_desolate"
 			orbit_distance = 5
-			
 			size = 6
 		}
     }
@@ -120,7 +115,7 @@ sys_gagarin_init = {
 
     planet = {
         name = "NAME_Antirumgon"
-        class = "pc_methane"
+        class = "pc_methane_frozen"
         orbit_distance = 50
         orbit_angle = 299
         has_ring = no
@@ -178,7 +173,7 @@ sys_grissom_init = {
 
     planet = {
         name = "NAME_Zaherux"
-        class = "pc_sand_sea_hot"
+        class = "pc_scorched"
         orbit_distance = 50
         orbit_angle = 325
         has_ring = no
@@ -189,7 +184,7 @@ sys_grissom_init = {
 			}	
 		moon = {
 			name = "NAME_Zaherux_a"
-			class = "pc_desolate"
+			class = "pc_scorched"
 			orbit_distance = 8
 			size = 5
 		}
@@ -217,7 +212,7 @@ sys_grissom_init = {
 		change_orbit = 10
 		moon = {
 			name = "NAME_Notanban_a"
-			class = "pc_barren_warm"
+			class = "pc_desolate"
 			orbit_distance = 8			
 			size = 7
 		}
@@ -279,7 +274,7 @@ sys_hong_init = {
 
     planet = {
         name = "NAME_Casbin"
-        class = "pc_primal"
+        class = "pc_primordial"
         orbit_distance = 30
         orbit_angle = 116
         has_ring = no
@@ -291,7 +286,7 @@ sys_hong_init = {
 
     planet = {
         name = "NAME_Matar"
-        class = "pc_frozen_desert"
+        class = "pc_mephitic_frozen"
         orbit_distance = 30
         orbit_angle = 56
         has_ring = no
@@ -313,19 +308,19 @@ sys_hong_init = {
 			}
 		moon = {
 			name = "NAME_Theshaca_a"
-			class = "pc_barren_cold"
+			class = "pc_desolate"
 			orbit_distance = 8			
 			size = 6
 		}
 		moon = {
 			name = "NAME_Theshaca_b"
-			class = "pc_barren_cold"
+			class = "pc_chlorine_frozen"
 			orbit_distance = 8			
 			size = 9
 		}			
 		moon = {
 			name = "NAME_Theshaca_c"
-			class = "pc_barren_cold"
+			class = "pc_frozen"
 			orbit_distance = 8			
 			size = 4
 		}					
@@ -333,7 +328,7 @@ sys_hong_init = {
 
     planet = {
         name = "NAME_Treagir"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_frozen"
         orbit_distance = 30
         orbit_angle = 157
         has_ring = no
@@ -390,7 +385,7 @@ sys_tereshkova_init = {
 	
     planet = {
         name = "NAME_Antibaar"
-        class = "pc_methane"
+        class = "pc_methane_arctic"
         orbit_distance = 80
         orbit_angle = 314
         has_ring = no
@@ -426,7 +421,7 @@ sys_tereshkova_init = {
 
     planet = {
         name = "NAME_Thegeuse"
-        class = "pc_tidallylocked_chlorine"
+        class = "pc_chlorine_frozen"
         orbit_distance = 45
         orbit_angle = 194
         has_ring = no
@@ -450,7 +445,7 @@ sys_tereshkova_init = {
 
     planet = {
         name = "NAME_Mawinor"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_frozen"
         orbit_distance = 35
         orbit_angle = 332
         has_ring = no
@@ -502,7 +497,7 @@ sys_vamshi_init = {
 
     planet = {
         name = "NAME_Maji"
-        class = "pc_methane"
+        class = "pc_methane_frozen"
         orbit_distance = 90
         orbit_angle = 339
         has_ring = no
@@ -514,7 +509,7 @@ sys_vamshi_init = {
 
     planet = {
         name = "NAME_Pregel"
-        class = "pc_chlorine"
+        class = "pc_chlorine_frozen"
         orbit_distance = 30
         orbit_angle = 208
         has_ring = no
@@ -570,7 +565,7 @@ sys_chabtan_init = {
 
     planet = {
         name = "NAME_Parnack"
-        class = "pc_steppe"
+        class = "pc_continental"
         orbit_distance = 50
         orbit_angle = 3
         has_ring = no
@@ -658,21 +653,21 @@ sys_ubroni_init = {
         has_ring = no
 		moon = {
 			name = "NAME_Zankep_a"
-			class = "pc_barren"
+			class = "pc_desolate"
 			orbit_angle = random
 			orbit_distance = 8
 			size = 4
 		}	
 		moon = {
 			name = "NAME_Zankep_b"
-			class = "pc_frozen"
+			class = "pc_ethane_frozen"
 			orbit_angle = random
 			orbit_distance = 6
 			size = 6
 		}
 		moon = {
 			name = "NAME_Zankep_c"
-			class = "pc_dwarf_planetoid"
+			class = "pc_desolate"
 			orbit_angle = random
 			orbit_distance = 5
 			size = 3
@@ -689,7 +684,7 @@ sys_ubroni_init = {
 
     planet = {
         name = "NAME_Hasik"
-        class = "pc_dwarf_planetoid"
+        class = "pc_dextro_frozen"
         orbit_distance = 46
         orbit_angle = 122
         has_ring = no
@@ -756,7 +751,7 @@ sys_amun_init = {
 		size = 35
         moon = {
 			name = "NAME_Sobek_a"
-			class = "pc_barren_warm"
+			class = "pc_barren"
 			orbit_distance = 8
 			orbit_angle = 192
 			has_ring = no
@@ -774,7 +769,7 @@ sys_amun_init = {
 
     planet = {
         name = "NAME_Anhur"
-        class = "pc_continental"
+        class = "pc_alpine"
         orbit_distance = 40
         orbit_angle = 294
         has_ring = no
@@ -784,7 +779,7 @@ sys_amun_init = {
 
     planet = {
         name = "NAME_Neith"
-        class = "pc_barren_cold"
+        class = "pc_frozen"
         orbit_distance = 40
         orbit_angle = 61
         has_ring = no
@@ -800,7 +795,7 @@ sys_amun_init = {
 		size = 26
         moon = {
 			name = "NAME_Bast_a"
-			class = "pc_barren_cold"
+			class = "pc_chlorine_frozen"
 			orbit_distance = 8
 			orbit_angle = 192
 			has_ring = no
@@ -808,7 +803,7 @@ sys_amun_init = {
         }
         moon = {
 			name = "NAME_Bast_b"
-			class = "pc_frozen_desert"
+			class = "pc_frozen"
 			orbit_distance = 8
 			orbit_angle = 250
 			has_ring = no
@@ -943,7 +938,7 @@ sys_malgus_init = {
 	
     planet = {
         name = "NAME_Wrill"
-        class = "pc_methane_hot"
+        class = "pc_methane_barren"
         orbit_distance = 65
         orbit_angle = 148
         has_ring = no
@@ -952,7 +947,7 @@ sys_malgus_init = {
 
     planet = {
         name = "NAME_Flett"
-        class = "pc_toxic"
+        class = "pc_mephitic_continental"
         orbit_distance = 35
         orbit_angle = 184
         has_ring = no
@@ -996,7 +991,7 @@ sys_relic_init = {
 
     planet = {
         name = "NAME_Murky_Water"
-        class = "pc_methane_hot"
+        class = "pc_methane_barren"
         orbit_distance = 55
         orbit_angle = 243
         has_ring = no
@@ -1006,7 +1001,7 @@ sys_relic_init = {
 
     planet = {
         name = "NAME_Fitful_Current"
-        class = "pc_barren_cold"
+        class = "pc_mephitic_frozen"
         orbit_distance = 55
         orbit_angle = 284
         has_ring = no
@@ -1036,7 +1031,7 @@ sys_relic_init = {
 
     planet = {
 		name = "NAME_Rough_Tide"
-        class = "pc_barren_cold"
+        class = "pc_mephitic_barren"
         orbit_distance = 40
         orbit_angle = 192
         has_ring = no
@@ -1108,7 +1103,7 @@ sys_strabo_init = {
 		size = 27
 		moon = {
 			name = "NAME_Antigar_a"
-			class = "pc_barren_cold"
+			class = "pc_mephitic_frozen"
 			size = 2
 			orbit_distance = 5
 			orbit_angle = 23
@@ -1129,7 +1124,7 @@ sys_strabo_init = {
 		}
 		moon = {
 			name = "NAME_Antigar_d"
-			class = "pc_frozen_desert"
+			class = "pc_methane_frozen"
 			size = 2
 			orbit_distance = 4
 			orbit_angle = 110
@@ -1150,14 +1145,14 @@ sys_strabo_init = {
 		}
 		moon = {
 			name = "NAME_Antigar_g"
-			class = "pc_barren_cold"
+			class = "pc_chlorine_frozen"
 			size = 2
 			orbit_distance = 4
 			orbit_angle = 185
 		}	
 		moon = {
 			name = "NAME_Antigar_h"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_ethane_frozen"
 			size = 1
 			orbit_distance = 3
 			orbit_angle = 214
@@ -1178,7 +1173,7 @@ sys_strabo_init = {
 		}
 		moon = {
 			name = "NAME_Antigar_k"
-			class = "pc_orbiting_asteroid"
+			class = "pc_ammonia_frozen"
 			size = 3
 			orbit_distance = 7
 			orbit_angle = 99
@@ -1236,7 +1231,7 @@ sys_azedes_init = {
 		size = 12
 		moon = {
 			name = "NAME_Vesskur_a"
-			class = "pc_barren"
+			class = "pc_scorched"
 			orbit_distance = 8
 			size = 4
 		}
@@ -1244,7 +1239,7 @@ sys_azedes_init = {
 
 	planet = {
 		name = "NAME_Turvess"
-		class = "pc_savannah"
+		class = "pc_dextro_savannah"
 		orbit_distance = 45
         orbit_angle = 140
         has_ring = no		
@@ -1268,20 +1263,20 @@ sys_azedes_init = {
 
 	planet = {
 		name = "NAME_Ikura"
-		class = "pc_barren_cold"
+		class = "pc_mephitic_frozen"
 		orbit_distance = 45
         orbit_angle = 84
         has_ring = no		
 		size = 14
 		moon = {
 			name = "NAME_Ikura_a"
-			class = "pc_barren"
+			class = "pc_frozen"
 			orbit_distance = 8
 			size = 4
 		}
 		moon = {
 			name = "NAME_Ikura_b"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_desolate"
 			orbit_distance = 7
 			size = 3
 		}
@@ -1302,7 +1297,7 @@ sys_azedes_init = {
 		size = 36
 		moon = {
 			name = "NAME_Vaal_a"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_dextro_frozen"
 			orbit_distance = 8
 			size = 3
 		}
@@ -1317,19 +1312,19 @@ sys_azedes_init = {
 		size = 35
 		moon = {
 			name = "NAME_Sakur_a"
-			class = "pc_barren"
+			class = "pc_chlorine_frozen"
 			orbit_distance = 8
 			size = 3
 		}
 		moon = {
 			name = "NAME_Sakur_b"
-			class = "pc_dwarf_planetoid"
+			class = "pc_desolate"
 			orbit_distance = 7
 			size = 5
 		}
 		moon = {
 			name = "NAME_Sakur_c"
-			class = "pc_barren"
+			class = "pc_mephitic_frozen"
 			orbit_distance = 7
 			size = 4
 		}
@@ -1337,20 +1332,20 @@ sys_azedes_init = {
 
 	planet = {
 		name = "NAME_Kuroi"
-		class = "pc_dwarf_planetoid_frozen"
+		class = "pc_cryovolcanic"
 		orbit_distance = 35
         orbit_angle = 120
         has_ring = no		
 		size = 5
 		moon = {
 			name = "NAME_Kuroi_a"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_desolate"
 			orbit_distance = 8
 			size = 2
 		}
 		moon = {
 			name = "NAME_Kuroi_b"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_arctic"
 			orbit_distance = 5
 			size = 2
 		}		
@@ -1377,17 +1372,16 @@ sys_hekate_init = {
 
     planet = {
         name = "NAME_Asteria"
-        class = "pc_arid"
+        class = "pc_dextro_arid"
         orbit_distance = 60
         orbit_angle = 306
         has_ring = no
 		size = 14
-
     }
 
     planet = {
         name = "NAME_Ker"
-        class = "pc_desolate"
+        class = "pc_mephitic_barren"
         orbit_distance = 45
         orbit_angle = 296
         has_ring = no
@@ -1425,7 +1419,7 @@ sys_hekate_init = {
 			}		
 		moon = {
 			name = "NAME_Triodia_d"
-			class = "pc_dwarf_planetoid_cold"
+			class = "pc_frozen"
 			orbit_distance = 1
 			orbit_angle = 3
 			size = 3
@@ -1460,7 +1454,7 @@ sys_hekate_init = {
 			}
 		moon = {
 			name = "NAME_Triodia_i"
-			class = "pc_barren_cold"
+			class = "pc_frozen"
 			orbit_distance = 3
 			orbit_angle = 10
 			size = 6
@@ -1504,7 +1498,7 @@ sys_hekate_init = {
 
     planet = {
         name = "NAME_Bothros"
-        class = "pc_frozen"
+        class = "pc_mephitic_frozen"
         orbit_distance = 60
         orbit_angle = 194
         has_ring = no
@@ -1542,7 +1536,7 @@ sys_hoplos_init = {
 
     planet = {
         name = "NAME_Talaria"
-        class = "pc_tidallylocked_barren"
+        class = "pc_scorched"
         orbit_distance = 50
         orbit_angle = 126
         has_ring = no
@@ -1559,7 +1553,7 @@ sys_hoplos_init = {
 		size = 11
 		moon = {
 			name = "Name_Makhaira_a"
-			class = "pc_barren_warm"
+			class = "pc_barren"
 			orbit_distance = 8
 			orbit_angle = 96
 			has_ring = no
@@ -1567,7 +1561,7 @@ sys_hoplos_init = {
 		}
         moon = {
             name = "NAME_Kopis"
-            class = "pc_dwarf_planetoid_warm"
+            class = "pc_desolate"
             orbit_distance = 8
             orbit_angle = 180
             has_ring = no
@@ -1620,7 +1614,7 @@ sys_pamyat_init = {
 
     planet = {
         name = "NAME_Komarov"
-        class = "pc_scorched"
+        class = "pc_desert"
         orbit_distance = 60
         orbit_angle = 128
         has_ring = no
@@ -1630,7 +1624,7 @@ sys_pamyat_init = {
 
     planet = {
         name = "NAME_Dobrovolski"
-        class = "pc_barren_cold"
+        class = "pc_frozen"
         orbit_distance = 80
         orbit_angle = 187
         has_ring = no
@@ -1640,7 +1634,7 @@ sys_pamyat_init = {
 
     planet = {
         name = "NAME_Patsayev"
-        class = "pc_frozen_oceans"
+        class = "pc_frozen"
         orbit_distance = 50
         orbit_angle = 260
         has_ring = no
@@ -1657,7 +1651,7 @@ sys_pamyat_init = {
 		size = 4
 		moon = {
 			name = "NAME_Zenevieva"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_frozen"
 			size = 2
 			orbit_angle = 36
 			orbit_distance = 4
@@ -1665,7 +1659,7 @@ sys_pamyat_init = {
 		
 		moon = {
 			name = "NAME_Alena"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_frozen"
 			size = 3
 			orbit_angle = 36
 			orbit_distance = 4
@@ -1723,7 +1717,7 @@ sys_sheol_init = {
 
     planet = {
         name = "NAME_Gei_Hinnom"
-        class = "pc_tidallylocked_hot"
+        class = "pc_desert"
         orbit_distance = 55
         orbit_angle = 220
         has_ring = no
@@ -1782,7 +1776,7 @@ sys_century_init = {
 	
     planet = {
         name = "NAME_Tamahera"
-        class = "pc_barren_cold"
+        class = "pc_mephitic_frozen"
         orbit_distance = 80
         orbit_angle = 165
         has_ring = no
@@ -1791,14 +1785,14 @@ sys_century_init = {
 
     planet = {
         name = "NAME_Klendagon"
-        class = "pc_sand_sea_cold"
+        class = "pc_dextro_arid"
         orbit_distance = 60
         orbit_angle = 164
         has_ring = no
 		size = 18
         moon = {
             name = "NAME_Presrop"
-            class = "pc_barren_cold"
+            class = "pc_ethane_frozen"
             orbit_distance = 10
             orbit_angle = 180
             has_ring = no
@@ -1826,7 +1820,7 @@ sys_century_init = {
 	
     planet = {
         name = "NAME_Canctra"
-        class = "pc_frozen"
+        class = "pc_mephitic_frozen"
         orbit_distance = 80
         orbit_angle = 1
         has_ring = no
@@ -1843,24 +1837,24 @@ sys_century_init = {
 		size = 36
 		moon = {
 			name = "NAME_Tharopto_a"
-			class = "pc_barren_cold"
+			class = "pc_shattered"
 			orbit_angle = 46
-			orbit_distance = 8
-			size = 4
+			orbit_distance = 5
+			size = 2
 		}
 		moon = {
 			name = "NAME_Tharopto_b"
-			class = "pc_barren_cold"
+			class = "pc_shattered"
 			orbit_angle = 180
-			orbit_distance = 8
-			size = 3
+			orbit_distance = 0
+			size = 2
 		}	
 		moon = {
 			name = "NAME_Tharopto_c"
-			class = "pc_orbiting_asteroid"
+			class = "pc_shattered"
 			orbit_angle = 300
-			orbit_distance = 8
-			size = 4
+			orbit_distance = 0
+			size = 2
 		}		
 	}
 
@@ -1980,7 +1974,7 @@ sys_schwarzschild_init = {
 		size = 37
         moon = {
             name = "NAME_Rihali_a"
-            class = "pc_barren_cold"
+            class = "pc_frozen"
             orbit_distance = 8
             orbit_angle = 325
             has_ring = no
@@ -1988,7 +1982,7 @@ sys_schwarzschild_init = {
         }
         moon = {
             name = "NAME_Rihali_b"
-            class = "pc_barren"
+            class = "pc_desolate"
             orbit_distance = 8
             orbit_angle = 325
             has_ring = no
@@ -2035,7 +2029,7 @@ sys_thorne_init = {
 		size = 37
         moon = {
             name = "NAME_Lethe"
-            class = "pc_tidallylocked_methane"
+            class = "pc_methane"
             orbit_distance = 20
             orbit_angle = 325
             has_ring = no
@@ -2043,7 +2037,7 @@ sys_thorne_init = {
         }
         moon = {
             name = "NAME_Mnemosyne_b"
-            class = "pc_barren"
+            class = "pc_methane_barren"
             orbit_distance = 8
             orbit_angle = 325
             has_ring = no
@@ -2128,7 +2122,7 @@ sys_verr_init = {
         }
         moon = {
 			name = "NAME_Serao_c"		
-            class = "pc_barren_cold"
+            class = "pc_frozen"
             orbit_distance = 9
             orbit_angle = 304
             has_ring = no
@@ -2137,7 +2131,7 @@ sys_verr_init = {
         }
         moon = {
 			name = "NAME_Serao_d"		
-            class = "pc_barren_cold"
+            class = "pc_frozen"
             orbit_distance = 12
             orbit_angle = 296
             has_ring = no
@@ -2178,7 +2172,7 @@ sys_aquila_init = {
         has_ring = no
 		moon = {
 			name = "NAME_Lepini_a"
-			class = "pc_barren_warm"
+			class = "pc_desolate"
 			orbit_angle = 175
 			orbit_distance = 8
 			size = 5
@@ -2194,7 +2188,7 @@ sys_aquila_init = {
 
     planet = {
         name = "NAME_Vecchio"
-        class = "pc_sand_sea_hot"
+        class = "pc_mephitic_desert"
         orbit_distance = 40
         orbit_angle = 174
         size = 16
@@ -2204,7 +2198,7 @@ sys_aquila_init = {
 
     planet = {
         name = "NAME_Volturno"
-        class = "pc_arctic"
+        class = "pc_mephitic_arctic"
         orbit_distance = 70
         orbit_angle = 207
         size = 25
@@ -2218,7 +2212,6 @@ sys_aquila_init = {
         orbit_angle = 214
         size = 37
         has_ring = no
-
     }
 
     planet = {
@@ -2230,14 +2223,14 @@ sys_aquila_init = {
         has_ring = no
 		moon = {
 			name = "NAME_Pollino_a"
-			class = "pc_barren_cold"
+			class = "pc_ammonia_arctic"
 			orbit_angle = 275
 			orbit_distance = 8
 			size = 4
 		}	
 		moon = {
 			name = "NAME_Pollino_b"
-			class = "pc_barren_cold"
+			class = "pc_ammonia_frozen"
 			orbit_angle = 164
 			orbit_distance = 8
 			size = 3
@@ -2275,7 +2268,7 @@ sys_elysta_init = {
 
     planet = {
         name = "NAME_Saleas"
-        class = "pc_tidallylocked_barren"
+        class = "pc_mephitic_barren"
         orbit_distance = 30
         orbit_angle = 252
         size = 8
@@ -2285,7 +2278,7 @@ sys_elysta_init = {
 
     planet = {
         name = "NAME_Zeona"
-        class = "pc_toxic"
+        class = "pc_mephitic_desert"
         orbit_distance = 30
         orbit_angle = 185
         size = 11
@@ -2312,14 +2305,14 @@ sys_elysta_init = {
         has_ring = yes
 		moon = {
 			name = "NAME_Hesano_a"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_desolate"
 			orbit_angle = 120
 			orbit_distance = 8
 			size = 3
 		}	
 		moon = {
 			name = "NAME_Hesano_b"
-			class = "pc_barren_cold"
+			class = "pc_desolate"
 			orbit_angle = 265
 			orbit_distance = 8
 			size = 3
@@ -2335,14 +2328,14 @@ sys_elysta_init = {
         has_ring = no
 		moon = {
 			name = "NAME_Melile_a"
-			class = "pc_barren_cold"
+			class = "pc_methane_frozen"
 			orbit_angle = 96
 			orbit_distance = 8
 			size = 3
 		}	
 		moon = {
 			name = "NAME_Melile_b"
-			class = "pc_barren_cold"
+			class = "pc_frozen"
 			orbit_angle = 17
 			orbit_distance = 8
 			size = 3
@@ -2401,7 +2394,7 @@ sys_faia_init = {
 
     planet = {
         name = "NAME_Zorya"
-        class = "pc_jungle"
+        class = "pc_tropical"
         orbit_distance = 50
         orbit_angle = 319
         size = 15
@@ -2411,7 +2404,7 @@ sys_faia_init = {
 	
 		moon = {
 			name = "NAME_Utrenn"
-			class = "pc_barren"
+			class = "pc_mephitic_savannah"
 			orbit_angle = 254
 			orbit_distance = 8
 			size = 5
@@ -2427,7 +2420,7 @@ sys_faia_init = {
 
     planet = {
         name = "NAME_Viantel"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_frozen"
         orbit_distance = 60
         orbit_angle = 235
         size = 3
@@ -2443,14 +2436,14 @@ sys_faia_init = {
         has_ring = no
 		moon = {
 			name = "NAME_Hito_a"
-			class = "pc_barren_cold"
+			class = "pc_frozen"
 			orbit_angle = 90
 			orbit_distance = 8
 			size = 7
 		}	
 		moon = {
 			name = "NAME_Hito_b"
-			class = "pc_dwarf_planetoid_cold"
+			class = "pc_desolate"
 			orbit_angle = 210
 			orbit_distance = 6
 			size = 5
@@ -2504,7 +2497,7 @@ sys_herschel_init = {
 
     planet = {
         name = "NAME_Tungel"
-        class = "pc_ethane"
+        class = "pc_ethane_barren"
         orbit_distance = 65
         orbit_angle = 14
         has_ring = no
@@ -2514,7 +2507,7 @@ sys_herschel_init = {
 
     planet = {
         name = "NAME_Matol"
-        class = "pc_irradiated"
+        class = "pc_hothouse"
         orbit_distance = 40
         orbit_angle = 265
         has_ring = no
@@ -2531,7 +2524,7 @@ sys_herschel_init = {
 		size = 26
         moon = {
 			name= "NAME_Clugon_a"
-            class = "pc_barren_cold"
+            class = "pc_desolate"
             orbit_distance = 8
             orbit_angle = 118
             has_ring = no
@@ -2540,7 +2533,7 @@ sys_herschel_init = {
         }
         moon = {
 			name= "NAME_Clugon_b"
-            class = "pc_barren_cold"
+            class = "pc_desolate"
             orbit_distance = 6
             orbit_angle = 99
             has_ring = no
@@ -2549,7 +2542,7 @@ sys_herschel_init = {
         }
         moon = {
 			name= "NAME_Clugon_c"
-            class = "pc_dwarf_planetoid_frozen"
+            class = "pc_chlorine_frozen"
             orbit_distance = 5
             orbit_angle = 116
             has_ring = no
@@ -2560,7 +2553,7 @@ sys_herschel_init = {
 
     planet = {
         name = "NAME_Clobaka"
-        class = "pc_chlorine"
+        class = "pc_chlorine_arid"
         orbit_distance = 60
         orbit_angle = 186
         has_ring = yes
@@ -2610,21 +2603,21 @@ sys_newton_init = {
 
     planet = {
         name = "NAME_Ontarom"
-        class = "pc_savannah"
+        class = "pc_desert"
         orbit_distance = 50
         orbit_angle = 32
         has_ring = no
 		size = 16
 		moon = {
 			name = "NAME_Thonal"
-			class = "pc_barren_cold"
+			class = "pc_desolate"
 			orbit_angle = 86
-			orbit_distance = 6
+			orbit_distance = 5
 			size = 5
 		}
 		moon = {
 			name = "NAME_Ontarom_b"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_barren"
 			orbit_angle = 246
 			orbit_distance = 9
 			size = 4
@@ -2653,7 +2646,7 @@ sys_newton_init = {
 
     planet = {
         name = "NAME_Sesmose"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_desolate"
         orbit_distance = 50
         orbit_angle = 211
         has_ring = yes
@@ -2690,7 +2683,7 @@ sys_caspian_init = {
 
     planet = {
         name = "NAME_Clotanca"
-        class = "pc_irradiated"
+        class = "pc_mephitic_barren"
         orbit_distance = 75
         orbit_angle = 223
         has_ring = no
@@ -2700,7 +2693,7 @@ sys_caspian_init = {
 
     planet = {
         name = "NAME_Farnuri"
-        class = "pc_barren"
+        class = "pc_mephitic_frozen"
         orbit_distance = 40
         orbit_angle = 326
         has_ring = no
@@ -2710,7 +2703,7 @@ sys_caspian_init = {
 
     planet = {
         name = "NAME_Almarcrux"
-        class = "pc_primordial"
+        class = "pc_methane_barren" #Primordial?
         orbit_distance = 45
         orbit_angle = 162
         has_ring = no
@@ -2772,7 +2765,7 @@ sys_matano_init = {
 
     planet = {
         name = "NAME_Inti"
-        class = "pc_tidallylocked_ammonia"
+        class = "pc_ammonia_barren"
         orbit_distance = 60
         orbit_angle = 16
         has_ring = no
@@ -2782,7 +2775,7 @@ sys_matano_init = {
 
     planet = {
         name = "NAME_Chasca"
-        class = "pc_tidallylocked"
+        class = "pc_savannah"
         orbit_distance = 25
         orbit_angle = 238
         has_ring = yes
@@ -2811,7 +2804,7 @@ sys_matano_init = {
 
         moon = {
             name = "NAME_Illapa_a"
-			class = "pc_dwarf_planetoid"
+			class = "pc_desolate"
             orbit_distance = 8
             orbit_angle = 144
             has_ring = no
@@ -2820,7 +2813,7 @@ sys_matano_init = {
 
         moon = {
 			name= "NAME_Illapa_b"
-            class = "pc_barren_cold"
+            class = "pc_frozen"
             orbit_distance = 10
             orbit_angle = 98
             has_ring = no
@@ -2839,7 +2832,7 @@ sys_matano_init = {
 
     planet = {
         name = "NAME_Supay"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_mephitic_dextro_frozen"
         orbit_distance = 50
         orbit_angle = 213
         has_ring = no
@@ -2896,7 +2889,7 @@ sys_vostok_init = {
 
     planet = {
         name = "NAME_Clomarthu"
-        class = "pc_scorched"
+        class = "pc_methane_barren"
         orbit_distance = 80
         orbit_angle = 12
         has_ring = no
@@ -2906,7 +2899,7 @@ sys_vostok_init = {
 
     planet = {
         name = "NAME_Nodacrux"
-        class = "pc_continental"
+        class = "pc_mephitic_continental"
         orbit_distance = 45
         orbit_angle = 158
         has_ring = no
@@ -2916,7 +2909,7 @@ sys_vostok_init = {
 
     planet = {
         name = "NAME_Alko"
-        class = "pc_frozen"
+        class = "pc_mephitic_frozen"
         orbit_distance = 60
         orbit_angle = 132
         has_ring = no
@@ -2973,7 +2966,7 @@ sys_maskimxul_init = {
 
     planet = {
         name = "NAME_Suen"
-        class = "pc_tidallylocked_chlorine"
+        class = "pc_chlorine_barren"
         orbit_distance = 50
         orbit_angle = 39
         size = 7
@@ -2985,7 +2978,7 @@ sys_maskimxul_init = {
 
     planet = {
         name = "NAME_Kashshaptu"
-        class = "pc_dwarf_planetoid_hot"
+        class = "pc_scorched"
         orbit_distance = 40
         orbit_angle = 206
         has_ring = no
@@ -3049,7 +3042,7 @@ sys_mullaxul_init = {
 
     planet = {
         name = "NAME_Utukku"
-        class = "pc_crag"
+        class = "pc_desert"
         orbit_distance = 30
         orbit_angle = 132
         has_ring = no
@@ -3109,7 +3102,7 @@ sys_dakka_init = {
 
     planet = {
         name = "NAME_Pragia"
-        class = "pc_jungle"
+        class = "pc_tropical"
         orbit_distance = 20
         orbit_angle = 156
         has_ring = no
@@ -3136,28 +3129,28 @@ sys_dakka_init = {
 		size = 33
 		moon = { 
 			name = "NAME_Gamayun_a"
-			class = "pc_dwarf_planetoid_cold"
+			class = "pc_ammonia_barren"
 			orbit_angle = 145
 			orbit_distance = 6
 			size = 3
 		}	
 		moon = { 
 			name = "NAME_Gamayun_b"
-			class = "pc_barren_cold"
+			class = "pc_methane_frozen"
 			orbit_angle = 82
 			orbit_distance = 6
 			size = 2
 		}
 		moon = { 
 			name = "NAME_Gamayun_c"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_desolate"
 			orbit_angle = 340
 			orbit_distance = 6
 			size = 2
 		}
 		moon = { 
 			name = "NAME_Gamayun_d"
-			class = "pc_crag"
+			class = "pc_desolate"
 			orbit_angle = 1
 			orbit_distance = 8
 			size = 5
@@ -3171,7 +3164,7 @@ sys_dakka_init = {
 		}
 		moon = { 
 			name = "NAME_Gigula"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_frozen"
 			orbit_angle = 16
 			orbit_distance = 8
 			size = 4
@@ -3180,7 +3173,7 @@ sys_dakka_init = {
 
     planet = {
         name = "NAME_Zirnitra"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_desolate"
         orbit_distance = 55
         orbit_angle = 264
         has_ring = no
@@ -3300,21 +3293,21 @@ sys_qertassi_init = {
 		size = 32
 		moon = {
 			name = "NAME_Norehsa_a"
-			class = "pc_dwarf_planetoid_cold"
+			class = "pc_methane_arctic"
 			orbit_angle = 76
 			orbit_distance = 6
 			size = 4
 		}
 		moon = {
 			name = "NAME_Norehsa_b"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_desolate"
 			orbit_angle = 114
 			orbit_distance = 7
 			size = 3
 		}
 		moon = {
 			name = "NAME_Norehsa_c"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_desolate"
 			orbit_angle = 196
 			orbit_distance = 6
 			size = 4
@@ -3354,7 +3347,7 @@ sys_nx2185_init = {
 
     planet = {
         name = "NAME_113_Kerad"
-        class = "pc_molten"
+        class = "pc_desolate"
         orbit_distance = 35
         orbit_angle = 353
         has_ring = no
@@ -3370,7 +3363,7 @@ sys_nx2185_init = {
 		size = 15
 		moon = {
 			name = "NAME_433_Spidau_a"
-			class = "pc_barren"
+			class = "pc_desolate"
 			orbit_angle = random
 			orbit_distance = 6
 			size = 5
@@ -3386,14 +3379,14 @@ sys_nx2185_init = {
 		size = 36
 		moon = {
 			name = "NAME_704_Jawinor_a"
-			class = "pc_barren"
+			class = "pc_desolate"
 			orbit_angle = random
 			orbit_distance = 6
 			size = 8
 		}
 		moon = {
 			name = "NAME_704_Jawinor_b"
-			class = "pc_frozen"
+			class = "pc_ammonia_frozen"
 			orbit_angle = random
 			orbit_distance = 8
 			size = 4
@@ -3427,7 +3420,7 @@ sys_nx2176_init = {
 	
     planet = {
         name = "NAME_NX2176I"
-        class = "pc_tidallylocked"
+        class = "pc_desolate"
         orbit_distance = 45
         orbit_angle = 142
         has_ring = no
@@ -3436,7 +3429,7 @@ sys_nx2176_init = {
     
 	planet = {
         name = "NAME_NX2176II"
-        class = "pc_dwarf_planetoid"
+        class = "pc_dextro_arid"
         orbit_distance = 35
         orbit_angle = 76
         has_ring = no
@@ -3454,7 +3447,7 @@ sys_nx2176_init = {
 	
 	planet = {
         name = "NAME_NX2176IV"
-        class = "pc_continental"
+        class = "pc_dextro_continental"
         orbit_distance = 60
         orbit_angle = 300
         has_ring = no
@@ -3470,14 +3463,14 @@ sys_nx2176_init = {
 		size = 30
 		moon = {
 			name = "NAME_NX2176V_a"
-			class = "pc_arid"
+			class = "pc_dextro_arid"
 			orbit_angle = random
 			orbit_distance = 8
 			size = 12
 		}	
 		moon = {
 			name = "NAME_NX2176V_b"
-			class = "pc_barren"
+			class = "pc_dextro_barren"
 			orbit_angle = random
 			orbit_distance = 9
 			size = 8
@@ -3529,7 +3522,7 @@ sys_cubseh_init = {
 
 	planet = {
 		name = "NAME_Phelinia"
-		class = "pc_savannah"
+		class = "pc_dextro_savannah"
 		orbit_distance = 40
 		size = 17
 	}	
@@ -3544,7 +3537,7 @@ sys_cubseh_init = {
 
 	planet = {
 		name = "NAME_Senarc"
-		class = "pc_chlorine"
+		class = "pc_chlorine_arctic"
 		orbit_distance = 50
 		size = 13
 	}
@@ -3558,7 +3551,7 @@ sys_cubseh_init = {
 
 	planet = {
 		name = "NAME_Tonat"
-		class = "pc_dwarf_planetoid_frozen"
+		class = "pc_frozen"
 		orbit_distance = 55
 		size = 4
 	}	
@@ -3605,7 +3598,7 @@ sys_klin_init = {
 	
 	planet = {
 		name = "NAME_Orbid"
-		class = "pc_irradiated"
+		class = "pc_scorched"
 		orbit_distance = 80
 		size = 20
 	}
@@ -3701,7 +3694,6 @@ sys_refuge_init = {
 	}
 }
 
-#####################################################################
 
 #####PYLOS NEBULA#####
 
@@ -3736,7 +3728,7 @@ sys_dirada_init = {
 
     planet = {
         name = "NAME_Siano"
-        class = "pc_tidallylocked_barren"
+        class = "pc_mephitic_barren"
         orbit_distance = 110
         orbit_angle = 329
         has_ring = no
@@ -3746,7 +3738,7 @@ sys_dirada_init = {
 
     planet = {
         name = "NAME_Thenusi"
-        class = "pc_tidallylocked_barren"
+        class = "pc_mephitic_frozen"
         orbit_distance = 40
         orbit_angle = 112
         has_ring = no
@@ -3756,7 +3748,7 @@ sys_dirada_init = {
 
     planet = {
         name = "NAME_Canalus"
-        class = "pc_volcanic"
+        class = "pc_geothermal"
         orbit_distance = 25
         orbit_angle = 272
         has_ring = no
@@ -3783,21 +3775,21 @@ sys_dirada_init = {
 		size = 33
 		moon = {
 			name = "NAME_Sineus_a"
-			class = "pc_barren_cold"
+			class = "pc_desolate"
 			orbit_angle = 170
 			orbit_distance = 8
 			size = 6
 		}	
 		moon = {
 			name = "NAME_Sineus_b"
-			class = "pc_tidallylocked_barren"
+			class = "pc_ethane_arid"
 			orbit_angle = 240
 			orbit_distance = 8
 			size = 6
 		}
 		moon = {
 			name = "NAME_Sineus_c"
-			class = "pc_frozen"
+			class = "pc_chlorine_dextro_savannah"
 			orbit_angle = 35
 			orbit_distance = 8
 			size = 8
@@ -3813,14 +3805,14 @@ sys_dirada_init = {
 		size = 28
 		moon = {
 			name = "NAME_Vioressa_a"
-			class = "pc_frozen_desert"
+			class = "pc_ethane_arctic"
 			orbit_angle = 60
 			orbit_distance = 8
 			size = 4
 		}	
 		moon = {
 			name = "NAME_Vioressa_b"
-			class = "pc_frozen_oceans"
+			class = "pc_desolate"
 			orbit_angle = 260
 			orbit_distance = 8
 			size = 4
@@ -3870,7 +3862,7 @@ sys_kriseroi_init = {
 
     planet = {
         name = "NAME_Neidus"
-        class = "pc_tidallylocked"
+        class = "pc_tundra"
         orbit_distance = 25
         orbit_angle = 11
         has_ring = no
@@ -3880,7 +3872,7 @@ sys_kriseroi_init = {
 
     planet = {
         name = "NAME_Theonax"
-        class = "pc_cryovolcanic"
+        class = "pc_ammonia_arctic"
         orbit_distance = 35
         orbit_angle = 202
         has_ring = no
@@ -3897,7 +3889,7 @@ sys_kriseroi_init = {
 		size = 29
 		moon = {
 			name = "NAME_Chithess"
-			class = "pc_frozen_oceans"
+			class = "pc_dextro_frozen"
 			orbit_angle = 90
 			orbit_distance = 7
 			size = 9
@@ -3916,7 +3908,7 @@ sys_kriseroi_init = {
 
     planet = {
         name = "NAME_Tenoth"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_desolate"
         orbit_distance =120
         orbit_angle = 4
         has_ring = no
@@ -3983,7 +3975,7 @@ sys_nariph_init = {
 		size = 25
 		moon = {
 			name = "NAME_Jonus_a"
-			class = "pc_frozen_desert"
+			class = "pc_frozen"
 			orbit_angle = 100
 			orbit_distance = 8
 			size = 8
@@ -4033,7 +4025,7 @@ sys_satent_init = {
 
     planet = {
         name = "NAME_Raisaris"
-        class = "pc_barren"
+        class = "pc_desolate"
         orbit_distance = 40
         orbit_angle = 231
         has_ring = no
@@ -4043,7 +4035,7 @@ sys_satent_init = {
 
     planet = {
         name = "NAME_Anedia"
-        class = "pc_barren_cold"
+        class = "pc_mephitic_frozen"
         orbit_distance = 45
         orbit_angle = 198
         has_ring = no
@@ -4053,7 +4045,7 @@ sys_satent_init = {
 
     planet = {
         name = "NAME_Boro"
-        class = "pc_ammonia"
+        class = "pc_ammonia_tundra"
         orbit_distance = 40
         orbit_angle = 148
         has_ring = no
@@ -4122,7 +4114,7 @@ sys_zaherin_init = {
 
     planet = {
         name = "NAME_Namakli"
-        class = "pc_arid"
+        class = "pc_ethane_arid"
         orbit_distance = 30
         orbit_angle = 75
         has_ring = no
@@ -4173,7 +4165,7 @@ sys_tiedcaur_init = {
 
 	planet = {
 		name = "NAME_Bystryo" 
-		class = "pc_ethane"
+		class = "pc_scorched"
 		orbit_distance = 45
 		orbit_angle = 200
 		size = 12
@@ -4181,7 +4173,7 @@ sys_tiedcaur_init = {
 
     planet = {
         name = "NAME_Ziednar"
-        class = "pc_sand_sea"
+        class = "pc_ethane_arid"
         orbit_distance = 35
         orbit_angle = 350
         has_ring = no
@@ -4191,7 +4183,7 @@ sys_tiedcaur_init = {
 
     planet = {
         name = "NAME_Undak"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_dextro_frozen"
         orbit_distance = 95
         orbit_angle = 110
         has_ring = no
@@ -4231,7 +4223,7 @@ sys_maita_init = {
 
 	planet = {
 		name = "NAME_Esse"
-		class = "pc_barren_warm"
+		class = "pc_dextro_barren"
 		orbit_distance = 65
 		size = 8
 		moon = { 
@@ -4250,7 +4242,7 @@ sys_maita_init = {
 		has_ring = yes
 		moon = {
 			name = "NAME_Pella"
-			class = "pc_continental"
+			class = "pc_dextro_continental"
 			orbit_distance = 10
 			size = 15
 		}
@@ -4301,14 +4293,14 @@ sys_carnit_init = {
 
 	planet = {
 		name = "NAME_Yanoc"
-		class = "pc_ethane"
+		class = "pc_ethane_continental"
 		orbit_distance = 50
 		size = 15
 	}
 
 	planet = {
 		name = "NAME_Hobgaad"
-		class = "pc_swamp"
+		class = "pc_dextro_tundra"
 		orbit_distance = 70
 		size = 25
 	}	
@@ -4358,7 +4350,7 @@ sys_hoc_init = {
 
     planet = {
         name = "NAME_Nemata"
-        class = "pc_scorched"
+        class = "pc_ammonia_barren"
         orbit_distance = 20
         orbit_angle = 302
         has_ring = no
@@ -4388,7 +4380,7 @@ sys_hoc_init = {
 
     planet = {
         name = "NAME_Prescyla"
-        class = "pc_dwarf_planetoid_frozen"
+        class = "pc_desolate"
         orbit_distance = 30
         orbit_angle = 142
         has_ring = no
@@ -4438,7 +4430,7 @@ sys_telith_init = {
 	
 	planet = {
 		name = "NAME_Sapfir"
-		class = "pc_barren"
+		class = "pc_dextro_barren"
 		orbit_distance = 80
 		has_ring = no
 		size = 12
@@ -4490,7 +4482,7 @@ sys_anauroch_init = {
 
 	planet = {
 		name = "NAME_Thultanthar"
-		class = "pc_crag"
+		class = "pc_barren"
 		orbit_distance = 80
 		size = "15"
 	}	
@@ -4502,14 +4494,14 @@ sys_anauroch_init = {
 		size = 32
 		moon = {
 			name = "NAME_Drannor_a"
-			class = "pc_barren_cold"
+			class = "pc_dextro_frozen"
 			orbit_angle = 74
 			orbit_distance = 8
 			size = 11
 		}	
 		moon = {
 			name = "NAME_Drannor_b"
-			class = "pc_dwarf_planetoid_frozen"
+			class = "pc_chlorine_frozen"
 			orbit_angle = 136
 			orbit_distance = 8
 			size = 4
@@ -4567,13 +4559,13 @@ sys_bahanak_init = {
 	
 	planet = {
 		name = "NAME_Mythal"
-		class = "pc_continental"
+		class = "pc_methane_continental"
 		orbit_distance = 45
 		orbit_angle = 90
 		size = 20
 		moon = {
 			name = "NAME_FalonDin"
-			class = "pc_volcanic"
+			class = "pc_geothermal"
 			orbit_angle = 120
 			orbit_distance = 6
 			size = 12
@@ -4587,21 +4579,21 @@ sys_bahanak_init = {
 		}
 		moon = {
 			name = "NAME_Andruil"
-			class = "pc_postgarden"
+			class = "pc_dextro_savannah"
 			orbit_angle = 120
 			orbit_distance = 7
 			size = 6
 		}		
 		moon = {
 			name = "NAME_Sylaise"
-			class = "pc_dwarf_planetoid_cold"
+			class = "pc_desolate"
 			orbit_angle = 120
 			orbit_distance = 7
 			size = 3
 		}	
 		moon = {
 			name = "NAME_June"
-			class = "pc_frozen_desert"
+			class = "pc_desolate"
 			orbit_angle = 120
 			orbit_distance = 7
 			size = 6
@@ -4668,19 +4660,19 @@ sys_iera_init = {
 		size = 32
 		moon = {
 			name = "NAME_Prospect_a"
-			class = "pc_barren"
+			class = "pc_desolate"
 			orbit_distance = 8
 			size = 7
 		}
 		moon = {
 			name = "NAME_Prospect_b"
-			class = "pc_dwarf_planetoid"
+			class = "pc_desolate"
 			orbit_distance = 8
 			size = 3
 		}		
 		moon = {
 			name = "NAME_Prospect_c"
-			class = "pc_asteroid"
+			class = "pc_orbiting_asteroid"
 			orbit_distance = 4
 			size = 2
 		}		
@@ -4698,7 +4690,7 @@ sys_iera_init = {
 
     planet = {
         name = "NAME_Watchman"
-        class = "pc_barren_cold"
+        class = "pc_desolate"
         orbit_distance = 70
         orbit_angle = 154
         has_ring = no
@@ -4749,7 +4741,7 @@ sys_netheril_init = {
 
 	planet = {
 		name = "NAME_Landeth"
-		class = "pc_tidallylocked_hot"
+		class = "pc_scorched"
 		orbit_distance = 30
 		size = 16
 	}
@@ -4811,7 +4803,7 @@ sys_acheron_init = {
 
     planet = {
         name = "NAME_Farthorl"
-        class = "pc_chlorine_hot"
+        class = "pc_chlorine_barren"
         orbit_distance = 30
         orbit_angle = 174
         has_ring = no
@@ -4821,14 +4813,14 @@ sys_acheron_init = {
 
     planet = {
         name = "NAME_Altahe"
-        class = "pc_ethane"
+        class = "pc_ethane_desert"
         orbit_distance = 40
         orbit_angle = 134
         has_ring = no
 		size = 11
 		moon = {
 			name = "NAME_Ontahe"
-			class = "pc_ethane"
+			class = "pc_ethane_desert"
 			orbit_distance = 2
 			size = 8
 		}	
@@ -4836,7 +4828,7 @@ sys_acheron_init = {
 
     planet = {
         name = "NAME_Grosalgen"
-        class = "pc_frozen"
+        class = "pc_ethane_frozen"
         orbit_distance = 80
         orbit_angle = 27
         has_ring = no
@@ -4846,7 +4838,7 @@ sys_acheron_init = {
 
     planet = {
         name = "NAME_Imaneya"
-        class = "pc_frozen_oceans"
+        class = "pc_frozen"
         orbit_distance = 45
         orbit_angle = 213
         has_ring = no
@@ -4891,7 +4883,7 @@ sys_erebus_init = {
 
     planet = {
         name = "NAME_Nepmos"
-        class = "pc_molten"
+        class = "pc_mephitic_barren"
         orbit_distance = 60
         orbit_angle = 12
         has_ring = no
@@ -4900,7 +4892,7 @@ sys_erebus_init = {
 
     planet = {
         name = "NAME_Quaji"
-        class = "pc_methane"
+        class = "pc_methane_arctic"
         orbit_distance = 50
         orbit_angle = 143
         has_ring = no
@@ -4920,7 +4912,7 @@ sys_erebus_init = {
 
     planet = {
         name = "NAME_Chofen"
-        class = "pc_gas_giant"
+        class = "pc_ice_giant"
         orbit_distance = 25
         orbit_angle = 310
         has_ring = no
@@ -5004,7 +4996,7 @@ sys_brekkenz_init = {
 
 	planet = {
 		name = "NAME_Bil"
-		class = "pc_barren"
+		class = "pc_dextro_barren"
 		orbit_angle = random
 		orbit_distance = 50
 		size = 14
@@ -5012,7 +5004,7 @@ sys_brekkenz_init = {
 
 	planet = {
 		name = "NAME_Yuki"
-		class = "pc_ocean"
+		class = "pc_ammonia_ocean"
 		orbit_angle = random
 		has_ring = yes
 		orbit_distance = 60
@@ -5051,20 +5043,20 @@ sys_fen_init = {
 	
 	planet = {
 		name = "NAME_Vingolf"
-		class = "pc_barren_warm"
+		class = "pc_scorched"
 		orbit_angle = random
 		orbit_distance = 40
 	}	
 	
 	planet = {
 		name = "NAME_Amsvartnir"
-		class = "pc_ocean"
+		class = "pc_dextro_ocean"
 		orbit_angle = random
 		orbit_distance = 40
 		size = 13
 		moon = 	{
 			name = "NAME_Amsvartnir_a"
-			class = "pc_barren_warm"
+			class = "pc_dextro_tundra"
 			orbit_angle = random
 			orbit_distance = 8
 			size = 4
@@ -5073,7 +5065,7 @@ sys_fen_init = {
 
 	planet = {
 		name = "NAME_Lyngvi"
-		class = "pc_continental"
+		class = "pc_ammonia_continental"
 		orbit_angle = random
 		orbit_distance = 15
 		size = 12
@@ -5105,7 +5097,7 @@ sys_hedek_init = {
 
 	planet = {
 		name = "NAME_Nuuk"
-		class = "pc_continental"
+		class = "pc_chlorine_continental"
 		orbit_distance = 35
 		size = 16
 	}
@@ -5149,7 +5141,4 @@ sys_vali_init = {
         orbit_distance = 0
         size = 30
     }
-	
-
-	
 }
