@@ -7,12 +7,12 @@
 sys_arcturus_init = {
 
     name = "NAME_Arcturus"
-    class = "sc_a"
+    class = "sc_k"
 
     planet = {
-        class = "pc_a_star"
+        class = "pc_k_star"
         orbit_distance = 0
-        size = 20
+        size = 30
     }
 	
 	asteroid_belt = {
@@ -25,7 +25,7 @@ sys_arcturus_init = {
         class = "pc_asteroid"
         orbit_distance = 45
         orbit_angle = 151
-        size = 5
+        size = 2
         has_ring = no
 
     }
@@ -35,7 +35,7 @@ sys_arcturus_init = {
         class = "pc_gas_giant"
         orbit_distance = 60
         orbit_angle = 75
-        size = 30
+        size = 34
         has_ring = no
 
     }
@@ -45,17 +45,17 @@ sys_arcturus_init = {
         class = "pc_gas_giant"
         orbit_distance = 30
         orbit_angle = 182
-        size = 24
+        size = 31
         has_ring = yes
 
     }
 
     planet = {
         name = "NAME_Eunomia"
-        class = "pc_barren_cold"
+        class = "pc_desolate"
         orbit_distance = 30
         orbit_angle = 289
-        size = 14
+        size = 11
         has_ring = no
 
     }
@@ -63,7 +63,7 @@ sys_arcturus_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "arcturusstream_localcluster_massrelay" 
-			name = "Arcturus 1 Relay"
+			name = "NAME_Arcturus_1_Relay"
 			random_pos = NO 
 			orbit_distance = 200
 			
@@ -83,10 +83,10 @@ sys_euler_init = {
 
     planet = {
         name = "NAME_Fermi"
-        class = "pc_barren"
+        class = "pc_scorched"
         orbit_distance = 35
         orbit_angle = 14
-        size = 14
+        size = 10
         has_ring = no
 
     }
@@ -96,7 +96,7 @@ sys_euler_init = {
         class = "pc_continental"
         orbit_distance = 25
         orbit_angle = 199
-        size = 19
+        size = 23
         has_ring = no
 
     }
@@ -106,35 +106,32 @@ sys_euler_init = {
         class = "pc_barren"
         orbit_distance = 40
         orbit_angle = 109
-        size = 9
+        size = 7
         has_ring = no
 
     }
 
     planet = {
         name = "NAME_Silva"
-        class = "pc_gas_giant"
+        class = "pc_ice_giant"
         orbit_distance = 30
         orbit_angle = 197
         size = 15
         has_ring = no
-
+		moon = {
+			name = "NAME_Olveira"
+			class = "pc_arid"
+			orbit_distance = 8
+			size = 11
+		}	
     }
-
-    init_effect = {
-		spawn_megastructure = {
-            type = "relay_ruined_2"
-            random_pos = yes
-			orbit_angle = 360
-		}
-	}
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "arcturusstream_exoduscluster_massrelay" 
-			name = "Arcturus 2 Relay"
+			name = "NAME_Arcturus_2_Relay"
 			random_pos = NO 
-			orbit_distance = 200
+			orbit_distance = 180
 			
 		} 
 	}		
@@ -142,17 +139,166 @@ sys_euler_init = {
 }
 
 sys_rua_init = {
-    name = "NAME_Rua"
-    class = "sc_g"
+    name = "NAME_SM_2183_Rua"
+    class = "sc_m_hyper"
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 75
+	}	
 
     planet = {
-        class = "pc_g_star"
+		name = "NAME_SM_2183_Rua"
+        class = "pc_m_hyper_star"
         orbit_distance = 0
-        size = 20
+        size = 30
     }
+	
+	planet = {
+		name = "NAME_DH1993"
+		class = "pc_barren"
+		orbit_distance = 30
+		size = 12
+	}
+
+	planet = {
+		name = "NAME_DC1939"
+		class = "pc_shattered"
+		orbit_distance = 45
+		size = 18
+	}
+
+	planet = {
+		name = "NAME_L2183"
+		class = "pc_desolate"
+		orbit_distance = 45
+		size = 9
+	}	
+
+	planet = {
+		name = "NAME_MV1963"
+		class = "pc_gas_giant"
+		orbit_distance = 65
+		size = 37
+	}		
 }	
 	
+sys_42518p_init = {
+    name = "NAME_42518P"
+    class = "sc_o"
+	
+    planet = {
+		name = "NAME_42518P"
+        class = "pc_o"
+        orbit_distance = 0
+        size = 20
+	
+	
+	planet = {
+		name = "NAME_42518PI"
+		class = "pc_molten"
+		orbit_distance = 70
+		size = 25
+	}
 
+	planet = {
+		name = "NAME_42518PII"
+		class = "pc_ice_giant"
+		orbit_distance = 70
+		size = 28
+		moon = {
+			name = "NAME_42518PII_a"
+			class = "pc_dextro_frozen"
+			orbit_distance = 8
+			size = 13
+		}
+		moon = {
+			name = "NAME_42518PII_b"
+			class = "pc_orbiting_asteroid"
+			orbit_distance = 5
+			size = 3
+		}		
+		moon = {
+			name = "NAME_42518PII_c"
+			class = "pc_desolate"
+			orbit_distance = 5
+			size = 2
+		}
+		moon = {
+			name = "NAME_42518PII_d"
+			class = "pc_ammonia_frozen"
+			orbit_distance = 5
+			size = 9
+		}
+		moon = {
+			name = "NAME_42518PII_e"
+			class = "pc_desolate"
+			orbit_distance = 5
+			size = 2
+		}	
+		moon = {
+			name = "NAME_42518PII_f"
+			class = "pc_desolate"
+			orbit_distance = 5
+			size = 2
+		}		
+	}
+		
+	planet = {
+		name = "NAME_42518PIII"
+		class = "pc_chlorine_frozen"
+		orbit_distance = 60
+		size = 14
+		moon = {
+			name = "NAME_42518PIII_a"
+			class = "pc_ammonia_arctic"
+			orbit_distance = 8
+			size = 13
+		}
+		moon = {
+			name = "NAME_42518PIII_b"
+			class = "pc_desolate"
+			orbit_distance = 5
+			size = 3
+		}		
+		moon = {
+			name = "NAME_42518PIII_c"
+			class = "pc_frozen"
+			orbit_distance = 5
+			size = 2
+		}
+		moon = {
+			name = "NAME_42518PIII_d"
+			class = "pc_desolate"
+			orbit_distance = 5
+			size = 9
+		}			
+	}
+}
+
+	planet = {
+		name = "NAME_42518PIV"
+		class = "pc_brown_dwarf"
+		orbit_distance = 240
+		size = 40
+        orbit_angle = 1
+        satellite_naming_policy = upper_case_roman_numerals	
+        planet = {
+            count = { min = 3 max = 4 }
+            orbit_distance = 30
+            orbit_angle = { min = 90 max = 270 }
+            satellite_naming_policy = lower_case_latin_letters
+            change_orbit = @base_moon_distance
+            moon = {
+                count = { min = 0 max = 1 }
+                orbit_distance = 8
+                orbit_angle = { min = 90 max = 270 }
+            }		
+		}	
+	}	
+}	
+
+	
 #####ARGOS RHO#####
 
 sys_gorgon_init = {
@@ -167,28 +313,28 @@ sys_gorgon_init = {
 
     planet = {
         name = "NAME_Wuo"
-        class = "pc_barren"
-        orbit_distance = 50
+        class = "pc_scorched"
+        orbit_distance = 120
         orbit_angle = 23
         has_ring = no
-		size = 4
+		size = 17
 
     }
 
     planet = {
         name = "NAME_Vectra"
         class = "pc_gas_giant"
-        orbit_distance = 20
+        orbit_distance = 40
         orbit_angle = 132
         has_ring = no
-		size = 35
+		size = 36
 		
     }
 
     planet = {
         name = "NAME_Camaron"
-        class = "pc_barren"
-        orbit_distance = 20
+        class = "pc_scorched"
+        orbit_distance = 40
         orbit_angle = 149
         has_ring = no
 		size = 15
@@ -197,30 +343,30 @@ sys_gorgon_init = {
 
     planet = {
         name = "NAME_Sharblu"
-        class = "pc_frozen"
-        orbit_distance = 30
+        class = "pc_scorched"
+        orbit_distance = 50
         orbit_angle = 311
         has_ring = no
-		size = 15
+		size = 25
 		
     }
 
     planet = {
         name = "NAME_Slekon"
         class = "pc_gas_giant"
-        orbit_distance = 20
+        orbit_distance = 30
         orbit_angle = 115
-        has_ring = no
-		size = 35
+        has_ring = yes
+		size = 38
 
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "argosrho_geminisigma_massrelay" 
-			name = "Argos Rho 1 Relay"
-			random_pos = NO 
-			orbit_distance = 200
+			name = "NAME_Argos_Rho_1_Relay"
+			orbit_angle = random 
+			orbit_distance = 280
 			
 		} 
 	}	
@@ -228,9 +374,9 @@ sys_gorgon_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "argosrho_horseheadnebula_massrelay" 
-			name = "Argos Rho 2 Relay"
-			random_pos = NO 
-			orbit_distance = 200
+			name = "NAME_Argos_Rho_2_Relay"
+			orbit_angle = random 
+			orbit_distance = 300
 			
 		} 
 	}	
@@ -238,9 +384,9 @@ sys_gorgon_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "argosrho_mkalipool_massrelay" 
-			name = "Argos Rho 4 Relay"
-			random_pos = NO 
-			orbit_distance = 200
+			name = "NAME_Argos_Rho_4_Relay"
+			orbit_angle = random 
+			orbit_distance = 320
 			
 		} 
 	}	
@@ -248,31 +394,31 @@ sys_gorgon_init = {
 
 sys_hydra_init = {
     name = "NAME_Hydra"
-    class = "sc_f"
+    class = "sc_g"
 
     planet = {
-        class = "pc_f_star"
+        class = "pc_g_star"
         orbit_distance = 0
         size = 15
     }
 
     planet = {
         name = "NAME_Varmalus"
-        class = "pc_barren"
+        class = "pc_scorched"
         orbit_distance = 50
         orbit_angle = 344
         has_ring = no
-		size = 19
+		size = 24
 
     }
 
     planet = {
         name = "NAME_Metgos"
-        class = "pc_barren_cold"
+        class = "pc_geothermal"
         orbit_distance = 40
         orbit_angle = 307
         has_ring = no
-		size = 17
+		size = 18
 
     }
 
@@ -288,28 +434,28 @@ sys_hydra_init = {
 
     planet = {
         name = "NAME_Canrum"
-        class = "pc_barren_cold"
+        class = "pc_methane_arctic"
         orbit_distance = 30
         orbit_angle = 127
         has_ring = no
-		size = 15
+		size = 13
 
     }
 
     planet = {
         name = "NAME_Syba"
-        class = "pc_gas_giant"
+        class = "pc_ice_giant"
         orbit_distance = 20
         orbit_angle = 66
         has_ring = no
-		size = 35
+		size = 32
 
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "argosrho_maroonsea_massrelay" 
-			name = "Argos Rho 3 Relay"
+			name = "NAME_Argos_Rho_3_Relay"
 			random_pos = NO 
 			orbit_distance = 200
 			
@@ -319,28 +465,28 @@ sys_hydra_init = {
 
 sys_phoenix_init = {
     name = "NAME_Phoenix"
-    class = "sc_g"
+    class = "sc_f"
     
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 55
+		radius = 60
 	}
 	
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 125
+		radius = 175
 	}
 	
 
     planet = {
-        class = "pc_g_star"
+        class = "pc_f_star"
         orbit_distance = 0
-        size = 20
+        size = 30
     }
 
     planet = {
         name = "NAME_Patashi"
-        class = "pc_molten"
+        class = "pc_scorched"
         orbit_distance = 40
         orbit_angle = 319
         has_ring = no
@@ -350,48 +496,52 @@ sys_phoenix_init = {
 
     planet = {
         name = "NAME_Sylsalto"
-        class = "pc_gas_giant"
+        class = "pc_ice_giant"
         orbit_distance = 40
         orbit_angle = 258
         has_ring = no
-		size = 35
+		size = 34
 
-    }
-
-    planet = {
-        name = "NAME_Tuntau"
-        class = "pc_barren"
-        orbit_distance = 40
-        orbit_angle = 148
-        has_ring = no
-		size = 21
-
-    }
-
-    planet = {
-        name = "NAME_Vebinok"
-        class = "pc_frozen"
-        orbit_distance = 30
-        orbit_angle = 227
-        has_ring = no
-		size = 12
-		
     }
 
     planet = {
         name = "NAME_Intai'sei"
         class = "pc_desert"
-        orbit_distance = 20
+        orbit_distance = 30
         orbit_angle = 68
         has_ring = no
-		size = 16
-		
+		size = 14
+    }
+
+    planet = {
+        name = "NAME_Tuntau"
+        class = "pc_methane_continental"
+        orbit_distance = 40
+        orbit_angle = 148
+        has_ring = no
+		size = 25
+
+    }
+
+    planet = {
+        name = "NAME_Vebinok"
+        class = "pc_mephitic_frozen"
+        orbit_distance = 50
+        orbit_angle = 227
+        has_ring = yes
+		size = 8
+		moon = {
+			name = "NAME_Pinnacle_Station"
+			class = "pc_orbiting_asteroid"
+			orbit_distance = 5
+			size = 1
+		}	
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "argosrho_maroonsea_massrelay" 
-			name = "Argos Rho 5 Relay"
+			name = "NAME_Argos_Rho_5_Relay"
 			random_pos = NO 
 			orbit_distance = 200
 			
@@ -414,12 +564,12 @@ sys_athens_init = {
 	
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 60
+		radius = 95
 	}
 
     planet = {
         name = "NAME_Salamis"
-        class = "pc_molten"
+        class = "pc_scorched"
         orbit_distance = 40
         orbit_angle = 348
         has_ring = no
@@ -429,51 +579,48 @@ sys_athens_init = {
 
     planet = {
         name = "NAME_Proteus"
-        class = "pc_arctic"
-        orbit_distance = 10
+        class = "pc_ocean"
+        orbit_distance = 30
         orbit_angle = 238
         has_ring = no
-		size = 20
-
+		size = 25
     }
 
     planet = {
         name = "NAME_Nausicaa"
         class = "pc_gas_giant"
-        orbit_distance = 30
+        orbit_distance = 50
         orbit_angle = 104
         has_ring = no
-		size = 35
-
+		size = 34
     }
 
     planet = {
         name = "NAME_Circe"
-        class = "pc_gas_giant"
-        orbit_distance = 20
+        class = "pc_ice_giant"
+        orbit_distance = 40
         orbit_angle = 302
         has_ring = no
-		size = 22
+		size = 27
 
     }
 
     planet = {
         name = "NAME_Pharos"
-        class = "pc_frozen"
+        class = "pc_mephitic_frozen"
         orbit_distance = 20
         orbit_angle = 118
         has_ring = no
-		size = 17
+		size = 19
 
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "artemistau_hadesgamma_massrelay" 
-			name = "Artemis Tau 1 Relay"
-			random_pos = NO 
-			orbit_distance = 200
-			
+			name = "NAME_Artemis_Tau_1_Relay"
+			orbit_angle = random 
+			orbit_distance = 175
 		} 
 	}		
 }
@@ -490,28 +637,28 @@ sys_knossos_init = {
 	
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 45
+		radius = 60
 	}
 	
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 125
+		radius = 150
 	}
 
     planet = {
         name = "NAME_Phaistos"
-        class = "pc_barren"
-        orbit_distance = 30
+        class = "pc_scorched"
+        orbit_distance = 35
         orbit_angle = 182
         has_ring = no
-		size = 14
+		size = 10
 
     }
 
     planet = {
         name = "NAME_Therum"
         class = "pc_arid"
-        orbit_distance = 30
+        orbit_distance = 50
         orbit_angle = 135
         has_ring = no
 		size = 16
@@ -520,95 +667,101 @@ sys_knossos_init = {
 
     planet = {
         name = "NAME_Zakros"
-        class = "pc_barren_cold"
-        orbit_distance = 40
+        class = "pc_methane_frozen"
+        orbit_distance = 30
         orbit_angle = 19
         has_ring = no
-
+		size = 11
     }
 
     planet = {
         name = "NAME_Armeni"
-        class = "pc_barren_cold"
-        orbit_distance = 10
+        class = "pc_mephitic_frozen"
+        orbit_distance = 20
         orbit_angle = 229
-        has_ring = no
-		size = 16
-
-    }
-
-    planet = {
-        name = "NAME_Archanes"
-        class = "pc_gas_giant"
-        orbit_distance = 30
-        orbit_angle = 171
-        has_ring = no
-		size = 24
-
-    }	
-}
-
-sys_macedon_init = {
-    name = "NAME_Macedon"
-    class = "sc_f"
-
-    planet = {
-        class = "pc_f_star"
-        orbit_distance = 0
-        size = 20
-    }
-	
-	asteroid_belt = {
-		type = icy_asteroid_belt
-		radius = 95
-	}
-
-    planet = {
-        name = "NAME_Sharjila"
-        class = "pc_toxic"
-        orbit_distance = 40
-        orbit_angle = 37
         has_ring = no
 		size = 15
 
     }
 
     planet = {
+        name = "NAME_Archanes"
+        class = "pc_ice_giant"
+        orbit_distance = 60
+        orbit_angle = 171
+        has_ring = no
+		size = 25
+            satellite_naming_policy = lower_case_latin_letters
+            moon = {
+                count = { min = 1 max = 3 }
+                orbit_distance = 8
+                orbit_angle = { min = 90 max = 270 }
+            }
+    }	
+}
+
+sys_macedon_init = {
+    name = "NAME_Macedon"
+    class = "sc_m"
+
+    planet = {
+	    name = "NAME_Macedon"
+        class = "pc_m_star"
+        orbit_distance = 0
+        size = 20
+    }
+	
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 115
+	}
+
+    planet = {
+        name = "NAME_Sharjila"
+        class = "pc_ammonia_desert"
+        orbit_distance = 40
+        orbit_angle = 37
+        has_ring = no
+		size = 14
+
+    }
+
+    planet = {
         name = "NAME_Porolan"
-        class = "pc_barren_cold"
+        class = "pc_dextro_frozen"
         orbit_distance = 30
         orbit_angle = 298
         has_ring = no
-		size = 19
+		size = 24
 
     }
 
     planet = {
         name = "NAME_Patavig"
-        class = "pc_continental"
-        orbit_distance = 10
+        class = "pc_ammonia_arctic"
+        orbit_distance = 25
         orbit_angle = 239
         has_ring = no
-		size = 20
+		size = 25
 
     }
 
     planet = {
         name = "NAME_Fargeluse"
-        class = "pc_gas_giant"
-        orbit_distance = 30
+        class = "pc_ice_giant"
+        orbit_distance = 50
         orbit_angle = 291
         has_ring = no
-		size = 30
+		size = 31
 
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "artemistau_kitesnest_massrelay" 
-			name = "Artemis Tau 2 Relay"
+			name = "NAME_Artemis_Tau_2_Relay"
 			random_pos = NO 
-			orbit_distance = 200
+			orbit_distance = 170
 			
 		} 
 	}
@@ -636,31 +789,31 @@ sys_sparta_init = {
 
     planet = {
         name = "NAME_Tremanre"
-        class = "pc_molten"
+        class = "pc_scorched"
         orbit_distance = 35
         orbit_angle = 221
         has_ring = no
-		size = 4
+		size = 3
 
     }
 
     planet = {
         name = "NAME_Edolus"
-        class = "pc_barren"
+        class = "pc_mephitic_desert"
         orbit_distance = 25
         orbit_angle = 163
         has_ring = no
-		size = 15
+		size = 14
 
     }
 
     planet = {
         name = "NAME_Altaaya"
-        class = "pc_barren_cold"
+        class = "pc_methane_frozen"
         orbit_distance = 15
         orbit_angle = 138
         has_ring = no
-		size = 21
+		size = 25
 
     }
 
@@ -670,17 +823,23 @@ sys_sparta_init = {
         orbit_distance = 45
         orbit_angle = 205
         has_ring = no
-		size = 35
-
+		size = 37
+        satellite_naming_policy = lower_case_latin_letters		
+        moon = {
+            count = { min = 3 max = 6 }
+            class = random
+            orbit_distance = 8
+            orbit_angle = { min = 90 max = 270 }
+        }
     }
 
     planet = {
         name = "NAME_Alsages"
-        class = "pc_frozen"
+        class = "pc_methane_frozen"
         orbit_distance = 20
         orbit_angle = 313
         has_ring = no
-		size = 15
+		size = 12
 
     }
 }
