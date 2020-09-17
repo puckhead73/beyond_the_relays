@@ -1,11 +1,12 @@
 name="Mass Effect: Beyond the Relays"
-path="mod/Stellaris_Effect"
+version="0.1"
 tags={
-	"Galaxy Generation"
 	"Events"
 	"Gameplay"
 	"Technologies"
 	"Species"
+}
+dependencies={
 }
 picture="btr.png"
 supported_version="2.7.*"
