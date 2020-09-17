@@ -29,17 +29,6 @@ aethoncluster_xingyuncluster_massrelay = {
 
 #####ANNOS BASIN#####
 
-annosbasin_horseheadnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_annosbasin_horseheadnebula
-}
-
 annosbasin_serpentnebula_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
@@ -53,17 +42,6 @@ annosbasin_serpentnebula_massrelay = {
 
 
 #####APIEN CREST#####
-
-apiencrest_aethoncluster_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_aethoncluster_apiencrest
-}
 
 apiencrest_serpentnebula_massrelay = {
 	entity = "gateway_entity"
@@ -101,7 +79,7 @@ krogandmz_serpentnebula_massrelay = {
 	bypass_type = massrelay_krogandmz_serpentnebula
 }
 
-krogandmz_xingyuncluster_massrelay = {
+krogandmz_meadecluster_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -109,13 +87,12 @@ krogandmz_xingyuncluster_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_krogandmz_xingyuncluster
+	bypass_type = massrelay_krogandmz_meadecluster
 }
 
+#####OLIN PROTECTORATE#####
 
-#####LLEWYN NEBULA#####
-
-llewynnebula_vipernebula_massrelay = {
+olinprotectorate_serpentnebula_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -123,10 +100,10 @@ llewynnebula_vipernebula_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_llewynnebula
+	bypass_type = massrelay_olinprotectorate_serpentnebula
 }
 
-llewynnebula_xingyuncluster_massrelay = {
+olinprotectorate_vesuviusnebula_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -134,49 +111,13 @@ llewynnebula_xingyuncluster_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_llewynnebula_xingyuncluster
-}
-
-
-#####OLYN PROTECTORATE#####
-
-olynprotectorate_horseheadnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_horseheadnebula_olynprotectorate
-}
-
-olynprotectorate_serpentnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_olynprotectorate_serpentnebula
-}
-
-olynprotectorate_vesuviusnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_olynprotectorate_vesuviusnebula
+	bypass_type = massrelay_olinprotectorate_vesuviusnebula
 }
 
 
 #####VESUVIUS NEBULA#####
 
-vesuviusnebula_meadecluster_massrelay = {
+vesuviusnebula_minoswasteland_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -184,10 +125,10 @@ vesuviusnebula_meadecluster_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_meadecluster_vesuviusnebula
+	bypass_type = massrelay_minoswasteland_vesuviusnebula
 }
 
-vesuviusnebula_olynprotectorate_massrelay = {
+vesuviusnebula_olinprotectorate_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -195,13 +136,13 @@ vesuviusnebula_olynprotectorate_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_olynprotectorate_vesuviusnebula
+	bypass_type = massrelay_olinprotectorate_vesuviusnebula
 }
 
 
 #####XINGYUN CLUSTER#####
 
-xingyuncluster_aethoncluster_massrelay = {
+xingyuncluster_meadecluster_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -209,49 +150,6 @@ xingyuncluster_aethoncluster_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_aethoncluster_xingyuncluster
+	bypass_type = massrelay_meadecluster_xingyuncluster
 }
 
-xingyuncluster_apiencrest_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_apiencrest_xingyuncluster
-}
-
-xingyuncluster_krogandmz_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_krogandmz_xingyuncluster
-}
-
-xingyuncluster_llewynnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_llewynnebula_xingyuncluster
-}
-
-xingyuncluster_localcluster_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_localcluster_xingyuncluster
-}

@@ -1,0 +1,23 @@
+objectTypes = {
+
+	#############################
+#Citadel
+	pdxmesh = {
+		name = "citadel_mesh"
+		file = "gfx/models/starbases/citadel.mesh"
+		scale = 1.0
+			
+			animation = { id = "idle"		type = "fallen_empire_station_large_idle_animation" }
+			animation = { id = "death"		type = "fallen_empire_station_large_death_animation" }
+			
+		meshsettings = {
+			name = "large_finished_MeshShape"
+			index = 0
+			texture_diffuse = "citadel_diff.dds"
+			texture_normal = "citadel_norm.dds"
+			texture_specular = "citadel_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+
+}

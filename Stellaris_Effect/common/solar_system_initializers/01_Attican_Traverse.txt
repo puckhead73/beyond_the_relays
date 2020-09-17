@@ -29,7 +29,7 @@ sys_gagarin_init = {
         name = "NAME_Junthor"
         class = "pc_chlorine_barren"
         orbit_distance = 80
-        orbit_angle = 289
+        orbit_angle = 300
         has_ring = no
 		size = 25 
 		entity = "junthor_entity"
@@ -60,7 +60,7 @@ sys_gagarin_init = {
         name = "NAME_Pressha"
         class = "pc_ice_giant"
         orbit_distance = 50
-        orbit_angle = 218
+        orbit_angle = 202
         has_ring = no
 		size = 30
 		entity = "pressha_entity"
@@ -85,7 +85,7 @@ sys_gagarin_init = {
         name = "NAME_Rayingri"
         class = "pc_barren"
         orbit_distance = 50
-        orbit_angle = 236
+        orbit_angle = 245
         has_ring = no
 		size = 13
 		entity = "rayingri_entity"
@@ -104,7 +104,7 @@ sys_gagarin_init = {
         name = "NAME_Sogelrus"
         class = "pc_cryovolcanic"
         orbit_distance = 50
-        orbit_angle = 287
+        orbit_angle = 286
         has_ring = no
 		size = 11
 		entity = "sogelrus_entity"
@@ -117,7 +117,7 @@ sys_gagarin_init = {
         name = "NAME_Antirumgon"
         class = "pc_methane_frozen"
         orbit_distance = 50
-        orbit_angle = 299
+        orbit_angle = 289
         has_ring = no
 		size = 23
 		entity = "antirumgon_entity"
@@ -125,6 +125,16 @@ sys_gagarin_init = {
 			set_planet_flag = antirumgon_codex
 			}		
     }
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "armstrongnebula_atticanbeta_massrelay" 
+			name = "NAME_Armstrong_4_Relay"			
+			orbit_angle = 197 
+			orbit_distance = 235		
+			
+		} 
+	}	    
 }
 
 sys_grissom_init = {
@@ -162,7 +172,7 @@ sys_grissom_init = {
         name = "NAME_Benda"
         class = "pc_molten"
         orbit_distance = 90
-        orbit_angle = 345
+        orbit_angle = 340
         has_ring = no
 		size = 17
 		entity = "benda_entity"		
@@ -175,7 +185,7 @@ sys_grissom_init = {
         name = "NAME_Zaherux"
         class = "pc_scorched"
         orbit_distance = 50
-        orbit_angle = 325
+        orbit_angle = 329
         has_ring = no
 		size = 16
 		entity = "zaherux_entity"
@@ -202,7 +212,7 @@ sys_grissom_init = {
         name = "NAME_Notanban"
         class = "pc_gas_giant"
         orbit_distance = 80
-        orbit_angle = 269
+        orbit_angle = 267
         has_ring = no
 		size = 37
 		entity = "notanban_entity"
@@ -230,11 +240,10 @@ sys_grissom_init = {
 
     init_effect = { 
 		spawn_megastructure = { 
-			type = "armstrongnebula_nubianexpanse_massrelay" 
+			type = "armstrongnebula_voyagercluster_massrelay" 
 			name = "NAME_Armstrong_2_Relay"
 			random_pos = NO 
-			orbit_distance = 320
-			
+			orbit_distance = 320			
 		} 
 	}		
 }
@@ -264,7 +273,7 @@ sys_hong_init = {
         name = "NAME_Pomal"
         class = "pc_hothouse"
         orbit_distance = 60
-        orbit_angle = 149
+        orbit_angle = 150
         has_ring = no
 		size = 24
 		init_effect = {
@@ -288,7 +297,7 @@ sys_hong_init = {
         name = "NAME_Matar"
         class = "pc_mephitic_frozen"
         orbit_distance = 30
-        orbit_angle = 56
+        orbit_angle = 59
         has_ring = no
 		size = 11
 		init_effect = {
@@ -300,7 +309,7 @@ sys_hong_init = {
         name = "NAME_Theshaca"
         class = "pc_gas_giant"
         orbit_distance = 30
-        orbit_angle = 39
+        orbit_angle = 41
         has_ring = no
 		size = 36
 		init_effect = {
@@ -330,13 +339,21 @@ sys_hong_init = {
         name = "NAME_Treagir"
         class = "pc_frozen"
         orbit_distance = 30
-        orbit_angle = 157
+        orbit_angle = 136
         has_ring = no
 		size = 3
 		init_effect = {
 			set_planet_flag = treagir_codex
 			}	
     }
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "armstrongnebula_nubianexpanse_massrelay" 
+			name = "NAME_Armstrong_3_Relay"
+			random_pos = NO 
+			orbit_distance = 320			
+		} 
+	}    
 }
 
 sys_tereshkova_init = {
@@ -373,21 +390,12 @@ sys_tereshkova_init = {
 		size = 20
 		has_ring = no
 	}
-
-    planet = {
-        name = "NAME_Carbonaceous_Asteroid"
-        class = "pc_asteroid"
-        orbit_distance = 70
-        orbit_angle = -210
-        size = 2
-        has_ring = no
-    }
 	
     planet = {
         name = "NAME_Antibaar"
         class = "pc_methane_arctic"
         orbit_distance = 80
-        orbit_angle = 314
+        orbit_angle = 148
         has_ring = no
 		size = 16
 		init_effect = {
@@ -399,7 +407,7 @@ sys_tereshkova_init = {
         name = "NAME_Patamalrus"
         class = "pc_hothouse"
         orbit_distance = 50
-        orbit_angle = 259
+        orbit_angle = 242
         has_ring = no
 		size = 14
 		init_effect = {
@@ -411,7 +419,7 @@ sys_tereshkova_init = {
         name = "NAME_Hunsalra"
         class = "pc_ice_giant"
         orbit_distance = 40
-        orbit_angle = 188
+        orbit_angle = 202
         has_ring = no
 		size = 25
 		init_effect = {
@@ -423,7 +431,7 @@ sys_tereshkova_init = {
         name = "NAME_Thegeuse"
         class = "pc_chlorine_frozen"
         orbit_distance = 45
-        orbit_angle = 194
+        orbit_angle = 202
         has_ring = no
 		size = 12
 		init_effect = {
@@ -435,7 +443,7 @@ sys_tereshkova_init = {
         name = "NAME_Solmarlon"
         class = "pc_gas_giant"
         orbit_distance = 65
-        orbit_angle = 105
+        orbit_angle = 94
         has_ring = no
 		size = 36
 		init_effect = {
@@ -447,7 +455,7 @@ sys_tereshkova_init = {
         name = "NAME_Mawinor"
         class = "pc_frozen"
         orbit_distance = 35
-        orbit_angle = 332
+        orbit_angle = 326
         has_ring = no
 		size = 3
 		init_effect = {
@@ -459,7 +467,7 @@ sys_tereshkova_init = {
 		spawn_megastructure = { 
 			type = "armstrongnebula_sentryomega_massrelay" 
 			name = "NAME_Armstrong_1_Relay"
-			random_pos = NO 
+			orbit_angle = 187 
 			orbit_distance = 375			
 			
 		} 
@@ -499,7 +507,7 @@ sys_vamshi_init = {
         name = "NAME_Maji"
         class = "pc_methane_frozen"
         orbit_distance = 90
-        orbit_angle = 339
+        orbit_angle = 167
         has_ring = no
 		size = 14
 		init_effect = {
@@ -511,7 +519,7 @@ sys_vamshi_init = {
         name = "NAME_Pregel"
         class = "pc_chlorine_frozen"
         orbit_distance = 30
-        orbit_angle = 208
+        orbit_angle = 202
         has_ring = no
 		size = 25
 		init_effect = {
@@ -523,23 +531,13 @@ sys_vamshi_init = {
         name = "NAME_Almos"
         class = "pc_gas_giant"
         orbit_distance =80
-        orbit_angle = 114
+        orbit_angle = 118
         has_ring = no
 		size = 35
 		init_effect = {
 			set_planet_flag = almos_codex
 			}
     }
-
-    init_effect = { 
-		spawn_megastructure = { 
-			type = "armstrongnebula_hadesnexus_massrelay" 
-			name = "NAME_Armstrong_3_Relay"			
-			random_pos = No 
-			orbit_distance = 235		
-			
-		} 
-	}	
 }
 
 
@@ -567,7 +565,7 @@ sys_chabtan_init = {
         name = "NAME_Parnack"
         class = "pc_continental"
         orbit_distance = 50
-        orbit_angle = 3
+        orbit_angle = 0
         has_ring = no
 
     }
@@ -576,7 +574,7 @@ sys_chabtan_init = {
         name = "NAME_Noviz"
         class = "pc_ice_giant"
         orbit_distance = 185
-        orbit_angle = 127
+        orbit_angle = 126
         has_ring = no
 
     }
@@ -586,7 +584,7 @@ sys_chabtan_init = {
 			type = "bulucnebula_ismarfrontier_massrelay" 
 			name = "NAME_Buluc_3_Relay"
 			random_pos = NO 
-			orbit_distance = 265
+			orbit_distance = 43
 			
 		} 
 	}	
@@ -619,7 +617,7 @@ sys_fragotz_init = {
 		spawn_megastructure = { 
 			type = "bulucnebula_crescentnebula_massrelay" 
 			name = "NAME_Buluc_1_Relay"
-			random_pos = NO 
+			orbit_angle = 135
 			orbit_distance = 200
 			
 		} 
@@ -649,7 +647,7 @@ sys_ubroni_init = {
         name = "NAME_Zankep"
         class = "pc_gas_giant"
         orbit_distance = 84
-        orbit_angle = 126
+        orbit_angle = 13
         has_ring = no
 		moon = {
 			name = "NAME_Zankep_a"
@@ -678,7 +676,7 @@ sys_ubroni_init = {
         name = "NAME_Unoweb"
         class = pc_ice_giant
         orbit_distance = 61
-        orbit_angle = 190
+        orbit_angle = 140
         has_ring = yes
     }
 
@@ -686,7 +684,7 @@ sys_ubroni_init = {
         name = "NAME_Hasik"
         class = "pc_dextro_frozen"
         orbit_distance = 46
-        orbit_angle = 122
+        orbit_angle = 130
         has_ring = no
     }
 
@@ -695,20 +693,397 @@ sys_ubroni_init = {
 			type = "bulucnebula_eaglenebula_massrelay" 
 			name = "NAME_Buluc_2_Relay"
 			orbit_angle = 84
-			orbit_distance = 205
+			orbit_distance = 217
 			
 		} 
 	}
+}
+
+
+#####CALESTON RIFT#####
+
+sys_aysur_init = {
+    name = "NAME_Aysur"
+    class = "sc_g"
+
+    planet = {
+	    name = "NAME_Aysur"
+        class = "pc_g_star"
+        orbit_distance = 0
+        size = 25
+    }
+	
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 90
+	}
+	
+    planet = {
+        name = "NAME_Agnin"
+        class = "pc_hothouse"
+        orbit_distance = 25
+        orbit_angle = 316
+        has_ring = no
+		size = 12
+
+    }
+
+    planet = {
+        name = "NAME_Shasu"
+        class = "pc_mephitic_barren"
+        orbit_distance = 10
+        orbit_angle = 198
+        has_ring = no
+		size = 3
+
+    }
+
+    planet = {
+        name = "NAME_Dranen"
+        class = "pc_gas_giant"
+        orbit_distance = 35
+        orbit_angle = 186
+        has_ring = no
+		size = 37
+		
+		moon = {
+            name = "NAME_Arvuna"
+            class = "pc_ocean"
+            orbit_distance = 20
+            orbit_angle = 169
+            has_ring = no
+			size = 16
+
+        }
+
+    }
+
+    planet = {
+        name = "NAME_Alformus"
+        class = "pc_gas_giant"
+        orbit_distance = 30
+        orbit_angle = 206
+        has_ring = no
+		size = 36
+
+    }
+
+    planet = {
+        name = "NAME_Shir"
+        class = "pc_desolate"
+        orbit_distance = 20
+        orbit_angle = 34
+        has_ring = no
+		size = 12
+
+    }
+
+    planet = {
+        name = "NAME_Tamgauta"
+        class = "pc_desolate"
+        orbit_distance = 25
+        orbit_angle = 289
+        has_ring = no
+		size = 8
+
+    }
 
     init_effect = { 
 		spawn_megastructure = { 
-			type = "bulucnebula_meadecluster_massrelay" 
-			name = "NAME_Buluc_4_Relay"
-			orbit_angle = 180
-			orbit_distance = 215
+			type = "calestonrift_hadesnexus_massrelay" 
+			name = "NAME_Caleston_1_Relay"
+			orbit_angle = random 
+			orbit_distance = 200
 			
 		} 
+    }
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "calestonrift_nubianexpanse_massrelay" 
+			name = "NAME_Caleston_3_Relay"
+			orbit_angle = random 
+			orbit_distance = 200
+			
+		}     		
+}
+
+sys_balor_init = {
+    name = "NAME_Balor"
+    class = "sc_m"
+
+    planet = {
+	    name = "NAME_Balor"
+        class = "pc_m_star"
+        orbit_distance = 0
+        size = 15
+    }
+	
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 75
 	}
+
+    planet = {
+        name = "NAME_Cernunnos"
+        class = "pc_gas_giant"
+        orbit_distance = 50
+        orbit_angle = 165
+        has_ring = no
+		size = 32
+        moon = {
+            name = "NAME_Caleston"
+            class = "pc_geothermal"
+            orbit_distance = 20
+            orbit_angle = 180
+            has_ring = no
+			size = 16
+        }
+    }
+
+    planet = {
+        name = "NAME_Bres"
+        class = "pc_desolate"
+        orbit_distance = 60
+        orbit_angle = 141
+        has_ring = no
+		size = 2
+
+    }
+
+    planet = {
+        name = "NAME_Elatha"
+        class = "pc_desolate"
+        orbit_distance = 20
+        orbit_angle = 102
+        has_ring = no
+		size = 4
+
+    }
+
+    planet = {
+        name = "NAME_Partholon"
+        class = "pc_desolate"
+        orbit_distance = 45
+        orbit_angle = 154
+        has_ring = no
+		size = 25
+
+    }
+}	
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "calestonrift_styxtheta_massrelay" 
+			name = "NAME_Caleston_6_Relay"
+			orbit_angle = random 
+			orbit_distance = 200
+			
+		} 
+	}	
+}
+
+sys_solveig_init = {
+    name = "NAME_Solveig"
+    class = "sc_g"
+
+    planet = {
+	    name = "NAME_Solveig"
+        class = "pc_g_star"
+        orbit_distance = 0
+        size = 25
+    }
+
+    planet = {
+        name = "NAME_Surtur"
+        class = "pc_scorched"
+        orbit_distance = 40
+        orbit_angle = 179
+        has_ring = no
+		size = 11
+        moon = {
+            name = "NAME_Sinmara"
+            class = "pc_frozen"
+            orbit_distance = 10
+            orbit_angle = 169
+            has_ring = no
+			size = 3
+        }
+    }
+
+    planet = {
+        name = "NAME_Thrivaldi"
+        class = "pc_gas_giant"
+        orbit_distance = 60
+        orbit_angle = 189
+        has_ring = yes
+		size = 30
+
+    }
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "calestonrift_pylosnebula_massrelay" 
+			name = "NAME_Caleston_5_Relay"
+			orbit_angle = random 
+			orbit_distance = 200
+			
+		} 
+	}	
+}
+
+sys_talava_init = {
+    name = "NAME_Talava"
+    class = "sc_f"
+
+    planet = {
+	    name = "NAME_Talava"
+        class = "pc_f_star"
+        orbit_distance = 0
+        size = 20
+    }
+
+    planet = {
+        name = "NAME_Aitarus"
+        class = "pc_scorched"
+        orbit_distance = 30
+        orbit_angle = 304
+        has_ring = no
+		size = 22
+    }
+
+    planet = {
+        name = "NAME_Kaushus"
+        class = "pc_molten"
+        orbit_distance = 15
+        orbit_angle = 177
+        has_ring = no
+		size = 15
+
+    }
+
+    planet = {
+        name = "NAME_Maitrum"
+        class = "pc_arid"
+        orbit_distance = 35
+        orbit_angle = 293
+        has_ring = no
+		size = 14
+
+    }
+
+    planet = {
+        name = "NAME_Taitus"
+        class = "pc_dextro_barren"
+        orbit_distance = 30
+        orbit_angle = 142
+        has_ring = no
+		size = 11
+
+    }
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "calestonrift_hawkingeta_massrelay" 
+			name = "NAME_Caleston_2_Relay"
+			orbit_angle = random 
+			orbit_distance = 200
+			
+		} 
+	}	
+	
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "calestonrift_omeganebula_massrelay" 
+			name = "NAME_Caleston_4_Relay"
+			orbit_angle = random 
+			orbit_distance = 200
+			
+		} 
+	}	
+}
+
+sys_yakawa_init = {
+    name = "NAME_Yakawa"
+    class = "sc_g"
+
+    planet = {
+	    name = "NAME_Yakawa"
+        class = "pc_g_star"
+        orbit_distance = 0
+        size = 24
+    }
+
+    planet = {
+        name = "NAME_Sakata"
+        class = "pc_hothouse"
+        orbit_distance = 40
+        orbit_angle = 98
+        has_ring = no
+		size = 25
+
+    }
+
+    planet = {
+        name = "NAME_Nambu"
+        class = "pc_gas_giant"
+        orbit_distance = 25
+        orbit_angle = 210
+        has_ring = yes
+		size = 32
+        satellite_naming_policy = lower_case_latin_letters
+        moon = {
+            count = { min = 1 max = 5 }
+			class = random
+            orbit_distance = 8
+            orbit_angle = { min = 90 max = 270 }
+        }	
+    }
+
+    planet = {
+        name = "NAME_Maskawa"
+        class = "pc_ammonia_arid"
+        orbit_distance = 30
+        orbit_angle = 293
+        has_ring = no
+		size = 17
+
+    }
+
+    planet = {
+        name = "NAME_Karumto"
+        class = "pc_hothouse"
+        orbit_distance = 35
+        orbit_angle = 151
+        has_ring = no
+		size = 16
+
+    }
+
+    planet = {
+        name = "NAME_Kobayashi"
+        class = "pc_gas_giant"
+        orbit_distance = 55
+        orbit_angle = 134
+        has_ring = yes
+		size = 29
+        moon = {
+            count = { min = 1 max = 3 }
+			class = random
+            orbit_distance = 8
+            orbit_angle = { min = 90 max = 270 }
+        }			
+    }
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "calestonrift_thephoenixmassing_massrelay" 
+			name = "NAME_Caleston_7_Relay"
+			orbit_angle = random 
+			orbit_distance = 200
+			
+		} 
+	}		
 }
 
 
@@ -813,8 +1188,8 @@ sys_amun_init = {
 
     init_effect = { 
 		spawn_megastructure = { 
-			type = "eaglenebula_oculusfrontier_massrelay" 
-			name = "NAME_Eagle_5_Relay"
+			type = "eaglenebula_nemeanalpha_massrelay" 
+			name = "NAME_Eagle_1_Relay"
 			random_pos = NO 
 			orbit_distance = 275
 			
@@ -884,16 +1259,15 @@ sys_imir_init = {
 		size = 13
 
     }
-
     init_effect = { 
 		spawn_megastructure = { 
-			type = "eaglenebula_savianabyssal_massrelay" 
+			type = "eaglenebula_serpentnebula_massrelay" 
 			name = "NAME_Eagle_2_Relay"
 			random_pos = NO 
-			orbit_distance = 25
+			orbit_distance = 200
 			
 		} 
-	}	
+	}	    
 }
 
 sys_malgus_init = {
@@ -963,7 +1337,16 @@ sys_malgus_init = {
 			orbit_distance = 145
 			
 		} 
-	}			
+    }	
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "bulucnebula_eaglenebula_massrelay" 
+			name = "NAME_Eagle_4_Relay"
+			orbit_angle = 84
+			orbit_distance = 217
+			
+		} 
+	}    		
 }
 
 sys_relic_init = {
@@ -1058,17 +1441,15 @@ sys_relic_init = {
 		size = 18
 
     }
-
     init_effect = { 
 		spawn_megastructure = { 
-			type = "eaglenebula_bulucnebula_massrelay" 
-			name = "NAME_Eagle_6_Relay"
+			type = "eaglenebula_oshibkacliff_massrelay" 
+			name = "NAME_Eagle_5_Relay"
 			random_pos = NO 
-			orbit_distance = 470
+			orbit_distance = 25
 			
 		} 
-	}	
-	
+	}    
 }
 
 sys_strabo_init = {
@@ -1179,20 +1560,11 @@ sys_strabo_init = {
 			orbit_angle = 99
 		}		
     }
-	
-    init_effect = { 
-		spawn_megastructure = { 
-			type = "eaglenebula_meadecluster_massrelay" 
-			name = "NAME_Eagle_5_Relay"
-			random_pos = NO 
-			orbit_distance = 25
-		}
-	}	
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "eaglenebula_minoswasteland_massrelay" 
-			name = "NAME_Eagle_4_Relay"
+			name = "NAME_Eagle_6_Relay"
 			random_pos = NO 
 			orbit_distance = 25
 			
@@ -1208,9 +1580,6 @@ sys_azedes_init = {
     name = "NAME_Azedes"
     class = "sc_g"
 	max_instances = 1
-    init_effect = {
-        save_global_event_target_as = "azedes_hyperlane_system"
-    }
 
     flags = {
         azedes_system
@@ -1349,7 +1718,17 @@ sys_azedes_init = {
 			orbit_distance = 5
 			size = 2
 		}		
-	}	
+    }	
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "hadesnexus_calestonrift_massrelay" 
+			name = "NAME_Hades_Nexus_1_Relay"
+			random_pos = NO 
+			orbit_distance = 275			
+		} 
+    }   
+     
 }
 	
 sys_hekate_init = {
@@ -1503,17 +1882,16 @@ sys_hekate_init = {
         orbit_angle = 194
         has_ring = no
 		size = 18
-
     }
 
     init_effect = { 
 		spawn_megastructure = { 
-			type = "hadesnexus_armstrongnebula_massrelay" 
-			name = "NAME_Hades_Nexus_1_Relay"
+			type = "hadesnexus_nubianexpanse_massrelay" 
+			name = "NAME_Hades_Nexus_2_Relay"
 			random_pos = NO 
 			orbit_distance = 275			
 		} 
-	}	
+	}    	
 }
 
 sys_hoplos_init = {
@@ -1587,6 +1965,15 @@ sys_hoplos_init = {
         has_ring = yes
 		size = 33
     }
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "hadesnexus_farrim_massrelay" 
+			name = "NAME_Hades_Nexus_3_Relay"
+			random_pos = NO 
+			orbit_distance = 275			
+		} 
+    }     
 }
 
 sys_pamyat_init = {
@@ -1677,18 +2064,8 @@ sys_pamyat_init = {
 
     init_effect = { 
 		spawn_megastructure = { 
-			type = "hadesnexus_farrim_massrelay" 
-			name = "NAME_Hades_Nexus_3_Relay"
-			random_pos = NO 
-			orbit_distance = 290
-			orbit_angle = 46
-		} 
-	}	
-
-    init_effect = { 
-		spawn_megastructure = { 
 			type = "hadesnexus_thephoenixmassing_massrelay" 
-			name = "NAME_Hades_Nexus_5_Relay"
+			name = "NAME_Hades_Nexus_4_Relay"
 			random_pos = NO 
 			orbit_distance = 260
 			orbit_angle = 342
@@ -1724,21 +2101,11 @@ sys_sheol_init = {
 		size = 6
 		
     }
-	
-    init_effect = { 
-		spawn_megastructure = { 
-			type = "hadesnexus_calestonrift_massrelay" 
-			name = "NAME_Hades_Nexus_2_Relay"
-			random_pos = NO 
-			orbit_distance = 120
-			orbit_angle = 270
-		} 
-	}
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hadesnexus_sentryomega_massrelay" 
-			name = "NAME_Hades_Nexus_4_Relay"
+			name = "NAME_Hades_Nexus_5_Relay"
 			random_pos = NO 
 			orbit_distance = 98
 			orbit_angle = 180
@@ -1860,8 +2227,8 @@ sys_century_init = {
 
     init_effect = { 
 		spawn_megastructure = { 
-			type = "hawkingeta_calestonrift_massrelay" 
-			name = "NAME_Hawking_Eta_1_Relay"
+			type = "hawkingeta_pangaeaexpanse_massrelay" 
+			name = "NAME_Hawking_1_Relay"
 			random_pos = NO 
 			orbit_distance = 300
 			
@@ -1909,7 +2276,7 @@ sys_chandrasekhar_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hawkingeta_yggdrasilnebula_massrelay" 
-			name = "NAME_Hawking_Eta_4_Relay"
+			name = "NAME_Hawking_Eta_2_Relay"
 			random_pos = NO 
 			orbit_distance = 165
 			
@@ -2048,7 +2415,7 @@ sys_thorne_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hawkingeta_ninmahcluster_massrelay" 
-			name = "NAME_Hawking_Eta_2_Relay"
+			name = "NAME_Hawking_Eta_4_Relay"
 			random_pos = NO 
 			orbit_distance = 125
 			
@@ -2139,6 +2506,16 @@ sys_verr_init = {
 
         }
     }
+
+    init_effect = { 
+		spawn_megastructure = { 
+			type = "calestonrift_hawkingeta_massrelay" 
+			name = "NAME_Hawking_Eta_4_Relay"
+			random_pos = NO 
+			orbit_distance = 125
+			
+		} 
+	}    
 }
 
 
@@ -2240,7 +2617,7 @@ sys_aquila_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "ismarfrontier_minoswasteland_massrelay" 
-			name = "NAME_Ismar_Frontier_3_Relay"
+			name = "NAME_Ismar_Frontier_1_Relay"
 			random_pos = NO 
 			orbit_distance = 315
 			
@@ -2344,8 +2721,8 @@ sys_elysta_init = {
 	
     init_effect = { 
 		spawn_megastructure = { 
-			type = "ismarfrontier_bulucnebula_massrelay" 
-			name = "NAME_Ismar_Frontier_1_Relay"
+			type = "bulucnebula_ismarfrontier_massrelay" 
+			name = "NAME_Ismar_Frontier_2_Relay"
 			orbit_angle = 186
 			orbit_distance = 240
 			
@@ -2355,7 +2732,7 @@ sys_elysta_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "ismarfrontier_crescentnebula_massrelay" 
-			name = "NAME_Ismar_Frontier_2_Relay"
+			name = "NAME_Ismar_Frontier_3_Relay"
 			orbit_angle = 12
 			orbit_distance = 250
 			
@@ -2569,18 +2946,7 @@ sys_herschel_init = {
 			orbit_distance = 215
 			
 		} 
-	}	
-
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "keplerverge_shadowsea_massrelay" 
-			name = "NAME_Kepler_Verge_2_Relay"
-			orbit_angle = 45
-			orbit_distance = 220
-			
-		} 
-	}	
-	
+	}		
 }
 
 sys_newton_init = {
@@ -2652,6 +3018,16 @@ sys_newton_init = {
         has_ring = yes
 		size = 7
     }
+
+	init_effect = { 
+		spawn_megastructure = { 
+			type = "keplerverge_shadowsea_massrelay" 
+			name = "NAME_Kepler_Verge_2_Relay"
+			orbit_angle = 45
+			orbit_distance = 220
+			
+		} 
+	}    
 }
 
 
@@ -2724,7 +3100,7 @@ sys_caspian_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "maroonsea_atticanbeta_massrelay" 
-			name = "NAME_Maroon_2_Relay"
+			name = "NAME_Maroon_1_Relay"
 			orbit_angle = 270 
 			orbit_distance = 210
 			
@@ -2844,7 +3220,7 @@ sys_matano_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "maroonsea_argosrho_massrelay" 
-			name = "NAME_Maroon_1_Relay"
+			name = "NAME_Maroon_2_Relay"
 			orbit_angle = 96 
 			orbit_distance = 265
 			
@@ -2998,8 +3374,8 @@ sys_maskimxul_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "ninmahcluster_hawkingeta_massrelay" 
-			name = "NAME_Ninmah_Cluster_1_Relay"
+			type = "hawkingeta_ninmahcluster_massrelay" 
+			name = "NAME_Ninmah_Relay"
 			orbit_angle = 230
 			orbit_distance = 195
 			
@@ -3185,7 +3561,7 @@ sys_dakka_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "nubianexpanse_atticanbeta_massrelay" 
-			name = "NAME_Nubian_Expanse_2_Relay"
+			name = "NAME_Nubian_Expanse_1_Relay"
 			orbit_angle = 95
 			orbit_distance = 185
 			
@@ -3194,8 +3570,8 @@ sys_dakka_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "nubianexpanse_voyagercluster_massrelay" 
-			name = "NAME_Nubian_Expanse_5_Relay"
+			type = "nubianexpanse_shadowsea_massrelay" 
+			name = "NAME_Nubian_Expanse_2_Relay"
 			orbit_angle = 45
 			orbit_distance = 200
 			
@@ -3245,24 +3621,21 @@ sys_kalabsha_init = {
    
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "nubianexpanse_calestonrift_massrelay" 
+			type = "calestonrift_nubianexpanse_massrelay" 
 			name = "NAME_Nubian_Expanse_3_Relay"
 			orbit_angle = 125
 			orbit_distance = 115
-			
 		} 
-	}
- 
+    } 
+
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "nubianexpanse_shadowsea_massrelay" 
+			type = "hadesnexus_nubianexpanse_massrelay" 
 			name = "NAME_Nubian_Expanse_4_Relay"
-			orbit_angle = 180
-			orbit_distance = 125
-			
+			orbit_angle = 125
+			orbit_distance = 115
 		} 
-	}
- 
+	}    
 }
 
 sys_qertassi_init = {
@@ -3317,7 +3690,7 @@ sys_qertassi_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "nubianexpanse_armstrongnebula_massrelay" 
-			name = "NAME_Nubian_Expanse_1_Relay"
+			name = "NAME_Nubian_Expanse_5_Relay"
 			orbit_angle = 150
 			orbit_distance = 195
 			
@@ -3398,9 +3771,6 @@ sys_nx2176_init = {
     name = "NAME_NX2176"
     class = "sc_k"
 	max_instances = 1
-    init_effect = {
-        save_global_event_target_as = "nx2176_relay_system"
-    }
 
     flags = {
         nx2176_system
@@ -3558,23 +3928,14 @@ sys_cubseh_init = {
 	
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "oshibkacliff_omeganebula_massrelay" 
-			name = "NAME_Oshibka_Cliff_4_Relay"
+			type = "omeganebula_oshibkacliff_massrelay" 
+			name = "NAME_Oshibka_2_Relay"
 			orbit_angle = random
 			orbit_distance = 150
 			
 		} 
 	}
-	
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "oshibkacliff_oculusfrontier_massrelay" 
-			name = "NAME_Oshibka_Cliff_3_Relay"
-			orbit_angle = random
-			orbit_distance = 250
-			
-		} 
-	}
+
 }
 
 sys_klin_init = {
@@ -3602,21 +3963,11 @@ sys_klin_init = {
 		orbit_distance = 80
 		size = 20
 	}
-
+    	
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "oshibkacliff_nemeanabyss_massrelay" 
-			name = "NAME_Oshibka_Cliff_1_Relay"
-			orbit_angle = random
-			orbit_distance = 150
-			
-		} 
-	}
-	
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "oshibkacliff_eaglenebula_massrelay" 
-			name = "NAME_Oshibka_Cliff_2_Relay"
+			type = "eaglenebula_oshibkacliff_massrelay" 
+			name = "NAME_Oshibka_1_Relay"
 			orbit_angle = random
 			orbit_distance = 250
 			
@@ -3685,8 +4036,8 @@ sys_refuge_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "pangaeaexpanse_hawkingeta_massrelay" 
-			name = "NAME_Pangaea_Expanse_1_Relay"
+			type = "hawkingeta_pangaeaexpanse_massrelay" 
+			name = "NAME_Pangaea_Relay"
 			random_pos = NO 
 			orbit_distance = 205
 			
@@ -3822,23 +4173,12 @@ sys_dirada_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "pylosnebula_omeganebula_massrelay" 
-			name = "NAME_Pylos_3_Relay"
+			name = "NAME_Pylos_1_Relay"
 			orbit_angle = 12
 			orbit_distance = 365
 			
 		} 
 	}
-	
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "pylosnebula_radanaburst_massrelay" 
-			name = "NAME_Pylos_4_Relay"
-			orbit_angle = 145
-			orbit_distance = 375
-			
-		} 
-	}
-
 }
 
 sys_kriseroi_init = {
@@ -3918,21 +4258,10 @@ sys_kriseroi_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "pylosnebula_farrim_massrelay" 
+			type = "pylosnebula_savianabyssal_massrelay" 
 			name = "NAME_Pylos_2_Relay"
-			orbit_angle = 270
-			orbit_distance = 285
-			
-		} 
-	}
-
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "pylosnebula_sinkelarcluster_massrelay" 
-			name = "NAME_Pylos_5_Relay"
 			orbit_angle = 180 
 			orbit_distance = 255
-			
 		} 
 	}	
 }
@@ -3985,7 +4314,7 @@ sys_nariph_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "pylosnebula_calestonrift_massrelay" 
-			name = "NAME_Pylos_1_Relay"
+			name = "NAME_Pylos_3_Relay"
 			random_pos = NO 
 			orbit_distance = 170
 			
@@ -4065,23 +4394,13 @@ sys_satent_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "pylosnebula_sigurdscradle_massrelay" 
-			name = "NAME_Pylos_6_Relay"
-			orbit_angle = 140
-			orbit_distance = 170
+			type = "pylosnebula_farrim_massrelay" 
+			name = "NAME_Pylos_4_Relay"
+			orbit_angle = 270
+			orbit_distance = 285
 			
 		} 
-	}	
-	
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "pylosnebula_rosettanebula_massrelay" 
-			name = "NAME_Pylos_7_Relay"
-			orbit_angle = 280
-			orbit_distance = 185
-			
-		} 
-	}	
+	}    
 }
 
 sys_zaherin_init = {
@@ -4139,183 +4458,19 @@ sys_zaherin_init = {
         has_ring = yes
 		size = 26
     }
-}
 
-
-#####RADANA BURST#####
-
-sys_tiedcaur_init = {
-    name = "NAME_Tiedcaur"
-    class = "sc_g"
-	max_instances = 1
-    init_effect = {
-        save_global_event_target_as = "tiedcaur_relay_system"
-    }
-
-    flags = {
-        tiedcaur_system
-    }
-	
-    planet = {
-		name = "NAME_Tiedcaur"
-        class = "pc_g_star"
-        orbit_distance = 0
-        size = 33
-	}
-
-	planet = {
-		name = "NAME_Bystryo" 
-		class = "pc_scorched"
-		orbit_distance = 45
-		orbit_angle = 200
-		size = 12
-	}			
-
-    planet = {
-        name = "NAME_Ziednar"
-        class = "pc_ethane_arid"
-        orbit_distance = 35
-        orbit_angle = 350
-        has_ring = no
-		size = 32
-
-    }
-
-    planet = {
-        name = "NAME_Undak"
-        class = "pc_dextro_frozen"
-        orbit_distance = 95
-        orbit_angle = 110
-        has_ring = no
-		size = 6
-
-    }
-
+    	
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "radanaburst_pylosnebula_massrelay" 
-			name = "NAME_Radana_2_Relay"
-			orbit_angle = 179
-			orbit_distance = 200
-			
-		} 
-	}		
-}	
-
-sys_maita_init = {
-    name = "NAME_Maita"
-    class = "sc_g"
-	max_instances = 1
-    init_effect = {
-        save_global_event_target_as = "maita_relay_system"
-    }
-
-    flags = {
-        maita_system
-    }
-	
-	planet = {
-		name = "NAME_Maita"
-		class = "sc_g"
-		orbit_distance = 0
-		size = 25
-	}
-
-	planet = {
-		name = "NAME_Esse"
-		class = "pc_dextro_barren"
-		orbit_distance = 65
-		size = 8
-		moon = { 
-			name = "NAME_Esse_a"
-			class = "pc_arid"
-			orbit_angle = 270
-			orbit_distance = 8
-		}	
-	}
-
-	planet = {
-		name = "NAME_Angom"
-		class = "pc_gas_giant"
-		orbit_distance = 70
-		size = 38
-		has_ring = yes
-		moon = {
-			name = "NAME_Pella"
-			class = "pc_dextro_continental"
-			orbit_distance = 10
-			size = 15
-		}
-	}
-			
-			
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "radanaburst_omeganebula_massrelay" 
-			name = "NAME_Radana_1_Relay"
-			random_pos = NO 
-			orbit_distance = 150
+			type = "pylosnebula_radanaburst_massrelay" 
+			name = "NAME_Pylos_5_Relay"
+			orbit_angle = 145
+			orbit_distance = 375
 			
 		} 
 	}
 }
 
-sys_carnit_init = {
-    name = "NAME_Carnit"
-    class = "sc_g"
-	max_instances = 1
-    init_effect = {
-        save_global_event_target_as = "carnit_relay_system"
-    }
-
-    flags = {
-        carnit_system
-    }
-	
-	planet = {
-		name = "NAME_Carnit"
-		class = "sc_o"
-		orbit_distance = 0
-		size = 35
-	}
-
-	asteroid_belt = {
-		type = rocky_asteroid_belt
-		radius = 110
-	}
-
-	planet = {
-		name = "NAME_Satur"
-		class = "pc_molten"
-		orbit_distance = 30
-		size = 8
-	}
-
-	planet = {
-		name = "NAME_Yanoc"
-		class = "pc_ethane_continental"
-		orbit_distance = 50
-		size = 15
-	}
-
-	planet = {
-		name = "NAME_Hobgaad"
-		class = "pc_dextro_tundra"
-		orbit_distance = 70
-		size = 25
-	}	
-
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "radanaburst_thephoenixmassing_massrelay" 
-			name = "NAME_Radana_3_Relay"
-			random_pos = NO 
-			orbit_distance = 25
-			
-		} 
-	}
-}
-	
 	
 #####SENTRY OMEGA#####
 
@@ -4390,23 +4545,23 @@ sys_hoc_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "sentryomega_armstrongnebula_massrelay" 
-			name = "NAME_Sentry_Omega_1_Relay"
+			type = "sentryomega_thephoenixmassing_massrelay" 
+			name = "NAME_Sentry_1_Relay"
 			orbit_angle = 90 
 			orbit_distance = 200
 			
 		} 
 	}
-	
+
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "sentryomega_atticanbeta_massrelay" 
-			name = "NAME_Sentry_Omega_2_Relay"
-			orbit_angle = 270 
-			orbit_distance = 215
+			type = "sentryomega_hadesnexus_massrelay" 
+			name = "NAME_Sentry_2_Relay"
+			orbit_angle = 43
+			orbit_distance = 125
 			
 		} 
-	}	
+	}			
 }
 
 sys_telith_init = {
@@ -4435,27 +4590,17 @@ sys_telith_init = {
 		has_ring = no
 		size = 12
 		
-	}
+    }
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "sentryomega_hadesnexus_massrelay" 
+			type = "armstrongnebula_sentryomega_massrelay" 
 			name = "NAME_Sentry_Omega_3_Relay"
-			orbit_angle = 43
-			orbit_distance = 125
-			
-		} 
-	}
-
-	init_effect = { 
-		spawn_megastructure = { 
-			type = "sentryomega_thephoenixmassing_massrelay" 
-			name = "NAME_Sentry_Omega_4_Relay"
 			orbit_angle = 86
 			orbit_distance = 195
 			
 		} 
-	}	
+	}
 }
 
 
@@ -4511,7 +4656,7 @@ sys_anauroch_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "shadowsea_argosrho_massrelay" 
-			name = "NAME_Shadow_Sea_1_Relay"
+			name = "NAME_Shadow_1_Relay"
 			random_pos = NO 
 			orbit_distance = 150
 			
@@ -4521,7 +4666,7 @@ sys_anauroch_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "shadowsea_marooonsea_massrelay" 
-			name = "NAME_Shadow_Sea_5_Relay"
+			name = "NAME_Shadow_2_Relay"
 			random_pos = NO 
 			orbit_distance = 200
 			
@@ -4604,7 +4749,7 @@ sys_bahanak_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "shadowsea_keplerverge_massrelay" 
-			name = "NAME_Shadow_Sea_4_Relay"
+			name = "NAME_Shadow_3_Relay"
 			orbit_angle = 350 
 			orbit_distance = 125
 			
@@ -4614,7 +4759,7 @@ sys_bahanak_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "shadowsea_nubianexpanse_massrelay" 
-			name = "NAME_Shadow_Sea_6_Relay"
+			name = "NAME_Shadow_4_Relay"
 			orbit_angle = 135 
 			orbit_distance = 135
 			
@@ -4712,7 +4857,7 @@ sys_iera_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "shadowsea_horseheadnebula_massrelay" 
-			name = "NAME_Shadow_Sea_3_Relay"
+			name = "NAME_Shadow_Sea_5_Relay"
 			random_pos = NO 
 			orbit_distance = 225
 			
@@ -4756,7 +4901,7 @@ sys_netheril_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "shadowsea_hawkingeta_massrelay" 
-			name = "NAME_Shadow_Sea_2_Relay"
+			name = "NAME_Shadow_Sea_6_Relay"
 			orbit_angle = 90
 			orbit_distance = 125
 			
@@ -4822,7 +4967,7 @@ sys_acheron_init = {
 			name = "NAME_Ontahe"
 			class = "pc_ethane_desert"
 			orbit_distance = 2
-			size = 8
+			size = 10
 		}	
     }
 
@@ -4848,8 +4993,8 @@ sys_acheron_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "styxtheta_shadowsea_massrelay" 
-			name = "NAME_Styx_Theta_2_Relay"
+			type = "shadowsea_styxtheta_massrelay" 
+			name = "NAME_Styx_1_Relay"
 			random_pos = NO 
 			orbit_distance = 215
 			
@@ -4922,8 +5067,8 @@ sys_erebus_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "styxtheta_calestonrift_massrelay" 
-			name = "NAME_Styx_Theta_1_Relay"
+			type = "calestonrift_styxtheta_massrelay" 
+			name = "NAME_Styx_2_Relay"
 			orbit_angles = 270
 			orbit_distance = 235
 			
@@ -4932,7 +5077,137 @@ sys_erebus_init = {
 	
 }
 
+sys_karaht_init = {
+	name = "NAME_Karaht"
+	class = "sc_g"
+	
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 150
+	}	
+	
+	planet = {
+		name = "NAME_Karaht"
+		class = "pc_g_star"
+		size = 20
+	}	
+	
+	planet = {
+		name = "NAME_Murch"
+		class = "pc_scorched"
+		orbit_distance = 35
+		size = 12
+	}
 
+	planet = {
+		name = "NAME_Vida"
+		class = "pc_dextro_desert"
+		orbit_distance = 70
+		size = 14
+	}
+
+	planet = {
+		name = "NAME_Nymbar"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		size = 36
+		has_ring = no
+		moon = {
+			name = "NAME_Torfan"
+			class = "pc_barren"
+			orbit_distance = 8
+			size = 6
+		}	
+	}
+
+	planet = {
+		name = "NAME_Flin"
+		class = "pc_ice_giant"
+		orbit_distance = 60
+		size = 28
+		has_ring = yes
+	}
+}	
+	
+sys_phlegethon_init = {
+	name = "NAME_Phlegethon"
+	class = "sc_g"
+	
+	planet = {
+		name = "NAME_Phlegethon"
+		class = "pc_g_star"
+		size = 30
+	}
+
+	planet = {
+		name = "NAME_Alecto"
+		class = "pc_scorched"
+		orbit_distance = 25
+		size = 8
+	}
+
+	planet = {
+		name = "NAME_Tisiphone"
+		class = "pc_ice_giant"
+		orbit_distance = 50
+		size = 30
+		has_ring = yes
+	}
+}	
+	
+sys_timshar_init = {
+	name = "NAME_Timshar"
+	class = "sc_pulsar"
+	
+	planet = {
+		name = "NAME_Timshar"
+		class = "pc_pulsar_star"
+		size = 15
+	}
+
+	planet = {
+		name = "NAME_Timshar_I"
+		class = "pc_scorched"
+		orbit_distance = 30
+		size = 8
+	}	
+
+	planet = {
+		name = "NAME_Timshar_II"
+		class = "pc_scorched"
+		orbit_distance = 30
+		size = 13
+	}
+	
+	planet = {
+		name = "NAME_Timshar_III"
+		class = "pc_scorched"
+		orbit_distance = 45
+		size = 7
+	}	
+	
+	planet = {
+		name = "NAME_Timshar_IV"
+		class = "pc_scorched"
+		orbit_distance = 60
+		size = 16
+	}	
+	
+	planet = {
+		name = "NAME_Adounia"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		size = 34
+        satellite_naming_policy = lower_case_latin_letters		
+        moon = {
+            count = 7
+            orbit_distance = 5
+            orbit_angle = { min = 90 max = 270 }
+        }		
+	}	
+}	
+	
+	
 #####YGGDRASIL NEBULA#####
 
 sys_baldr_init = {
@@ -4963,6 +5238,21 @@ sys_baldr_init = {
 		type = icy_asteroid_belt
 		radius = 140
 	}	
+
+	planet = {
+		name = "NAME_Coten"
+		class = "pc_scorched"
+		orbit_angles = 45
+		size = 6
+	}
+
+	planet = {
+		name = "NAME_Mindoir"
+		class = "pc_continental"
+		orbit_distance = 55
+		size = 17
+	}	
+
 
 	init_effect = { 
 		spawn_megastructure = { 
@@ -5013,7 +5303,7 @@ sys_brekkenz_init = {
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "yggdrasilnebula_hawkingeta_massrelay" 
+			type = "hawkingeta_yggdrasilnebula_massrelay" 
 			name = "NAME_Yggdrasil_2_Relay"
 			orbit_angle = random
 			orbit_distance = 125

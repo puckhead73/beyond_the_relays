@@ -271,7 +271,7 @@ massrelay_argosrho_shadowsea = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_armstrongnebula_hadesnexus = {
+massrelay_armstrongnebula_atticanbeta = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -334,6 +334,27 @@ massrelay_armstrongnebula_sentryomega = {
 	on_action = "on_entering_massrelay"
 }
 
+massrelay_armstrongnebula_voyagercluster = {
+	name = GALACTIC_MASS_RELAY
+	is_pathfind = yes
+	uses_action = no
+	requires_exploration = no
+	always_active = yes
+	windup_time = 0
+	winddown_time = 0
+	ftl_multiplier = 0
+	extends_sensors = no
+	icon_frame = 12
+	remember_instances = no
+	animation_time = 1
+	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
+	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
+	connection_type = any_other
+	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
+	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
+	on_action = "on_entering_massrelay"
+}
+
 massrelay_artemistau_hadesgamma = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
@@ -356,27 +377,6 @@ massrelay_artemistau_hadesgamma = {
 }
 
 massrelay_artemistau_kitesnest = {
-	name = GALACTIC_MASS_RELAY
-	is_pathfind = yes
-	uses_action = no
-	requires_exploration = no
-	always_active = yes
-	windup_time = 0
-	winddown_time = 0
-	ftl_multiplier = 0
-	extends_sensors = no
-	icon_frame = 12
-	remember_instances = no
-	animation_time = 1
-	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
-	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
-	connection_type = any_other
-	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
-	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
-	on_action = "on_entering_massrelay"
-}
-
-massrelay_athenanebula_meadecluster = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -607,6 +607,48 @@ massrelay_atticanbeta_voyagercluster = {
 	on_action = "on_entering_massrelay"
 }
 
+massrelay_basillaeflare_radanaburst = {
+	name = GALACTIC_MASS_RELAY
+	is_pathfind = yes
+	uses_action = no
+	requires_exploration = no
+	always_active = yes
+	windup_time = 0
+	winddown_time = 0
+	ftl_multiplier = 0
+	extends_sensors = no
+	icon_frame = 12
+	remember_instances = no
+	animation_time = 1
+	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
+	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
+	connection_type = any_other
+	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
+	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
+	on_action = "on_entering_massrelay"
+}
+
+massrelay_basillaeflare_savianabyssal = {
+	name = GALACTIC_MASS_RELAY
+	is_pathfind = yes
+	uses_action = no
+	requires_exploration = no
+	always_active = yes
+	windup_time = 0
+	winddown_time = 0
+	ftl_multiplier = 0
+	extends_sensors = no
+	icon_frame = 12
+	remember_instances = no
+	animation_time = 1
+	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
+	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
+	connection_type = any_other
+	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
+	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
+	on_action = "on_entering_massrelay"
+}
+
 massrelay_bulucnebula_crescentnebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
@@ -650,27 +692,6 @@ massrelay_bulucnebula_eaglenebula = {
 }
 
 massrelay_bulucnebula_ismarfrontier = {
-	name = GALACTIC_MASS_RELAY
-	is_pathfind = yes
-	uses_action = no
-	requires_exploration = no
-	always_active = yes
-	windup_time = 0
-	winddown_time = 0
-	ftl_multiplier = 0
-	extends_sensors = no
-	icon_frame = 12
-	remember_instances = no
-	animation_time = 1
-	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
-	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
-	connection_type = any_other
-	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
-	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
-	on_action = "on_entering_massrelay"
-}
-
-massrelay_bulucnebula_meadecluster = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -943,7 +964,7 @@ massrelay_crescentnebula_minoswasteland = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_crescentnebula_oculusfrontier = {
+massrelay_crescentnebula_nemeanalpha = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -985,27 +1006,6 @@ massrelay_crescentnebula_theshrikeabyssal = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_meadecluster_eaglenebula = {
-	name = GALACTIC_MASS_RELAY
-	is_pathfind = yes
-	uses_action = no
-	requires_exploration = no
-	always_active = yes
-	windup_time = 0
-	winddown_time = 0
-	ftl_multiplier = 0
-	extends_sensors = no
-	icon_frame = 12
-	remember_instances = no
-	animation_time = 1
-	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
-	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
-	connection_type = any_other
-	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
-	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
-	on_action = "on_entering_massrelay"
-}
-
 massrelay_eaglenebula_minoswasteland = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
@@ -1027,7 +1027,7 @@ massrelay_eaglenebula_minoswasteland = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_eaglenebula_oculusfrontier = {
+massrelay_eaglenebula_nemeanalpha = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1048,7 +1048,28 @@ massrelay_eaglenebula_oculusfrontier = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_eaglenebula_savianabyssal = {
+massrelay_eaglenebula_oshibkacliff = {
+	name = GALACTIC_MASS_RELAY
+	is_pathfind = yes
+	uses_action = no
+	requires_exploration = no
+	always_active = yes
+	windup_time = 0
+	winddown_time = 0
+	ftl_multiplier = 0
+	extends_sensors = no
+	icon_frame = 12
+	remember_instances = no
+	animation_time = 1
+	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
+	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
+	connection_type = any_other
+	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
+	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
+	on_action = "on_entering_massrelay"
+}
+
+massrelay_eaglenebula_serpentnebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1384,6 +1405,27 @@ massrelay_hadesgamma_voyagercluster = {
 	on_action = "on_entering_massrelay"
 }
 
+massrelay_hadesnexus_nubianexpanse = {
+	name = GALACTIC_MASS_RELAY
+	is_pathfind = yes
+	uses_action = no
+	requires_exploration = no
+	always_active = yes
+	windup_time = 0
+	winddown_time = 0
+	ftl_multiplier = 0
+	extends_sensors = no
+	icon_frame = 12
+	remember_instances = no
+	animation_time = 1
+	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
+	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
+	connection_type = any_other
+	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
+	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
+	on_action = "on_entering_massrelay"
+}
+
 massrelay_hadesnexus_sentryomega = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
@@ -1531,7 +1573,7 @@ massrelay_homunculuscluster_hourglassnebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_homunculuscluster_oculusfrontier = {
+massrelay_homunculuscluster_nemeanalpha = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1594,7 +1636,7 @@ massrelay_horseheadnebula_localcluster = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_horseheadnebula_olynprotectorate = {
+massrelay_horseheadnebula_olinprotectorate = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1762,7 +1804,7 @@ massrelay_keplerverge_shadowsea = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_kitesnest_mkalipool = {
+massrelay_kitesnest_llewynnebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1846,7 +1888,7 @@ massrelay_krogandmz_serpentnebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_krogandmz_xingyuncluster = {
+massrelay_krogandmz_meadecluster = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1867,7 +1909,7 @@ massrelay_krogandmz_xingyuncluster = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_llewynnebula_vipernebula = {
+massrelay_llewynnebula_mkalipool = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1888,7 +1930,7 @@ massrelay_llewynnebula_vipernebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_llewynnebula_xingyuncluster = {
+massrelay_meadecluster_xingyuncluster = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -1972,28 +2014,7 @@ massrelay_maroonsea_shadowsea = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_meadecluster_serpentnebula = {
-	name = GALACTIC_MASS_RELAY
-	is_pathfind = yes
-	uses_action = no
-	requires_exploration = no
-	always_active = yes
-	windup_time = 0
-	winddown_time = 0
-	ftl_multiplier = 0
-	extends_sensors = no
-	icon_frame = 12
-	remember_instances = no
-	animation_time = 1
-	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
-	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
-	connection_type = any_other
-	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
-	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
-	on_action = "on_entering_massrelay"
-}
-
-massrelay_meadecluster_vesuviusnebula = {
+massrelay_minoswasteland_vesuviusnebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2056,27 +2077,6 @@ massrelay_nimbuscluster_sileannebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_nubianexpanse_voyagercluster = {
-	name = GALACTIC_MASS_RELAY
-	is_pathfind = yes
-	uses_action = no
-	requires_exploration = no
-	always_active = yes
-	windup_time = 0
-	winddown_time = 0
-	ftl_multiplier = 0
-	extends_sensors = no
-	icon_frame = 12
-	remember_instances = no
-	animation_time = 1
-	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
-	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
-	connection_type = any_other
-	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
-	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
-	on_action = "on_entering_massrelay"
-}
-
 massrelay_nubianexpanse_shadowsea = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
@@ -2098,7 +2098,7 @@ massrelay_nubianexpanse_shadowsea = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_oculusfrontier_omeganebula = {
+massrelay_nemeanalpha_nemeandepths = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2119,7 +2119,7 @@ massrelay_oculusfrontier_omeganebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_oculusfrontier_savianabyssal = {
+massrelay_nemeanalpha_omeganebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2140,7 +2140,7 @@ massrelay_oculusfrontier_savianabyssal = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_olynprotectorate_serpentnebula = {
+massrelay_nemeanalpha_sinkelarcluster = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2161,7 +2161,7 @@ massrelay_olynprotectorate_serpentnebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_olynprotectorate_vesuviusnebula = {
+massrelay_olinprotectorate_serpentnebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2180,6 +2180,48 @@ massrelay_olynprotectorate_vesuviusnebula = {
 	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
 	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
 	on_action = "on_entering_massrelay"
+}
+
+massrelay_olinprotectorate_vesuviusnebula = {
+	name = GALACTIC_MASS_RELAY
+	is_pathfind = yes
+	uses_action = no
+	requires_exploration = no
+	always_active = yes
+	windup_time = 0
+	winddown_time = 0
+	ftl_multiplier = 0
+	extends_sensors = no
+	icon_frame = 12
+	remember_instances = no
+	animation_time = 1
+	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
+	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
+	connection_type = any_other
+	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
+	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
+	on_action = "on_entering_massrelay"
+}
+
+massrelay_omeganebula_oshibkacliff = {
+name = GALACTIC_MASS_RELAY
+is_pathfind = yes
+uses_action = no
+requires_exploration = no
+always_active = yes
+windup_time = 0
+winddown_time = 0
+ftl_multiplier = 0
+extends_sensors = no
+icon_frame = 12
+remember_instances = no
+animation_time = 1
+galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
+galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
+connection_type = any_other
+ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
+ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
+on_action = "on_entering_massrelay"
 }
 
 massrelay_omeganebula_pylosnebula = {
@@ -2224,27 +2266,6 @@ massrelay_omeganebula_radanaburst = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_omeganebula_savianabyssal = {
-	name = GALACTIC_MASS_RELAY
-	is_pathfind = yes
-	uses_action = no
-	requires_exploration = no
-	always_active = yes
-	windup_time = 0
-	winddown_time = 0
-	ftl_multiplier = 0
-	extends_sensors = no
-	icon_frame = 12
-	remember_instances = no
-	animation_time = 1
-	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
-	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
-	connection_type = any_other
-	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
-	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
-	on_action = "on_entering_massrelay"
-}
-
 massrelay_omeganebula_sigurdscradle = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
@@ -2266,7 +2287,7 @@ massrelay_omeganebula_sigurdscradle = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_omeganebula_yggrdasilnebula = {
+massrelay_omeganebula_yggdrasilnebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2329,7 +2350,7 @@ massrelay_pylosnebula_radanaburst = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_pylosnebula_rosettanebula = {
+massrelay_pylosnebula_savianabyssal = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2350,7 +2371,7 @@ massrelay_pylosnebula_rosettanebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_pylosnebula_sigurdscradle = {
+massrelay_radanaburst_rosettanebula = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2371,7 +2392,7 @@ massrelay_pylosnebula_sigurdscradle = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_pylosnebula_sinkelarcluster = {
+massrelay_radanaburst_sigurdscradle = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2413,7 +2434,7 @@ massrelay_radanaburst_thephoenixmassing = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_rosettanebula_sigurdscradle = {
+massrelay_radanaburst_savianabyssal = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2434,7 +2455,7 @@ massrelay_rosettanebula_sigurdscradle = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_savianabyssal_nemeanabyss = {
+massrelay_rosettanebula_sigurdscradle = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2539,7 +2560,7 @@ massrelay_sigurdscradle_titannebula = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_sigurdscradle_valhallanthreshold = {
+massrelay_sigurdscradle_vallhallanthreshold = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2560,7 +2581,7 @@ massrelay_sigurdscradle_valhallanthreshold = {
 	on_action = "on_entering_massrelay"
 }
 
-massrelay_sinkelarcluster_thephoenixmassing = {
+massrelay_savianabyssal_thephoenixmassing = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no
@@ -2582,28 +2603,6 @@ massrelay_sinkelarcluster_thephoenixmassing = {
 }
 
 massrelay_theshrikeabyssal_valhallanthreshold = {
-	name = GALACTIC_MASS_RELAY
-	is_pathfind = yes
-	uses_action = no
-	requires_exploration = no
-	always_active = yes
-	windup_time = 0
-	winddown_time = 0
-	ftl_multiplier = 0
-	extends_sensors = no
-	icon_frame = 12
-	remember_instances = no
-	animation_time = 1
-	galactic_map_tooltip_header=NATURAL_WORMHOLE_GALACTIC
-	galactic_map_tooltip_desc=NATURAL_WORMHOLE_DESC
-	connection_type = any_other
-	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
-	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
-	on_action = "on_entering_massrelay"
-}
-
-
-massrelay_galacticcore_omeganebula4relay = {
 	name = GALACTIC_MASS_RELAY
 	is_pathfind = yes
 	uses_action = no

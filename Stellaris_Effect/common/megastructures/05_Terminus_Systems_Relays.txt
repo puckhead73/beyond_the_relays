@@ -2,6 +2,30 @@
 ###### TERMINUS SYSTEMS ######
 ##############################
 
+#####BASILLAE FLARE#####
+
+basillaeflare_radanaburst_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_basillaeflare_radanaburst
+}
+
+basillaeflare_savianabyssal_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_basillaeflare_savianabyssal
+}
+
 #####BYENZINE CLOUD#####
 
 byenzinecloud_omeganebula_massrelay = {
@@ -23,93 +47,13 @@ byenzinecloud_vallhallanthreshold_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_byenzinecloud_valhallanthreshold
-}
-
-
-#####CALESTON RIFT#####
-
-calestonrift_hadesnexus_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_hadesnexus
-}
-
-calestonrift_hawkingeta_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_hawkingeta
-}
-
-calestonrift_nubianexpanse_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_nubianexpanse
-}
-
-calestonrift_omeganebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_omeganebula
-}
-
-calestonrift_pylosnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_pylosnebula
-}
-
-calestonrift_styxtheta_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_styxtheta
-}
-
-calestonrift_thephoenixmassing_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_thephoenixmassing
+	bypass_type = massrelay_byenzinecloud_vallhallanthreshold
 }
 
 
 #####CRESCENT NEBULA#####
 
-crescentnebula_bulucnebula_massrelay = {
+crescentnebula_nemeanalpha_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -117,51 +61,7 @@ crescentnebula_bulucnebula_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_bulucnebula_crescentnebula
-}
-
-crescentnebula_eaglenebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_crescentnebula_eaglenebula
-}
-
-crescentnebula_ismarfrontier_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_crescentnebula_ismarfrontier
-}
-
-crescentnebula_minoswasteland_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_crescentnebula_minoswasteland
-}
-
-crescentnebula_oculusfrontier_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_crescentnebula_oculusfrontier
+	bypass_type = massrelay_crescentnebula_nemeanalpha
 }
 
 crescentnebula_theshrikeabyssal_massrelay = {
@@ -178,17 +78,6 @@ crescentnebula_theshrikeabyssal_massrelay = {
 
 #####FAR RIM#####
 
-farrim_hadesnexus_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_farrim_hadesnexus
-}
-
 farrim_perseusveil_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
@@ -198,17 +87,6 @@ farrim_perseusveil_massrelay = {
 	construction_blocked_by_others = no
 	potential = { always = no }	
 	bypass_type = massrelay_farrim_perseusveil
-}
-
-farrim_pylosnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_farrim_pylosnebula
 }
 
 farrim_thephoenixmassing_massrelay = {
@@ -233,7 +111,7 @@ galacticcore_omeganebula4relay_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_galacticcore_omeganebula4relay
+	bypass_type = massrelay_galacticcore_omega4relay
 }
 
 
@@ -250,7 +128,7 @@ homunculuscluster_hourglassnebula_massrelay = {
 	bypass_type = massrelay_homunculuscluster_hourglassnebula
 }
 
-homunculuscluster_oculusfrontier_massrelay = {
+homunculuscluster_nemeanalpha_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -258,7 +136,7 @@ homunculuscluster_oculusfrontier_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_homunculuscluster_oculusfrontier
+	bypass_type = massrelay_homunculuscluster_nemeanalpha
 }
 
 homunculuscluster_theshrikeabyssal_massrelay = {
@@ -274,17 +152,6 @@ homunculuscluster_theshrikeabyssal_massrelay = {
 
 
 #####HOURGLASS NEBULA#####
-
-hourglassnebula_homunculuscluster_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_homunculuscluster_hourglassnebula
-}
 
 hourglassnebula_omeganebula_massrelay = {
 	entity = "gateway_entity"
@@ -320,9 +187,9 @@ hourglassnebula_vallhallanthreshold_massrelay = {
 }
 
 
-#####NEMEAN ABYSS#####
+#####NEMEAN ALPHA#####
 
-nemeanabyss_savianabyssal_massrelay = {
+nemeanalpha_omeganebula_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -330,13 +197,10 @@ nemeanabyss_savianabyssal_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_nemeanabyss_savianabyssal
+	bypass_type = massrelay_nemeanalpha_omeganebula
 }
 
-
-#####OCULUS FRONTIER#####
-
-oculusfrontier_crescentnebula_massrelay = {
+nemeanalpha_nemeandepths_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -344,10 +208,10 @@ oculusfrontier_crescentnebula_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_crescentnebula_oculusfrontier
+	bypass_type = massrelay_nemeanalpha_nemeandepths
 }
 
-oculusfrontier_eaglenebula_massrelay = {
+nemeanalpha_sinkelarcluster_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -355,46 +219,13 @@ oculusfrontier_eaglenebula_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_eaglenebula_oculusfrontier
-}
-
-oculusfrontier_homunculuscluster_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_homunculuscluster_oculusfrontier
-}
-
-oculusfrontier_omeganebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_oculusfrontier_omeganebula
-}
-
-oculusfrontier_savianabyssal_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_oculusfrontier_savianabyssal
+	bypass_type = massrelay_nemeanalpha_sinkelarcluster
 }
 
 
 #####OMEGA NEBULA#####
 
-omeganebula_byenzinecloud_massrelay = {
+omeganebula_oshibkacliff_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -402,73 +233,7 @@ omeganebula_byenzinecloud_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }	
-	bypass_type = massrelay_byenzinecloud_omeganebula
-}
-
-omeganebula_calestonrift_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_omeganebula
-}
-
-omeganebula_hourglassnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_hourglassnebula_omeganebula
-}
-
-omeganebula_oculusfrontier_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_oculusfrontier_omeganebula
-}
-
-omeganebula_pylosnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_omeganebula_pylosnebula
-}
-
-omeganebula_radanaburst_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_omeganebula_radanaburst
-}
-
-omeganebula_savianabyss_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_omeganebula_savianabyss
+	bypass_type = massrelay_omeganebula_oshibkacliff
 }
 
 omeganebula_sigurdscradle_massrelay = {
@@ -482,115 +247,10 @@ omeganebula_sigurdscradle_massrelay = {
 	bypass_type = massrelay_omeganebula_sigurdscradle
 }
 
-omeganebula_yggdrasilnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_omeganebula_yggdrasilnebula
-}
 
-omeganebula4relay_galacticcore_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_galacticcore_omeganebula4relay
-}
+#####RADANA BURST#####
 
-
-#####PERSEUS VEIL#####
-
-perseusveil_farrim_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_farrim_perseusveil
-}
-
-
-#####THE PHOENIX MASSING#####
-
-thephoenixmassing_calestonrift_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_calestonrift_thephoenixmassing
-}
-
-thephoenixmassing_farrim_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_farrim_thephoenixmassing
-}
-
-thephoenixmassing_hadesnexus_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_hadesnexus_thephoenixmassing
-}
-
-thephoenixmassing_sentryomega_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_sentryomega_thephoenixmassing
-}
-
-thephoenixmassing_radanaburst_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_radanaburst_thephoenixmassing
-}
-
-thephoenixmassing_sinkelarcluster_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_sinkelarcluster_thephoenixmassing
-}
-
-
-#####ROSETTA NEBULA#####
-
-rosettanebula_pylosnebula_massrelay = {
+radanaburst_omeganebula_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -598,8 +258,55 @@ rosettanebula_pylosnebula_massrelay = {
 	construction_blocks_others = no
 	construction_blocked_by_others = no
 	potential = { always = no }
-	bypass_type = massrelay_pylosnebula_rosettanebula
+	bypass_type = massrelay_omeganebula_radanaburst
 }
+
+radanaburst_rosettanebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_radanaburst_rosettanebula
+}
+
+radanaburst_savianabyssal_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_radanaburst_savianabyssal
+}
+
+radanaburst_sigurdscradle_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_radanaburst_sigurdscradle
+}
+
+radanaburst_thephoenixmassing_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_radanaburst_thephoenixmassing
+}
+
+
+#####ROSETTA NEBULA#####
 
 rosettanebula_sigurdscradle_massrelay = {
 	entity = "gateway_entity"
@@ -612,54 +319,22 @@ rosettanebula_sigurdscradle_massrelay = {
 	bypass_type = massrelay_rosettanebula_sigurdscradle
 }
 
+#####SAVIAN ABYSSAL#####
+
+savianabyssal_thephoenixmassing_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }
+	bypass_type = massrelay_savianabyssal_thephoenixmassing
+}
 
 #####THE SHRIKE ABYSSAL#####
 
-theshrikeabyssal_crescentnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_crescentnebula_theshrikeabyssal
-}
-
-theshrikeabyssal_homunculuscluster_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_homunculuscluster_theshrikeabyssal
-}
-
-theshrikeabyssal_hourglassnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_hourglassnebula_theshrikeabyssal
-}
-
-theshrikeabyssal_ismarfrontier_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_ismarfrontier_theshrikeabyssal
-}
-
-theshrikeabyssal_valhallanthreshold_massrelay = {
+theshrikeabyssal_vallhallanthreshold_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
@@ -672,39 +347,6 @@ theshrikeabyssal_valhallanthreshold_massrelay = {
 
 
 #####SIGURD'S CRADLE#####
-
-sigurdscradle_omeganebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_omeganebula_sigurdscradle
-}
-
-sigurdscradle_rosettanebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_rosettanebula_sigurdscradle
-}
-
-sigurdscradle_pylosnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }
-	bypass_type = massrelay_pylosnebula_sigurdscradle
-}
 
 sigurdscradle_titannebula_massrelay = {
 	entity = "gateway_entity"
@@ -727,91 +369,3 @@ sigurdscradle_vallhallanthreshold_massrelay = {
 	potential = { always = no }	
 	bypass_type = massrelay_sigurdscradle_vallhallanthreshold
 }
-
-
-#####SIN'KELAR CLUSTER#####
-
-sinkelarcluster_pylosnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_pylosnebula_sinkelarcluster
-}
-
-sinkelarcluster_thephoenixmassing_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_sinkelarcluster_thephoenixmassing
-}
-
-
-#####TITAN NEBULA#####
-
-titannebula_sigurdscradle_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_sigurdscradle_titannebula
-}
-
-
-#####VALHALLAN THRESHOLD#####
-
-valhallanthreshold_byenzinecloud_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_byenzinecloud_valhallanthreshold
-}
-
-valhallanthreshold_hourglassnebula_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_hourglassnebula_valhallanthreshold
-}
-
-valhallanthreshold_sigurdscradle_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_sigurdscradle_vallhallanthreshold
-}
-
-valhallanthreshold_theshrikebayssal_massrelay = {
-	entity = "gateway_entity"
-	portrait = "GFX_megastructure_construction_background"
-	build_outside_gravity_well = yes						
-	show_galactic_map_icon = no
-	construction_blocks_others = no
-	construction_blocked_by_others = no
-	potential = { always = no }	
-	bypass_type = massrelay_theshrikeabyssal_valhallanthreshold
-}
-
-

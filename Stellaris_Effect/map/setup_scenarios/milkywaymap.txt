@@ -1,1909 +1,2217 @@
 static_galaxy_scenario = {
-    name = "Stellaris Effect"
-    priority = 1
-    default = yes
+    name = "Beyond_the_Relays_245_v1"
+    priority = 0
+    default = no
     colonizable_planet_odds = 1.0
-    num_empires = { min = 1 max = 10 }
+    num_empires = { min = 1 max = 1 }
     num_empire_default = 1
     advanced_empire_default = 0
     core_radius = 0
     random_hyperlanes = yes
 
     system = {
-        name = "NAME_Hoplos"
         id = "0"
         position = {
-            x = -416.5559
-            y = -69.91139
-        }
-        initializer = sys_hoplos_init
-    }
-
-    system = {
-        name = "NAME_Vamshi"
-        id = "1"
-        position = {
-            x = -413
-            y = 0
-        }
-        initializer = sys_vamshi_init
-    }
-
-    system = {
-        name = "NAME_Tikkun"
-        id = "2"
-        position = {
-            x = -409.759
-            y = -188.3725
-        }
-        initializer = sys_tikkun_init
-        spawn_weight = { base = 1 }
-    }
-
-    system = {
-        name = "NAME_Hekate"
-        id = "3"
-        position = {
-            x = -406.846
-            y = -49.52055
-        }
-        initializer = sys_hekate_init
-    }
-
-    system = {
-        name = "NAME_Grissom"
-        id = "4"
-        position = {
-            x = -403
-            y = 18
-        }
-        initializer = sys_grissom_init
-    }
-
-    system = {
-        name = "NAME_Pamyat"
-        id = "5"
-        position = {
-            x = -398.1071
-            y = -68.94041
-        }
-        initializer = sys_pamyat_init
-    }
-
-    system = {
-        name = "NAME_Hong"
-        id = "6"
-        position = {
-            x = -399
-            y = 0
-        }
-        initializer = sys_hong_init
-    }
-
-    system = {
-        name = "NAME_Sheol"
-        id = "7"
-        position = {
-            x = -387.4261
-            y = -51.46253
-        }
-        initializer = sys_sheol_init
-    }
-
-    system = {
-        name = "NAME_Tereshkova"
-        id = "8"
-        position = {
-            x = -387
-            y = 3
-        }
-        initializer = sys_tereshkova_init
-    }
-
-    system = {
-        name = "NAME_Gagarin"
-        id = "9"
-        position = {
-            x = -385
-            y = 18
-        }
-        initializer = sys_gagarin_init
-    }
-
-    system = {
-        name = "NAME_Qertassi"
-        id = "10"
-        position = {
-            x = -363.1513
-            y = 78.6505
-        }
-        initializer = sys_qertassi_init
-    }
-
-    system = {
-        name = "NAME_Columbia"
-        id = "11"
-        position = {
-            x = -355
-            y = 166
-        }
-        initializer = sys_columbia_init
-    }
-
-    system = {
-        name = "NAME_Maat"
-        id = "12"
-        position = {
-            x = -357.3253
-            y = -217.5023
-        }
-        initializer = sys_maat_init
-    }
-
-    system = {
-        name = "NAME_Yangtze"
-        id = "13"
-        position = {
-            x = -354
-            y = 144
-        }
-        initializer = sys_yangtze_init
-    }
-
-    system = {
-        name = "NAME_Kalabsha"
-        id = "14"
-        position = {
-            x = -351.4993
-            y = 71.85355
-        }
-        initializer = sys_kalabsha_init
-    }
-
-    system = {
-        name = "NAME_Dakka"
-        id = "15"
-        position = {
-            x = -349.5574
-            y = 91.27341
-        }
-        initializer = sys_dakka_init
-    }
-
-    system = {
-        name = "NAME_Dholen"
-        id = "16"
-        position = {
-            x = -343.7315
-            y = -239.8351
-        }
-        initializer = sys_dholen_init
-    }
-
-    system = {
-        name = "NAME_Amazon"
-        id = "17"
-        position = {
-            x = -336
-            y = 146
-        }
-        initializer = sys_amazon_init
-    }
-
-    system = {
-        name = "NAME_Hoc"
-        id = "18"
-        position = {
-            x = -308.7757
-            y = -34.95566
-        }
-        initializer = sys_hoc_init
-    }
-
-    system = {
-        name = "NAME_Chomos"
-        id = "19"
-        position = {
-            x = -313
-            y = -108
-        }
-        initializer = sys_chomos_init
-    }
-
-    system = {
-        name = "NAME_Salahiel"
-        id = "20"
-        position = {
-            x = -306
-            y = -122
-        }
-        initializer = sys_salahiel_init
-    }
-
-    system = {
-        name = "NAME_Typhon"
-        id = "21"
-        position = {
-            x = -300
-            y = -133
-        }
-        initializer = sys_typhon_init
-    }
-
-    system = {
-        name = "NAME_Tassrah"
-        id = "22"
-        position = {
-            x = -298
-            y = -110
-        }
-        initializer = sys_tassrah_init
-    }
-
-    system = {
-        name = "NAME_TheSeaofStorms"
-        id = "23"
-        position = {
-            x = -291
-            y = -124
-        }
-        initializer = sys_theseaofstorms_init
-    }
-
-    system = {
-        name = "NAME_Cacus"
-        id = "24"
-        position = {
-            x = -280
-            y = 224
-        }
-        initializer = sys_cacus_init
-    }
-
-    system = {
-        name = "NAME_Farinata"
-        id = "25"
-        position = {
-            x = -274
-            y = 213
-        }
-        initializer = sys_farinata_init
-    }
-
-    system = {
-        name = "NAME_Antaeus"
-        id = "26"
-        position = {
-            x = -266
-            y = 235
-        }
-        initializer = sys_antaeus_init
-    }
-
-    system = {
-        name = "NAME_Hercules"
-        id = "27"
-        position = {
-            x = -261
-            y = 160
-        }
-        initializer = sys_hercules_init
-    }
-
-    system = {
-        name = "NAME_Plutus"
-        id = "28"
-        position = {
-            x = -259
-            y = 224
-        }
-        initializer = sys_plutus_init
-    }
-
-    system = {
-        name = "NAME_Sparta"
-        id = "29"
-        position = {
-            x = -253
-            y = 327
-        }
-        initializer = sys_sparta_init
-    }
-
-    system = {
-        name = "NAME_Dis"
-        id = "30"
-        position = {
-            x = -259.255
-            y = 212.6475
-        }
-        initializer = sys_dis_init
-    }
-
-    system = {
-        name = "NAME_Theseus"
-        id = "31"
-        position = {
-            x = -251
-            y = 136
-        }
-        initializer = sys_theseus_init
-    }
-
-    system = {
-        name = "NAME_Knossos"
-        id = "32"
-        position = {
-            x = -251
-            y = 314
-        }
-        initializer = sys_knossos_init
-    }
-
-    system = {
-        name = "NAME_Athens"
-        id = "33"
-        position = {
-            x = -239
-            y = 310
-        }
-        initializer = sys_athens_init
-    }
-
-    system = {
-        name = "NAME_Newton"
-        id = "34"
-        position = {
-            x = -240.8062
-            y = 23.3039
-        }
-        initializer = sys_newton_init
-    }
-
-    system = {
-        name = "NAME_Macedon"
-        id = "35"
-        position = {
-            x = -234
-            y = 325
-        }
-        initializer = sys_macedon_init
-    }
-
-    system = {
-        name = "NAME_Yakawa"
-        id = "36"
-        position = {
-            x = -232.0673
-            y = -97.09921
-        }
-        initializer = sys_yakawa_init
-    }
-
-    system = {
-        name = "NAME_Aysur"
-        id = "37"
-        position = {
-            x = -239.8352
-            y = -78.65034
-        }
-        initializer = sys_aysur_init
-    }
-
-    system = {
-        name = "NAME_Herschel"
-        id = "38"
-        position = {
-            x = -226.2413
-            y = 46.60772
-        }
-        initializer = sys_herschel_init
-    }
-
-    system = {
-        name = "NAME_Solveig"
-        id = "39"
-        position = {
-            x = -220.4154
-            y = -88.36027
-        }
-        initializer = sys_solveig_init
-    }
-
-    system = {
-        name = "NAME_Balor"
-        id = "40"
-        position = {
-            x = -221.3864
-            y = -72.82439
-        }
-        initializer = sys_balor_init
-    }
-
-    system = {
-        name = "NAME_Talava"
-        id = "41"
-        position = {
-            x = -207.7924
-            y = -82.53432
-        }
-        initializer = sys_talava_init
-    }
-
-    system = {
-        name = "NAME_Ming"
-        id = "42"
-        position = {
-            x = -197
-            y = 185
-        }
-        initializer = sys_ming_init
-    }
-
-    system = {
-        name = "NAME_Caspian"
-        id = "43"
-        position = {
-            x = -193
-            y = 116
-        }
-        initializer = sys_caspian_init
-    }
-
-    system = {
-        name = "NAME_Alpha_Draconis"
-        id = "44"
-        position = {
-            x = -194.1986
-            y = -334.9925
-        }
-        initializer = sys_alphadraconis_init
-    }
-
-    system = {
-        name = "NAME_Kriseroi"
-        id = "45"
-        position = {
-            x = -187.4016
-            y = -217.5023
-        }
-        initializer = sys_kriseroi_init
-    }
-
-    system = {
-        name = "NAME_Vostok"
-        id = "46"
-        position = {
-            x = -184
-            y = 101
-        }
-        initializer = sys_vostok_init
-    }
-
-    system = {
-        name = "NAME_Han"
-        id = "47"
-        position = {
-            x = -183
-            y = 198
-        }
-        initializer = sys_han_init
-    }
-
-    system = {
-        name = "NAME_Acheron"
-        id = "48"
-        position = {
-            x = -188.3726
-            y = 0.9710642
-        }
-        initializer = sys_acheron_init
-    }
-
-    system = {
-        name = "NAME_Enoch"
-        id = "49"
-        position = {
-            x = -171.8658
-            y = -318.4856
-        }
-        initializer = sys_enoch_init
-    }
-
-    system = {
-        name = "NAME_Untrel"
-        id = "50"
-        position = {
-            x = -183.5176
-            y = 348.5864
-        }
-        initializer = sys_untrel_init
-    }
-
-    system = {
-        name = "NAME_Phi_Clio"
-        id = "51"
-        position = {
-            x = -180.6047
-            y = -345.6734
-        }
-        initializer = sys_phiclio_init
-    }
-
-    system = {
-        name = "NAME_Matano"
-        id = "52"
-        position = {
-            x = -174
-            y = 116
-        }
-        initializer = sys_matano_init
-    }
-
-    system = {
-        name = "NAME_Satent"
-        id = "53"
-        position = {
-            x = -167.0108
-            y = -223.3283
-        }
-        initializer = sys_satent_init
-    }
-
-    system = {
-        name = "NAME_Harsa"
-        id = "54"
-        position = {
-            x = -171.8657
-            y = 330.1376
-        }
-        initializer = sys_harsa_init
-    }
-
-    system = {
-        name = "NAME_Erebus"
-        id = "55"
-        position = {
-            x = -165.0688
-            y = -9.709859
-        }
-        initializer = sys_erebus_init
-    }
-
-    system = {
-        name = "NAME_Nariph"
-        id = "56"
-        position = {
-            x = -165.0688
-            y = -200.0244
-        }
-        initializer = sys_nariph_init
-    }
-
-    system = {
-        name = "NAME_Vular"
-        id = "57"
-        position = {
-            x = -157
-            y = 352
-        }
-        initializer = sys_vular_init
-    }
-
-    system = {
-        name = "NAME_Refuge"
-        id = "58"
-        position = {
-            x = -139.823
-            y = -142.7359
-        }
-        initializer = sys_refuge_init
-    }
-
-    system = {
-        name = "NAME_Iera"
-        id = "59"
-        position = {
-            x = -153
-            y = 75
-        }
-        initializer = sys_iera_init
-    }
-
-    system = {
-        name = "NAME_Mulla_Xul"
-        id = "60"
-        position = {
-            x = -150.5039
-            y = -30.10071
-        }
-        initializer = sys_mullaxul_init
-    }
-
-    system = {
-        name = "NAME_Dirada"
-        id = "61"
-        position = {
-            x = -149.5329
-            y = -208.7634
-        }
-        initializer = sys_dirada_init
-    }
-
-    system = {
-        name = "NAME_Hydra"
-        id = "62"
-        position = {
-            x = -141
-            y = 145
-        }
-        initializer = sys_hydra_init
-    }
-
-    system = {
-        name = "NAME_Verr"
-        id = "63"
-        position = {
-            x = -134
-            y = -84
-        }
-        initializer = sys_verr_init
-    }
-
-    system = {
-        name = "NAME_Thorne"
-        id = "64"
-        position = {
-            x = -128.1711
-            y = -63.11448
-        }
-        initializer = sys_thorne_init
-    }
-
-    system = {
-        name = "NAME_Maskim_Xul"
-        id = "65"
-        position = {
-            x = -133.997
-            y = -41.75263
-        }
-        initializer = sys_maskimxul_init
-    }
-
-    system = {
-        name = "NAME_Phoenix"
-        id = "66"
-        position = {
-            x = -125
-            y = 135
-        }
-        initializer = sys_phoenix_init
-    }
-
-    system = {
-        name = "NAME_Gorgon"
-        id = "67"
-        position = {
-            x = -125
-            y = 160
-        }
-        initializer = sys_gorgon_init
-    }
-
-    system = {
-        name = "NAME_Century"
-        id = "68"
-        position = {
-            x = -119
-            y = -86
-        }
-        initializer = sys_century_init
-    }
-
-    system = {
-        name = "NAME_Schwarzschild"
-        id = "69"
-        position = {
-            x = -103.2111
-            y = -60.50301
-        }
-        initializer = sys_schwarzschild_init
-    }
-
-    system = {
-        name = "NAME_Chandrasekhar"
-        id = "70"
-        position = {
-            x = -111
-            y = -76
-        }
-        initializer = sys_chandrasekhar_init
-    }
-
-    system = {
-        name = "NAME_Psi_Tophet"
-        id = "71"
-        position = {
-            x = -76
-            y = -273
-        }
-        initializer = sys_psitophet_init
-    }
-
-    system = {
-        name = "NAME_Decoris"
-        id = "72"
-        position = {
-            x = -71.85349
-            y = -290.3268
-        }
-        initializer = sys_decoris_init
-    }
-
-    system = {
-        name = "NAME_Skepsis"
-        id = "73"
-        position = {
-            x = -55.34661
-            y = -275.7619
-        }
-        initializer = sys_skepsis_init
-    }
-
-    system = {
-        name = "NAME_Mil"
-        id = "74"
-        position = {
-            x = -49.52065
-            y = -264.11
-        }
-        initializer = sys_mil_init
-    }
-
-    system = {
-        name = "NAME_Lenal"
-        id = "75"
-        position = {
-            x = -47.57867
-            y = -287.4138
-        }
-        initializer = sys_lenal_init
-    }
-
-    system = {
-        name = "NAME_Kairavamori"
-        id = "76"
-        position = {
-            x = -42.7237
-            y = -222.3573
-        }
-        initializer = sys_kairavamori_init
-    }
-
-    system = {
-        name = "NAME_Arinlarkan"
-        id = "77"
-        position = {
-            x = -36
-            y = -211
-        }
-        initializer = sys_arinlarkan_init
-    }
-
-    system = {
-        name = "NAME_Vetus"
-        id = "78"
-        position = {
-            x = -23.30379
-            y = 323.3406
-        }
-        initializer = sys_vetus_init
-    }
-
-    system = {
-        name = "NAME_Amada"
-        id = "79"
-        position = {
-            x = -36.89775
-            y = -238.8642
-        }
-        initializer = sys_amada_init
-    }
-
-    system = {
-        name = "NAME_Fathar"
-        id = "80"
-        position = {
-            x = -22.33286
-            y = -235.9512
-        }
-        initializer = sys_fathar_init
-    }
-
-    system = {
-        name = "NAME_Haskins"
-        id = "81"
-        position = {
-            x = -14.56493
-            y = -401.991
-        }
-        initializer = sys_haskins_init
-    }
-
-    system = {
-        name = "NAME_Batalla"
-        id = "82"
-        position = {
-            x = -18.44888
-            y = -213.6184
-        }
-        initializer = sys_batalla_init
-    }
-
-    system = {
-        name = "NAME_Asgard"
-        id = "83"
-        position = {
-            x = -15
-            y = 256
-        }
-        initializer = sys_asgard_init
-    }
-
-    system = {
-        name = "NAME_Pax"
-        id = "84"
-        position = {
-            x = -2.912961
-            y = 186.4307
-        }
-        initializer = sys_pax_init
-    }
-
-    system = {
-        name = "NAME_Strenuus"
-        id = "85"
-        position = {
-            x = -4.854949
-            y = 167.0108
-        }
-        initializer = sys_strenuus_init
-    }
-
-    system = {
-        name = "NAME_Tartarus_Debris_Field"
-        id = "86"
-        position = {
-            x = 0.9709928
-            y = 0.9710475
-        }
-        initializer = sys_tartarusdebrisfield_init
-    }
-
-    system = {
-        name = "NAME_Utopia"
-        id = "87"
-        position = {
-            x = 3.883992
-            y = 251.4872
-        }
-        initializer = sys_utopia_init
-    }
-
-    system = {
-        name = "NAME_Anadius"
-        id = "88"
-        position = {
-            x = 12.62292
-            y = 194.1986
-        }
-        initializer = sys_anadius_init
-    }
-
-    system = {
-        name = "NAME_Fortuna"
-        id = "89"
-        position = {
-            x = 14.56491
-            y = 173.8078
-        }
-        initializer = sys_fortuna_init
-    }
-
-    system = {
-        name = "NAME_Bahak"
-        id = "90"
-        position = {
-            x = 33
-            y = 412
-        }
-        initializer = sys_bahak_init
-    }
-
-    system = {
-        name = "NAME_Euler"
-        id = "91"
-        position = {
-            x = 42
-            y = 276
-        }
-        initializer = sys_euler_init
-    }
-
-    system = {
-        name = "NAME_Arcturus"
-        id = "92"
-        position = {
-            x = 56
-            y = 280
-        }
-        initializer = sys_arcturus_init
-    }
-
-    system = {
-        name = "NAME_Sol"
-        id = "93"
-        position = {
-            x = 94.18631
-            y = 252.4582
-        }
-        initializer = sys_sol_init
-        spawn_weight = { base = 1 }
-    }
-
-    system = {
-        name = "NAME_Pranas"
-        id = "94"
-        position = {
-            x = 100.0123
-            y = 150.5039
-        }
-        initializer = sys_pranas_init
-    }
-
-    system = {
-        name = "NAME_Micah"
-        id = "95"
-        position = {
-            x = 110
-            y = -386
-        }
-        initializer = sys_micah_init
-    }
-
-    system = {
-        name = "NAME_Paz"
-        id = "96"
-        position = {
-            x = 121.3741
-            y = -368.0063
-        }
-        initializer = sys_paz_init
-    }
-
-    system = {
-        name = "NAME_Faryar"
-        id = "97"
-        position = {
-            x = 135.2421
-            y = -255.3585
-        }
-        initializer = sys_faryar_init
-    }
-
-    system = {
-        name = "NAME_Raheel_Leyya"
-        id = "98"
-        position = {
-            x = 139.8229
-            y = -363.1513
-        }
-        initializer = sys_raheelleyya_init
-    }
-
-    system = {
-        name = "NAME_Relic"
-        id = "99"
-        position = {
-            x = 140
-            y = -101
-        }
-        initializer = sys_relic_init
-    }
-
-    system = {
-        name = "NAME_Sowilo"
-        id = "100"
-        position = {
-            x = 143.2499
-            y = -266.0355
-        }
-        initializer = sys_sowilo_init
-    }
-
-    system = {
-        name = "NAME_Osun"
-        id = "101"
-        position = {
-            x = 143
-            y = -234
-        }
-        initializer = sys_osun_init
-    }
-
-    system = {
-        name = "NAME_Amun"
-        id = "102"
-        position = {
-            x = 146
-            y = -113
-        }
-        initializer = sys_amun_init
-    }
-
-    system = {
-        name = "NAME_Imir"
-        id = "103"
-        position = {
-            x = 151
-            y = -93
-        }
-        initializer = sys_imir_init
-    }
-
-    system = {
-        name = "NAME_Malgus"
-        id = "104"
-        position = {
-            x = 157
-            y = -106
-        }
-        initializer = sys_malgus_init
-    }
-
-    system = {
-        name = "NAME_Ploitari"
-        id = "105"
-        position = {
-            x = 158
-            y = -255
-        }
-        initializer = sys_ploitari_init
-    }
-
-    system = {
-        name = "NAME_Strabo"
-        id = "106"
-        position = {
-            x = 169
-            y = -86
-        }
-        initializer = sys_strabo_init
-    }
-
-    system = {
-        name = "NAME_Nura"
-        id = "107"
-        position = {
-            x = 174.3912
-            y = 313.1923
-        }
-        initializer = sys_nura_init
-    }
-
-    system = {
-        name = "NAME_Aru"
-        id = "108"
-        position = {
-            x = 180.6195
-            y = 295.3973
-        }
-        initializer = sys_aru_init
-    }
-
-    system = {
-        name = "NAME_Esori"
-        id = "109"
-        position = {
-            x = 193.9657
-            y = 303.4051
-        }
-        initializer = sys_esori_init
-    }
-
-    system = {
-        name = "NAME_Aralakh"
-        id = "110"
-        position = {
-            x = 188
-            y = 170
-        }
-        initializer = sys_aralakh_init
-    }
-
-    system = {
-        name = "NAME_Boltzmann"
-        id = "111"
-        position = {
-            x = 192
-            y = 117
-        }
-        initializer = sys_boltzmann_init
-    }
-
-    system = {
-        name = "NAME_Dranek"
-        id = "112"
-        position = {
-            x = 198.0825
-            y = 163.1268
-        }
-        initializer = sys_dranek_init
-    }
-
-    system = {
-        name = "NAME_Satu_Arrd"
-        id = "113"
-        position = {
-            x = 198.4144
-            y = 322.0898
-        }
-        initializer = sys_satuarrd_init
-    }
-
-    system = {
-        name = "NAME_Widow"
-        id = "114"
-        position = {
-            x = 206
-            y = 104
-        }
-        initializer = sys_widow_init
-    }
-
-    system = {
-        name = "NAME_Nith"
-        id = "115"
-        position = {
-            x = 210.7054
-            y = 174.7787
-        }
-        initializer = sys_nith_init
-    }
-
-    system = {
-        name = "NAME_Gemmae"
-        id = "116"
-        position = {
-            x = 248.5742
-            y = 250.5162
-        }
-        initializer = sys_gemmae_init
-    }
-
-    system = {
-        name = "NAME_Trebia"
-        id = "117"
-        position = {
-            x = 254.4001
-            y = 233.0383
-        }
-        initializer = sys_trebia_init
-    }
-
-    system = {
-        name = "NAME_Tasale"
-        id = "118"
-        position = {
-            x = 261.1971
-            y = -171.8657
-        }
-        initializer = sys_tasale_init
-    }
-
-    system = {
-        name = "NAME_Xe_Cha"
-        id = "119"
-        position = {
-            x = 263.139
-            y = -313.6307
-        }
-        initializer = sys_xecha_init
-    }
-
-    system = {
-        name = "NAME_Castellus"
-        id = "120"
-        position = {
-            x = 270.907
-            y = 228.1833
-        }
-        initializer = sys_castellus_init
-    }
-
-    system = {
-        name = "NAME_Zelene"
-        id = "121"
-        position = {
-            x = 273
-            y = -164
-        }
-        initializer = sys_zelene_init
-    }
-
-    system = {
-        name = "NAME_Lusarn"
-        id = "122"
-        position = {
-            x = 277.7039
-            y = -183.5176
-        }
-        initializer = sys_lusarn_init
-    }
-
-    system = {
-        name = "NAME_Urla_Rast"
-        id = "123"
-        position = {
-            x = 282.5589
-            y = -322.3696
-        }
-        initializer = sys_urlarast_init
-    }
-
-    system = {
-        name = "NAME_Ondeste"
-        id = "124"
-        position = {
-            x = 288.3848
-            y = -190.3146
-        }
-        initializer = sys_ondeste_init
-    }
-
-    system = {
-        name = "NAME_Ialessa"
-        id = "125"
-        position = {
-            x = 292.2688
-            y = 80.59242
-        }
-        initializer = sys_ialessa_init
-    }
-
-    system = {
-        name = "NAME_Vernio"
-        id = "126"
-        position = {
-            x = 292.2688
-            y = 103.8963
-        }
-        initializer = sys_vernio_init
-    }
-
-    system = {
-        name = "NAME_Parnitha"
-        id = "127"
-        position = {
-            x = 302.9497
-            y = 91.27335
-        }
-        initializer = sys_parnitha_init
-    }
-
-    system = {
-        name = "NAME_Teyolia"
-        id = "128"
-        position = {
-            x = 309.7467
-            y = 137.881
-        }
-        initializer = sys_teyolia_init
-    }
-
-    system = {
-        name = "NAME_Orisoni"
-        id = "129"
-        position = {
-            x = 315.5727
-            y = 84.47639
-        }
-        initializer = sys_orisoni_init
-    }
-
-    system = {
-        name = "NAME_Tomaros"
-        id = "130"
-        position = {
-            x = 314.6017
-            y = 105.8382
-        }
-        initializer = sys_tomaros_init
-    }
-
-    system = {
-        name = "NAME_Phontes"
-        id = "131"
-        position = {
-            x = 323.3406
-            y = 140.794
-        }
-        initializer = sys_phontes_init
-    }
-
-    system = {
-        name = "NAME_Kypladon"
-        id = "132"
-        position = {
-            x = 324.3116
-            y = 161.1848
-        }
-        initializer = sys_kypladon_init
-    }
-
-    system = {
-        name = "NAME_Nahuala"
-        id = "133"
-        position = {
-            x = 334.0215
-            y = 150.5039
-        }
-        initializer = sys_nahuala_init
-    }
-
-    system = {
-        name = "NAME_Loropi"
-        id = "134"
-        position = {
-            x = 336.9344
-            y = 164.0978
-        }
-        initializer = sys_loropi_init
-    }
-
-    system = {
-        name = "NAME_Fortis"
-        id = "135"
-        position = {
-            x = 346
-            y = -12
-        }
-        initializer = sys_fortis_init
-    }
-
-    system = {
-        name = "NAME_Caestus"
-        id = "136"
-        position = {
-            x = 358.2963
-            y = 3.883995
-        }
-        initializer = sys_caestus_init
-    }
-
-    system = {
-        name = "NAME_Kallini"
-        id = "137"
-        position = {
-            x = 365.0933
-            y = 61.17256
-        }
-        initializer = sys_kallini_init
-    }
-
-    system = {
-        name = "NAME_Pelion"
-        id = "138"
-        position = {
-            x = 375.7741
-            y = 76.70845
-        }
-        initializer = sys_pelion_init
-    }
-
-    system = {
-        name = "NAME_Elysta"
-        id = "139"
-        position = {
-            x = 382.5711
-            y = -102.9252
-        }
-        initializer = sys_elysta_init
-    }
-
-    system = {
-        name = "NAME_Mesana"
-        id = "140"
-        position = {
-            x = 380.6291
-            y = 60.20157
-        }
-        initializer = sys_mesana_init
-    }
-
-    system = {
-        name = "NAME_Agaiou"
-        id = "141"
-        position = {
-            x = 392.2811
-            y = 74.76646
-        }
-        initializer = sys_agaiou_init
-    }
-
-    system = {
-        name = "NAME_Aquila"
-        id = "142"
-        position = {
-            x = 395.1941
-            y = -90.30231
-        }
-        initializer = sys_aquila_init
-    }
-
-    system = {
-        name = "NAME_Faia"
-        id = "143"
-        position = {
-            x = 403.933
-            y = -104.8672
-        }
-        initializer = sys_faia_init
-    }
-
-    system = {
-        name = "NAME_Thal"
-        id = "144"
-        position = {
-            x = 268.965
-            y = -329.1666
-        }
-        initializer = sys_thal_init
-    }
-
-    system = {
-        name = "NAME_Kyzil"
-        id = "145"
-        position = {
-            x = 288.3849
-            y = -336.9345
+            x = 357.0755
+            y = -292.9458
         }
         initializer = sys_kyzil_init
     }
 
     system = {
-        name = "NAME_Sahrabarik"
-        id = "146"
+        id = "1"
         position = {
-            x = -25.24583
-            y = -225.2703
+            x = 341.3892
+            y = -290.8074
         }
-        initializer = sys_sahrabarik_init
+        initializer = sys_thal_init
     }
 
     system = {
-        name = "NAME_Arrae"
-        id = "147"
+        id = "2"
         position = {
-            x = 362.1803
-            y = -9.709905
+            x = 362.7796
+            y = -309.3457
         }
-        initializer = sys_arrae_init
+        initializer = sys_urlarast_init
     }
 
     system = {
-        name = "NAME_Indris"
-        id = "148"
+        id = "3"
         position = {
-            x = -160.2137
-            y = 337.9055
+            x = 344.2413
+            y = -306.4937
         }
-        initializer = sys_indris_init
+        initializer = sys_xecha_init
     }
 
     system = {
-        name = "NAME_Kanala"
-        id = "149"
+        id = "4"
         position = {
-            x = 15.2304
-            y = 105.3436
+            x = 306.4509
+            y = -228.7734
         }
-        initializer = sys_kanala_init
+        initializer = sys_carina_init
     }
 
     system = {
-        name = "NAME_Iota_Urania"
-        id = "150"
+        id = "5"
         position = {
-            x = -161.6115
-            y = -334.6457
+            x = 290.7634
+            y = -240.1828
         }
-        initializer = sys_iotaurania_init
+        initializer = sys_bifur_init
     }
 
     system = {
-        name = "NAME_Dark_Current"
-        id = "151"
+        id = "6"
         position = {
-            x = 17.7688
-            y = 94.34389
+            x = 282.2073
+            y = -226.6349
         }
-        initializer = sys_darkcurrent_init
+        initializer = sys_fehl_init
     }
 
     system = {
-        name = "NAME_Obek"
-        id = "152"
+        id = "7"
         position = {
-            x = 37.22987
-            y = 120.574
+            x = 231.8358
+            y = -376.4694
         }
-        initializer = sys_obek_init
+        initializer = sys_raheelleyya_init
     }
 
     system = {
-        name = "NAME_Thundering_Trench"
-        id = "153"
+        id = "8"
         position = {
-            x = 43.99893
-            y = 97.72843
+            x = 210.79
+            y = -382.4171
         }
-        initializer = sys_thunderingtrench_init
+        initializer = sys_paz_init
     }
 
     system = {
-        name = "NAME_Warmest_Shoal"
-        id = "154"
+        id = "9"
         position = {
-            x = 16.07654
-            y = 124.8047
+            x = 197.9792
+            y = -397.0581
         }
-        initializer = sys_warmestshoal_init
+        initializer = sys_micah_init
     }
 
     system = {
-        name = "NAME_Herculaneum"
-        id = "155"
+        id = "10"
         position = {
-            x = 132.8429
-            y = 19.88417
+            x = 221.1345
+            y = -259.3674
         }
-        initializer = sys_herculaneum_init
+        initializer = sys_ploitari_init
     }
 
     system = {
-        name = "NAME_Stabiae"
-        id = "156"
+        id = "11"
         position = {
-            x = 151.4578
-            y = 36.80683
+            x = 208.7207
+            y = -242.3793
         }
-        initializer = sys_stabiae_init
+        initializer = sys_osun_init
     }
 
     system = {
-        name = "NAME_Pompeii"
-        id = "157"
+        id = "12"
         position = {
-            x = 153.1501
-            y = 12.26897
+            x = 204.147
+            y = -270.475
         }
-        initializer = sys_pompeii_init
+        initializer = sys_sowilo_init
     }
 
     system = {
-        name = "NAME_Zuzel"
-        id = "158"
+        id = "13"
         position = {
-            x = 38.9221
-            y = -309.2616
+            x = 194.9997
+            y = -259.3674
         }
-        initializer = sys_zuzel_init
+        initializer = sys_faryar_init
     }
 
     system = {
-        name = "NAME_Taesin"
-        id = "159"
+        id = "14"
         position = {
-            x = 51.61409
-            y = -287.2622
-        }
-        initializer = sys_taesin_init
-    }
-
-    system = {
-        name = "NAME_Testudo"
-        id = "160"
-        position = {
-            x = 63.86562
-            y = -175.4175
-        }
-        initializer = sys_testudo_init
-    }
-
-    system = {
-        name = "NAME_Volucris"
-        id = "161"
-        position = {
-            x = 83.45107
-            y = -202.6669
+            x = 190.9391
+            y = -203.1049
         }
         initializer = sys_volucris_init
     }
 
     system = {
-        name = "NAME_Chabtan"
-        id = "162"
+        id = "15"
         position = {
-            x = 293.6082
-            y = -88.42089
+            x = 172.4007
+            y = -210.9474
         }
-        initializer = sys_chabtan_init
+        initializer = sys_testudo_init
     }
 
     system = {
-        name = "NAME_Fragotz"
-        id = "163"
+        id = "16"
         position = {
-            x = 269.9165
-            y = -105.3436
+            x = 219.4608
+            y = -149.627
         }
-        initializer = sys_fragotz_init
+        initializer = sys_cheng_init
     }
 
     system = {
-        name = "NAME_Ubroni"
-        id = "164"
+        id = "17"
         position = {
-            x = 274.1472
-            y = -86.72861
+            x = 210.1911
+            y = -168.1654
         }
-        initializer = sys_ubroni_init
+        initializer = sys_drake_init
     }
 
     system = {
-        name = "NAME_Alrami_Alpha"
-        id = "165"
+        id = "18"
         position = {
-            x = 193.7645
-            y = -162.0345
+            x = 194.5047
+            y = -158.8968
         }
-        initializer = sys_alramialpha_init
+        initializer = sys_fal_init
     }
 
     system = {
-        name = "NAME_Elios_Theta"
-        id = "166"
+        id = "19"
         position = {
-            x = 192.0722
-            y = -188.2646
+            x = 204.4869
+            y = -141.0697
         }
-        initializer = sys_eliostheta_init
+        initializer = sys_olonnais_init
     }
 
     system = {
-        name = "NAME_Deasius_Prime"
-        id = "167"
+        id = "20"
         position = {
-            x = 167.5344
-            y = -181.4955
+            x = 155.2884
+            y = -155.3311
         }
-        initializer = sys_deasiusprime_init
+        initializer = sys_silparon_init
     }
 
     system = {
-        name = "NAME_Linitel"
-        id = "168"
+        id = "21"
         position = {
-            x = 178.5341
-            y = -166.2651
+            x = 133.1843
+            y = -161.0352
         }
-        initializer = sys_linitel_init
+        initializer = sys_grebosht_init
     }
 
     system = {
-        name = "NAME_Fen"
-        id = "169"
+        id = "22"
         position = {
-            x = -19.59653
-            y = -140.9082
+            x = 151.0091
+            y = -176.0091
+        }
+        initializer = sys_jath_int
+    }
+
+    system = {
+        id = "23"
+        position = {
+            x = 133.1843
+            y = -176.0091
+        }
+        initializer = sys_essul_init
+    }
+
+    system = {
+        id = "24"
+        position = {
+            x = 121.0625
+            y = -302.9292
+        }
+        initializer = sys_zuzel_init
+    }
+
+    system = {
+        id = "25"
+        position = {
+            x = 98.24605
+            y = -316.4759
+        }
+        initializer = sys_taesin_init
+    }
+
+    system = {
+        id = "26"
+        position = {
+            x = 67.58467
+            y = -419.1523
+        }
+        initializer = sys_brikhaun_init
+    }
+
+    system = {
+        id = "27"
+        position = {
+            x = 43.34219
+            y = -420.5783
+        }
+        initializer = sys_haskins_init
+    }
+
+    system = {
+        id = "28"
+        position = {
+            x = 15.53406
+            y = -319.3279
+        }
+        initializer = sys_mil_init
+    }
+
+    system = {
+        id = "29"
+        position = {
+            x = 6.977875
+            y = -330.0237
+        }
+        initializer = sys_skepsis_init
+    }
+
+    system = {
+        id = "30"
+        position = {
+            x = 21.23816
+            y = -341.432
+        }
+        initializer = sys_lenal_init
+    }
+
+    system = {
+        id = "31"
+        position = {
+            x = -4.430359
+            y = -352.1278
+        }
+        initializer = sys_decoris_init
+    }
+
+    system = {
+        id = "32"
+        position = {
+            x = -15.12616
+            y = -339.2935
+        }
+        initializer = sys_psitophet_init
+    }
+
+    system = {
+        id = "33"
+        position = {
+            x = 29.20316
+            y = -223.3392
+        }
+        initializer = sys_batalla_init
+    }
+
+    system = {
+        id = "34"
+        position = {
+            x = 20.16584
+            y = -255.4451
+        }
+        initializer = sys_fathar_init
+    }
+
+    system = {
+        id = "35"
+        position = {
+            x = 14.45813
+            y = -239.5111
+        }
+        initializer = sys_sahrabarik_init
+    }
+
+    system = {
+        id = "36"
+        position = {
+            x = 6.372192
+            y = -253.5432
+        }
+        initializer = sys_amada_init
+    }
+
+    system = {
+        id = "37"
+        position = {
+            x = -5.756721
+            y = -239.9869
+        }
+        initializer = sys_kairavamori_init
+    }
+
+    system = {
+        id = "38"
+        position = {
+            x = -0.04901886
+            y = -224.7659
+        }
+        initializer = sys_arinlarkan_init
+    }
+
+    system = {
+        id = "39"
+        position = {
+            x = -117.142
+            y = -424.8564
+        }
+        initializer = sys_phiclio_init
+    }
+
+    system = {
+        id = "40"
+        position = {
+            x = -122.8461
+            y = -407.7441
+        }
+        initializer = sys_enoch_init
+    }
+
+    system = {
+        id = "41"
+        position = {
+            x = -134.9676
+            y = -404.892
+        }
+        initializer = sys_iotaurania_init
+    }
+
+    system = {
+        id = "42"
+        position = {
+            x = -137.107
+            y = -421.2919
+        }
+        initializer = sys_alphadraconis_init
+    }
+
+    system = {
+        id = "43"
+        position = {
+            x = -100.0294
+            y = -315.7635
+        }
+        initializer = sys_jintanei_init
+    }
+
+    system = {
+        id = "45"
+        position = {
+            x = -126.4115
+            y = -322.8936
+        }
+        initializer = sys_tiedcaur_init
+    }
+
+    system = {
+        id = "47"
+        position = {
+            x = -130.6893
+            y = -299.3636
+        }
+        initializer = sys_razhek_init
+    }
+
+    system = {
+        id = "50"
+        position = {
+            x = -132.0803
+            y = -222.2927
+        }
+        initializer = sys_nariph_init
+    }
+
+    system = {
+        id = "51"
+        position = {
+            x = -117.142
+            y = -230.9118
+        }
+        initializer = sys_dirada_init
+    }
+
+    system = {
+        id = "52"
+        position = {
+            x = -122.5546
+            y = -245.3553
+        }
+        initializer = sys_zaherin_init
+    }
+
+    system = {
+        id = "53"
+        position = {
+            x = -137.5954
+            y = -244.3518
+        }
+        initializer = sys_satent_init
+    }
+
+    system = {
+        id = "54"
+        position = {
+            x = -155.6441
+            y = -233.8228
+        }
+        initializer = sys_kriseroi_init
+    }
+
+    system = {
+        id = "55"
+        position = {
+            x = -87.19479
+            y = -203.1049
+        }
+        initializer = sys_refuge_init
+    }
+
+    system = {
+        id = "56"
+        position = {
+            x = -19.45697
+            y = -156.0447
         }
         initializer = sys_fen_init
     }
 
     system = {
-        name = "NAME_Hedek"
-        id = "170"
+        id = "57"
         position = {
-            x = -38.25988
-            y = -117.5791
-        }
-        initializer = sys_hedek_init
-    }
-
-    system = {
-        name = "NAME_Baldr"
-        id = "171"
-        position = {
-            x = -32.66087
-            y = -154.9058
-        }
-        initializer = sys_baldr_init
-    }
-
-    system = {
-        name = "NAME_Vali"
-        id = "172"
-        position = {
-            x = -37.32671
-            y = -140.9082
-        }
-        initializer = sys_vali_init
-    }
-
-    system = {
-        name = "NAME_Brekkenz"
-        id = "173"
-        position = {
-            x = -49.45789
-            y = -130.6434
-        }
-        initializer = sys_brekkenz_init
-    }
-
-    system = {
-        name = "NAME_Qedek"
-        id = "174"
-        position = {
-            x = -23.3292
-            y = -125.9776
+            x = -8.048157
+            y = -171.0174
         }
         initializer = sys_qedek_init
     }
 
     system = {
-        name = "NAME_Cosmas"
-        id = "175"
+        id = "58"
         position = {
-            x = 102.3821
-            y = 329.5689
+            x = -21.59572
+            y = -170.305
         }
-        initializer = sys_cosmas_init
+        initializer = sys_baldr_init
     }
 
     system = {
-        name = "NAME_Foillan"
-        id = "176"
+        id = "59"
         position = {
-            x = 87.15173
-            y = 321.9537
+            x = -17.31763
+            y = -185.2789
         }
-        initializer = sys_foillan_init
+        initializer = sys_vali_init
     }
 
     system = {
-        name = "NAME_Quentin"
-        id = "177"
+        id = "60"
         position = {
-            x = 83.76719
-            y = 338.8763
+            x = -39.42137
+            y = -178.1476
         }
-        initializer = sys_quentin_init
+        initializer = sys_hedek_init
     }
 
     system = {
-        name = "NAME_St._Luke"
-        id = "178"
+        id = "61"
         position = {
-            x = 102.3821
-            y = 355.799
+            x = -37.28262
+            y = -161.0352
         }
-        initializer = sys_stluke_init
+        initializer = sys_brekkenz_init
     }
 
     system = {
-        name = "NAME_Roch"
-        id = "179"
+        id = "62"
         position = {
-            x = 71.0752
-            y = 332.1073
+            x = -222.6704
+            y = -305.7801
         }
-        initializer = sys_roch_init
+        initializer = sys_khongordzol_init
     }
 
     system = {
-        name = "NAME_Akili"
-        id = "180"
+        id = "63"
         position = {
-            x = -99.87524
-            y = 262.4274
+            x = -247.6265
+            y = -317.1895
+        }
+        initializer = sys_jornous_init
+    }
+
+    system = {
+        id = "64"
+        position = {
+            x = -235.505
+            y = -253.7295
+        }
+        initializer = sys_lazarus_init
+    }
+
+    system = {
+        id = "65"
+        position = {
+            x = -239.0701
+            y = -232.339
+        }
+        initializer = sys_jiro_init
+    }
+
+    system = {
+        id = "66"
+        position = {
+            x = -258.3221
+            y = -227.3474
+        }
+        initializer = sys_tydeous_init
+    }
+
+    system = {
+        id = "67"
+        position = {
+            x = -259.7481
+            y = -197.3996
+        }
+        initializer = sys_typhon_init
+    }
+
+    system = {
+        id = "68"
+        position = {
+            x = -249.7656
+            y = -185.9913
+        }
+        initializer = sys_theseaofstorms_init
+    }
+
+    system = {
+        id = "69"
+        position = {
+            x = -256.1827
+            y = -173.8695
+        }
+        initializer = sys_tassrah_init
+    }
+
+    system = {
+        id = "70"
+        position = {
+            x = -269.0172
+            y = -188.1298
+        }
+        initializer = sys_salahiel_init
+    }
+
+    system = {
+        id = "71"
+        position = {
+            x = -283.9911
+            y = -192.4091
+        }
+        initializer = sys_ekarii_init
+    }
+
+    system = {
+        id = "72"
+        position = {
+            x = -276.8604
+            y = -171.731
+        }
+        initializer = sys_chomos_init
+    }
+
+    system = {
+        id = "73"
+        position = {
+            x = -184.8798
+            y = -113.9751
+        }
+        initializer = sys_talava_init
+    }
+
+    system = {
+        id = "74"
+        position = {
+            x = -200.5664
+            y = -123.9573
+        }
+        initializer = sys_solveig_init
+    }
+
+    system = {
+        id = "75"
+        position = {
+            x = -214.827
+            y = -131.0875
+        }
+        initializer = sys_yakawa_init
+    }
+
+    system = {
+        id = "76"
+        position = {
+            x = -199.1404
+            y = -103.2805
+        }
+        initializer = sys_balor_init
+    }
+
+    system = {
+        id = "77"
+        position = {
+            x = -214.827
+            y = -111.8367
+        }
+        initializer = sys_aysur_init
+    }
+
+    system = {
+        id = "78"
+        position = {
+            x = -374.546
+            y = -299.3636
+        }
+        initializer = sys_dholen_init
+    }
+
+    system = {
+        id = "79"
+        position = {
+            x = -388.8066
+            y = -288.6678
+        }
+        initializer = sys_maat_init
+    }
+
+    system = {
+        id = "80"
+        position = {
+            x = -411.6234
+            y = -243.7473
+        }
+        initializer = sys_tikkun_init
+    }
+
+    system = {
+        id = "81"
+        position = {
+            x = -399.2453
+            y = -117.6509
+        }
+        initializer = sys_sheol_init
+    }
+
+    system = {
+        id = "82"
+        position = {
+            x = -411.307
+            y = -126.972
+        }
+        initializer = sys_pamyat_init
+    }
+
+    system = {
+        id = "83"
+        position = {
+            x = -424.4671
+            y = -139.5832
+        }
+        initializer = sys_azedes_init
+    }
+
+    system = {
+        id = "84"
+        position = {
+            x = -423.9179
+            y = -114.361
+        }
+        initializer = sys_hekate_init
+    }
+
+    system = {
+        id = "85"
+        position = {
+            x = -436.5299
+            y = -125.8755
+        }
+        initializer = sys_hoplos_init
+    }
+
+    system = {
+        id = "86"
+        position = {
+            x = -315.3643
+            y = -89.73265
+        }
+        initializer = sys_telith_init
+    }
+
+    system = {
+        id = "87"
+        position = {
+            x = -333.9033
+            y = -106.1326
+        }
+        initializer = sys_hoc_init
+    }
+
+    system = {
+        id = "88"
+        position = {
+            x = -254.7567
+            y = 3.67395
+        }
+        initializer = sys_herschel_init
+    }
+
+    system = {
+        id = "89"
+        position = {
+            x = -265.4522
+            y = -24.133
+        }
+        initializer = sys_newton_init
+    }
+
+    system = {
+        id = "90"
+        position = {
+            x = -102.0621
+            y = -95.17044
+        }
+        initializer = sys_chandrasekhar_init
+    }
+
+    system = {
+        id = "91"
+        position = {
+            x = -113.0278
+            y = -107.2332
+        }
+        initializer = sys_century_init
+    }
+
+    system = {
+        id = "92"
+        position = {
+            x = -97.67584
+            y = -75.97971
+        }
+        initializer = sys_schwarzschild_init
+    }
+
+    system = {
+        id = "93"
+        position = {
+            x = -122.3496
+            y = -84.20428
+        }
+        initializer = sys_thorne_init
+    }
+
+    system = {
+        id = "94"
+        position = {
+            x = -127.2839
+            y = -102.2983
+        }
+        initializer = sys_verr_init
+    }
+
+    system = {
+        id = "95"
+        position = {
+            x = -147.0892
+            y = -61.21091
+        }
+        initializer = sys_maskimxul_init
+    }
+
+    system = {
+        id = "96"
+        position = {
+            x = -161.3497
+            y = -49.09024
+        }
+        initializer = sys_mullaxul_init
+    }
+
+    system = {
+        id = "97"
+        position = {
+            x = -142.8059
+            y = -2.81847
+        }
+        initializer = sys_erebus_init
+    }
+
+    system = {
+        id = "98"
+        position = {
+            x = -148.5107
+            y = 11.44303
+        }
+        initializer = sys_karaht_init
+    }
+
+    system = {
+        id = "99"
+        position = {
+            x = -159.2068
+            y = -5.670696
+        }
+        initializer = sys_timshar_init
+    }
+
+    system = {
+        id = "100"
+        position = {
+            x = -174.181
+            y = -12.80148
+        }
+        initializer = sys_phlegethon_init
+    }
+
+    system = {
+        id = "101"
+        position = {
+            x = -170.6157
+            y = 8.590728
+        }
+        initializer = sys_acheron_init
+    }
+
+    system = {
+        id = "102"
+        position = {
+            x = -156.3543
+            y = 59.93197
+        }
+        initializer = sys_iera_init
+    }
+
+    system = {
+        id = "103"
+        position = {
+            x = -167.7635
+            y = 69.91498
+        }
+        initializer = sys_anauroch_init
+    }
+
+    system = {
+        id = "104"
+        position = {
+            x = -167.7635
+            y = 43.5313
+        }
+        initializer = sys_netheril_init
+    }
+
+    system = {
+        id = "105"
+        position = {
+            x = -186.3035
+            y = 52.0882
+        }
+        initializer = sys_bahanak_init
+    }
+
+    system = {
+        id = "106"
+        position = {
+            x = -192.0077
+            y = 131.9524
+        }
+        initializer = sys_matano_init
+    }
+
+    system = {
+        id = "107"
+        position = {
+            x = -204.1302
+            y = 111.2733
+        }
+        initializer = sys_vostok_init
+    }
+
+    system = {
+        id = "108"
+        position = {
+            x = -212.6872
+            y = 120.5432
+        }
+        initializer = sys_caspian_init
+    }
+
+    system = {
+        id = "109"
+        position = {
+            x = -139.9534
+            y = 146.9268
+        }
+        initializer = sys_phoenix_init
+    }
+
+    system = {
+        id = "110"
+        position = {
+            x = -152.7893
+            y = 170.4583
+        }
+        initializer = sys_gorgon_init
+    }
+
+    system = {
+        id = "111"
+        position = {
+            x = -165.6243
+            y = 150.4922
+        }
+        initializer = sys_hydra_init
+    }
+
+    system = {
+        id = "112"
+        position = {
+            x = -201.9911
+            y = 201.8334
+        }
+        initializer = sys_han_init
+    }
+
+    system = {
+        id = "113"
+        position = {
+            x = -192.7211
+            y = 185.4328
+        }
+        initializer = sys_wigat_init
+    }
+
+    system = {
+        id = "114"
+        position = {
+            x = -215.5392
+            y = 182.5805
+        }
+        initializer = sys_ming_init
+    }
+
+    system = {
+        id = "115"
+        position = {
+            x = -278.2896
+            y = 134.8047
+        }
+        initializer = sys_theseus_init
+    }
+
+    system = {
+        id = "116"
+        position = {
+            x = -293.9771
+            y = 130.5262
+        }
+        initializer = sys_deianira_init
+    }
+
+    system = {
+        id = "117"
+        position = {
+            x = -301.108
+            y = 154.0576
+        }
+        initializer = sys_hercules_init
+    }
+
+    system = {
+        id = "118"
+        position = {
+            x = -370.2762
+            y = 18.57374
+        }
+        initializer = sys_kalabsha_init
+    }
+
+    system = {
+        id = "119"
+        position = {
+            x = -384.9383
+            y = 24.09393
+        }
+        initializer = sys_qertassi_init
+    }
+
+    system = {
+        id = "120"
+        position = {
+            x = -390.4534
+            y = 42.64497
+        }
+        initializer = sys_nx2185_init
+    }
+
+    system = {
+        id = "121"
+        position = {
+            x = -403.9902
+            y = 26.60083
+        }
+        initializer = sys_nx2176_init
+    }
+
+    system = {
+        id = "122"
+        position = {
+            x = -366.7109
+            y = 42.10519
+        }
+        initializer = sys_dakka_init
+    }
+
+    system = {
+        id = "123"
+        position = {
+            x = -360.2934
+            y = 116.2647
+        }
+        initializer = sys_gagarin_init
+    }
+
+    system = {
+        id = "124"
+        position = {
+            x = -354.5887
+            y = 104.1426
+        }
+        initializer = sys_tereshkova_init
+    }
+
+    system = {
+        id = "125"
+        position = {
+            x = -371.7023
+            y = 94.15948
+        }
+        initializer = sys_hong_init
+    }
+
+    system = {
+        id = "126"
+        position = {
+            x = -385.251
+            y = 89.88107
+        }
+        initializer = sys_vamshi_init
+    }
+
+    system = {
+        id = "127"
+        position = {
+            x = -375.981
+            y = 116.2647
+        }
+        initializer = sys_grissom_init
+    }
+
+    system = {
+        id = "128"
+        position = {
+            x = -364.5715
+            y = 185.4328
+        }
+        initializer = sys_amazon_init
+    }
+
+    system = {
+        id = "129"
+        position = {
+            x = -380.9724
+            y = 173.3105
+        }
+        initializer = sys_yangtze_init
+    }
+
+    system = {
+        id = "130"
+        position = {
+            x = -383.8246
+            y = 201.1204
+        }
+        initializer = sys_columbia_init
+    }
+
+    system = {
+        id = "131"
+        position = {
+            x = -304.4444
+            y = 248.6826
+        }
+        initializer = sys_antaeus_init
+    }
+
+    system = {
+        id = "132"
+        position = {
+            x = -288.8889
+            y = 235.4144
+        }
+        initializer = sys_plutus_init
+    }
+
+    system = {
+        id = "133"
+        position = {
+            x = -275.6208
+            y = 228.5514
+        }
+        initializer = sys_dis_init
+    }
+
+    system = {
+        id = "134"
+        position = {
+            x = -297.543
+            y = 213.2426
+        }
+        initializer = sys_farinata_init
+    }
+
+    system = {
+        id = "135"
+        position = {
+            x = -306.7324
+            y = 225.8063
+        }
+        initializer = sys_cacus_init
+    }
+
+    system = {
+        id = "136"
+        position = {
+            x = -149.9368
+            y = 269.5754
         }
         initializer = sys_akili_init
     }
 
     system = {
-        name = "NAME_Upanga"
-        id = "181"
+        id = "137"
         position = {
-            x = -92.74129
-            y = 241.0256
+            x = -140.6667
+            y = 248.8963
         }
         initializer = sys_upanga_init
     }
 
     system = {
-        name = "NAME_Berendi"
-        id = "182"
+        id = "138"
         position = {
-            x = -108.0283
-            y = 232.8725
+            x = -157.0674
+            y = 238.9132
         }
         initializer = sys_berendi_init
     }
 
     system = {
-        name = "NAME_Kisu"
-        id = "183"
+        id = "139"
         position = {
-            x = -124.3345
-            y = 251.2169
+            x = -169.9026
+            y = 248.8963
         }
         initializer = sys_kisu_init
     }
 
     system = {
-        name = "NAME_Jin"
-        id = "184"
+        id = "140"
         position = {
-            x = 139.6216
-            y = 233.8916
+            x = -154.2148
+            y = 318.7774
         }
-        initializer = sys_jin_init
+        initializer = sys_stluke_init
     }
 
     system = {
-        name = "NAME_Wai"
-        id = "185"
+        id = "141"
         position = {
-            x = 162.0425
-            y = 228.7959
+            x = -167.7635
+            y = 327.3343
         }
-        initializer = sys_wai_init
+        initializer = sys_foillan_init
     }
 
     system = {
-        name = "Name_Yuan"
-        id = "186"
+        id = "142"
         position = {
-            x = 164.2966
-            y = 247.1412
+            x = -160.6326
+            y = 299.5244
+        }
+        initializer = sys_roch_init
+    }
+
+    system = {
+        id = "143"
+        position = {
+            x = -170.6157
+            y = 308.7943
+        }
+        initializer = sys_quentin_init
+    }
+
+    system = {
+        id = "144"
+        position = {
+            x = -184.1641
+            y = 313.0728
+        }
+        initializer = sys_cosmas_init
+    }
+
+    system = {
+        id = "145"
+        position = {
+            x = -166.3374
+            y = 378.6754
+        }
+        initializer = sys_vular_init
+    }
+
+    system = {
+        id = "146"
+        position = {
+            x = -159.9196
+            y = 366.5533
+        }
+        initializer = sys_koshlanhk_init
+    }
+
+    system = {
+        id = "147"
+        position = {
+            x = -167.0507
+            y = 350.1526
+        }
+        initializer = sys_indris_init
+    }
+
+    system = {
+        id = "148"
+        position = {
+            x = -181.3121
+            y = 350.1526
+        }
+        initializer = sys_harsa_init
+    }
+
+    system = {
+        id = "149"
+        position = {
+            x = -189.1558
+            y = 362.9879
+        }
+        initializer = sys_untrel_init
+    }
+
+    system = {
+        id = "150"
+        position = {
+            x = -100.0217
+            y = 408.6245
+        }
+        initializer = sys_chelae_init
+    }
+
+    system = {
+        id = "151"
+        position = {
+            x = -129.2573
+            y = 414.3291
+        }
+        initializer = sys_bahak_init
+    }
+
+    system = {
+        id = "152"
+        position = {
+            x = -77.91632
+            y = 331.6128
+        }
+        initializer = sys_vetus_init
+    }
+
+    system = {
+        id = "153"
+        position = {
+            x = -40.12344
+            y = 285.2629
+        }
+        initializer = sys_utopia_init
+    }
+
+    system = {
+        id = "154"
+        position = {
+            x = -52.2454
+            y = 260.3055
+        }
+        initializer = sys_svarga_init
+    }
+
+    system = {
+        id = "155"
+        position = {
+            x = -73.63799
+            y = 275.993
+        }
+        initializer = sys_asgard_init
+    }
+
+    system = {
+        id = "156"
+        position = {
+            x = -65.08131
+            y = 287.4022
+        }
+        initializer = sys_asramas_init
+    }
+
+    system = {
+        id = "157"
+        position = {
+            x = 9.791679
+            y = 320.9166
+        }
+        initializer = sys_42518p_init
+    }
+
+    system = {
+        id = "158"
+        position = {
+            x = -6.60891
+            y = 297.3852
+        }
+        initializer = sys_arcturus_init
+    }
+
+    system = {
+        id = "159"
+        position = {
+            x = -16.59229
+            y = 312.3598
+        }
+        initializer = sys_rua_init
+    }
+
+    system = {
+        id = "160"
+        position = {
+            x = -21.58369
+            y = 298.8114
+        }
+        initializer = sys_euler_init
+    }
+
+    system = {
+        id = "161"
+        position = {
+            x = 49.72343
+            y = 307.3683
+        }
+        initializer = sys_sirius_system
+    }
+
+    system = {
+        id = "162"
+        position = {
+            x = 29.75785
+            y = 299.5244
+        }
+        initializer = sys_sol_init
+    }
+
+    system = {
+        id = "163"
+        position = {
+            x = 36.17536
+            y = 290.9675
+        }
+        initializer = sys_alpha_centauri_system
+    }
+
+    system = {
+        id = "164"
+        position = {
+            x = 21.20058
+            y = 281.6976
+        }
+        initializer = sys_61ursaemajoris_init
+    }
+
+    system = {
+        id = "165"
+        position = {
+            x = -25.86202
+            y = 212.5295
+        }
+        initializer = sys_anadius_init
+    }
+
+    system = {
+        id = "166"
+        position = {
+            x = -45.11514
+            y = 216.808
+        }
+        initializer = sys_nedlus_init
+    }
+
+    system = {
+        id = "167"
+        position = {
+            x = -52.95876
+            y = 196.8419
+        }
+        initializer = sys_pax_init
+    }
+
+    system = {
+        id = "168"
+        position = {
+            x = -41.54986
+            y = 186.1459
+        }
+        initializer = sys_strenuus_init
+    }
+
+    system = {
+        id = "169"
+        position = {
+            x = -23.0098
+            y = 195.4158
+        }
+        initializer = sys_fortuna_init
+    }
+
+    system = {
+        id = "170"
+        position = {
+            x = 79.67298
+            y = 195.4158
+        }
+        initializer = sys_pranas_init
+    }
+
+    system = {
+        id = "171"
+        position = {
+            x = 98.92579
+            y = 186.1459
+        }
+        initializer = sys_nasurn_init
+    }
+
+    system = {
+        id = "172"
+        position = {
+            x = 78.24686
+            y = 174.7367
+        }
+        initializer = sys_rothila_init
+    }
+
+    system = {
+        id = "173"
+        position = {
+            x = 68.26348
+            y = 186.8589
+        }
+        initializer = sys_ilhani_init
+    }
+
+    system = {
+        id = "174"
+        position = {
+            x = 121.0311
+            y = 312.3597
+        }
+        initializer = sys_carrini_init
+    }
+
+    system = {
+        id = "175"
+        position = {
+            x = 108.9086
+            y = 293.1067
         }
         initializer = sys_yuan_init
     }
-	
-    nebula = {
-        name = "NAME_Nimbus_Cluster"
+
+    system = {
+        id = "176"
         position = {
-            x = 378.3499
-            y = 72.00198
+            x = 93.22105
+            y = 305.9421
         }
-        radius = 20
+        initializer = sys_iotapersei_init
     }
 
-    nebula = {
-        name = "NAME_Minos_Wasteland"
+    system = {
+        id = "177"
         position = {
-            x = 350.5284
-            y = -2.912954
+            x = 148.1275
+            y = 375.1101
         }
-        radius = 20
+        initializer = sys_satuarrd_init
+    }
+
+    system = {
+        id = "178"
+        position = {
+            x = 145.2753
+            y = 356.5702
+        }
+        initializer = sys_esori_init
+    }
+
+    system = {
+        id = "179"
+        position = {
+            x = 134.315
+            y = 346.2097
+        }
+        initializer = sys_aru_init
+    }
+
+    system = {
+        id = "180"
+        position = {
+            x = 122.4572
+            y = 353.0048
+        }
+        initializer = sys_nura_init
+    }
+
+    system = {
+        id = "181"
+        position = {
+            x = 207.0606
+            y = 332.0267
+        }
+        initializer = sys_gemmae_init
+    }
+
+    system = {
+        id = "182"
+        position = {
+            x = 213.4659
+            y = 313.7259
+        }
+        initializer = sys_trebia_init
+    }
+
+    system = {
+        id = "183"
+        position = {
+            x = 234.5122
+            y = 313.7259
+        }
+        initializer = sys_castellus_init
+    }
+
+    system = {
+        id = "184"
+        position = {
+            x = 182.3552
+            y = 272.4277
+        }
+        initializer = sys_narbo_init
+    }
+
+    system = {
+        id = "185"
+        position = {
+            x = 165.2415
+            y = 257.4531
+        }
+        initializer = sys_kasatum_init
+    }
+
+    system = {
+        id = "186"
+        position = {
+            x = 154.5454
+            y = 269.5753
+        }
+        initializer = sys_mactare_init
+    }
+
+    system = {
+        id = "187"
+        position = {
+            x = 185.5569
+            y = 255.6212
+        }
+        initializer = sys_elunia_init
+    }
+
+    system = {
+        id = "188"
+        position = {
+            x = 211.1782
+            y = 202.0908
+        }
+        initializer = sys_nith_init
+    }
+
+    system = {
+        id = "189"
+        position = {
+            x = 190.5899
+            y = 191.5684
+        }
+        initializer = sys_dranek_init
+    }
+
+    system = {
+        id = "190"
+        position = {
+            x = 175.9493
+            y = 199.8031
+        }
+        initializer = sys_aralakh_init
+    }
+
+    system = {
+        id = "191"
+        position = {
+            x = 218.4128
+            y = 156.5171
+        }
+        initializer = sys_sovak_init
+    }
+
+    system = {
+        id = "192"
+        position = {
+            x = 196.3501
+            y = 140.6989
+        }
+        initializer = sys_boltzmann_init
+    }
+
+    system = {
+        id = "193"
+        position = {
+            x = 214.2493
+            y = 125.2969
+        }
+        initializer = sys_widow_init
+    }
+
+    system = {
+        id = "194"
+        position = {
+            x = 222.1597
+            y = 115.7228
+        }
+        initializer = sys_totau_init
+    }
+
+    system = {
+        id = "195"
+        position = {
+            x = 227.9873
+            y = 136.1199
+        }
+        initializer = sys_terevan_init
+    }
+
+    system = {
+        id = "196"
+        position = {
+            x = 166.6676
+            y = 96.29865
+        }
+        initializer = sys_bedi_init
+    }
+
+    system = {
+        id = "197"
+        position = {
+            x = 158.1107
+            y = 107.7078
+        }
+        initializer = sys_warmestshoal_init
+    }
+
+    system = {
+        id = "198"
+        position = {
+            x = 151.6928
+            y = 89.16795
+        }
+        initializer = sys_kanala_init
+    }
+
+    system = {
+        id = "199"
+        position = {
+            x = 165.2415
+            y = 80.61105
+        }
+        initializer = sys_darkcurrent_init
+    }
+
+    system = {
+        id = "200"
+        position = {
+            x = 143.8492
+            y = 77.75874
+        }
+        initializer = sys_thunderingtrench_init
+    }
+
+    system = {
+        id = "201"
+        position = {
+            x = 129.5878
+            y = 88.45489
+        }
+        initializer = sys_obek_init
+    }
+
+    system = {
+        id = "202"
+        position = {
+            x = 257.6745
+            y = 62.78427
+        }
+        initializer = sys_herculaneum_init
+    }
+
+    system = {
+        id = "203"
+        position = {
+            x = 234.143
+            y = 55.65356
+        }
+        initializer = sys_pompeii_init
+    }
+
+    system = {
+        id = "204"
+        position = {
+            x = 254.1092
+            y = 36.40059
+        }
+        initializer = sys_stabiae_init
+    }
+
+    system = {
+        id = "205"
+        position = {
+            x = 263.3789
+            y = -14.94072
+        }
+        initializer = sys_strabo_init
+    }
+
+    system = {
+        id = "206"
+        position = {
+            x = 249.8504
+            y = -27.38911
+        }
+        initializer = sys_imir_init
+    }
+
+    system = {
+        id = "207"
+        position = {
+            x = 236.6923
+            y = -38.35464
+        }
+        initializer = sys_relic_init
+    }
+
+    system = {
+        id = "208"
+        position = {
+            x = 251.4955
+            y = -46.03065
+        }
+        initializer = sys_amun_init
+    }
+
+    system = {
+        id = "209"
+        position = {
+            x = 261.9126
+            y = -36.16162
+        }
+        initializer = sys_malgus_init
+    }
+
+    system = {
+        id = "210"
+        position = {
+            x = 361.07
+            y = -47.74206
+        }
+        initializer = sys_chabtan_init
+    }
+
+    system = {
+        id = "211"
+        position = {
+            x = 342.53
+            y = -64.14272
+        }
+        initializer = sys_fragotz_init
+    }
+
+    system = {
+        id = "212"
+        position = {
+            x = 329.6949
+            y = -47.029
+        }
+        initializer = sys_ubroni_init
+    }
+
+    system = {
+        id = "213"
+        position = {
+            x = 335.3994
+            y = 135.5177
+        }
+        initializer = sys_parnitha_init
+    }
+
+    system = {
+        id = "214"
+        position = {
+            x = 328.9819
+            y = 122.6823
+        }
+        initializer = sys_ialessa_init
+    }
+
+    system = {
+        id = "215"
+        position = {
+            x = 322.5644
+            y = 147.64
+        }
+        initializer = sys_vernio_init
+    }
+
+    system = {
+        id = "216"
+        position = {
+            x = 348.235
+            y = 153.3445
+        }
+        initializer = sys_tomaros_init
+    }
+
+    system = {
+        id = "217"
+        position = {
+            x = 351.0872
+            y = 131.9523
+        }
+        initializer = sys_orisoni_init
+    }
+
+    system = {
+        id = "218"
+        position = {
+            x = 405.2807
+            y = 139.0831
+        }
+        initializer = sys_pelion_init
+    }
+
+    system = {
+        id = "219"
+        position = {
+            x = 396.724
+            y = 124.1084
+        }
+        initializer = sys_kallini_init
+    }
+
+    system = {
+        id = "220"
+        position = {
+            x = 418.8293
+            y = 116.9778
+        }
+        initializer = sys_mesana_init
+    }
+
+    system = {
+        id = "221"
+        position = {
+            x = 428.8121
+            y = 130.5262
+        }
+        initializer = sys_agaiou_init
+    }
+
+    system = {
+        id = "222"
+        position = {
+            x = 346.6233
+            y = 219.7899
+        }
+        initializer = sys_loropi_init
+    }
+
+    system = {
+        id = "223"
+        position = {
+            x = 344.1261
+            y = 203.9717
+        }
+        initializer = sys_nahuala_init
+    }
+
+    system = {
+        id = "224"
+        position = {
+            x = 332.4698
+            y = 200.6415
+        }
+        initializer = sys_phontes_init
+    }
+
+    system = {
+        id = "225"
+        position = {
+            x = 319.1496
+            y = 193.1487
+        }
+        initializer = sys_teyolia_init
+    }
+
+    system = {
+        id = "226"
+        position = {
+            x = 329.5561
+            y = 218.9574
+        }
+        initializer = sys_kypladon_init
+    }
+
+    system = {
+        id = "227"
+        position = {
+            x = 398.5847
+            y = 69.38943
+        }
+        initializer = sys_caestus_init
+    }
+
+    system = {
+        id = "228"
+        position = {
+            x = 406.4092
+            y = 50.68055
+        }
+        initializer = sys_arrae_init
+    }
+
+    system = {
+        id = "229"
+        position = {
+            x = 390.4216
+            y = 40.47557
+        }
+        initializer = sys_fortis_init
+    }
+
+    system = {
+        id = "230"
+        position = {
+            x = 377.4948
+            y = 54.76236
+        }
+        initializer = sys_uba_init
+    }
+
+    system = {
+        id = "231"
+        position = {
+            x = 441.6478
+            y = -38.4721
+        }
+        initializer = sys_aquila_init
+    }
+
+    system = {
+        id = "232"
+        position = {
+            x = 425.9599
+            y = -52.7336
+        }
+        initializer = sys_elysta_init
+    }
+
+    system = {
+        id = "233"
+        position = {
+            x = 447.3516
+            y = -62.00348
+        }
+        initializer = sys_faia_init
+    }
+
+    system = {
+        id = "234"
+        position = {
+            x = 343.2436
+            y = -143.2938
+        }
+        initializer = sys_ondeste_init
+    }
+
+    system = {
+        id = "235"
+        position = {
+            x = 331.1211
+            y = -132.5978
+        }
+        initializer = sys_lusarn_init
+    }
+
+    system = {
+        id = "236"
+        position = {
+            x = 324.7036
+            y = -114.7709
+        }
+        initializer = sys_zelene_init
+    }
+
+    system = {
+        id = "237"
+        position = {
+            x = 307.5896
+            y = -132.5978
+        }
+        initializer = sys_tasale_init
+    }
+
+    system = {
+        id = "238"
+        position = {
+            x = 130.7481
+            y = -88.38716
+        }
+        initializer = sys_klin_init
+    }
+
+    system = {
+        id = "239"
+        position = {
+            x = 108.6427
+            y = -106.214
+        }
+        initializer = sys_cubseh_init
+    }
+
+    system = {
+        id = "240"
+        position = {
+            x = 0.9682617
+            y = -3.531452
+        }
+        initializer = sys_tartarusdebrisfield_init
+    }
+
+    system = {
+        id = "241"
+        position = {
+            x = -247.7827
+            y = 288.7616
+        }
+        initializer = sys_athens_init
+    }
+
+    system = {
+        id = "242"
+        position = {
+            x = -267.9139
+            y = 288.7616
+        }
+        initializer = sys_knossos_init
+    }
+
+    system = {
+        id = "243"
+        position = {
+            x = -238.1745
+            y = 306.6052
+        }
+        initializer = sys_macedon_init
+    }
+
+    system = {
+        id = "244"
+        position = {
+            x = -261.0508
+            y = 309.8077
+        }
+        initializer = sys_sparta_init
+    }
+
+    system = {
+        id = "245"
+        position = {
+            x = -458.3761
+            y = -463.6419
+        }
+        initializer = retalyx_random_spawn
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        id = "246"
+        position = {
+            x = -378.8396
+            y = -453.4884
+        }
+        initializer = retalyx_random_spawn
+        spawn_weight = { base = 1 }
     }
 
     nebula = {
         name = "NAME_Ismar_Frontier"
         position = {
-            x = 393.2521
-            y = -100.9832
+            x = 445.066
+            y = -46.96038
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Buluc_Nebula"
+        position = {
+            x = 343.53
+            y = -46.96037
         }
         radius = 20
     }
@@ -1911,8 +2219,26 @@ static_galaxy_scenario = {
     nebula = {
         name = "NAME_Crescent_Nebula"
         position = {
-            x = 275.1018
-            y = -175.25
+            x = 329.9919
+            y = -127.343
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Minos_Wasteland"
+        position = {
+            x = 392.6058
+            y = 49.49881
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Nimbus_Cluster"
+        position = {
+            x = 414.6052
+            y = 130.7276
         }
         radius = 20
     }
@@ -1920,8 +2246,8 @@ static_galaxy_scenario = {
     nebula = {
         name = "NAME_Athena_Nebula"
         position = {
-            x = 302.9516
-            y = 98.49327
+            x = 335.9149
+            y = 140.035
         }
         radius = 20
     }
@@ -1929,8 +2255,8 @@ static_galaxy_scenario = {
     nebula = {
         name = "NAME_Silean_Nebula"
         position = {
-            x = 320.6125
-            y = 151.4758
+            x = 331.6842
+            y = 207.7257
         }
         radius = 20
     }
@@ -1938,467 +2264,8 @@ static_galaxy_scenario = {
     nebula = {
         name = "NAME_Apien_Crest"
         position = {
-            x = 260.8373
-            y = 238.4216
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Aethon_Cluster"
-        position = {
-            x = 186.7975
-            y = 309.7443
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Krogan_DMZ"
-        position = {
-            x = 197.6657
-            y = 169.816
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Serpent_Nebula"
-        position = {
-            x = 201.7413
-            y = 110.0408
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Annos_Cluster"
-        position = {
-            x = 91.70061
-            y = 159.627
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Local_Cluster"
-        position = {
-            x = 84.22871
-            y = 251.3276
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Arcturus_Cluster"
-        position = {
-            x = 46.28066
-            y = 287.6012
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Viper_Nebula"
-        position = {
-            x = 31.92542
-            y = 402.1241
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Petra_Nebula"
-        position = {
-            x = -29.27955
-            y = 320.1865
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Exodus_Cluster"
-        position = {
-            x = -4.07556
-            y = 257.441
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Horse_Head_Nebula"
-        position = {
-            x = 4.075598
-            y = 180.0049
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Argos_Rho"
-        position = {
-            x = -131.7771
-            y = 150.7966
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Gemini_Sigma"
-        position = {
-            x = -188.156
-            y = 194.9488
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Hades_Gamma"
-        position = {
-            x = -268.3091
-            y = 224.8364
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Artemis_Tau"
-        position = {
-            x = -245.8934
-            y = 319.254
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Kite's_Nest"
-        position = {
-            x = -168.4573
-            y = 341.6697
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Voyager_Cluster"
-        position = {
-            x = -350.5001
-            y = 152.8344
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Attican_Beta"
-        position = {
-            x = -255.4031
-            y = 150.7966
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Maroon_Sea"
-        position = {
-            x = -184.0805
-            y = 112.0786
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Shadow_Sea"
-        position = {
-            x = -159.627
-            y = 73.36056
-        }
-        radius = 15
-    }
-
-    nebula = {
-        name = "NAME_Kepler_Verge"
-        position = {
-            x = -232.9875
-            y = 34.64252
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Nubian_Expanse"
-        position = {
-            x = -353.8964
-            y = 80.15321
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Armstrong_Nebula"
-        position = {
-            x = -399.9969
-            y = 9.445118
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Sentry_Omega"
-        position = {
-            x = -317.2162
-            y = -42.79354
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Hades_Nexus"
-        position = {
-            x = -398.7278
-            y = -57.05807
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_The_Phoenix_Massing"
-        position = {
-            x = -299.5553
-            y = -116.8333
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Perseus_Veil"
-        position = {
-            x = -398.7278
-            y = -183.4012
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Far_Rim"
-        position = {
-            x = -347.7831
-            y = -228.9118
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Caleston_Rift"
-        position = {
-            x = -223.4778
-            y = -84.22864
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Styx_Theta"
-        position = {
-            x = -175.9293
-            y = -7.471832
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Ninmah_Cluster"
-        position = {
-            x = -142.1477
-            y = -37.3078
-        }
-        radius = 15
-    }
-
-    nebula = {
-        name = "NAME_Hawking_Eta"
-        position = {
-            x = -119.5504
-            y = -73.36043
-        }
-        radius = 18
-    }
-
-    nebula = {
-        name = "NAME_Galactic_Core"
-        position = {
-            x = -3.778012
-            y = -5.666963
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Eagle_Nebula"
-        position = {
-            x = 154.1929
-            y = -98.49321
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Hourglass_Nebula"
-        position = {
-            x = 146.0417
-            y = -249.2898
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Omega_Nebula"
-        position = {
-            x = -29.20836
-            y = -222.7985
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Pylos_Nebula"
-        position = {
-            x = -167.6493
-            y = -211.0963
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Pangaea_Expanse"
-        position = {
-            x = -154.1929
-            y = -152.155
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Rosetta_Nebula"
-        position = {
-            x = -182.0427
-            y = -330.8014
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Sigurd's_Cradle"
-        position = {
-            x = -62.49229
-            y = -279.8566
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Titan_Nebula"
-        position = {
-            x = -15.6231
-            y = -385.8219
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Valhallan_Threshold"
-        position = {
-            x = 124.9845
-            y = -375.6329
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_The_Shrike_Abyssal"
-        position = {
-            x = 273.4336
-            y = -316.8807
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Olyn_Protectorate"
-        position = {
-            x = 26.23013
-            y = 107.882
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Vesuvius_Nebula"
-        position = {
-            x = 147.2272
-            y = 24.96097
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Byenzine_Cloud"
-        position = {
-            x = 49.0757
-            y = -297.4157
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Nemean_Abyss"
-        position = {
-            x = 68.97486
-            y = -192.4484
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "Buluc_Nebula"
-        position = {
-            x = 280.0701
-            y = -96.88223
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Oculus_Frontier"
-        position = {
-            x = 182.0939
-            y = -175.2342
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Yggdrasil_Nebula"
-        position = {
-            x = -34.52721
-            y = -136.2424
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Llewyn_Nebula"
-        position = {
-            x = 90.53626
-            y = 338.8763
-        }
-        radius = 20
-    }
-
-    nebula = {
-        name = "NAME_Mkali_Pool"
-        position = {
-            x = -110.0666
-            y = 250.1978
+            x = 220.8408
+            y = 320.2614
         }
         radius = 20
     }
@@ -2406,8 +2273,62 @@ static_galaxy_scenario = {
     nebula = {
         name = "NAME_Meade_Cluster"
         position = {
-            x = 246.9492
-            y = 8.106952
+            x = 166.6882
+            y = 264.4167
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Krogan_DMZ"
+        position = {
+            x = 192.0723
+            y = 203.4951
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Serpent_Nebula"
+        position = {
+            x = 213.2256
+            y = 134.9583
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Vesuvius_Nebula"
+        position = {
+            x = 249.6093
+            y = 53.72948
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Eagle_Nebula"
+        position = {
+            x = 255.5322
+            y = -30.88383
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Olin_Protectorate"
+        position = {
+            x = 148.0733
+            y = 94.34389
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Annos_Basin"
+        position = {
+            x = 83.76719
+            y = 194.1876
         }
         radius = 20
     }
@@ -2415,46 +2336,778 @@ static_galaxy_scenario = {
     nebula = {
         name = "NAME_Xingyun_Cluster"
         position = {
-            x = 152.8703
-            y = 236.949
-        }
-        radius = 20
-    }	
-	
-	    nebula = {
-        name = "NAME_Homunculus_Cluster"
-        position = {
-            x = 232.6697
-            y = -245.4187
+            x = 106.0564
+            y = 310.2205
         }
         radius = 20
     }
-	
+
     nebula = {
-        name = "NAME_Sin'kelar_Cluster"
+        name = "NAME_Aethon_Cluster"
         position = {
-            x = -240.7572
-            y = -75.4355
+            x = 137.9197
+            y = 362.568
         }
         radius = 20
-    }	
+    }
+
+    nebula = {
+        name = "NAME_Local_Cluster"
+        position = {
+            x = 34.69148
+            y = 299.1081
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Arcturus_Stream"
+        position = {
+            x = -5.076771
+            y = 312.6462
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Horse_Head_Nebula"
+        position = {
+            x = -37.22984
+            y = 204.3412
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Exodus_Cluster"
+        position = {
+            x = -56.69089
+            y = 277.9548
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Petra_Nebula"
+        position = {
+            x = -79.53647
+            y = 338.0302
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Viper_Nebula"
+        position = {
+            x = -113.3818
+            y = 417.5667
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Kites_Nest"
+        position = {
+            x = -175.9956
+            y = 366.7987
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Llewyn_Nebula"
+        position = {
+            x = -169.1896
+            y = 313.7859
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Mkali_Pool"
+        position = {
+            x = -159.073
+            y = 255.1092
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Artemis_Tau"
+        position = {
+            x = -258.0706
+            y = 300.8004
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Gemini_Sigma"
+        position = {
+            x = -208.1487
+            y = 193.3415
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Argos_Rho"
+        position = {
+            x = -150.6117
+            y = 160.3423
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Hades_Gamma"
+        position = {
+            x = -296.1466
+            y = 231.4175
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Maroon_Sea"
+        position = {
+            x = -205.6103
+            y = 123.9586
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Attican_Beta"
+        position = {
+            x = -291.0698
+            y = 146.8042
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Voyager_Cluster"
+        position = {
+            x = -380.7599
+            y = 192.4954
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Armstrong_Nebula"
+        position = {
+            x = -374.8369
+            y = 108.7282
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Shadow_Sea"
+        position = {
+            x = -171.765
+            y = 56.26792
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Kepler_Verge"
+        position = {
+            x = -264.8397
+            y = -3.807521
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Nubian_Expanse"
+        position = {
+            x = -384.1444
+            y = 29.19168
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Styx_Theta"
+        position = {
+            x = -160.7653
+            y = 1.269269
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Galactic_Core"
+        position = {
+            x = 1.109618E-07
+            y = 1.269254
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Hawking_Eta"
+        position = {
+            x = -110.8435
+            y = -93.49765
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Caleston_Rift"
+        position = {
+            x = -205.6104
+            y = -112.1126
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Sentry_Omega"
+        position = {
+            x = -329.9919
+            y = -91.80537
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Hades_Nexus"
+        position = {
+            x = -421.3743
+            y = -123.1123
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Phoenix_Massing"
+        position = {
+            x = -263.9936
+            y = -184.0339
+        }
+        radius = 20
+    }
 
     nebula = {
         name = "NAME_Savian_Abyssal"
         position = {
-            x = 72.20948
-            y = -110.9886
+            x = -243.6864
+            y = -236.4942
         }
         radius = 20
-    }	
+    }
+
+    nebula = {
+        name = "NAME_Far_Rim"
+        position = {
+            x = -380.7599
+            y = -285.5699
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Perseus_Veil"
+        position = {
+            x = -412.0669
+            y = -239.0325
+        }
+        radius = 20
+    }
 
     nebula = {
         name = "NAME_Radana_Burst"
         position = {
-            x = -101.7153
-            y = -191.2993
+            x = -117.6125
+            y = -309.2616
         }
         radius = 20
-    }	
+    }
 
+    nebula = {
+        name = "NAME_Pylos_Nebula"
+        position = {
+            x = -134.5352
+            y = -234.8019
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Pangaea_Expanse"
+        position = {
+            x = -88.84399
+            y = -198.4182
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Basillae_Flare"
+        position = {
+            x = -234.3789
+            y = -310.1078
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Yggdrasil_Nebula"
+        position = {
+            x = -25.38401
+            y = -165.419
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Omega_Nebula"
+        position = {
+            x = 13.53811
+            y = -241.571
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Sigurds_Cradle"
+        position = {
+            x = 1.692237
+            y = -332.9534
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Rosetta_Nebula"
+        position = {
+            x = -129.4584
+            y = -414.1822
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Oshibka_Cliff"
+        position = {
+            x = 113.3818
+            y = -93.49767
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_SinKelar_Cluster"
+        position = {
+            x = 144.6888
+            y = -160.3422
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Nemean_Alpha"
+        position = {
+            x = 205.6104
+            y = -151.0347
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Nemean_Depths"
+        position = {
+            x = 179.3802
+            y = -199.2643
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Homunculus_Cluster"
+        position = {
+            x = 293.6082
+            y = -224.6483
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Hourglass_Nebula"
+        position = {
+            x = 207.3026
+            y = -255.9552
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Byenzine_Cloud"
+        position = {
+            x = 110.8434
+            y = -308.4155
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_TItan_Nebula"
+        position = {
+            x = 53.30636
+            y = -420.1051
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Valhallan_Threshold"
+        position = {
+            x = 213.2256
+            y = -387.106
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Shrike_Abyssal"
+        position = {
+            x = 349.453
+            y = -299.1081
+        }
+        radius = 20
+    }
+
+    nebula = {
+        name = "NAME_Ninmah_Cluster"
+        position = {
+            x = -154.8424
+            y = -48.65259
+        }
+        radius = 20
+    }
+
+    add_hyperlane = { from = "83" to = "85" }
+    add_hyperlane = { from = "84" to = "82" }
+    add_hyperlane = { from = "81" to = "82" }
+    add_hyperlane = { from = "81" to = "84" }
+    add_hyperlane = { from = "82" to = "83" }
+    add_hyperlane = { from = "84" to = "85" }
+    add_hyperlane = { from = "85" to = "82" }
+    add_hyperlane = { from = "78" to = "79" }
+    add_hyperlane = { from = "66" to = "65" }
+    add_hyperlane = { from = "70" to = "67" }
+    add_hyperlane = { from = "70" to = "68" }
+    add_hyperlane = { from = "70" to = "69" }
+    add_hyperlane = { from = "70" to = "72" }
+    add_hyperlane = { from = "70" to = "71" }
+    add_hyperlane = { from = "67" to = "71" }
+    add_hyperlane = { from = "71" to = "72" }
+    add_hyperlane = { from = "72" to = "69" }
+    add_hyperlane = { from = "69" to = "68" }
+    add_hyperlane = { from = "68" to = "67" }
+    add_hyperlane = { from = "62" to = "63" }
+    add_hyperlane = { from = "54" to = "53" }
+    add_hyperlane = { from = "54" to = "50" }
+    add_hyperlane = { from = "54" to = "51" }
+    add_hyperlane = { from = "50" to = "53" }
+    add_hyperlane = { from = "50" to = "52" }
+    add_hyperlane = { from = "52" to = "53" }
+    add_hyperlane = { from = "52" to = "51" }
+    add_hyperlane = { from = "51" to = "50" }
+    add_hyperlane = { from = "47" to = "45" }
+    add_hyperlane = { from = "47" to = "43" }
+    add_hyperlane = { from = "43" to = "45" }
+    add_hyperlane = { from = "41" to = "39" }
+    add_hyperlane = { from = "40" to = "42" }
+    add_hyperlane = { from = "41" to = "42" }
+    add_hyperlane = { from = "41" to = "40" }
+    add_hyperlane = { from = "40" to = "39" }
+    add_hyperlane = { from = "39" to = "42" }
+    add_hyperlane = { from = "61" to = "58" }
+    add_hyperlane = { from = "61" to = "60" }
+    add_hyperlane = { from = "61" to = "59" }
+    add_hyperlane = { from = "61" to = "56" }
+    add_hyperlane = { from = "58" to = "57" }
+    add_hyperlane = { from = "57" to = "56" }
+    add_hyperlane = { from = "57" to = "59" }
+    add_hyperlane = { from = "57" to = "60" }
+    add_hyperlane = { from = "60" to = "59" }
+    add_hyperlane = { from = "58" to = "56" }
+    add_hyperlane = { from = "58" to = "59" }
+    add_hyperlane = { from = "58" to = "60" }
+    add_hyperlane = { from = "90" to = "91" }
+    add_hyperlane = { from = "91" to = "94" }
+    add_hyperlane = { from = "94" to = "93" }
+    add_hyperlane = { from = "93" to = "92" }
+    add_hyperlane = { from = "90" to = "92" }
+    add_hyperlane = { from = "90" to = "93" }
+    add_hyperlane = { from = "93" to = "91" }
+    add_hyperlane = { from = "94" to = "90" }
+    add_hyperlane = { from = "95" to = "96" }
+    add_hyperlane = { from = "99" to = "98" }
+    add_hyperlane = { from = "99" to = "101" }
+    add_hyperlane = { from = "99" to = "97" }
+    add_hyperlane = { from = "99" to = "100" }
+    add_hyperlane = { from = "100" to = "101" }
+    add_hyperlane = { from = "101" to = "98" }
+    add_hyperlane = { from = "98" to = "97" }
+    add_hyperlane = { from = "88" to = "89" }
+    add_hyperlane = { from = "76" to = "73" }
+    add_hyperlane = { from = "76" to = "74" }
+    add_hyperlane = { from = "74" to = "77" }
+    add_hyperlane = { from = "77" to = "75" }
+    add_hyperlane = { from = "75" to = "74" }
+    add_hyperlane = { from = "74" to = "73" }
+    add_hyperlane = { from = "76" to = "77" }
+    add_hyperlane = { from = "86" to = "87" }
+    add_hyperlane = { from = "104" to = "103" }
+    add_hyperlane = { from = "103" to = "102" }
+    add_hyperlane = { from = "102" to = "105" }
+    add_hyperlane = { from = "105" to = "103" }
+    add_hyperlane = { from = "105" to = "104" }
+    add_hyperlane = { from = "104" to = "102" }
+    add_hyperlane = { from = "107" to = "106" }
+    add_hyperlane = { from = "106" to = "108" }
+    add_hyperlane = { from = "108" to = "107" }
+    add_hyperlane = { from = "115" to = "117" }
+    add_hyperlane = { from = "117" to = "116" }
+    add_hyperlane = { from = "116" to = "115" }
+    add_hyperlane = { from = "122" to = "118" }
+    add_hyperlane = { from = "122" to = "119" }
+    add_hyperlane = { from = "119" to = "120" }
+    add_hyperlane = { from = "120" to = "121" }
+    add_hyperlane = { from = "121" to = "119" }
+    add_hyperlane = { from = "119" to = "118" }
+    add_hyperlane = { from = "122" to = "120" }
+    add_hyperlane = { from = "125" to = "127" }
+    add_hyperlane = { from = "125" to = "126" }
+    add_hyperlane = { from = "125" to = "123" }
+    add_hyperlane = { from = "125" to = "124" }
+    add_hyperlane = { from = "124" to = "123" }
+    add_hyperlane = { from = "123" to = "127" }
+    add_hyperlane = { from = "127" to = "126" }
+    add_hyperlane = { from = "128" to = "130" }
+    add_hyperlane = { from = "130" to = "129" }
+    add_hyperlane = { from = "128" to = "129" }
+    add_hyperlane = { from = "132" to = "131" }
+    add_hyperlane = { from = "131" to = "135" }
+    add_hyperlane = { from = "135" to = "134" }
+    add_hyperlane = { from = "134" to = "132" }
+    add_hyperlane = { from = "135" to = "132" }
+    add_hyperlane = { from = "132" to = "133" }
+    add_hyperlane = { from = "133" to = "134" }
+    add_hyperlane = { from = "112" to = "113" }
+    add_hyperlane = { from = "112" to = "114" }
+    add_hyperlane = { from = "114" to = "113" }
+    add_hyperlane = { from = "110" to = "109" }
+    add_hyperlane = { from = "109" to = "111" }
+    add_hyperlane = { from = "111" to = "110" }
+    add_hyperlane = { from = "138" to = "136" }
+    add_hyperlane = { from = "137" to = "139" }
+    add_hyperlane = { from = "138" to = "139" }
+    add_hyperlane = { from = "139" to = "136" }
+    add_hyperlane = { from = "136" to = "137" }
+    add_hyperlane = { from = "137" to = "138" }
+    add_hyperlane = { from = "143" to = "140" }
+    add_hyperlane = { from = "141" to = "144" }
+    add_hyperlane = { from = "144" to = "143" }
+    add_hyperlane = { from = "143" to = "141" }
+    add_hyperlane = { from = "141" to = "140" }
+    add_hyperlane = { from = "140" to = "142" }
+    add_hyperlane = { from = "142" to = "143" }
+    add_hyperlane = { from = "166" to = "169" }
+    add_hyperlane = { from = "165" to = "168" }
+    add_hyperlane = { from = "168" to = "167" }
+    add_hyperlane = { from = "167" to = "165" }
+    add_hyperlane = { from = "169" to = "165" }
+    add_hyperlane = { from = "165" to = "166" }
+    add_hyperlane = { from = "167" to = "166" }
+    add_hyperlane = { from = "168" to = "169" }
+    add_hyperlane = { from = "169" to = "167" }
+    add_hyperlane = { from = "166" to = "168" }
+    add_hyperlane = { from = "154" to = "156" }
+    add_hyperlane = { from = "155" to = "153" }
+    add_hyperlane = { from = "153" to = "154" }
+    add_hyperlane = { from = "154" to = "155" }
+    add_hyperlane = { from = "155" to = "156" }
+    add_hyperlane = { from = "156" to = "153" }
+    add_hyperlane = { from = "159" to = "158" }
+    add_hyperlane = { from = "158" to = "160" }
+    add_hyperlane = { from = "160" to = "159" }
+    add_hyperlane = { from = "157" to = "158" }
+    add_hyperlane = { from = "158" to = "157" }
+    add_hyperlane = { from = "159" to = "157" }
+    add_hyperlane = { from = "163" to = "164" }
+    add_hyperlane = { from = "164" to = "161" }
+    add_hyperlane = { from = "161" to = "163" }
+    add_hyperlane = { from = "157" to = "160" }
+    add_hyperlane = { from = "170" to = "172" }
+    add_hyperlane = { from = "172" to = "173" }
+    add_hyperlane = { from = "173" to = "171" }
+    add_hyperlane = { from = "171" to = "172" }
+    add_hyperlane = { from = "171" to = "170" }
+    add_hyperlane = { from = "243" to = "242" }
+    add_hyperlane = { from = "242" to = "244" }
+    add_hyperlane = { from = "244" to = "241" }
+    add_hyperlane = { from = "241" to = "243" }
+    add_hyperlane = { from = "243" to = "244" }
+    add_hyperlane = { from = "242" to = "241" }
+    add_hyperlane = { from = "148" to = "145" }
+    add_hyperlane = { from = "146" to = "149" }
+    add_hyperlane = { from = "149" to = "147" }
+    add_hyperlane = { from = "147" to = "148" }
+    add_hyperlane = { from = "148" to = "149" }
+    add_hyperlane = { from = "149" to = "145" }
+    add_hyperlane = { from = "145" to = "146" }
+    add_hyperlane = { from = "146" to = "147" }
+    add_hyperlane = { from = "147" to = "145" }
+    add_hyperlane = { from = "151" to = "150" }
+    add_hyperlane = { from = "177" to = "178" }
+    add_hyperlane = { from = "178" to = "179" }
+    add_hyperlane = { from = "179" to = "180" }
+    add_hyperlane = { from = "180" to = "177" }
+    add_hyperlane = { from = "177" to = "179" }
+    add_hyperlane = { from = "178" to = "180" }
+    add_hyperlane = { from = "181" to = "182" }
+    add_hyperlane = { from = "183" to = "182" }
+    add_hyperlane = { from = "183" to = "181" }
+    add_hyperlane = { from = "184" to = "185" }
+    add_hyperlane = { from = "186" to = "187" }
+    add_hyperlane = { from = "184" to = "187" }
+    add_hyperlane = { from = "187" to = "185" }
+    add_hyperlane = { from = "185" to = "186" }
+    add_hyperlane = { from = "186" to = "184" }
+    add_hyperlane = { from = "188" to = "189" }
+    add_hyperlane = { from = "189" to = "190" }
+    add_hyperlane = { from = "190" to = "188" }
+    add_hyperlane = { from = "222" to = "224" }
+    add_hyperlane = { from = "223" to = "226" }
+    add_hyperlane = { from = "222" to = "226" }
+    add_hyperlane = { from = "224" to = "226" }
+    add_hyperlane = { from = "224" to = "223" }
+    add_hyperlane = { from = "223" to = "222" }
+    add_hyperlane = { from = "224" to = "225" }
+    add_hyperlane = { from = "226" to = "225" }
+    add_hyperlane = { from = "223" to = "225" }
+    add_hyperlane = { from = "218" to = "220" }
+    add_hyperlane = { from = "219" to = "221" }
+    add_hyperlane = { from = "221" to = "220" }
+    add_hyperlane = { from = "220" to = "219" }
+    add_hyperlane = { from = "218" to = "219" }
+    add_hyperlane = { from = "218" to = "221" }
+    add_hyperlane = { from = "216" to = "213" }
+    add_hyperlane = { from = "216" to = "217" }
+    add_hyperlane = { from = "217" to = "214" }
+    add_hyperlane = { from = "214" to = "215" }
+    add_hyperlane = { from = "215" to = "216" }
+    add_hyperlane = { from = "213" to = "215" }
+    add_hyperlane = { from = "213" to = "214" }
+    add_hyperlane = { from = "213" to = "217" }
+    add_hyperlane = { from = "195" to = "191" }
+    add_hyperlane = { from = "191" to = "192" }
+    add_hyperlane = { from = "192" to = "193" }
+    add_hyperlane = { from = "193" to = "194" }
+    add_hyperlane = { from = "194" to = "195" }
+    add_hyperlane = { from = "195" to = "193" }
+    add_hyperlane = { from = "191" to = "193" }
+    add_hyperlane = { from = "192" to = "195" }
+    add_hyperlane = { from = "197" to = "198" }
+    add_hyperlane = { from = "198" to = "196" }
+    add_hyperlane = { from = "196" to = "199" }
+    add_hyperlane = { from = "199" to = "197" }
+    add_hyperlane = { from = "197" to = "196" }
+    add_hyperlane = { from = "196" to = "200" }
+    add_hyperlane = { from = "200" to = "201" }
+    add_hyperlane = { from = "201" to = "198" }
+    add_hyperlane = { from = "198" to = "199" }
+    add_hyperlane = { from = "197" to = "201" }
+    add_hyperlane = { from = "200" to = "199" }
+    add_hyperlane = { from = "202" to = "204" }
+    add_hyperlane = { from = "204" to = "203" }
+    add_hyperlane = { from = "203" to = "202" }
+    add_hyperlane = { from = "227" to = "229" }
+    add_hyperlane = { from = "229" to = "230" }
+    add_hyperlane = { from = "230" to = "228" }
+    add_hyperlane = { from = "227" to = "228" }
+    add_hyperlane = { from = "227" to = "230" }
+    add_hyperlane = { from = "229" to = "228" }
+    add_hyperlane = { from = "231" to = "233" }
+    add_hyperlane = { from = "233" to = "232" }
+    add_hyperlane = { from = "232" to = "231" }
+    add_hyperlane = { from = "210" to = "211" }
+    add_hyperlane = { from = "211" to = "212" }
+    add_hyperlane = { from = "212" to = "210" }
+    add_hyperlane = { from = "209" to = "205" }
+    add_hyperlane = { from = "205" to = "206" }
+    add_hyperlane = { from = "206" to = "208" }
+    add_hyperlane = { from = "208" to = "207" }
+    add_hyperlane = { from = "207" to = "209" }
+    add_hyperlane = { from = "209" to = "208" }
+    add_hyperlane = { from = "208" to = "206" }
+    add_hyperlane = { from = "207" to = "206" }
+    add_hyperlane = { from = "206" to = "209" }
+    add_hyperlane = { from = "236" to = "235" }
+    add_hyperlane = { from = "235" to = "234" }
+    add_hyperlane = { from = "234" to = "237" }
+    add_hyperlane = { from = "237" to = "235" }
+    add_hyperlane = { from = "236" to = "237" }
+    add_hyperlane = { from = "17" to = "19" }
+    add_hyperlane = { from = "19" to = "18" }
+    add_hyperlane = { from = "18" to = "17" }
+    add_hyperlane = { from = "17" to = "16" }
+    add_hyperlane = { from = "16" to = "19" }
+    add_hyperlane = { from = "16" to = "18" }
+    add_hyperlane = { from = "6" to = "5" }
+    add_hyperlane = { from = "5" to = "4" }
+    add_hyperlane = { from = "4" to = "6" }
+    add_hyperlane = { from = "20" to = "22" }
+    add_hyperlane = { from = "22" to = "21" }
+    add_hyperlane = { from = "21" to = "20" }
+    add_hyperlane = { from = "20" to = "23" }
+    add_hyperlane = { from = "23" to = "22" }
+    add_hyperlane = { from = "21" to = "23" }
+    add_hyperlane = { from = "238" to = "239" }
+    add_hyperlane = { from = "14" to = "15" }
+    add_hyperlane = { from = "11" to = "12" }
+    add_hyperlane = { from = "12" to = "13" }
+    add_hyperlane = { from = "13" to = "10" }
+    add_hyperlane = { from = "10" to = "12" }
+    add_hyperlane = { from = "10" to = "11" }
+    add_hyperlane = { from = "11" to = "13" }
+    add_hyperlane = { from = "3" to = "0" }
+    add_hyperlane = { from = "0" to = "1" }
+    add_hyperlane = { from = "1" to = "2" }
+    add_hyperlane = { from = "2" to = "3" }
+    add_hyperlane = { from = "3" to = "1" }
+    add_hyperlane = { from = "0" to = "2" }
+    add_hyperlane = { from = "7" to = "8" }
+    add_hyperlane = { from = "9" to = "8" }
+    add_hyperlane = { from = "24" to = "25" }
+    add_hyperlane = { from = "26" to = "27" }
+    add_hyperlane = { from = "30" to = "29" }
+    add_hyperlane = { from = "28" to = "30" }
+    add_hyperlane = { from = "28" to = "29" }
+    add_hyperlane = { from = "29" to = "31" }
+    add_hyperlane = { from = "30" to = "31" }
+    add_hyperlane = { from = "35" to = "38" }
+    add_hyperlane = { from = "33" to = "35" }
+    add_hyperlane = { from = "35" to = "34" }
+    add_hyperlane = { from = "35" to = "36" }
+    add_hyperlane = { from = "35" to = "37" }
+    add_hyperlane = { from = "38" to = "37" }
+    add_hyperlane = { from = "37" to = "36" }
+    add_hyperlane = { from = "36" to = "38" }
+    add_hyperlane = { from = "38" to = "33" }
+    add_hyperlane = { from = "33" to = "34" }
+    add_hyperlane = { from = "34" to = "36" }
+    add_hyperlane = { from = "174" to = "175" }
+    add_hyperlane = { from = "175" to = "176" }
+    add_hyperlane = { from = "176" to = "174" }
+    add_hyperlane = { from = "64" to = "66" }
 }
