@@ -1,0 +1,54 @@
+NCamera = {
+
+    #ZOOM_STEPS_SYSTEM_PERCENTAGES = { 0.009 0.03 0.08 0.2 0.3 0.5 2.5 } # System zoom steps in percent relative to the system size
+    #SYSTEM_FOCUS_PLANET_STEP 		= 6 #2 # Controls which zoom step to planet zoom to in a system
+    #FOCUS_PLANET_DBLCLICK_X_OFFSET 	= 30.0 #10.0
+
+    SYSTEM_SPACE_SCALE_MULT 	= 30.0
+    #GALAXY_SPACE_SCALE_MULT 	= 3.0
+    
+    #SYSTEM_HOVER_RANGE 			= 0.001 #0.005
+    
+    #DEFAULT_ACCELERATION 		= 0.8
+    #FOCUS_ACCELERATION 			= 1.6
+    
+    SYSTEM_SLIDE_RADIUS_FACTOR = 0.5 #4.0
+    SYSTEM_SLIDE_SPEED = 100.0
+    
+    ENTER_SYSTEM_ZOOM_STEP = 6 
+    FOCUS_START_ZOOM_STEP = 4
+}
+
+NGraphics = {
+    DEFAULT_PLANET_PLANE = -230 #-150.0
+    MOON_SCALE = 0.5 #0.7
+    ASTEROID_PLANE = -90.0 #-100.0
+    SHIP_RANDOM_HEIGHT_OFFSET = 40.0 #15.0
+}
+
+NGameplay = {
+    #PLANET_ORBIT_DISTANCE_MIN_SIZE 	= 100 #10			
+    #PLANET_ORBIT_DISTANCE_SIZE_SCALE 	= 0.33		# extra orbit distance per planet size over PLANET_ORBIT_DISTANCE_MIN_SIZE
+    PLANET_SHIP_ORBIT_DISTANCE 	= 2.0				# how far from the planet ships will orbit
+    PLANET_STATION_ORBIT_DISTANCE = 3.0 #6.0		# how far from the planet orbital stations will be
+    STARBASE_ORBIT_DISTANCE = 10.0 #15.0
+    
+    #SHIP_SUBLIGHT_SPEED_MULT = 5 				# General speed multiplier for ship movement within solar systems
+    #MISSILE_SUBLIGHT_SPEED_MULT = 5 			# General speed multiplier for ship movement within solar systems
+    
+}
+
+NCombat = {
+    COMBAT_DETECT_RANGE_MULT				= 0.70 #1.05	# Range to engage in combat with other ships is <fleets max attack range> * COMBAT_DETECT_RANGE_MULT
+    #COMBAT_DETECT_RANGE_MIN					= 3 #10
+    COMBAT_AREA_MIN_ATTACK_RADIUS			= 0.07 #0.2
+}
+
+NShip = { 
+    FLEET_BASE_FORMATION_SCALE = 1.5
+}
+
+NAI = {
+    #MILITARY_STATION_DISTANCE = 13.0 #40.0		# Distance from planet to where military station should be built
+    #MILITARY_STATION_DISTANCE_RANDOM = 1 #4	# Random distance from the military station distance where it can be built
+}

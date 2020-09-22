@@ -7,7 +7,7 @@ static_galaxy_scenario = {
     num_empire_default = 1
     advanced_empire_default = 0
     core_radius = 0
-    random_hyperlanes = yes
+    random_hyperlanes = no
 
     system = {
         id = "0"
