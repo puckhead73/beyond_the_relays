@@ -1,0 +1,3 @@
+portraits = {
+	collectors = { texturefile = "gfx/models/portraits/collector_portrait.dds"	}
+}

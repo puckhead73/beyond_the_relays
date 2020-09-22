@@ -1,0 +1,56 @@
+# Copy of armageddon stance for faction benefit.
+btr_reaper_abduction = {
+	trigger = {
+		owner = { 
+			OR = {
+                is_country_type = btr_reaper
+
+            		}		
+		}
+	}
+	
+	icon_frame = 3
+	default = yes
+	
+	stop_when_armies_dead = no
+	abduct_pops = yes
+
+	planet_damage = 2.0
+	army_damage = 10.0	
+	
+	kill_pop_chance = 2.0
+	min_pops_to_kill_pop = 0
+	
+	# root = fleet
+	# from = planet
+	ai_weight = {
+		weight = 0
+	}
+}
+
+btr_collector_abduction {
+	trigger = {
+		owner = {
+			OR = {
+		is_country_type = btr_collector
+			}
+		}
+	}
+	icon_frame = 3
+	default=yes
+
+	stop_when_armies_dead=no
+	abduct_pops=yes
+
+	planet_damage=0
+	army_damage=3.0
+
+	kill_pop_chance = 0.2
+	min_pops_to_kill_pop = 2
+
+	# root = fleet
+	# from = planet
+	ai_weight = {
+		weight = 0
+	}
+}

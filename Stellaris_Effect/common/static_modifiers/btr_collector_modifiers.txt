@@ -1,0 +1,3 @@
+btr_collector_damper_field_exploit = {
+	damage_vs_country_type_btr_collector_mult = 0.20
+}

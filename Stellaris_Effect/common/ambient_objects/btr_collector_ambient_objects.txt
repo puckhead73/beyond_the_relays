@@ -1,0 +1,56 @@
+#Collector Portal (Non Selectable)
+ambient_object = {
+	name = "btr_collector_portal_object"
+	entity = "btr_collector_portal_entity"
+	selectable = no
+	show_name = no
+}
+
+ambient_object = {
+	name = "btr_collector_portal_station_object"
+	entity = "btr_collector_portal_station_entity"
+	selectable = no
+	show_name = no
+}
+
+ambient_object = {
+	name = "btr_collector_portal_big_object"
+	entity = "btr_collector_portal_entity"
+	selectable = no
+	show_name = no
+}
+
+ambient_object = {
+	name = "btr_collector_portal_small_object"
+	entity = "btr_collector_small_portal_entity"
+	selectable = no
+	show_name = no
+}
+
+ambient_object = {
+	name = "btr_collector_event_system_starbase_object"
+	entity = "station_generic_01_damaged_entity"
+	selectable = no
+	show_name = yes
+}
+
+ambient_object = {
+	name = "btr_collector_event_system_swarm_large_object"
+	entity = "swarm_01_warship_large_dead_entity"
+	selectable = no
+	show_name = yes
+}
+
+ambient_object = {
+	name = "btr_collector_drone_object"
+	entity = "btr_collector_drone_ambient_01_entity"
+	selectable = no
+	show_name = no
+}
+
+ambient_object = {
+	name = "btr_collector_wreckage_object"
+	entity = "btr_collector_drone_ambient_01_entity"
+	selectable = no
+	show_name = yes
+}
