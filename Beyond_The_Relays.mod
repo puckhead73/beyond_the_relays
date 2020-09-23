@@ -1,5 +1,5 @@
 name="Mass Effect: Beyond the Relays"
-path="mod/Stellaris_Effect"
+path="mod/Beyond_The_Relays"
 tags={
 	"Galaxy Generation"
 	"Events"
