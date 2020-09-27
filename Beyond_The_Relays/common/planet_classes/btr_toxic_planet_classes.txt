@@ -3,7 +3,7 @@
 # ###########
 
 # Dry
-pc_methane_desert = {
+pc_toxic_desert = {
 	entity = "desert_planet"
 	icon_frame = 1
 	climate = "dry"
@@ -26,7 +26,7 @@ pc_methane_desert = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_methane_arid = {
+pc_toxic_arid = {
 	entity = "arid_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 2
@@ -48,7 +48,7 @@ pc_methane_arid = {
 	uses_alternative_skies_for_moons = yes
 }
 
-pc_methane_savannah = {
+pc_toxic_savannah = {
 	entity = "savannah_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 20
@@ -71,7 +71,7 @@ pc_methane_savannah = {
 }
 
 # Temperate
-pc_methane_tropical = {
+pc_toxic_tropical = {
 	entity = "tropical_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 5
@@ -93,7 +93,7 @@ pc_methane_tropical = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_methane_continental = {
+pc_toxic_continental = {
 	entity = "continental_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
@@ -115,7 +115,7 @@ pc_methane_continental = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_methane_ocean = {
+pc_toxic_ocean = {
 	entity = "ocean_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 6
@@ -138,7 +138,7 @@ pc_methane_ocean = {
 }
 
 # Cold
-pc_methane_tundra = {
+pc_toxic_tundra = {
 	entity = "tundra_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 3
@@ -160,7 +160,7 @@ pc_methane_tundra = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_methane_arctic = {
+pc_toxic_arctic = {
 	entity = "arctic_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 7
@@ -182,7 +182,7 @@ pc_methane_arctic = {
 	uses_alternative_skies_for_moons = yes
 }
 
-pc_methane_alpine = {
+pc_toxic_alpine = {
 	entity = "alpine_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 19
@@ -204,30 +204,7 @@ pc_methane_alpine = {
 	uses_alternative_skies_for_moons = yes
 }
 
-pc__methane_barren = {
-	entity = "barren_planet"
-	entity_scale = @planet_standard_scale
-	icon_frame = 10
-	climate = "barren"
-	atmosphere_color 		= hsv { 0.1 0.4 0.7 }		#DONE
-	atmosphere_intensity 	= 1.0
-	atmosphere_width 		= 0.5
-	city_color_lut = "gfx/portraits/misc/colorcorrection_desert.dds"	
-	min_distance_from_sun = 40
-	max_distance_from_sun = 200
-	spawn_odds = 10
-	extra_orbit_size = 0
-	extra_planet_count = 0
-	chance_of_ring = 0.2
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	colonizable = yes
-	district_set = standard
-	uses_alternative_skies_for_moons = yes	
-}
-
-
-pc_methane_frozen = {
+pc_toxic_frozen = {
 	entity = "frozen_planet"		#DONE
 	entity_scale = @planet_standard_scale
 	icon_frame = 13
@@ -254,18 +231,17 @@ pc_methane_frozen = {
 # ###########
 
 random_list = {
-	name = "rl_habitable_methane"
+	name = "rl_habitable_mephitic"
 	planets = {
-		"pc_methane_desert"
-		"pc_methane_tropical"
-		"pc_methane_arid"
-		"pc_methane_ocean"
-		"pc_methane_tundra"
-		"pc_methane_arctic"
-		"pc_methane_continental"
-		"pc_methane_alpine"
-		"pc_methane_savannah"
-		"pc_methane_barren"
-		"pc_methane_frozen"
+		"pc_toxic_desert"
+		"pc_toxic_tropical"
+		"pc_toxic_arid"
+		"pc_toxic_ocean"
+		"pc_toxic_tundra"
+		"pc_toxic_arctic"
+		"pc_toxic_continental"
+		"pc_toxic_alpine"
+		"pc_toxic_savannah"
+		"pc_toxic_frozen"
 	}
 }

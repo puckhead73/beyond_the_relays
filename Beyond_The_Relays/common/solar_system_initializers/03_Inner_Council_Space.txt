@@ -267,7 +267,7 @@ sys_satuarrd_init = {
 
     planet = {
         name = "NAME_Nalisin"
-        class = "pc_mephitic_frozen"
+        class = "pc_toxic_frozen"
         orbit_distance = 40
         orbit_angle = 262
         has_ring = no
@@ -409,7 +409,7 @@ sys_pranas_init = {
 
     planet = {
         name = "NAME_Dragel"
-        class = "pc_mephitic_arctic"
+        class = "pc_toxic_arctic"
         orbit_distance = 20
         orbit_angle = 221
         size = 3
@@ -711,7 +711,7 @@ sys_trebia_init = {
 
     planet = {
         name = "NAME_Datriux"
-        class = "pc_mephitic_frozen"
+        class = "pc_toxic_frozen"
         orbit_distance = 20
         orbit_angle = 209
         has_ring = no
@@ -980,11 +980,11 @@ sys_elunia_init = {
 
 sys_kasatum_init = {
     name = "NAME_Kasatum"
-    class = "sc_b"
+    class = "sc_b_giant"
 
     planet = {
 		name = "NAME_Kasatum"	
-        class = "pc_b_star"
+        class = "pc_b_giant_star"
         orbit_distance = 0
         size = 25
     }
@@ -1141,14 +1141,14 @@ sys_narbo_init = {
 
 	planet = {
 		name = "NAME_Eutica"
-		class = "pc_mephitic_ocean"
+		class = "pc_toxic_ocean"
 		orbit_distance = 30
 		size = 25 
 	}
 	
 	planet = {
 		name = "NAME_Nimines"
-		class = "pc_mephitic_dextro_frozen"
+		class = "pc_toxic_dextro_frozen"
 		orbit_distance = 40
 		size = 15
 	}

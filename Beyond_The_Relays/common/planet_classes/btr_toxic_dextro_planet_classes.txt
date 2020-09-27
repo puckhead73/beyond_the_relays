@@ -3,7 +3,7 @@
 # ###########
 
 # Dry
-pc_mephitic_dextro_desert = {
+pc_toxic_dextro_desert = {
 	entity = "desert_planet"
 	icon_frame = 1
 	climate = "dry"
@@ -26,7 +26,7 @@ pc_mephitic_dextro_desert = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_mephitic_dextro_arid = {
+pc_toxic_dextro_arid = {
 	entity = "arid_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 2
@@ -48,7 +48,7 @@ pc_mephitic_dextro_arid = {
 	uses_alternative_skies_for_moons = yes
 }
 
-pc_mephitic_dextro_savannah = {
+pc_toxic_dextro_savannah = {
 	entity = "savannah_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 20
@@ -71,7 +71,7 @@ pc_mephitic_dextro_savannah = {
 }
 
 # Temperate
-pc_mephitic_dextro_tropical = {
+pc_toxic_dextro_tropical = {
 	entity = "tropical_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 5
@@ -93,7 +93,7 @@ pc_mephitic_dextro_tropical = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_mephitic_dextro_continental = {
+pc_toxic_dextro_continental = {
 	entity = "continental_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
@@ -115,7 +115,7 @@ pc_mephitic_dextro_continental = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_mephitic_dextro_ocean = {
+pc_toxic_dextro_ocean = {
 	entity = "ocean_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 6
@@ -138,7 +138,7 @@ pc_mephitic_dextro_ocean = {
 }
 
 # Cold
-pc_mephitic_dextro_tundra = {
+pc_toxic_dextro_tundra = {
 	entity = "tundra_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 3
@@ -160,7 +160,7 @@ pc_mephitic_dextro_tundra = {
 	uses_alternative_skies_for_moons = no
 }
 
-pc_mephitic_dextro_arctic = {
+pc_toxic_dextro_arctic = {
 	entity = "arctic_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 7
@@ -182,7 +182,7 @@ pc_mephitic_dextro_arctic = {
 	uses_alternative_skies_for_moons = yes
 }
 
-pc_mephitic_dextro_alpine = {
+pc_toxic_dextro_alpine = {
 	entity = "alpine_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 19
@@ -213,14 +213,14 @@ pc_mephitic_dextro_alpine = {
 random_list = {
 	name = "rl_habitable_mephitic_dextro"
 	planets = {
-		"pc_mephitic_dextro_desert"
-		"pc_mephitic_dextro_tropical"
-		"pc_mephitic_dextro_arid"
-		"pc_mephitic_dextro_ocean"
-		"pc_mephitic_dextro_tundra"
-		"pc_mephitic_dextro_arctic"
-		"pc_mephitic_dextro_continental"
-		"pc_mephitic_dextro_alpine"
-		"pc_mephitic_dextro_savannah"
+		"pc_toxic_dextro_desert"
+		"pc_toxic_dextro_tropical"
+		"pc_toxic_dextro_arid"
+		"pc_toxic_dextro_ocean"
+		"pc_toxic_dextro_tundra"
+		"pc_toxic_dextro_arctic"
+		"pc_toxic_dextro_continental"
+		"pc_toxic_dextro_alpine"
+		"pc_toxic_dextro_savannah"
 	}
 }

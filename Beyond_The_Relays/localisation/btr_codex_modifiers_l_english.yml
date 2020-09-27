@@ -75,7 +75,7 @@
  
  #Treagir
  treagir_codex_modifier:0 "Treagir"
- treagir_codex_modifier_desc:) "Treagir is a tiny "ice dwarf", with a trace atmosphere of xenon and krypton. The frozen surface is mainly composed of water ice and ammonia. Cryovolcanic processes are gradually repaving the surface with sheets of fresh ice."
+ treagir_codex_modifier_desc:0 "Treagir is a tiny ice dwarf, with a trace atmosphere of xenon and krypton. The frozen surface is mainly composed of water ice and ammonia. Cryovolcanic processes are gradually repaving the surface with sheets of fresh ice."
  
  
  ###Tereshkova###
@@ -86,11 +86,11 @@
  
  #Patamalrus
  patamalrus_codex_modifier:0 "Patamalrus"
- patamalrus_codex_modifier_desc:0 "Patamalrus' atmosphere is very similar to Venus in terms of pressure and temperature. Unlike Venus, however, Patamalrus' atmosphere has a significant quantity of oxygen, both free and bound in sulphur dioxides. The surface is largely composed of magnesia with deposits of carbon. It is possible, if unlikely, that simple life may be developing on Patamalrus. Computer modeling suggests that the powerful solar winds from the Tereshkova stars will blow off Patamalrus' atmosphere in a few million years, lowering the temperature on the surface to the −70s."
+ patamalrus_codex_modifier_desc:0 "Patamalrus' atmosphere is very similar to Venus in terms of pressure and temperature. Unlike Venus, however, Patamalrus' atmosphere has a significant quantity of oxygen, both free and bound in sulphur dioxides. The surface is largely composed of magnesia with deposits of carbon. It is possible, if unlikely, that simple life may be developing on Patamalrus. Computer modeling suggests that the powerful solar winds from the Tereshkova stars will blow off Patamalrus' atmosphere in a few million years, lowering the temperature on the surface to the -70s."
  
  #Hunsalra
  hunsalra_codex_modifier:0 "Hunsalra"
- hunsalra_codex_modifier_Desc:0 "Hunsalra is a small hydrogen-helium gas giant. It has unusually large amounts of nitrogen in the upper atmosphere, which glow purple when ionized by the solar wind. Hunsalra's convenience as a place to dump drive charge has left its orbit littered with debris "dumped overboard" by visiting crews."
+ hunsalra_codex_modifier_desc:0 "Hunsalra is a small hydrogen-helium gas giant. It has unusually large amounts of nitrogen in the upper atmosphere, which glow purple when ionized by the solar wind. Hunsalra's convenience as a place to dump drive charge has left its orbit littered with debris "dumped overboard" by visiting crews."
  
  #Thegeuse
  thegeuse_codex_modifier:0 "Thegeuse"

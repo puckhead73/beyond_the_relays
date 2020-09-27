@@ -248,7 +248,7 @@ sys_lusarn_init = {
 
 	planet = {
 		name = "NAME_Tarith"
-		class = "pc_chlorine_tropical"
+		class = "pc_toxic_tropical"
 		orbit_distance = 40
 		orbit_angle = -30
 		size = 14
@@ -307,7 +307,7 @@ sys_ondeste_init = {
 	
 	planet = {
 		name = "NAME_Zesmeni"
-		class = "pc_mephitic_frozen"
+		class = "pc_toxic_frozen"
 		orbit_distance = 38
 		orbit_angle = 150
 		size = 14
@@ -475,7 +475,7 @@ sys_zelene_init = {
 	
 	planet = {
 		name = "NAME_Nepyma"
-		class = "pc_chlorine_savannah"
+		class = "pc_toxic_savannah"
 		orbit_distance = 30
 		orbit_angle = 15
 		size = 11
@@ -484,7 +484,7 @@ sys_zelene_init = {
 	
 	planet = {
 		name = "NAME_Helyme"
-		class = "pc_mephitic_continental"
+		class = "pc_toxic_continental"
 		orbit_distance = 40
 		orbit_angle = 45
 		size = 13
@@ -493,7 +493,7 @@ sys_zelene_init = {
 	
 	planet = {
 		name = "NAME_Epho"
-		class = "pc_mephitic_alpine"
+		class = "pc_toxic_alpine"
 		orbit_distance = 35
 		orbit_angle = 150
 		size = 20
@@ -991,7 +991,7 @@ sys_ploitari_init = {
 
     planet = {
         name = "NAME_Synalus"
-        class = "pc_mephitic_frozen"
+        class = "pc_toxic_frozen"
         orbit_distance = 10
         orbit_angle = 77
         has_ring = no
@@ -1042,7 +1042,7 @@ sys_sowilo_init = {
 
     planet = {
         name = "NAME_Kenaz"
-        class = "pc_mephitic_barren"
+        class = "pc_toxic_barren"
         orbit_distance = 20
         orbit_angle = 154
         has_ring = no
@@ -1052,7 +1052,7 @@ sys_sowilo_init = {
 
     planet = {
         name = "NAME_Hagalaz"
-        class = "pc_mephitic_arid"
+        class = "pc_toxic_arid"
         orbit_distance = 20
         orbit_angle = 266
         has_ring = no
@@ -1082,7 +1082,7 @@ sys_sowilo_init = {
 
     planet = {
         name = "NAME_Isa"
-        class = "pc_methane_frozen"
+        class = "pc_toxic_frozen"
         orbit_distance = 20
         orbit_angle = 93
         has_ring = no
@@ -1554,7 +1554,7 @@ sys_arinlarkan_init = {
 
     planet = {
         name = "NAME_Utha"
-        class = "pc_mephitic_ocean"
+        class = "pc_toxic_ocean"
         orbit_distance = 80
         orbit_angle = 218
         has_ring = no
@@ -1682,7 +1682,7 @@ sys_fathar_init = {
 
     planet = {
         name = "NAME_Dorgal"
-        class = "pc_ethane_arctic"
+        class = "pc_toxic_arctic"
         orbit_distance = 50
         orbit_angle = 262
         has_ring = no
@@ -1734,7 +1734,7 @@ sys_kairavamori_init = {
 
     planet = {
         name = "NAME_Uwan_Oche"
-        class = "pc_methane_frozen"
+        class = "pc_toxic_frozen"
         orbit_distance = 30
         orbit_angle = 183
         has_ring = no
@@ -2239,7 +2239,7 @@ sys_tiedcaur_init = {
 
     planet = {
         name = "NAME_Ziednar"
-        class = "pc_ethane_arid"
+        class = "pc_toxic_arid"
         orbit_distance = 35
         orbit_angle = 350
         has_ring = no
@@ -2383,7 +2383,7 @@ sys_razhek_init = {
 
 	planet = {
 		name = "NAME_Yanoc"
-		class = "pc_ethane_continental"
+		class = "pc_toxic_continental"
 		orbit_distance = 50
 		size = 15
 	}
@@ -3163,7 +3163,7 @@ sys_lenal_init = {
 
     planet = {
         name = "NAME_Laconix"
-        class = "pc_mephitic_barren"
+        class = "pc_toxic_barren"
         orbit_distance = 40
         orbit_angle = 129
         has_ring = no
@@ -3484,7 +3484,7 @@ sys_grebosht_init = {
 
 	planet = {
 		name = "NAME_Kaimorak"
-		class = "pc_mephitic_tundra"
+		class = "pc_toxic_tundra"
 		orbit_distance = 60
 		size = 19
 		satellite_naming_policy = lower_case_latin_letters		
@@ -3516,7 +3516,7 @@ sys_silparon_init = {
 		
 	planet = {
 		name = "NAME_Ukiro"
-		class = "pc_mephitic_tundra"
+		class = "pc_toxic_tundra"
 		orbit_distance = 40
 		size = 8
 		moon = {
@@ -3597,7 +3597,7 @@ sys_essul_init = {
 
     planet = {
         name = "NAME_Bekke"
-        class = "pc_mephitic_desert"
+        class = "pc_toxic_desert"
         orbit_distance = 50
         orbit_angle = 49
         has_ring = no
@@ -3694,7 +3694,7 @@ sys_haskins_init = {
 
     planet = {
         name = "NAME_Capek"
-        class = "pc_mephitic_desert"
+        class = "pc_toxic_desert"
         orbit_distance = 80
         orbit_angle = 331
         has_ring = no
@@ -3863,7 +3863,7 @@ sys_raheelleyya_init = {
     }
 
     planet = {
-        class = "pc_b_star"
+        class = "pc_b_giant_star"
         name = "NAME_Raheel-Leyya_A"
         size = 15
         orbit_distance = 30
@@ -3871,7 +3871,7 @@ sys_raheelleyya_init = {
     }
 
     planet = {
-        class = "pc_b_star"
+        class = "pc_b_giant_star"
         name = "NAME_Raheel-Leyya_B"
         size = 25 
         orbit_distance = 0

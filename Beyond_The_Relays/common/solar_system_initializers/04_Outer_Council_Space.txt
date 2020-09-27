@@ -76,7 +76,7 @@ sys_orisoni_init = {
 	
 	planet = {
 		name = "NAME_Thissioni"
-		class = "pc_mephitic_barren"
+		class = "pc_toxic_barren"
 		orbit_distance = 23
 		orbit_angle = 60
 		size = 15
@@ -168,7 +168,7 @@ sys_parnitha_init = {
 
 	planet = {
 		name = "NAME_Piares"
-		class = "pc_mephitic_desert"
+		class = "pc_toxic_desert"
 		orbit_distance = 45
 		orbit_angle = 70
 		size = 15
@@ -509,7 +509,7 @@ sys_fortis_init = {
 
     planet = {
         name = "NAME_Pietas"
-        class = "pc_mephitic_continental"
+        class = "pc_toxic_continental"
         orbit_distance = 20
         orbit_angle = 148
         size = 13
@@ -723,7 +723,7 @@ sys_mesana_init = {
 
     planet = {
         name = "NAME_Lymetis"
-        class = "pc_mephitic_frozen"
+        class = "pc_toxic_frozen"
         orbit_distance = 22
         orbit_angle = 107
         size = 10
@@ -780,11 +780,11 @@ sys_mesana_init = {
 
 sys_pelion_init = {
     name = "NAME_Pelion"
-    class = "sc_b"
+    class = "sc_b_giant"
 
     planet = {
 	    name = "NAME_Pelion"
-        class = "pc_b_star"
+        class = "pc_b_giant_star"
         orbit_distance = 0
         size = 20
     }
@@ -801,7 +801,7 @@ sys_pelion_init = {
 
     planet = {
         name = "NAME_Sthenia"
-        class = "pc_mephitic_desert"
+        class = "pc_toxic_desert"
         orbit_distance = 30
         orbit_angle = 170
         size = 19
@@ -1099,7 +1099,7 @@ sys_totau_init = {
 
 sys_widow_init = {
     name = "NAME_Widow"
-    class = "sc_b"
+    class = "sc_b_giant"
 
     planet = {
         name = "NAME_Citadel"
@@ -1111,7 +1111,7 @@ sys_widow_init = {
 
     planet = {
 	    name = "NAME_Widow"
-        class = "pc_b_star"
+        class = "pc_b_giant_star"
         size = 30
         orbit_distance = 300
         orbit_angle = 180

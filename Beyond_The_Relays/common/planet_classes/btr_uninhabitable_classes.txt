@@ -25,7 +25,7 @@ pc_gas_giant = {
 }
 
 pc_ice_giant = {
-	entity = "gas_giant"
+	entity = "ice_giant"
 	entity_scale = 14
 	icon_frame = 14
 	atmosphere_color 		= hsv { 0.1 0.15 1.1 }		#DONE
@@ -46,7 +46,7 @@ pc_ice_giant = {
 }
 
 pc_hot_jupiter = {
-	entity = "gas_giant"
+	entity = "hot_jupiter"
 	entity_scale = 14
 	icon_frame = 14
 	atmosphere_color 		= hsv { 0.1 0.15 1.1 }		#DONE
@@ -128,7 +128,7 @@ pc_molten = {
 }
 
 pc_scorched = {
-	entity = "barren_planet"
+	entity = "scorched_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 10
 	
@@ -152,7 +152,7 @@ pc_scorched = {
 }
 
 pc_desolate = {
-	entity = "frozen_planet"		#DONE
+	entity = "desolate_planet"		#DONE
 	entity_scale = @planet_standard_scale
 	icon_frame = 13
 	
@@ -175,6 +175,77 @@ pc_desolate = {
 	colonizable = no
 }
 
+pc_geothermal = {
+	entity = "geothermal_planet"		#DONE
+	entity_scale = @planet_standard_scale
+	icon_frame = 13
+	
+	atmosphere_color 		= hsv { 0.55 0.15 0.7 }
+	atmosphere_intensity 	= 1.0
+	atmosphere_width 		= 0.5
+
+	min_distance_from_sun = 120
+	max_distance_from_sun = 1000
+	spawn_odds = 10
+	
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	
+	chance_of_ring = 0
+	
+	planet_size = { min = 10 max = 25 }
+	moon_size = { min = 6 max = 10 }
+	
+	colonizable = no
+}
+
+pc_cryovolcanic = {
+	entity = "cryovolcanic_planet"		#DONE
+	entity_scale = @planet_standard_scale
+	icon_frame = 13
+	
+	atmosphere_color 		= hsv { 0.55 0.15 0.7 }
+	atmosphere_intensity 	= 1.0
+	atmosphere_width 		= 0.5
+
+	min_distance_from_sun = 120
+	max_distance_from_sun = 1000
+	spawn_odds = 10
+	
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	
+	chance_of_ring = 0
+	
+	planet_size = { min = 10 max = 25 }
+	moon_size = { min = 6 max = 10 }
+	
+	colonizable = no
+}
+
+pc_hothouse = {
+	entity = "hothouse_planet"		#DONE
+	entity_scale = @planet_standard_scale
+	icon_frame = 13
+	
+	atmosphere_color 		= hsv { 0.55 0.15 0.7 }
+	atmosphere_intensity 	= 1.0
+	atmosphere_width 		= 0.5
+
+	min_distance_from_sun = 120
+	max_distance_from_sun = 1000
+	spawn_odds = 10
+	
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	
+	chance_of_ring = 0
+	
+	planet_size = { min = 10 max = 25 }
+	moon_size = { min = 6 max = 10 }
+	
+	colonizable = no
+}
 
 random_list = {
 	name = "rl_unhabitable_planets"
@@ -183,6 +254,8 @@ random_list = {
 		"pc_ice_giant"
 		"pc_hot_jupiter"
 		"pc_molten"
+		"pc_scorched"
+		"pc_desolate"
 		"pc_geothermal"
 		"pc_cryovolcanic"
 		"pc_hothouse"
