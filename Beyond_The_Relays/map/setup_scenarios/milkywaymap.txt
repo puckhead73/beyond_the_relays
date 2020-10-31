@@ -1,8 +1,8 @@
 static_galaxy_scenario = {
     name = "Beyond_the_Relays_245_v1"
     priority = 1
-    default = yes
-    colonizable_planet_odds = 0.75
+    default = no
+    colonizable_planet_odds = 1.0
     num_empires = { min = 1 max = 1 }
     num_empire_default = 1
     advanced_empire_default = 0

@@ -211,7 +211,7 @@ pc_toxic_dextro_alpine = {
 # ###########
 
 random_list = {
-	name = "rl_habitable_mephitic_dextro"
+	name = "rl_habitable_toxic_dextro"
 	planets = {
 		"pc_toxic_dextro_desert"
 		"pc_toxic_dextro_tropical"

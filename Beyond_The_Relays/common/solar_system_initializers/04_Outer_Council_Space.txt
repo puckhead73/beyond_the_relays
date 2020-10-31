@@ -608,7 +608,7 @@ sys_uba_init = {
 
 sys_agaiou_init = {
     name = "NAME_Agaiou"
-    class = "sc_binary_7"
+    class = "sc_binary_f_k"
 
     planet = {
         class = "pc_f_star"

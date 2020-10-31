@@ -2389,7 +2389,7 @@ sys_thorne_init = {
 
     planet = {
         name = "NAME_Mnemosyne"
-        class = "pc_brown_dwarf"
+        class = "pc_t"
         orbit_distance = 70
         orbit_angle = 344
         has_ring = no
@@ -3980,7 +3980,7 @@ sys_klin_init = {
 
 sys_refuge_init = {
     name = "NAME_Refuge"
-    class = "sc_binary_t_g"
+    class = "sc_binary_g_t"
 	max_instances = 1
     init_effect = {
         save_global_event_target_as = "refuge_relay_system"

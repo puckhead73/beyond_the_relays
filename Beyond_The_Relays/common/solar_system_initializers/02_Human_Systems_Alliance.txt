@@ -3017,11 +3017,11 @@ sys_alpha_centauri_system = {
 
 sys_sirius_system = {
 	name = "NAME_Sirius"
-	class = sc_binary_a_d
+	class = "sc_binary_a_d"
 
 	planet = {
 		name = "NAME_Sirius_A"
-		class = pc_a_star
+		class = "pc_a_star"
 		orbit_distance = 30
 		orbit_angle = 1
 		size = 35
@@ -3030,7 +3030,7 @@ sys_sirius_system = {
 
 	planet = {
 		name = "NAME_Sirius_B"
-		class = pc_d_star
+		class = "pc_d_star"
 		orbit_distance = 0
 		orbit_angle = 180
 		size = 25

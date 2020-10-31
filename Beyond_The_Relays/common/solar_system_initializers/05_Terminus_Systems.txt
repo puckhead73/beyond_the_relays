@@ -3855,7 +3855,7 @@ sys_paz_init = {
 
 sys_raheelleyya_init = {
     name = "NAME_Raheel-Leyya"
-    class = "sc_binary_5"
+    class = "sc_binary_b_b"
 
     asteroid_belt = {
         type = rocky_asteroid_belt
