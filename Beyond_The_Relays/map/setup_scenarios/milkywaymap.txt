@@ -6,7 +6,7 @@ static_galaxy_scenario = {
     num_empires = { min = 1 max = 1 }
     num_empire_default = 1
     advanced_empire_default = 0
-    core_radius = 0
+    core_radius = 25
     random_hyperlanes = no
 
     system = {
@@ -2199,7 +2199,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Ismar_Frontier"
+        name = "Ismar_Frontier"
         position = {
             x = 445.066
             y = -46.96038
@@ -2208,7 +2208,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Buluc_Nebula"
+        name = "Buluc_Nebula"
         position = {
             x = 343.53
             y = -46.96037
@@ -2217,7 +2217,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Crescent_Nebula"
+        name = "Crescent_Nebula"
         position = {
             x = 329.9919
             y = -127.343
@@ -2226,7 +2226,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Minos_Wasteland"
+        name = "Minos_Wasteland"
         position = {
             x = 392.6058
             y = 49.49881
@@ -2235,7 +2235,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Nimbus_Cluster"
+        name = "Nimbus_Cluster"
         position = {
             x = 414.6052
             y = 130.7276
@@ -2244,7 +2244,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Athena_Nebula"
+        name = "Athena_Nebula"
         position = {
             x = 335.9149
             y = 140.035
@@ -2253,7 +2253,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Silean_Nebula"
+        name = "Silean_Nebula"
         position = {
             x = 331.6842
             y = 207.7257
@@ -2262,7 +2262,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Apien_Crest"
+        name = "Apien_Crest"
         position = {
             x = 220.8408
             y = 320.2614
@@ -2271,7 +2271,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Meade_Cluster"
+        name = "Meade_Cluster"
         position = {
             x = 166.6882
             y = 264.4167
@@ -2280,7 +2280,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Krogan_DMZ"
+        name = "Krogan_DMZ"
         position = {
             x = 192.0723
             y = 203.4951
@@ -2289,7 +2289,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Serpent_Nebula"
+        name = "Serpent_Nebula"
         position = {
             x = 213.2256
             y = 134.9583
@@ -2298,7 +2298,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Vesuvius_Nebula"
+        name = "Vesuvius_Nebula"
         position = {
             x = 249.6093
             y = 53.72948
@@ -2307,7 +2307,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Eagle_Nebula"
+        name = "Eagle_Nebula"
         position = {
             x = 255.5322
             y = -30.88383
@@ -2316,7 +2316,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Olin_Protectorate"
+        name = "Olin_Protectorate"
         position = {
             x = 148.0733
             y = 94.34389
@@ -2325,7 +2325,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Annos_Basin"
+        name = "Annos_Basin"
         position = {
             x = 83.76719
             y = 194.1876
@@ -2334,7 +2334,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Xingyun_Cluster"
+        name = "Xingyun_Cluster"
         position = {
             x = 106.0564
             y = 310.2205
@@ -2343,7 +2343,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Aethon_Cluster"
+        name = "Aethon_Cluster"
         position = {
             x = 137.9197
             y = 362.568
@@ -2352,7 +2352,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Local_Cluster"
+        name = "Local_Cluster"
         position = {
             x = 34.69148
             y = 299.1081
@@ -2361,7 +2361,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Arcturus_Stream"
+        name = "Arcturus_Stream"
         position = {
             x = -5.076771
             y = 312.6462
@@ -2370,7 +2370,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Horse_Head_Nebula"
+        name = "Horse_Head_Nebula"
         position = {
             x = -37.22984
             y = 204.3412
@@ -2379,7 +2379,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Exodus_Cluster"
+        name = "Exodus_Cluster"
         position = {
             x = -56.69089
             y = 277.9548
@@ -2388,7 +2388,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Petra_Nebula"
+        name = "Petra_Nebula"
         position = {
             x = -79.53647
             y = 338.0302
@@ -2397,7 +2397,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Viper_Nebula"
+        name = "Viper_Nebula"
         position = {
             x = -113.3818
             y = 417.5667
@@ -2406,7 +2406,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Kites_Nest"
+        name = "Kites_Nest"
         position = {
             x = -175.9956
             y = 366.7987
@@ -2415,7 +2415,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Llewyn_Nebula"
+        name = "Llewyn_Nebula"
         position = {
             x = -169.1896
             y = 313.7859
@@ -2424,7 +2424,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Mkali_Pool"
+        name = "Mkali_Pool"
         position = {
             x = -159.073
             y = 255.1092
@@ -2433,7 +2433,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Artemis_Tau"
+        name = "Artemis_Tau"
         position = {
             x = -258.0706
             y = 300.8004
@@ -2442,7 +2442,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Gemini_Sigma"
+        name = "Gemini_Sigma"
         position = {
             x = -208.1487
             y = 193.3415
@@ -2451,7 +2451,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Argos_Rho"
+        name = "Argos_Rho"
         position = {
             x = -150.6117
             y = 160.3423
@@ -2460,7 +2460,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Hades_Gamma"
+        name = "Hades_Gamma"
         position = {
             x = -296.1466
             y = 231.4175
@@ -2469,7 +2469,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Maroon_Sea"
+        name = "Maroon_Sea"
         position = {
             x = -205.6103
             y = 123.9586
@@ -2478,7 +2478,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Attican_Beta"
+        name = "Attican_Beta"
         position = {
             x = -291.0698
             y = 146.8042
@@ -2487,7 +2487,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Voyager_Cluster"
+        name = "Voyager_Cluster"
         position = {
             x = -380.7599
             y = 192.4954
@@ -2496,7 +2496,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Armstrong_Nebula"
+        name = "Armstrong_Nebula"
         position = {
             x = -374.8369
             y = 108.7282
@@ -2505,7 +2505,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Shadow_Sea"
+        name = "Shadow_Sea"
         position = {
             x = -171.765
             y = 56.26792
@@ -2514,7 +2514,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Kepler_Verge"
+        name = "Kepler_Verge"
         position = {
             x = -264.8397
             y = -3.807521
@@ -2523,7 +2523,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Nubian_Expanse"
+        name = "Nubian_Expanse"
         position = {
             x = -384.1444
             y = 29.19168
@@ -2532,7 +2532,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Styx_Theta"
+        name = "Styx_Theta"
         position = {
             x = -160.7653
             y = 1.269269
@@ -2541,7 +2541,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Galactic_Core"
+        name = "Galactic_Core"
         position = {
             x = 1.109618E-07
             y = 1.269254
@@ -2550,7 +2550,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Hawking_Eta"
+        name = "Hawking_Eta"
         position = {
             x = -110.8435
             y = -93.49765
@@ -2559,7 +2559,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Caleston_Rift"
+        name = "Caleston_Rift"
         position = {
             x = -205.6104
             y = -112.1126
@@ -2568,7 +2568,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Sentry_Omega"
+        name = "Sentry_Omega"
         position = {
             x = -329.9919
             y = -91.80537
@@ -2577,7 +2577,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Hades_Nexus"
+        name = "Hades_Nexus"
         position = {
             x = -421.3743
             y = -123.1123
@@ -2586,7 +2586,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Phoenix_Massing"
+        name = "Phoenix_Massing"
         position = {
             x = -263.9936
             y = -184.0339
@@ -2595,7 +2595,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Savian_Abyssal"
+        name = "Savian_Abyssal"
         position = {
             x = -243.6864
             y = -236.4942
@@ -2604,7 +2604,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Far_Rim"
+        name = "Far_Rim"
         position = {
             x = -380.7599
             y = -285.5699
@@ -2613,7 +2613,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Perseus_Veil"
+        name = "Perseus_Veil"
         position = {
             x = -412.0669
             y = -239.0325
@@ -2622,7 +2622,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Radana_Burst"
+        name = "Radana_Burst"
         position = {
             x = -117.6125
             y = -309.2616
@@ -2631,7 +2631,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Pylos_Nebula"
+        name = "Pylos_Nebula"
         position = {
             x = -134.5352
             y = -234.8019
@@ -2640,7 +2640,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Pangaea_Expanse"
+        name = "Pangaea_Expanse"
         position = {
             x = -88.84399
             y = -198.4182
@@ -2649,7 +2649,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Basillae_Flare"
+        name = "Basillae_Flare"
         position = {
             x = -234.3789
             y = -310.1078
@@ -2658,7 +2658,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Yggdrasil_Nebula"
+        name = "Yggdrasil_Nebula"
         position = {
             x = -25.38401
             y = -165.419
@@ -2667,7 +2667,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Omega_Nebula"
+        name = "Omega_Nebula"
         position = {
             x = 13.53811
             y = -241.571
@@ -2676,7 +2676,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Sigurds_Cradle"
+        name = "Sigurds_Cradle"
         position = {
             x = 1.692237
             y = -332.9534
@@ -2685,7 +2685,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Rosetta_Nebula"
+        name = "Rosetta_Nebula"
         position = {
             x = -129.4584
             y = -414.1822
@@ -2694,7 +2694,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Oshibka_Cliff"
+        name = "Oshibka_Cliff"
         position = {
             x = 113.3818
             y = -93.49767
@@ -2703,7 +2703,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_SinKelar_Cluster"
+        name = "SinKelar_Cluster"
         position = {
             x = 144.6888
             y = -160.3422
@@ -2712,7 +2712,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Nemean_Alpha"
+        name = "Nemean_Alpha"
         position = {
             x = 205.6104
             y = -151.0347
@@ -2721,7 +2721,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Nemean_Depths"
+        name = "Nemean_Depths"
         position = {
             x = 179.3802
             y = -199.2643
@@ -2730,7 +2730,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Homunculus_Cluster"
+        name = "Homunculus_Cluster"
         position = {
             x = 293.6082
             y = -224.6483
@@ -2739,7 +2739,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Hourglass_Nebula"
+        name = "Hourglass_Nebula"
         position = {
             x = 207.3026
             y = -255.9552
@@ -2748,7 +2748,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Byenzine_Cloud"
+        name = "Byenzine_Cloud"
         position = {
             x = 110.8434
             y = -308.4155
@@ -2757,7 +2757,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_TItan_Nebula"
+        name = "TItan_Nebula"
         position = {
             x = 53.30636
             y = -420.1051
@@ -2766,7 +2766,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Valhallan_Threshold"
+        name = "Valhallan_Threshold"
         position = {
             x = 213.2256
             y = -387.106
@@ -2775,7 +2775,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Shrike_Abyssal"
+        name = "Shrike_Abyssal"
         position = {
             x = 349.453
             y = -299.1081
@@ -2784,7 +2784,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "NAME_Ninmah_Cluster"
+        name = "Ninmah_Cluster"
         position = {
             x = -154.8424
             y = -48.65259

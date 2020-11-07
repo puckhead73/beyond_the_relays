@@ -151,3 +151,15 @@ sc_binary_b_b = {
 	pc_alpine		= { spawn_odds = 0.0 }
 	pc_savannah		= { spawn_odds = 0.2 }
 }
+
+random_list = {
+    name = "rl_binary_stars"
+    stars = {
+        "sc_binary_m_m"
+        "sc_binary_a_mg"
+        "sc_binary_g_t"
+        "sc_binary_a_d"
+        "sc_binary_f_k"
+        "sc_binary_b_b"
+    }
+}

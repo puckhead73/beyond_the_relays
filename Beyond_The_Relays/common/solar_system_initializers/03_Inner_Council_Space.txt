@@ -5,11 +5,11 @@
 #####AETHON CLUSTER#####
 
 sys_aru_init = {
-    name = "NAME_Aru"
+    name = "Aru"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Aru"
+	    name = "Aru"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
@@ -21,30 +21,38 @@ sys_aru_init = {
 	}
 
     planet = {
-        name = "NAME_Jak_Ser"
+        name = "Jak_Ser"
         class = "pc_hothouse"
         orbit_distance = 40
         orbit_angle = 26
         has_ring = no
-		size = 25
-
+        size = 25
+        init_effect = {
+			set_planet_flag = jak_ser_codex
+			}
     }
 
     planet = {
-        name = "NAME_Irune"
+        name = "Irune"
         class = "pc_ammonia_continental"
         orbit_distance = 20
         orbit_angle = 251
         size = 25
+        init_effect = {
+			set_planet_flag = irune_codex
+			}
 	}
 
     planet = {
-        name = "NAME_Locil"
+        name = "Locil"
         class = "pc_gas_giant"
         orbit_distance = 40
         orbit_angle = 235
         has_ring = no
-		size = 33
+        size = 33
+        init_effect = {
+			set_planet_flag = locil_codex
+			}
         satellite_naming_policy = lower_case_latin_letters
         moon = {
             count = { min = 2 max = 6 }
@@ -55,56 +63,56 @@ sys_aru_init = {
     }
 
     planet = {
-        name = "NAME_Cherk_Sab"
+        name = "Cherk_Sab"
         class = "pc_gas_giant"
         orbit_distance = 25
         orbit_angle = 228
         has_ring = no
-		size = 30
+        size = 30
+        init_effect = {
+			set_planet_flag = cherk_sab_codex
+			}
     }
 
     planet = {
-        name = "NAME_Doldit"
+        name = "Doldit"
         class = "pc_ice_giant"
         orbit_distance = 40
         orbit_angle = 74
         has_ring = no
-		size = 28
+        size = 28
+        init_effect = {
+			set_planet_flag = doldit_codex
+            }
         satellite_naming_policy = lower_case_latin_letters
-
         moon = {
             class = random
             orbit_distance = 15
             orbit_angle = 200
             has_ring = no
 			size = 5
-			
-        }
-
+	    }
         moon = {
             class = random
             orbit_distance = 5
             orbit_angle = 239
             has_ring = no
 			size = 5
-
         }
-
         moon = {
             class = random
             orbit_distance = 5
             orbit_angle = 106
             has_ring = no
 			size = 4
-
         }
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "aethoncluster_apiencrest_massrelay" 
-			name = "NAME_Aethon_1_Relay"
-			orbit_distance = random 
+			name = "Aethon_1_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -112,73 +120,83 @@ sys_aru_init = {
 }
 
 sys_esori_init = {
-    name = "NAME_Esori"
+    name = "Esori"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Esori"	
+	    name = "Esori"	
         class = "pc_g_star"
         orbit_distance = 0
         size = 23
     }
 
     planet = {
-        name = "NAME_Mola"
+        name = "Mola"
         class = "pc_molten"
         orbit_distance = 35
         orbit_angle = 230
         has_ring = no
-		size = 19
-
+        size = 19
+        init_effect = {
+			set_planet_flag = mola_codex
+			}
     }
 
     planet = {
-        name = "NAME_Atos_Irn"
+        name = "Atos_Irn"
         class = "pc_scorched"
         orbit_distance = 20
         orbit_angle = 161
         has_ring = no
-		size = 18
-		
+        size = 18
+        init_effect = {
+			set_planet_flag = atos_irn_codex
+			}		
     }
 
     planet = {
-        name = "NAME_Yan_Tao"
+        name = "Yan_Tao"
         class = "pc_hothouse"
         orbit_distance = 15
         orbit_angle = 284
         has_ring = no
-		size = 25
-
+        size = 25
+        init_effect = {
+			set_planet_flag = yan_tao_codex
+			}
     }
 
     planet = {
-        name = "NAME_Kailo"
+        name = "Kailo"
         class = "pc_desolate"
         orbit_distance = 15
         orbit_angle = 227
         has_ring = no
-		size = 25
-
+        size = 25
+        init_effect = {
+			set_planet_flag = kailo_codex
+			}
     }
 
     planet = {
-        name = "NAME_Solu_Paolis"
+        name = "Solu_Paolis"
         class = "pc_ice_giant"
         orbit_distance = 25
         orbit_angle = 47
         has_ring = no
-		size = 28
-		
+        size = 28
+        init_effect = {
+			set_planet_flag = solu_paolis_codex
+			}		
     }	
 }
 
 sys_nura_init = {
-    name = "NAME_Nura"
+    name = "Nura"
     class = "sc_f"
 	
     planet = {
-	    name = "NAME_Nura"
+	    name = "Nura"
         class = "pc_f_star"
         orbit_distance = 0
         size = 20
@@ -190,54 +208,65 @@ sys_nura_init = {
 	}
 
     planet = {
-        name = "NAME_Lahu"
+        name = "Lahu"
         class = "pc_ammonia_desert"
         orbit_distance = 30
         orbit_angle = 61
         has_ring = no
-		size = 21
+        size = 21
+        init_effect = {
+			set_planet_flag = lahu_codex
+			}
     }
 
     planet = {
-        name = "NAME_Oma_Ker"
+        name = "Oma_Ker"
         class = "pc_dextro_continental"
         orbit_distance = 20
         orbit_angle = 247
         has_ring = no
-		size = 17
+        size = 17
+        init_effect = {
+			set_planet_flag = oma_ker_codex
+			}
     }
 
     planet = {
-        name = "NAME_Welm_Urun"
+        name = "Welm_Urun"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 245
         has_ring = yes
-		size = 35
+        size = 35
+        init_effect = {
+			set_planet_flag = welm_urun_codex
+			}
     }
 
     planet = {
-        name = "NAME_Gorgun"
+        name = "Gorgun"
         class = "pc_gas_giant"
         orbit_distance = 30
         orbit_angle = 143
         has_ring = no
-		size = 36
+        size = 36
+        init_effect = {
+			set_planet_flag = gorgun_codex
+			}
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "aethoncluster_xingyuncluster_massrelay" 
-			name = "NAME_Aethon_2_Relay"
-			orbit_distance = random 
-			orbit_distance = 200
-			
+			name = "Aethon_2_Relay"
+			orbit_angle = random 
+			orbit_distance = 200			
 		} 
 	}	
 }
 
 sys_satuarrd_init = {
-    name = "NAME_Satu_Arrd"
+    name = "Satu_Arrd"
     class = "sc_g"
 
     planet = {
@@ -247,31 +276,39 @@ sys_satuarrd_init = {
     }
 
     planet = {
-        name = "NAME_Poloh_Tem"
+        name = "Poloh_Tem"
         class = "pc_hothouse"
         orbit_distance = 40
         orbit_angle = 314
         has_ring = no
-		size = 14
+        size = 14
+        init_effect = {
+			set_planet_flag = poloh_tem_codex
+			}
     }
 
     planet = {
-        name = "NAME_Rilar"
+        name = "Rilar"
         class = "pc_barren"
         orbit_distance = 20
         orbit_angle = 167
         has_ring = no
-		size = 12
-
+        size = 12
+        init_effect = {
+			set_planet_flag = rilar_codex
+			}
     }
 
     planet = {
-        name = "NAME_Nalisin"
+        name = "Nalisin"
         class = "pc_toxic_frozen"
         orbit_distance = 40
         orbit_angle = 262
         has_ring = no
-		size = 11
+        size = 11
+        init_effect = {
+			set_planet_flag = nalisin_codex
+			}
     }
 }
 
@@ -279,50 +316,62 @@ sys_satuarrd_init = {
 #####ANNOS BASIN#####
 
 sys_ilhani_init = {
-    name = "NAME_Ilhani"
+    name = "Ilhani"
     class = "sc_g"
 
     planet = {
-		name = "NAME_Ilhani"
+		name = "Ilhani"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
 	}
 	
 	planet = {
-		name = "NAME_Opua"
+		name = "Opua"
 		class = "pc_hothouse"
 		orbit_distance = 35
-		size = 14
+        size = 14
+        init_effect = {
+			set_planet_flag = opua_codex
+			}
 	}
 
 	planet = {
-		name = "NAME_Makai"
+		name = "Makai"
 		class = "pc_ocean"
 		orbit_distance = 30
-		size = 19
+        size = 19
+        init_effect = {
+			set_planet_flag = makai_codex
+			}
 		has_ring = yes
 		moon = {
-			name = "NAME_Lani"
+			name = "Lani"
 			class = "pc_tropical"
 			orbit_distance = 16
-			size = 14
+            size = 14
+            init_effect = {
+                set_planet_flag = lani_codex
+                }
 		}
 	}	
 		
 	planet = {
-		name = "NAME_Enekini"
+		name = "Enekini"
 		class = "pc_gas_giant"
 		orbit_distance = 55
-		size = 36
+        size = 36
+        init_effect = {
+			set_planet_flag = enekini_codex
+			}
 		has_ring = yes
 	}
 	
     init_effect = { 
 		spawn_megastructure = { 
 			type = "annosbasin_horseheadnebula_massrelay" 
-			name = "NAME_Annos_1_Relay"
-			orbit_distance = random 
+			name = "Annos_1_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -330,52 +379,67 @@ sys_ilhani_init = {
 }
 
 sys_nasurn_init = {
-    name = "NAME_Nasurn"
+    name = "Nasurn"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Nasurn"
+	    name = "Nasurn"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
 	}	
 	
 	planet = {
-		name = "NAME_Aezeni"
+		name = "Aezeni"
 		class = "pc_scorched"
 		orbit_distance = 30
-		size = 6
+        size = 6
+        init_effect = {
+			set_planet_flag = aezeni_codex
+			}
 	}
 
 	planet = {
-		name = "NAME_Wiui"
+		name = "Wiui"
 		class = "pc_arid"
 		orbit_distance = 40
-		size = 10
+        size = 10
+        init_effect = {
+			set_planet_flag = wiui_codex
+			}
 	}
 
 	planet = {
-		name = "NAME_Cabami"
+		name = "Cabami"
 		class = "pc_geothermal"
 		orbit_distance = 50
-		size = 25
+        size = 25
+        init_effect = {
+			set_planet_flag = cabami_codex
+			}
 		moon = {
-			name = "NAME_Lagar"
+			name = "Lagar"
 			class = "pc_molten"
 			orbit_distance = 6
-			size = 9
+            size = 9
+            init_effect = {
+                set_planet_flag = lagar_codex
+                }
 		}	
 		moon = {
-			name = "NAME_Janoko"
+			name = "Janoko"
 			class = "pc_molten"
 			orbit_distance = 5
-			size = 6
+            size = 6
+            init_effect = {
+                set_planet_flag = janoko_codex
+                }
 		}
 	}	
 }	
 	
 sys_pranas_init = {
-    name = "NAME_Pranas"
+    name = "Pranas"
     class = "sc_g"
 
     planet = {
@@ -390,38 +454,50 @@ sys_pranas_init = {
 	}
 	
     planet = {
-        name = "NAME_Saradril"
+        name = "Saradril"
         class = "pc_hothouse"
         orbit_distance = 40
         orbit_angle = 148
         size = 13
+        init_effect = {
+			set_planet_flag = saradril_codex
+			}
         has_ring = no
     }
 
     planet = {
-        name = "NAME_SurKesh"
+        name = "SurKesh"
         class = "pc_tropical"
         orbit_distance = 20
         orbit_angle = 179
         size = 16
+        init_effect = {
+			set_planet_flag = surkesh_codex
+			}
         has_ring = no
      }
 
     planet = {
-        name = "NAME_Dragel"
+        name = "Dragel"
         class = "pc_toxic_arctic"
         orbit_distance = 20
         orbit_angle = 221
         size = 3
+        init_effect = {
+			set_planet_flag = dragel_codex
+			}
         has_ring = no
     }
 
     planet = {
-        name = "NAME_Halegeuse"
+        name = "Halegeuse"
         class = "pc_gas_giant"
         orbit_distance = 20
         orbit_angle = 202
         size = 33
+        init_effect = {
+			set_planet_flag = halegeuse_codex
+			}
         has_ring = no
 		satellite_naming_policy = lower_case_latin_letters
             moon = {
@@ -432,28 +508,29 @@ sys_pranas_init = {
     }
 
     planet = {
-        name = "NAME_Paeto"
-        class = "pc_orbiting_asteroid"
+        name = "Paeto"
+        class = "pc_asteroid"
         orbit_distance = 20
         orbit_angle = 52
         size = 4
+        init_effect = {
+			set_planet_flag = paeto_codex
+			}
         has_ring = no
-
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "annosbasin_serpentnebula_massrelay" 
-			name = "NAME_Annos_2_Relay"
-			orbit_distance = random 
-			orbit_distance = 200
-			
+			name = "Annos_2_Relay"
+			orbit_angle = random 
+			orbit_distance = 200			
 		} 
 	}
 }
 
 sys_rothila_init = {
-    name = "NAME_Rothila"
+    name = "Rothila"
     class = "sc_f"
 
     planet = {
@@ -463,48 +540,69 @@ sys_rothila_init = {
 	}	
 	
 	planet = {
-		name = "NAME_Friga"
+		name = "Friga"
 		class = "pc_scorched"
 		orbit_distance = 20
-		size = 4
+        size = 4
+        init_effect = {
+			set_planet_flag = friga_codex
+			}
 	}
 
 	planet = {
-		name = "NAME_Dagnes"
+		name = "Dagnes"
 		class = "pc_tropical"
 		orbit_distance = 30
-		size = 14 
+        size = 14 
+        init_effect = {
+			set_planet_flag = dagnes_codex
+			}
 		moon = {
-			name = "NAME_Warrik"
+			name = "Warrik"
 			class = "pc_barren"
 			orbit_distance = 8
-			size = 6
+            size = 6
+            init_effect = {
+                set_planet_flag = warrik_codex
+                }
 		}
 		moon = {
-			name = "NAME_Yomala"
+			name = "Yomala"
 			class = "pc_barren"
 			orbit_distance = 8
-			size = 4
+            size = 4
+            init_effect = {
+                set_planet_flag = yomala_codex
+                }
 		}		
 		moon = {
-			name = "NAME_Ferwen"
+			name = "Ferwen"
 			class = "pc_desolate"
 			orbit_distance = 6
-			size = 5
+            size = 5
+            init_effect = {
+                set_planet_flag = ferwen_codex
+                }
 		}			
 		moon = {
-			name = "NAME_Cuzene"
+			name = "Cuzene"
 			class = "pc_desert"
 			orbit_distance = 8
-			size = 8
+            size = 8
+            init_effect = {
+                set_planet_flag = cuzene_codex
+                }
 		}	
 	}
 
 	planet = {
-		name = "NAME_Tinoth"
+		name = "Tinoth"
 		class = "pc_gas_giant"
 		orbit_distance = 75
-		size = 33
+        size = 33
+        init_effect = {
+            set_planet_flag = tinoth_codex
+            }
 		satellite_naming_policy = lower_case_latin_letters
             moon = {
                 count = { min = 1 max = 5 }
@@ -512,18 +610,24 @@ sys_rothila_init = {
                 orbit_angle = { min = 90 max = 270 }
             }			
 			moon = {
-				name = "NAME_Baleia"
+				name = "Baleia"
 				class = "pc_frozen"
 				orbit_distance = 12
-				size = 12
+                size = 12
+                init_effect = {
+                    set_planet_flag = baleia_codex
+                    }
 			}	
 		}
 
 	planet = {
-		name = "NAME_Jikkart"
+		name = "Jikkart"
 		class = "pc_barren"
 		orbit_distance = 30
-		size = 14
+        size = 14
+        init_effect = {
+            set_planet_flag = jikkart_codex
+            }
 	}	
 }	
 
@@ -531,11 +635,11 @@ sys_rothila_init = {
 #####APIEN CREST#####
 
 sys_castellus_init = {
-    name = "NAME_Castellus"
+    name = "Castellus"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Castellus"
+	    name = "Castellus"
         class = "pc_g_star"
         orbit_distance = 0
         size = 25
@@ -552,52 +656,64 @@ sys_castellus_init = {
 	}
 
     planet = {
-        name = "NAME_Carborix"
+        name = "Carborix"
         class = "pc_scorched"
         orbit_distance = 30
         orbit_angle = 277
         has_ring = no
-		size = 6
-
+        size = 6
+        init_effect = {
+            set_planet_flag = carborix_codex
+            }
     }
 
     planet = {
-        name = "NAME_Nios"
+        name = "Nios"
         class = "pc_hothouse"
         orbit_distance = 20
         orbit_angle = 249
         has_ring = no
-		size = 7
+        size = 7
+        init_effect = {
+            set_planet_flag = nios_codex
+            }
 
     }
 
     planet = {
-        name = "NAME_Digeris"
+        name = "Digeris"
         class = "pc_dextro_continental"
         orbit_distance = 20
         orbit_angle = 231
         has_ring = no
-		size = 10
-
+        size = 10
+        init_effect = {
+            set_planet_flag = digeris_codex
+            }
     }
 
     planet = {
-        name = "NAME_Fiax"
+        name = "Fiax"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 154
         has_ring = no
-		size = 24
-
+        size = 24
+        init_effect = {
+            set_planet_flag = fiax_codex
+            }
     }
 
     planet = {
-        name = "NAME_Iritum"
+        name = "Iritum"
         class = "pc_gas_giant"
         orbit_distance = 35
         orbit_angle = 133
         has_ring = yes
-		size = 33
+        size = 33
+        init_effect = {
+            set_planet_flag = iritum_codex
+            }
 		satellite_naming_policy = lower_case_latin_letters
         moon = {
             count = { min = 1 max = 3 }
@@ -608,7 +724,7 @@ sys_castellus_init = {
 }
 
 sys_gemmae_init = {
-    name = "NAME_Gemmae"
+    name = "Gemmae"
     class = "sc_b_giant"
 
     planet = {
@@ -618,28 +734,30 @@ sys_gemmae_init = {
     }
 
     planet = {
-        name = "NAME_Pheiros"
-        class = "pc_orbiting_asteroid"
+        name = "Pheiros"
+        class = "pc_asteroid"
         orbit_distance = 80
         orbit_angle = 337
         has_ring = no
-		size = 3
+        size = 3
+        init_effect = {
+            set_planet_flag = pheiros_codex
+            }
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "apiencrest_aethoncluster_massrelay" 
-			name = "NAME_Apien_1_Relay"
-			orbit_distance = random 
-			orbit_distance = 200
-			
+			name = "Apien_1_Relay"
+			orbit_angle = random 
+			orbit_distance = 200			
 		} 
 	}
 	
 }
 
 sys_trebia_init = {
-    name = "NAME_Trebia"
+    name = "Trebia"
     class = "sc_g"
 
     planet = {
@@ -649,80 +767,104 @@ sys_trebia_init = {
     }
 
     planet = {
-        name = "NAME_Aventen"
+        name = "Aventen"
         class = "pc_hothouse"
         orbit_distance = 30
         orbit_angle = 11
         has_ring = no
-		size = 13
+        size = 13
+        init_effect = {
+            set_planet_flag = aventen_codex
+            }
     }
 
     planet = {
-        name = "NAME_Caelax"
+        name = "Caelax"
         class = "pc_scorched"
         orbit_distance = 20
         orbit_angle = 350
         has_ring = no
-		size = 15
+        size = 15
+        init_effect = {
+            set_planet_flag = caelax_codex
+            }
     }
 
     planet = {
-        name = "NAME_Palaven"
+        name = "Palaven"
         class = "pc_dextro_arid"
         orbit_distance = 20
         orbit_angle = 156
         size = 22
+        init_effect = {
+            set_planet_flag = palaven_codex
+            }
         has_ring = no
         moon = {
-            name = "NAME_Menae"
-            class = "pc_dextro_barren"
+            name = "Menae"
+            class = "pc_barren"
             orbit_distance = 10
             orbit_angle = 336
             has_ring = no
-			size = 8
+            size = 8
+            init_effect = {
+                set_planet_flag = menae_codex
+                }
         }
         moon = {
-            name = "NAME_Nanus"
+            name = "Nanus"
             class = "pc_dextro_desert"
             orbit_distance = 6
             orbit_angle = 336
             has_ring = no
-			size = 5
+            size = 5
+            init_effect = {
+                set_planet_flag = nanus_codex
+                }
         }		
     }
 
     planet = {
-        name = "NAME_Impera"
+        name = "Impera"
         class = "pc_hothouse"
         orbit_distance = 20
         orbit_angle = 208
         has_ring = no
-		size = 4
+        size = 4
+        init_effect = {
+            set_planet_flag = impera_codex
+            }
     }
 
     planet = {
-        name = "NAME_Essenus"
+        name = "Essenus"
         class = "pc_gas_giant"
         orbit_distance = 20
         orbit_angle = 272
         has_ring = no
-		size = 37
+        size = 37
+        init_effect = {
+            set_planet_flag = essenus_codex
+            }
     }
 
     planet = {
-        name = "NAME_Datriux"
+        name = "Datriux"
         class = "pc_toxic_frozen"
         orbit_distance = 20
         orbit_angle = 209
         has_ring = no
-		size = 18
+        size = 18
+        init_effect = {
+            set_planet_flag = datriux_codex
+            }
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "apiencrest_serpentnebula_massrelay" 
-			name = "NAME_Apien_3_Relay"
-			orbit_distance = random 
+			name = "Apien_3_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -731,8 +873,8 @@ sys_trebia_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "apiencrest_xingyuncluster_massrelay" 
-			name = "NAME_Apien_2_Relay"
-			orbit_distance = random 
+			name = "Apien_2_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -743,7 +885,7 @@ sys_trebia_init = {
 #####KROGAN DMZ#####
 
 sys_aralakh_init = {
-    name = "NAME_Aralakh"
+    name = "Aralakh"
     class = "sc_f"
 
     planet = {
@@ -753,60 +895,74 @@ sys_aralakh_init = {
     }
 
     planet = {
-        name = "NAME_Durak"
+        name = "Durak"
         class = "pc_scorched"
         orbit_distance = 25
         orbit_angle = 211
         size = 4
+        init_effect = {
+            set_planet_flag = durak_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Kanin"
+        name = "Kanin"
         class = "pc_scorched"
         orbit_distance = 25
         orbit_angle = 112
         size = 8
+        init_effect = {
+            set_planet_flag = kanin_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Kruban"
+        name = "Kruban"
         class = "pc_hothouse"
         orbit_distance = 20
         orbit_angle = 163
         size = 13
+        init_effect = {
+            set_planet_flag = kruban_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Tuchanka"
+        name = "Tuchanka"
         class = "pc_nuked"
         orbit_distance = 30
         orbit_angle = 66
         size = 20
+        init_effect = {
+            set_planet_flag = tuchanka_codex
+            }
         has_ring = no
     }
 
     planet = {
-        name = "NAME_Ruam"
+        name = "Ruam"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 44
         size = 36
+        init_effect = {
+            set_planet_flag = ruam_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Vaul"
+        name = "Vaul"
         class = "pc_gas_giant"
         orbit_distance = 40
         orbit_angle = 147
         size = 37
+        init_effect = {
+            set_planet_flag = vaul_codex
+            }
         has_ring = no
 		satellite_naming_policy = lower_case_latin_letters
         moon = {
@@ -819,8 +975,8 @@ sys_aralakh_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "krogandmz_serpentnebula_massrelay" 
-			name = "NAME_Aralakh_Relay"
-			orbit_distance = random 
+			name = "Aralakh_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -828,101 +984,116 @@ sys_aralakh_init = {
 }
 
 sys_dranek_init = {
-    name = "NAME_Dranek"
+    name = "Dranek"
     class = "sc_m"
 
     planet = {
-	    name = "NAME_Dranek"
+	    name = "Dranek"
         class = "pc_m_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Kelim"
+        name = "Kelim"
         class = "pc_scorched"
         orbit_distance = 35
         orbit_angle = 344
         size = 14
+        init_effect = {
+            set_planet_flag = kelim_codex
+            }
         has_ring = no
     }
 
     planet = {
-        name = "NAME_Dor"
+        name = "Dor" #ime
         class = "pc_ice_giant"
         orbit_distance = 40
         orbit_angle = 25
         size = 28
+        init_effect = {
+            set_planet_flag = dor_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Sazgoth"
+        name = "Sazgoth"
         class = "pc_desolate"
         orbit_distance = 35
         orbit_angle = 225
         size = 8
+        init_effect = {
+            set_planet_flag = sazgoth_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Rothla"
+        name = "Rothla"
         class = "pc_shattered"
         orbit_distance = 35
         orbit_angle = 279
         size = 10
+        init_effect = {
+            set_planet_flag = rothla_codex
+            }
         has_ring = no
-
     }
 }
 
 sys_nith_init = {
-    name = "NAME_Nith"
-    class = "sc_b_hyper"
+    name = "Nith"
+    class = "sc_b_super"
 
     planet = {
-        class = "pc_b_hyper_star"
+        class = "pc_b_super_star"
         orbit_distance = 0
         size = 50
     }
 
     planet = {
-        name = "NAME_Mantun"
+        name = "Mantun"
         class = "pc_scorched"
         orbit_distance = 80
         orbit_angle = 178
         size = 5
+        init_effect = {
+            set_planet_flag = nith_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Tula"
+        name = "Tula"
         class = "pc_scorched"
         orbit_distance = 40
         orbit_angle = 70
         size = 13
+        init_effect = {
+            set_planet_flag = tula_codex
+            }
         has_ring = no
-
     }
 
     planet = {
-        name = "NAME_Vard"
+        name = "Vard"
         class = "pc_ice_giant"
         orbit_distance = 30
         orbit_angle = 132
         size = 30
+        init_effect = {
+            set_planet_flag = vard_codex
+            }
         has_ring = no
-
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "krogandmz_meadecluster_massrelay" 
-			name = "NAME_Nith_Relay"
-			orbit_distance = random 
+			name = "Nith_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -934,7 +1105,7 @@ sys_nith_init = {
 #####MEADE CLUSTER#####
 
 sys_elunia_init = {
-    name = "NAME_Elunia"
+    name = "Elunia"
     class = "sc_k"
 
     planet = {
@@ -944,104 +1115,140 @@ sys_elunia_init = {
     }
 
 	planet = {
-		name = "NAME_Eluveitie"
+		name = "Eluveitie"
 		class = "pc_hot_jupiter"
 		orbit_distance = 30
-		size = 32
+        size = 32
+        init_effect = {
+            set_planet_flag = eluveitie_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Slania"
+		name = "Slania"
 		class = "pc_scorched"
 		orbit_distance = 30
-		size = 12
+        size = 12
+        init_effect = {
+            set_planet_flag = slania_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Helvetios"
+		name = "Helvetios"
 		class = "pc_ammonia_continental"
 		orbit_distance = 40
-		size = 18
-		}
+        size = 18
+        init_effect = {
+            set_planet_flag = helvetios_codex
+            }
 		moon = {
-			name = "NAME_Luxtos"
+			name = "Luxtos"
 			class = "pc_desolate"
 			orbit_distance = 8
-			size = 6
+            size = 6
+            init_effect = {
+                set_planet_flag = luxtos_codex
+                }
+            }
 		}	
 	
 	planet = {
-		name = "NAME_Omnos"
+		name = "Omnos"
 		class = "pc_ice_giant"
 		orbit_distance = 64
-		size = 31
+        size = 31
+        init_effect = {
+            set_planet_flag = omnos_codex
+            }
 	}		
 }
 
 sys_kasatum_init = {
-    name = "NAME_Kasatum"
+    name = "Kasatum"
     class = "sc_b_giant"
 
     planet = {
-		name = "NAME_Kasatum"	
+		name = "Kasatum"	
         class = "pc_b_giant_star"
         orbit_distance = 0
         size = 25
     }
 
 	planet = {
-		name = "NAME_Kalmah"
+		name = "Kalmah"
 		class = "pc_molten"
 		orbit_distance = 35
-		size = 11
+        size = 11
+        init_effect = {
+            set_planet_flag = kalmah_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Hollo"
+		name = "Hollo"
 		class = "pc_scorched"
 		orbit_distance = 34
-		size = 16
+        size = 16
+        init_effect = {
+            set_planet_flag = hollo_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Roija"
+		name = "Roija"
 		class = "pc_gas_giant"
 		orbit_distance = 50
-		size = 36
+        size = 36
+        init_effect = {
+            set_planet_flag = roija_codex
+            }
 		has_ring = yes
 	}
 
 	planet = {
-		name = "NAME_Vezid"
+		name = "Vezid"
 		class = "pc_geothermal"
 		orbit_distance = 20
-		size = 13
+        size = 13
+        init_effect = {
+            set_planet_flag = vezid_codex
+            }
 		moon = {
-			name = "NAME_Oroga"
+			name = "Oroga"
 			class = "pc_desolate"
 			orbit_distance = 5
-			size = 4
+            size = 4
+            init_effect = {
+                set_planet_flag = oroga_codex
+                }
 		}	
 	}
 	
 	planet = {
-		name = "NAME_Svieri"
+		name = "Svieri"
 		class = "pc_desolate"
 		orbit_distance = 50
-		size = 8
+        size = 8
+        init_effect = {
+            set_planet_flag = svieri_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Doroga"
+		name = "Doroga"
 		class = "pc_desolate"
 		orbit_distance = 30
-		size = 10
+        size = 10
+        init_effect = {
+            set_planet_flag = doroga_codex
+            }
 	}	
 
 	init_effect = { 
 		spawn_megastructure = { 
-			type = "krogandmz_meadecluster_massrelay" 
-			name = "NAME_Meade_1_Relay"
+			type = "meadecluster_krogandmz_massrelay" 
+			name = "Meade_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1050,11 +1257,11 @@ sys_kasatum_init = {
 }
 
 sys_mactare_init = {
-    name = "NAME_Mactare"
+    name = "Mactare"
     class = "sc_k"
 
     planet = {
-	    name = "NAME_Mactare"
+	    name = "Mactare"
         class = "pc_k_star"
         orbit_distance = 0
         size = 25
@@ -1062,21 +1269,27 @@ sys_mactare_init = {
 
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 100
+		radius = 45
 	}	
 	
 	planet = {
-		name = "NAME_Sanhei"
+		name = "Sanhei"
 		class = "pc_hothouse"
-		orbit_distance = 45
-		size = 8
+		orbit_distance = 20
+        size = 8
+        init_effect = {
+            set_planet_flag = sanhei_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Taetrus"
+		name = "Taetrus"
 		class = "pc_dextro_tropical"
 		orbit_distance = 30
-		size = 17
+        size = 17
+        init_effect = {
+            set_planet_flag = taetrus_codex
+            }
         satellite_naming_policy = lower_case_latin_letters
         moon = {
             count = { min = 1 max = 5 }
@@ -1084,13 +1297,26 @@ sys_mactare_init = {
             orbit_distance = 8
             orbit_angle = { min = 90 max = 270 }
         }	
+    }
+    
+    planet = {
+		name = "Regeris"
+		class = "pc_barren"
+		orbit_distance = 47
+        size = 8
+        init_effect = {
+            set_planet_flag = regeris_codex
+            }
 	}
 	
 	planet = {
-		name = "NAME_Pelax"
+		name = "Palex"
 		class = "pc_gas_giant"
-		orbit_distance = 60
-		size = 35
+		orbit_distance = 80
+        size = 35
+        init_effect = {
+            set_planet_flag = palex_codex
+            }
         satellite_naming_policy = lower_case_latin_letters
         moon = {
             count = { min = 4 max = 5 }
@@ -1101,10 +1327,13 @@ sys_mactare_init = {
 	}
 	
 	planet = {
-		name = "NAME_Xemna"
+		name = "Xemna"
 		class = "pc_gas_giant"
-		orbit_distance = 60
-		size = 37
+		orbit_distance = 100
+        size = 37
+        init_effect = {
+            set_planet_flag = xemna_codex
+            }
         satellite_naming_policy = lower_case_latin_letters
         moon = {
             count = { min = 2 max = 6 }
@@ -1115,12 +1344,15 @@ sys_mactare_init = {
 	}
 	
 	planet = {
-		name = "NAME_Telae"
+		name = "Telae"
 		class = "pc_desolate"
-		orbit_distance = 70
-		size = 7
+		orbit_distance = 140
+        size = 7
+        init_effect = {
+            set_planet_flag = telae_codex
+            }
 		moon = {
-			name = "NAME_Telae_a"
+			name = "Telae_a"
 			class = "pc_desolate"
 			orbit_distance = 4
 			size = 5
@@ -1129,41 +1361,50 @@ sys_mactare_init = {
 }
 
 sys_narbo_init = {
-    name = "NAME_Narbo"
+    name = "Narbo"
     class = "sc_k_giant"
 
     planet = {
-	    name = "NAME_Narbo"
+	    name = "Narbo"
         class = "pc_k_giant_star"
         orbit_distance = 0
         size = 25
     }
 
 	planet = {
-		name = "NAME_Eutica"
+		name = "Eutica"
 		class = "pc_toxic_ocean"
 		orbit_distance = 30
-		size = 25 
+        size = 25 
+        init_effect = {
+            set_planet_flag = eutica_codex
+            }
 	}
 	
 	planet = {
-		name = "NAME_Nimines"
-		class = "pc_toxic_dextro_frozen"
+		name = "Nimines"
+		class = "pc_barren"
 		orbit_distance = 40
-		size = 15
+        size = 15
+        init_effect = {
+            set_planet_flag = nimines_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Lokar"
+		name = "Lokar"
 		class = "pc_desolate"
-		orbit_distance = 60
-		size = 19
+		orbit_distance = 90
+        size = 19
+        init_effect = {
+            set_planet_flag = lokar_codex
+            }
     }	
     
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "meadecluster_xingyuncluster_massrelay" 
-			name = "NAME_Meade_2_Relay"
+			name = "Meade_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1175,87 +1416,135 @@ sys_narbo_init = {
 #####OLIN PROTECTORATE#####
 
 sys_bedi_init = {
-	name = "NAME_Bedi"
+	name = "Bedi"
 	class = "sc_m"
 	
 	planet = {
-		name = "NAME_Bedi"
+		name = "Bedi"
 		class = "pc_m_star"
 		size = 30
 	}
 
 	planet = {
-		name = "NAME_Olor"
+		name = "Olor"
 		class = "pc_tundra"
 		orbit_distance = 30
-		size = 18
+        size = 18
+        init_effect = {
+            set_planet_flag = olor_codex
+            }
 	}	
 }		
 
 sys_kanala_init = {
-    name = "NAME_Kanala"
+    name = "Kanala"
     class = "sc_a"
 	
     asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 120
+		radius = 40
 	}	
 
     planet = {
-	    name = "NAME_Kanala"
+	    name = "Kanala"
         class = "pc_a_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Chrysa"
+        name = "Jenakala"
         class = "pc_scorched"
-        orbit_distance = 40
+        orbit_distance = 15
         orbit_angle = 334
         has_ring = no
-		size = 12
+        size = 12
+        init_effect = {
+            set_planet_flag = jenakala_codex
+            }
     }
 
     planet = {
-        name = "NAME_Kahje"
+        name = "Kahje"
         class = "pc_ocean"
         orbit_distance = 32
         orbit_angle = 169
         has_ring = no
-		size = 20
+        size = 20
+        init_effect = {
+            set_planet_flag = kahje_codex
+            }
         moon = {
-            name = "NAME_Libin"
-            class = "pc_desolate"
+            name = "Libin"
+            class = "pc_barren"
             orbit_distance = 11
             orbit_angle = 134
             has_ring = no
+            size = 5
+            init_effect = {
+                set_planet_flag = libin_codex
+                }
+        }
+        moon = {
+            name = "Nalynder"
+            class = "pc_desolate"
+            orbit_distance = 9
+            orbit_angle = 81
+            has_ring = no
+            size = 7
+            init_effect = {
+                set_planet_flag = nalynder_codex
+                }
+        }
+        moon = {
+            name = "Iyuhum"
+            class = "pc_desolate"
+            orbit_distance = 12
+            orbit_angle = 200
+            has_ring = no
+            size = 4
+            init_effect = {
+                set_planet_flag = iyuhum_codex
+                }
         }
     }
 
     planet = {
-        name = "NAME_Nemlynin"
+        name = "Hohnle"
+        class = "pc_desolate"
+        orbit_distance = 50
+        orbit_angle = 80
+        has_ring = no
+        size = 8
+        init_effect = {
+            set_planet_flag = hohnle_codex
+            }
+    }
+
+    planet = {
+        name = "Pohdenar"
         class = "pc_ice_giant"
         orbit_distance = 74
         orbit_angle = 257
         has_ring = no
-		size = 27
+        size = 27
+        init_effect = {
+            set_planet_flag = pohdenar_codex
+            }
+        satellite_naming_policy = lower_case_latin_letters
+        moon = {
+            count = { min = 7 max = 9 }
+            class = random #non habitable, I dont know how to tho
+            orbit_distance = 10
+            orbit_angle = { min = 30 max = 270 }
+        }
     }
 
-    planet = {
-        name = "NAME_Belis"
-        class = "pc_desolate"
-        orbit_distance = 27
-        orbit_angle = 80
-        has_ring = no
-		size = 8
-    }
-	
     init_effect = { 
 		spawn_megastructure = { 
 			type = "olinprotectorate_serpentnebula_massrelay" 
-			name = "NAME_Olin_1_Relay"
-			orbit_distance = random 
+			name = "Olin_1_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -1263,37 +1552,43 @@ sys_kanala_init = {
 }
 
 sys_darkcurrent_init = {
-    name = "NAME_Dark_Current"
+    name = "Dark_Current"
     class = "sc_l"
 
     planet = {
-	    name = "NAME_Dark_Current"
+	    name = "Dark_Current"
         class = "pc_l_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Scalding_Boulder"
+        name = "Scalding_Boulder"
         class = "pc_scorched"
         orbit_distance = 71
         orbit_angle = 342
         has_ring = no
-		size = 14
+        size = 14
+        init_effect = {
+            set_planet_flag = scalding_boulder_codex
+            }
     }
 
     planet = {
-        name = "NAME_Twirling_Pebble"
+        name = "Twirling_Pebble"
         class = "pc_shattered"
         orbit_distance = 55
         orbit_angle = 141
         has_ring = no
-		size = 8
+        size = 8
+        init_effect = {
+            set_planet_flag = twirling_bubble_codex
+            }
     }
 }
 
 sys_obek_init = {
-    name = "NAME_Obek"
+    name = "Obek"
     class = "sc_m"
 
     planet = {
@@ -1303,12 +1598,15 @@ sys_obek_init = {
     }
 
     planet = {
-        name = "NAME_Acodu"
+        name = "Acodu"
         class = "pc_dextro_arid"
         orbit_distance = 82
         orbit_angle = 333
         has_ring = no
-		size = 10
+        size = 10
+        init_effect = {
+            set_planet_flag = acodu_codex
+            }
 		satellite_naming_policy = lower_case_latin_letters
             moon = {
                 count = { min = 2 max = 3 }
@@ -1318,10 +1616,14 @@ sys_obek_init = {
     }
 
     planet = {
-        name = "NAME_Volar"
+        name = "Volar"
         class = "pc_ice_giant"
         orbit_distance = 66
         orbit_angle = 67
+        size = 30
+        init_effect = {
+            set_planet_flag = volar_codex
+            }
         has_ring = no
 		satellite_naming_policy = lower_case_latin_letters
         moon = {
@@ -1332,14 +1634,18 @@ sys_obek_init = {
     }
 
     planet = {
-        name = "NAME_Mdu"
+        name = "Mdu"
         class = "pc_gas_giant"
         orbit_distance = 83
         orbit_angle = 182
         has_ring = no
+        size = 25
+        init_effect = {
+            set_planet_flag = mdu_codex
+            }
 		satellite_naming_policy = lower_case_latin_letters
         moon = {
-            count = { min = 3 max = 4 }
+            count = { min = 3 max = 7 }
             orbit_distance = 8
             orbit_angle = { min = 90 max = 270 }
         }
@@ -1348,8 +1654,8 @@ sys_obek_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "olinprotectorate_vesuviusnebula_massrelay" 
-			name = "NAME_Olin_2_Relay"
-			orbit_distance = random 
+			name = "Olin_3_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -1357,66 +1663,81 @@ sys_obek_init = {
 }
 
 sys_thunderingtrench_init = {
-    name = "NAME_Thundering_Trench"
+    name = "Thundering_Trench"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Thundering_Trench"
+	    name = "Thundering_Trench"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
 
 	planet = {
-		name = "NAME_Rilol"
+		name = "Rilol"
 		class = "pc_arid"
 		orbit_distance = 40
-		size = 8
+        size = 8
+        init_effect = {
+            set_planet_flag = rilol_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Hudim"
+		name = "Hudim"
 		class = "pc_tropical"
 		orbit_distance = 40
-		size = 18
+        size = 18
+        init_effect = {
+            set_planet_flag = hudim_codex
+            }
 		moon = {
-			name = "NAME_Hilon"
+			name = "Hilon"
 			class = "pc_desolate"
 			orbit_distance = 9
-			size = 6
+            size = 6
+            init_effect = {
+                set_planet_flag = hilon_codex
+                }
 		}
 	}
 	
 	planet = {
-		name = "NAME_Frigid_Depths"
+		name = "Frigid_Depths"
 		class = "pc_ice_giant"
 		orbit_distance = 60
-		size = 34
+        size = 34
+        init_effect = {
+            set_planet_flag = frigid_depths_codex
+            }
 		has_ring = yes
 	}
 }
 
 sys_warmestshoal_init = {
-    name = "NAME_Warmest_Shoal"
+    name = "Warmest_Shoal"
     class = "sc_k"
 
     planet = {
-	    name = "NAME_Warmest_Shoal"
+	    name = "Warmest_Shoal"
         class = "pc_k_star"
         orbit_distance = 0
         size = 20
     }
 	
 	planet = {
-		name = "NAME_Solitary_Mist"
+		name = "Solitary_Mist"
 		class = "pc_desolate"
 		orbit_distance = 120
-		size = 10
-		    init_effect = { 
+        size = 10
+        init_effect = {
+            set_planet_flag = solitary_mist_codex
+            }
+		    init_effect = { #isnt this a layer too deep?
 				spawn_megastructure = { 
 				type = "olinprotectorate_horseheadnebula_massrelay" 
-				name = "NAME_Olin_2_Relay"
-				orbit_distance = random 
+				name = "Olin_2_Relay"
+				orbit_angle = random 
 				orbit_distance = 20
 			}
 		} 
@@ -1424,42 +1745,48 @@ sys_warmestshoal_init = {
 }
 
 
-#####XINGYUN CLUSTER#####
+#####XINGYUN CLUSTER#####       ########UNFINISHED SECTOR########
 
 sys_iotapersei_init = {
-    name = "NAME_Iota_Persei"
+    name = "Iota_Persei"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Iota_Persei"
+	    name = "Iota_Persei"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-		name = "NAME_Hebei"
+		name = "Hebei"
         class = "pc_scorched"
         orbit_distance = 107
         orbit_angle = 351
         has_ring = no
-		size = 12
+        size = 12
+        init_effect = {
+            set_planet_flag = hebei_codex
+            }
     }
 
     planet = {
-        name = "NAME_Shanxi"
+        name = "Shanxi"
         class = "pc_desert"
         orbit_distance = 123
         orbit_angle = 93
         has_ring = no
-		size = 17
+        size = 17
+        init_effect = {
+            set_planet_flag = shanxi_codex
+            }
     }
 
     init_effect = { 
 		spawn_megastructure = { 
 			type = "xingyuncluster_localcluster_massrelay" 
-			name = "NAME_Xingyun_1_Relay"
-			orbit_distance = random 
+			name = "Xingyun_1_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 			
 		} 
@@ -1467,54 +1794,66 @@ sys_iotapersei_init = {
 }
 
 sys_carrini_init = {
-    name = "NAME_Carrini"
+    name = "Carrini"
     class = "sc_m"
 
     planet = {
-	    name = "NAME_Carrini"
+	    name = "Carrini"
         class = "pc_m_star"
         orbit_distance = 0
         size = 20
+        init_effect = {
+            set_planet_flag = carrini_codex
+            }
     }
 
 	planet = {
-		name = "NAME_Nashira"
+		name = "Nashira"
 		class = "pc_hothouse"
 		orbit_distance = 30
-		size = 16
+        size = 16
+        init_effect = {
+            set_planet_flag = nashira_codex
+            }
 	}
 
 	planet = {
-		name = "NAME_Astra"
+		name = "Astra"
 		class = "pc_barren"
 		orbit_distance = 30
-		size = 10
+        size = 10
+        init_effect = {
+            set_planet_flag = astra_codex
+            }
 	}
 	
 	planet = {
-		name = "NAME_Peras"
+		name = "Peras"
 		class = "pc_dextro_alpine"
 		orbit_distance = 45
-		size = 19
+        size = 19
+        init_effect = {
+            set_planet_flag = peras_codex
+            }
 	}
 	
 	
     init_effect = { 
 		spawn_megastructure = { 
-			type = "meadecluster_xingyuncluster_massrelay" 
-			name = "NAME_Xingyun_2_Relay"
-			orbit_distance = random 
+			type = "xingyuncluster_meadecluster_massrelay" 
+			name = "Xingyun_2_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 		} 
 	}
 }
 
 sys_yuan_init = {
-    name = "Name_Yuan"
+    name = "Yuan"
     class = "sc_black_hole"
 
     planet = {
-		name = "Name_Yuan"	
+		name = "Yuan"	
         class = "pc_black_hole"
         orbit_distance = 0
         size = 20
@@ -1522,18 +1861,18 @@ sys_yuan_init = {
 	
     init_effect = { 
 		spawn_megastructure = { 
-			type = "aethoncluster_xingyuncluster_massrelay" 
-			name = "NAME_Xingyun_2_Relay"
-			orbit_distance = random 
+			type = "xingyuncluster_aethoncluster_massrelay" 
+			name = "Xingyun_2_Relay"
+			orbit_angle = random 
 			orbit_distance = 200
 		} 
 	}	
 
     init_effect = { 
 		spawn_megastructure = { 
-			type = "apiencrest_xingyuncluster_massrelay" 
-			name = "NAME_Xingyun_3_Relay"
-			orbit_distance = random 
+			type = "xingyuncluster_apiencrest_massrelay" 
+			name = "Xingyun_3_Relay"
+			orbit_angle = random 
 			orbit_distance = 185
 		} 
 	}	
