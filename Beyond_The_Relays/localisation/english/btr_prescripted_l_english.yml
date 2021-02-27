@@ -4,17 +4,10 @@
  # Quarian Prescripted Localization
  ####################################
 
-PRESCRIPTED_adjective_quarians:0 "Quarian"
-PRESCRIPTED_ship_prefix_quarians:0 "QMF"
-PRESCRIPTED_species_name_quarians:0 "Quarian"
-PRESCRIPTED_species_name_quarians_desc:0 "Quarian Migrant Fleet Test"
-PRESCRIPTED_species_plural_quarians:0 "Quarians"
-PRESCRIPTED_ruler_name_quarians:0 "Leaders"
-PRESCRIPTED_ruler_name_quarians_desc:0 "Description"
-name_list_quariannames:0 "Quarians"
-name_list_quariannames_desc:0 "Blurb about Quarians"
-trait_quarian:0 "Quarian"
-trait_quarian_desc:0 "The quarians are a nomadic species of humanoid aliens known for their skills with technology and synthetic intelligence. Since their homeworld Rannoch was conquered, the quarians live aboard the Migrant Fleet, a huge collection of starships 
+ name_list_quariannames:0 "Quarians"
+ name_list_quariannames_desc:0 "Blurb about Quarians"
+ trait_quarian:0 "Quarian"
+ trait_quarian_desc:0 "The quarians are a nomadic species of humanoid aliens known for their skills with technology and synthetic intelligence. Since their homeworld Rannoch was conquered, the quarians live aboard the Migrant Fleet, a huge collection of starships 
 
  ####################################
  # Quarian Species Class Localization

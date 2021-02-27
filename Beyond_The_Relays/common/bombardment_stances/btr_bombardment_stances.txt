@@ -28,7 +28,7 @@ btr_reaper_abduction = {
 	}
 }
 
-btr_collector_abduction {
+btr_collector_abduction = {
 	trigger = {
 		owner = {
 			OR = {

@@ -1,5 +1,11 @@
 ﻿l_english:
 
+# Terminus Systems Mass Relays
+ farrim_perseusveil_massrelay:0 "Perseus Veil Mass Relay"
+ farrim_perseusveil_massrelay_desc:0 "This mass relay is connected to the Perseus Veil star cluster"
+ 
+
+# Uncatagorized
  armstrongnebula_atticanbeta_massrelay:0 "Armstrong Nebula Mass Relay"
  armstrongnebula_atticanbeta_massrelay_DESC:1 "This Mass Relay is connected to the Attican Beta star cluster."
  armstrongnebula_nubianexpanse_massrelay:0 "Armstrong Nebula Mass Relay"

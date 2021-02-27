@@ -28,7 +28,7 @@ btr_collector_army = {
 		custom_tooltip = {
 			text = btr_collector_army_limit_tooltip
 			planet = {
-				has_deposit = d_btr_collector_burrow
+				has_deposit = yes
 			}
 		}
 	}
@@ -43,6 +43,7 @@ btr_collector_army = {
 					 check_variable = {
 						which = "btr_collector_army_count" 
 						value = 4
+					 }
 					}
 				}
 			}

@@ -51,24 +51,23 @@ quariannames = {
 		constructor = {
 		}
 		
-		orbital_station = { }
 		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			#random_names = {
-				"Wemaridt Outpost" "Mulporvon Outpost" "Urmific Outpost" "Rotlamapr Outpost" "Qurmachiat Outpost" "Xeformidr Outpost" "Lerpampt Outpost" "Zolcrapat Outpost"
-			#}
-			#sequential_name = "%O% Frontier Outpost"
+	
+		military_station_small = {
+			random_names = {
+						"Wemaridt Outpost" "Mulporvon Outpost" "Urmific Outpost" "Rotlamapr Outpost" "Qurmachiat Outpost" "Xeformidr Outpost" "Lerpampt Outpost" "Zolcrapat Outpost"
 		}
 	
-		military_station_small = {}
+		military_station_medium = {
+			random_names = {
+				"Wemaridt Outpost" "Mulporvon Outpost" "Urmific Outpost" "Rotlamapr Outpost" "Qurmachiat Outpost" "Xeformidr Outpost" "Lerpampt Outpost" "Zolcrapat Outpost"
+		}
 	
-		military_station_medium = {}
-	
-		military_station_large = {}	
+		military_station_large = {
+			random_names = {
+				"Wemaridt Outpost" "Mulporvon Outpost" "Urmific Outpost" "Rotlamapr Outpost" "Qurmachiat Outpost" "Xeformidr Outpost" "Lerpampt Outpost" "Zolcrapat Outpost"
+		}	
 	}
 	
 	fleet_names = {

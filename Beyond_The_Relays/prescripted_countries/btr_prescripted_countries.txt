@@ -20,7 +20,7 @@ quarians = {
 		trait="trait_nonadaptive"
 	}
 	
-	room = "personality_federation_builders_room"
+	room = "quarian_flotilla_room"
 	
 	authority="auth_oligarchic" 
 	civics={ "civic_functional_architecture" "civic_byzantine_bureaucracy" }
@@ -35,7 +35,7 @@ quarians = {
 	
 	planet_name="Rannoch"
 	planet_class="pc_continental"
-	initializer="custom_starting_init_01"
+	initializer="sb_tikkun_system_initializer"
 	system_name="Tikkun"
 	
 	graphical_culture = "humanoid_01"
@@ -43,15 +43,15 @@ quarians = {
 	
 	empire_flag = {
 		icon= {
-			category = "ornate"
-			file = "flag_quarian_1.dds"
+			category = "masseffect"
+			file = "Migrant Fleet"
 		}
 		background= {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
 		colors={
-			"blue"
+			"purple"
 			"black"
 			"null"
 			"null"
