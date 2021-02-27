@@ -1,0 +1,15 @@
+﻿l_default:
+
+PRESCRIPTED_ship_prefix_humans1: "QMF"
+PRESCRIPTED_species_name_humans1: "Quarian"
+PRESCRIPTED_species_plural_humans1: "Quarians"	
+PRESCRIPTED_species_adjective_humans1: "Quarian"
+PRESCRIPTED_adjective_humans1: "Quarian"
+PRESCRIPTED_ruler_name_humans1: "Tali Zorah Vas Normandy"
+PRESCRIPTED_adjective_quarians: "Quarian"
+PRESCRIPTED_ship_prefix_quarians: "QMF"
+PRESCRIPTED_species_name_quarians: "Quarian"
+PRESCRIPTED_species_name_quarians_desc: "Quarian Migrant Fleet Test"
+PRESCRIPTED_species_plural_quarians: "Quarians"
+PRESCRIPTED_ruler_name_quarians: "Leaders"
+PRESCRIPTED_ruler_name_quarians_desc: "Description"

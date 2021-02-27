@@ -1,0 +1,9 @@
+QUA = {
+	quarian = {
+		name = Quarian
+		plural = Quarians
+		home_planet = Rannoch
+		home_system = Xotranehika
+		name_list = "quariannames"
+	}
+}
