@@ -152,6 +152,34 @@ sc_binary_b_b = {
 	pc_savannah		= { spawn_odds = 0.2 }
 }
 
+sc_trinary_o_y_l = {
+    class             = k_star
+    icon              = o_y_l_binary_star
+    icon_scale		  = 1.0
+    planet            = {
+                        key = pc_k_star
+                        class = k_star
+                    }
+    planet            = {
+                        key = pc_f_star
+                        class = f_star
+                    }
+    spawn_odds         = 15
+    num_planets     = { min = 4 max = 10 }
+    
+    pc_continental 	= { spawn_odds = 0.3 }
+    pc_desert		= { spawn_odds = 0.5 }
+    pc_tropical		= { spawn_odds = 0.3 }
+    pc_arid 		= { spawn_odds = 0.4 }
+    pc_ocean		= { spawn_odds = 0.3 }
+    pc_tundra		= { spawn_odds = 0.1 }
+    pc_arctic		= { spawn_odds = 0.1 }
+    pc_alpine		= { spawn_odds = 0.2 }
+    pc_savannah		= { spawn_odds = 0.6 }
+}
+
+
+
 random_list = {
     name = "rl_binary_stars"
     stars = {
@@ -161,5 +189,6 @@ random_list = {
         "sc_binary_a_d"
         "sc_binary_f_k"
         "sc_binary_b_b"
+        "sc_trinary_o_y_l"
     }
 }

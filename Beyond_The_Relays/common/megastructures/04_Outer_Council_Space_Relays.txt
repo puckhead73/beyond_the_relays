@@ -51,6 +51,17 @@ minoswasteland_crescentnebula_massrelay = {
 	bypass_type = massrelay_crescentnebula_minoswasteland
 }
 
+minoswasteland_eaglenebula_massrelay = {
+	entity = "gateway_entity"
+	portrait = "GFX_megastructure_construction_background"
+	build_outside_gravity_well = yes						
+	show_galactic_map_icon = no
+	construction_blocks_others = no
+	construction_blocked_by_others = no
+	potential = { always = no }	
+	bypass_type = massrelay_eaglenebula_minoswasteland
+}
+
 minoswasteland_nimbuscluster_massrelay = {
 	entity = "gateway_entity"
 	portrait = "GFX_megastructure_construction_background"

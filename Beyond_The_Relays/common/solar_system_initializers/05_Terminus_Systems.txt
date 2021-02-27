@@ -5,36 +5,36 @@
 #####BASILLAE FLARE#####
 
 sys_jornous_init = {
-	name = "NAME_Jornous"
+	name = "Jornous"
 	class = "sc_k"
 	
 	planet = {
-		name = "NAME_Jornous"
+		name = "Jornous"
 		class = "pc_k_star"
 		size = 25
 	}
 
 	planet = {
-		name = "NAME_Ynnel"
+		name = "Ynnel"
 		class = "pc_dextro_desert"
 		orbit_distance = 40
 		size = 12
 	}
 
 	planet = {	
-		name = "NAME_Kopanis"
+		name = "Kopanis"
 		class = "pc_savannah"
 		orbit_distance = 30
 		size = 16
 	}	
 
 	planet = {
-		name = "NAME_Seachel"
+		name = "Seachel"
 		class = "pc_alpine"
 		orbit_distance = 50
 		size = 17
 		moon = {
-			name = "NAME_Reid"
+			name = "Reid"
 			class = "pc_frozen"
 			orbit_distance = 35
 			size = 11
@@ -42,7 +42,7 @@ sys_jornous_init = {
 	}
 	
 	planet = {
-		name = "NAME_Ekim"
+		name = "Ekim"
 		class = "pc_cryovolcanic"
 		orbit_distance = 45
 		size = 20
@@ -51,7 +51,7 @@ sys_jornous_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "basillaeflare_radanaburst_massrelay" 
-			name = "NAME_Basillae_1_Relay"
+			name = "Basillae_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -59,19 +59,19 @@ sys_jornous_init = {
 }
 
 sys_khongordzol_init = {
-	name = "NAME_Khongordzol"
-	class = "sc_ttauri"
+	name = "Khongordzol"
+	class = "sc_tt_red"
 	
 	planet = {
-		name = "NAME_Khongordzol"
-		class = "pc_ttauri_star"
+		name = "Khongordzol"
+		class = "pc_tt_red_star"
 		size = 40
 	}
 
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "basillaeflare_savianabyssal_massrelay" 
-			name = "NAME_Basillae_2_Relay"
+			name = "Basillae_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -82,18 +82,18 @@ sys_khongordzol_init = {
 #####BYENZINE CLOUD#####
 
 sys_taesin_init = {
-    name = "NAME_Taesin"
+    name = "Taesin"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Taesin"
+	    name = "Taesin"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Lorel"
+        name = "Lorel"
         class = "pc_scorched"
         orbit_distance = 72
         orbit_angle = 92
@@ -102,25 +102,25 @@ sys_taesin_init = {
     }
 
     planet = {
-        name = "NAME_Sepkai"
+        name = "Sepkai"
         class = "pc_tropical"
         orbit_distance = 58
         orbit_angle = 62
         has_ring = no
 		moon = {
-			name = "NAME_Nonau"
+			name = "Nonau"
 			class = "pc_arid"
 			orbit_distance = 8
 			size = 7
 		}
 		moon = {
-			name = "NAME_Kestor"
+			name = "Kestor"
 			class = "pc_desolate"
 			orbit_distance = 8
 			size = 4
 		}		
 		moon = {
-			name = "NAME_Leojin"
+			name = "Leojin"
 			class = "pc_desolate"
 			orbit_distance = 4
 			size = 2
@@ -128,7 +128,7 @@ sys_taesin_init = {
     }
 
     planet = {
-        name = "NAME_Jorio"
+        name = "Jorio"
         class = "pc_gas_giant"
         orbit_distance = 45
         orbit_angle = 163
@@ -139,7 +139,7 @@ sys_taesin_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "byenzinecloud_omeganebula_massrelay" 
-			name = "NAME_Byenzine_1_Relay"
+			name = "Byenzine_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -148,18 +148,18 @@ sys_taesin_init = {
 }
 
 sys_zuzel_init = {
-    name = "NAME_Zuzel"
+    name = "Zuzel"
     class = "sc_a"
 
     planet = {
-	    name = "NAME_Zuzel"
+	    name = "Zuzel"
         class = star
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Haybek"
+        name = "Haybek"
         class = "pc_gas_giant"
         orbit_distance = 105
         orbit_angle = 213
@@ -168,7 +168,7 @@ sys_zuzel_init = {
     }
 
     planet = {
-        name = "NAME_Dor"
+        name = "Dor"
         class = "pc_ice_giant"
         orbit_distance = 105
         orbit_angle = 190
@@ -179,7 +179,7 @@ sys_zuzel_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "byenzinecloud_vallhallanthreshold_massrelay" 
-			name = "NAME_Byenzine_2_Relay"
+			name = "Byenzine_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -191,7 +191,7 @@ sys_zuzel_init = {
 #####CRESCENT NEBULA#####
 
 sys_lusarn_init = {
-    name = "NAME_Lusarn"
+    name = "Lusarn"
 	class = sc_a
 	
 	asteroid_belt = {
@@ -200,7 +200,7 @@ sys_lusarn_init = {
 	}
 
 	planet = {
-	    name = "NAME_Lusarn"
+	    name = "Lusarn"
 		count = 1
 		class = "pc_a_star"
 		orbit_distance = 0
@@ -210,7 +210,7 @@ sys_lusarn_init = {
 	}
 	
 	planet = {
-		name = "NAME_Jontan"
+		name = "Jontan"
 		class = "pc_hot_jupiter"
 		orbit_distance = 35
 		orbit_angle = 20
@@ -219,7 +219,7 @@ sys_lusarn_init = {
 	}
 	
 	planet = {
-		name = "NAME_Euntanta"
+		name = "Euntanta"
 		class = "pc_scorched"
 		orbit_distance = 25
 		orbit_angle = -160
@@ -230,7 +230,7 @@ sys_lusarn_init = {
 	change_orbit = 35
 	
 	planet = {
-		name = "NAME_Beyalt"
+		name = "Beyalt"
 		class = "pc_asteroid"
 		orbit_distance = 0
 		size = 1
@@ -238,7 +238,7 @@ sys_lusarn_init = {
 	}
 	
 	planet = {
-		name = "NAME_Doriae"
+		name = "Doriae"
 		class = "pc_hothouse"
 		orbit_distance = 35
 		orbit_angle = 35
@@ -247,7 +247,7 @@ sys_lusarn_init = {
 	}
 
 	planet = {
-		name = "NAME_Tarith"
+		name = "Tarith"
 		class = "pc_toxic_tropical"
 		orbit_distance = 40
 		orbit_angle = -30
@@ -256,14 +256,14 @@ sys_lusarn_init = {
 	}
 	
 	planet = {
-		name = "NAME_Xetic"
+		name = "Xetic"
 		class = "pc_gas_giant"
 		orbit_distance = 50
 		orbit_angle = 25
 		size = 29
 		has_ring = no
 		moon = {
-			name = "NAME_Gesis"
+			name = "Gesis"
 			class = "pc_frozen"
 			orbit_angle = { min = 45 max = 270 }
 			orbit_distance = 12
@@ -274,7 +274,7 @@ sys_lusarn_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "minoswasteland_crescentnebula_massrelay" 
-			name = "NAME_Crescent_1_Relay"
+			name = "Crescent_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -284,7 +284,7 @@ sys_lusarn_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "ismarfrontier_crescentnebula_massrelay" 
-			name = "NAME_Crescent_2_Relay"
+			name = "Crescent_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -293,11 +293,11 @@ sys_lusarn_init = {
 }
 
 sys_ondeste_init = {
-    name = "NAME_Ondeste"
+    name = "Ondeste"
 	class = "sc_m"
 
 	planet = {
-		name = "NAME_Ondeste"
+		name = "Ondeste"
 		class = "pc_m_star"
 		orbit_distance = 0
 		orbit_angle = 1
@@ -306,7 +306,7 @@ sys_ondeste_init = {
 	}
 	
 	planet = {
-		name = "NAME_Zesmeni"
+		name = "Zesmeni"
 		class = "pc_toxic_frozen"
 		orbit_distance = 38
 		orbit_angle = 150
@@ -315,14 +315,14 @@ sys_ondeste_init = {
 	}
 	
 	planet = {
-		name = "NAME_Acaeria"
+		name = "Acaeria"
 		class = "pc_cryovolcanic"
 		orbit_distance = 27
 		orbit_angle = 120
 		size = 15
 		has_ring = no
 		moon = {
-			name = "NAME_Acaeria_a"
+			name = "Acaeria_a"
 			class = "pc_desolate"
 			orbit_angle = { min = 45 max = 270 }
 			orbit_distance = 15
@@ -331,7 +331,7 @@ sys_ondeste_init = {
 	}
 	
 	planet = {
-		name = "NAME_Maisuth"
+		name = "Maisuth"
 		class = "pc_desolate"
 		orbit_distance = 40
 		orbit_angle = 120
@@ -342,7 +342,7 @@ sys_ondeste_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "crescentnebula_theshrikeabyssal_massrelay" 
-			name = "NAME_Crescent_3_Relay"
+			name = "Crescent_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -351,7 +351,7 @@ sys_ondeste_init = {
 }
 
 sys_tasale_init = {
-    name = "NAME_Tasale"
+    name = "Tasale"
 	class = "sc_g"
 	
 	asteroid_belt = {
@@ -360,7 +360,7 @@ sys_tasale_init = {
 	}
 
 	planet = {
-		name = "NAME_Tasale"
+		name = "Tasale"
 		class = "pc_g_star"
 		orbit_distance = 0
 		orbit_angle = 1
@@ -369,7 +369,7 @@ sys_tasale_init = {
 	}
 	
 	planet = {
-		name = "NAME_Beregale"
+		name = "Beregale"
 		class = "pc_geothermal"
 		orbit_distance = 45
 		orbit_angle = 15
@@ -379,7 +379,7 @@ sys_tasale_init = {
 	}
 	
 	planet = {
-		name = "NAME_Illium"
+		name = "Illium"
 		class = "pc_tropical"
 		orbit_distance = 30
 		orbit_angle = 160
@@ -388,7 +388,7 @@ sys_tasale_init = {
 	}
 	
 	planet = {
-		name = "NAME_Ponolus"
+		name = "Ponolus"
 		class = "pc_hothouse"
 		orbit_distance = 30
 		orbit_angle = 180
@@ -412,7 +412,7 @@ sys_tasale_init = {
 	}
 	
 	planet = {
-		name = "NAME_Teukria"
+		name = "Teukria"
 		class = "pc_desolate"
 		orbit_distance = 0
 		orbit_angle = { min = 40 max = 100 }
@@ -420,7 +420,7 @@ sys_tasale_init = {
 	}
 	
 	planet = {
-		name = "NAME_Thail"
+		name = "Thail"
 		class = "pc_gas_giant"
 		orbit_distance = 40
 		orbit_angle = 170
@@ -430,7 +430,7 @@ sys_tasale_init = {
 	}
 	
 	planet = {
-		name = "NAME_Naxell"
+		name = "Naxell"
 		class = "pc_gas_giant"
 		orbit_distance = 40
 		orbit_angle = -75
@@ -442,7 +442,7 @@ sys_tasale_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "eaglenebula_crescentnebula_massrelay" 
-			name = "NAME_Crescent_4_Relay"
+			name = "Crescent_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -452,7 +452,7 @@ sys_tasale_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "crescentnebula_nemeanalpha_massrelay" 
-			name = "NAME_Crescent_5_Relay"
+			name = "Crescent_5_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -461,11 +461,11 @@ sys_tasale_init = {
 }
 
 sys_zelene_init = {
-    name = "NAME_Zelene"
+    name = "Zelene"
 	class = sc_k
 
 	planet = {
-		name = "NAME_Zelene"
+		name = "Zelene"
 		class = pc_k_star
 		orbit_distance = 0
 		orbit_angle = 1
@@ -474,7 +474,7 @@ sys_zelene_init = {
 	}
 	
 	planet = {
-		name = "NAME_Nepyma"
+		name = "Nepyma"
 		class = "pc_toxic_savannah"
 		orbit_distance = 30
 		orbit_angle = 15
@@ -483,7 +483,7 @@ sys_zelene_init = {
 	}
 	
 	planet = {
-		name = "NAME_Helyme"
+		name = "Helyme"
 		class = "pc_toxic_continental"
 		orbit_distance = 40
 		orbit_angle = 45
@@ -492,7 +492,7 @@ sys_zelene_init = {
 	}
 	
 	planet = {
-		name = "NAME_Epho"
+		name = "Epho"
 		class = "pc_toxic_alpine"
 		orbit_distance = 35
 		orbit_angle = 150
@@ -501,7 +501,7 @@ sys_zelene_init = {
 	}
 	
 	planet = {
-		name = "NAME_Gaelon"
+		name = "Gaelon"
 		class = "pc_gas_giant"
 		orbit_distance = 35
 		orbit_angle = -60
@@ -512,7 +512,7 @@ sys_zelene_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "crescentnebula_bulucnebula_massrelay" 
-			name = "NAME_Crescent_5_Relay"
+			name = "Crescent_5_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -524,7 +524,7 @@ sys_zelene_init = {
 #####FAR RIM#####
 
 sys_dholen_init = {
-    name = "NAME_Dholen"
+    name = "Dholen"
     class = "sc_m_hyper"
 
     planet = {
@@ -539,7 +539,7 @@ sys_dholen_init = {
 	}
 
     planet = {
-        name = "NAME_Gotha"
+        name = "Gotha"
         class = "pc_hothouse"
         orbit_distance = 60
         orbit_angle = 239
@@ -548,7 +548,7 @@ sys_dholen_init = {
     }
 
     planet = {
-        name = "NAME_Charoum"
+        name = "Charoum"
         class = "pc_gas_giant"
         orbit_distance = 60
         orbit_angle = 214
@@ -564,7 +564,7 @@ sys_dholen_init = {
     }
 
     planet = {
-        name = "NAME_Haestrom"
+        name = "Haestrom"
         class = "pc_arid"
         orbit_distance = 30
         orbit_angle = 90
@@ -575,7 +575,7 @@ sys_dholen_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "pylosnebula_farrim_massrelay" 
-			name = "NAME_Far_Rim_1_Relay"
+			name = "Far_Rim_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -584,7 +584,7 @@ sys_dholen_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "farrim_thephoenixmassing_massrelay" 
-			name = "NAME_Far_Rim_2_Relay"
+			name = "Far_Rim_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -592,7 +592,7 @@ sys_dholen_init = {
 }
 
 sys_maat_init = {
-    name = "NAME_Ma-at"
+    name = "Ma-at"
     class = "sc_g"
 
     planet = {
@@ -602,7 +602,7 @@ sys_maat_init = {
     }
 
     planet = {
-        name = "NAME_Ammut"
+        name = "Ammut"
         class = "pc_gas_giant"
         orbit_distance = 100
         orbit_angle = 146
@@ -620,7 +620,7 @@ sys_maat_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hadesnexus_farrim_massrelay" 
-			name = "NAME_Far_Rim_3_Relay"
+			name = "Far_Rim_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -630,7 +630,7 @@ sys_maat_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "farrim_perseusveil_massrelay" 
-			name = "NAME_Far_Rim_4_Relay"
+			name = "Far_Rim_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -642,7 +642,7 @@ sys_maat_init = {
 #####GALACTIC CORE######
 
 sys_tartarusdebrisfield_init = {
-    name = "NAME_Tartarus_Debris_Field"
+    name = "Tartarus_Debris_Field"
     class = "sc_black_hole"
 
     planet = {
@@ -660,7 +660,7 @@ sys_tartarusdebrisfield_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "galacticcore_omeganebula4relay_massrelay" 
-			name = "NAME_Tartarus_Relay"
+			name = "Tartarus_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -672,18 +672,18 @@ sys_tartarusdebrisfield_init = {
 #####HOMUNCULUS CLUSTER#####
 
 sys_bifur_init = {
-    name = "NAME_Bifur"
+    name = "Bifur"
     class = "sc_trinary_o_y_l"
 
     planet = {
-		name = "NAME_Voxinos"
+		name = "Voxinos"
         class = "pc_y_star"
         orbit_distance = 25
         size = 26
     }
 	
 	planet = {
-		name = "NAME_Bifur"
+		name = "Bifur"
 		class = "pc_o_hyper_star"
 		orbit_distance = 60
 		orbit_angle = 180
@@ -691,7 +691,7 @@ sys_bifur_init = {
 	}
 
 	planet = {
-		name = "NAME_Hitub"
+		name = "Hitub"
 		class = "pc_l_star"
 		orbit_distance = 204
 		orbit_angle = -180
@@ -701,7 +701,7 @@ sys_bifur_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "homunculuscluster_hourglassnebula_massrelay" 
-			name = "NAME_Homunculus_1_Relay"
+			name = "Homunculus_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 360
 			
@@ -710,18 +710,18 @@ sys_bifur_init = {
 }
 
 sys_carina_init = {
-    name = "NAME_Carina"
+    name = "Carina"
     class = "sc_f"
 
     planet = {
-	    name = "NAME_Carina"
+	    name = "Carina"
         class = "pc_f_star"
         orbit_distance = 0
         size = 20
     }
 
 	planet = {
-		name = "NAME_Puppis"
+		name = "Puppis"
 		class = "pc_desolate"
 		orbit_distance = 240
 		size = 6
@@ -731,7 +731,7 @@ sys_carina_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "homunculuscluster_theshrikeabyssal_massrelay" 
-			name = "NAME_Homunculus_2_Relay"
+			name = "Homunculus_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 300
 			
@@ -740,7 +740,7 @@ sys_carina_init = {
 }
 
 sys_fehl_init = {
-    name = "NAME_Fehl"
+    name = "Fehl"
     class = "sc_f"
 
 	asteroid_belt = {
@@ -755,7 +755,7 @@ sys_fehl_init = {
     }
 	
 	planet = {
-		name = "NAME_Fehl_Prime"
+		name = "Fehl_Prime"
 		class = "pc_savannah"
 		orbit_distance = 60
 		size = 16
@@ -769,14 +769,14 @@ sys_fehl_init = {
 	}
 
 	planet = {
-		name = "NAME_Etwa"
+		name = "Etwa"
 		class = "pc_frozen"
 		orbit_distance = 30
 		size = 2
 	}
 
 	planet = {
-		name = "NAME_Raurief"
+		name = "Raurief"
 		class = "pc_ice_giant"
 		orbit_distance = 80
 		size = 28
@@ -792,7 +792,7 @@ sys_fehl_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "homunculuscluster_nemeanalpha_massrelay" 
-			name = "NAME_Homunculus_3_Relay"
+			name = "Homunculus_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -804,7 +804,7 @@ sys_fehl_init = {
 #####HOURGLASS NEBULA#####
 
 sys_faryar_init = {
-    name = "NAME_Faryar"
+    name = "Faryar"
     class = "sc_g"
 
     planet = {
@@ -819,7 +819,7 @@ sys_faryar_init = {
 	}
 
     planet = {
-        name = "NAME_Quarem"
+        name = "Quarem"
         class = "pc_scorched"
         orbit_distance = 40
         orbit_angle = 197
@@ -829,7 +829,7 @@ sys_faryar_init = {
     }
 
     planet = {
-        name = "NAME_Daratar"
+        name = "Daratar"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 194
@@ -839,7 +839,7 @@ sys_faryar_init = {
     }
 
     planet = {
-        name = "NAME_Tunfigel"
+        name = "Tunfigel"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 266
@@ -849,7 +849,7 @@ sys_faryar_init = {
     }
 
     planet = {
-        name = "NAME_Nephros"
+        name = "Nephros"
         class = "pc_gas_giant"
         orbit_distance = 20
         orbit_angle = 183
@@ -859,7 +859,7 @@ sys_faryar_init = {
     }
 
     planet = {
-        name = "NAME_Alingon"
+        name = "Alingon"
         class = "pc_desolate"
         orbit_distance = 40
         orbit_angle = 107
@@ -869,7 +869,7 @@ sys_faryar_init = {
     }
 
     planet = {
-        name = "NAME_Wenrum"
+        name = "Wenrum"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 158
@@ -879,7 +879,7 @@ sys_faryar_init = {
     }
 
     planet = {
-        name = "NAME_Antictra"
+        name = "Antictra"
         class = "pc_desolate"
         orbit_distance = 25
         orbit_angle = 250
@@ -890,7 +890,7 @@ sys_faryar_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hourglassnebula_omeganebula_massrelay" 
-			name = "NAME_Hourglass_1_Relay"
+			name = "Hourglass_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -899,7 +899,7 @@ sys_faryar_init = {
 }
 
 sys_osun_init = {
-    name = "NAME_Osun"
+    name = "Osun"
     class = "sc_f"
 
     planet = {
@@ -909,7 +909,7 @@ sys_osun_init = {
     }
 
     planet = {
-        name = "NAME_Orunmila"
+        name = "Orunmila"
         class = "pc_ice_giant"
         orbit_distance = 45
         orbit_angle = 334
@@ -919,7 +919,7 @@ sys_osun_init = {
     }
 
     planet = {
-        name = "NAME_Erinle"
+        name = "Erinle"
         class = "pc_tropical"
         orbit_distance = 30
         orbit_angle = 202
@@ -929,7 +929,7 @@ sys_osun_init = {
     }
 
     planet = {
-        name = "NAME_Aganju"
+        name = "Aganju"
         class = "pc_desolate"
         orbit_distance = 35
         orbit_angle = 297
@@ -939,7 +939,7 @@ sys_osun_init = {
     }
 
     planet = {
-        name = "NAME_Olokun"
+        name = "Olokun"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 66
@@ -951,7 +951,7 @@ sys_osun_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "homunculuscluster_hourglassnebula_massrelay" 
-			name = "NAME_Hourglass_2_Relay"
+			name = "Hourglass_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -960,7 +960,7 @@ sys_osun_init = {
 }
 
 sys_ploitari_init = {
-    name = "NAME_Ploitari"
+    name = "Ploitari"
     class = "sc_g"
 
     planet = {
@@ -970,7 +970,7 @@ sys_ploitari_init = {
     }
 
     planet = {
-        name = "NAME_Aigela"
+        name = "Aigela"
         class = "pc_scorched"
         orbit_distance = 50
         orbit_angle = 8
@@ -980,7 +980,7 @@ sys_ploitari_init = {
     }
 
     planet = {
-        name = "NAME_Zanethu"
+        name = "Zanethu"
         class = "pc_postgarden"
         orbit_distance = 50
         orbit_angle = 5
@@ -990,7 +990,7 @@ sys_ploitari_init = {
     }
 
     planet = {
-        name = "NAME_Synalus"
+        name = "Synalus"
         class = "pc_toxic_frozen"
         orbit_distance = 10
         orbit_angle = 77
@@ -1000,7 +1000,7 @@ sys_ploitari_init = {
     }
 
     planet = {
-        name = "NAME_Thegan"
+        name = "Thegan"
         class = "pc_desolate"
         orbit_distance = 50
         orbit_angle = 132
@@ -1012,7 +1012,7 @@ sys_ploitari_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hourglassnebula_theshrikeabyssal_massrelay" 
-			name = "NAME_Hourglass_3_Relay"
+			name = "Hourglass_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1031,7 +1031,7 @@ sys_sowilo_init = {
     }
 
     planet = {
-        name = "NAME_Uruz"
+        name = "Uruz"
         class = "pc_hothouse"
         orbit_distance = 30
         orbit_angle = 163
@@ -1041,8 +1041,8 @@ sys_sowilo_init = {
     }
 
     planet = {
-        name = "NAME_Kenaz"
-        class = "pc_toxic_barren"
+        name = "Kenaz"
+        class = "pc_barren"
         orbit_distance = 20
         orbit_angle = 154
         has_ring = no
@@ -1051,7 +1051,7 @@ sys_sowilo_init = {
     }
 
     planet = {
-        name = "NAME_Hagalaz"
+        name = "Hagalaz"
         class = "pc_toxic_arid"
         orbit_distance = 20
         orbit_angle = 266
@@ -1061,7 +1061,7 @@ sys_sowilo_init = {
     }
 
     planet = {
-        name = "NAME_Ansuz"
+        name = "Ansuz"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 318
@@ -1071,7 +1071,7 @@ sys_sowilo_init = {
     }
 
     planet = {
-        name = "NAME_Thurisaz"
+        name = "Thurisaz"
         class = "pc_gas_giant"
         orbit_distance = 30
         orbit_angle = 177
@@ -1081,7 +1081,7 @@ sys_sowilo_init = {
     }
 
     planet = {
-        name = "NAME_Isa"
+        name = "Isa"
         class = "pc_toxic_frozen"
         orbit_distance = 20
         orbit_angle = 93
@@ -1093,7 +1093,7 @@ sys_sowilo_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hourglassnebula_vallhallanthreshold_massrelay" 
-			name = "NAME_Hourglass_4_Relay"
+			name = "Hourglass_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1105,18 +1105,18 @@ sys_sowilo_init = {
 #####NEMEAN DEPTHS#####
 
 sys_testudo_init = {
-    name = "NAME_Testudo"
+    name = "Testudo"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Testudo"
+	    name = "Testudo"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Cherepakha"
+        name = "Cherepakha"
         class = "pc_scorched"
         orbit_distance = 61
         orbit_angle = 53
@@ -1125,7 +1125,7 @@ sys_testudo_init = {
     }
 
     planet = {
-        name = "NAME_Kilpikonna"
+        name = "Kilpikonna"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 210
@@ -1143,7 +1143,7 @@ sys_testudo_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "nemeanalpha_nemeandepths_massrelay" 
-			name = "NAME_Nemean_Abyss_Relay"
+			name = "Nemean_Abyss_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1152,17 +1152,17 @@ sys_testudo_init = {
 }
 
 sys_volucris_init = {
-    name = "NAME_Volucris"
+    name = "Volucris"
     class = "sc_m"
 
     planet = {
-        class = "sc_m_star"
+        class = "pc_m_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Narsis"
+        name = "Narsis"
         class = "pc_hothouse"
         orbit_distance = 82
         orbit_angle = 348
@@ -1171,7 +1171,7 @@ sys_volucris_init = {
     }
 
     planet = {
-        name = "NAME_Shaan"
+        name = "Shaan"
         class = "pc_gas_giant"
         orbit_distance = 45
         orbit_angle = 227
@@ -1180,7 +1180,7 @@ sys_volucris_init = {
     }
 
     planet = {
-        name = "NAME_Jarti"
+        name = "Jarti"
         class = "pc_ice_giant"
         orbit_distance = 43
         orbit_angle = 310
@@ -1193,17 +1193,17 @@ sys_volucris_init = {
 #####NEMEAN ALPHA#####
 
 sys_cheng_init = {
-	name = "NAME_Cheng"
+	name = "Cheng"
 	class = "sc_m_hyper"
 	
 	planet = {
-		name = "NAME_Cheng"
+		name = "Cheng"
 		class = "pc_m_hyper_star"
 		size = 50
 	}
 
 	planet = {
-		name = "NAME_Jenera"
+		name = "Jenera"
 		class = "pc_continental"
 		orbit_distance = 80
 		size = 17
@@ -1218,7 +1218,7 @@ sys_cheng_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "homunculuscluster_nemeanalpha_massrelay" 
-			name = "NAME_Nemean_Alpha_1_Relay"
+			name = "Nemean_Alpha_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1228,17 +1228,17 @@ sys_cheng_init = {
 }	
 
 sys_drake_init = {
-	name = "NAME_Drake"
+	name = "Drake"
 	class = "sc_m"
 	
 	planet = {
-		name = "NAME_Drake"
+		name = "Drake"
 		class = "pc_m_star"
 		size = 30
 	}
 	
 	planet = {
-		name = "NAME_Santiago"
+		name = "Santiago"
 		class = "pc_scorched"
 		orbit_distance = 35
 		size = 20
@@ -1252,14 +1252,14 @@ sys_drake_init = {
 	}
 
 	planet = {
-		name = "NAME_Cadiz"
+		name = "Cadiz"
 		class = "pc_frozen"
 		orbit_distance = 40
 		size = 25
 	}
 
 	planet = {
-		name = "NAME_Domingo"
+		name = "Domingo"
 		class = "pc_gas_giant"
 		orbit_distance = 80
 		size = 34
@@ -1269,7 +1269,7 @@ sys_drake_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "eaglenebula_nemeanalpha_massrelay" 
-			name = "NAME_Nemean_Alpha_2_Relay"
+			name = "Nemean_Alpha_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -1287,7 +1287,7 @@ sys_drake_init = {
 }
 
 sys_fal_init = {
-	name = "NAME_Fal"
+	name = "Fal"
 	class = "sc_m_hyper"
 	
 	asteroid_belt = {
@@ -1296,25 +1296,25 @@ sys_fal_init = {
 	}
 	
 	planet = {
-		name = "NAME_Fal"
+		name = "Fal"
 		class = "pc_m_hyper_star"
 		size = 30
 	}
 
 	planet = {
-		name = "NAME_Dinest"
+		name = "Dinest"
 		class = "pc_scorched"
 		orbit_distance = 20
 		size = 6
 	}
 
 	planet = {
-		name = "NAME_Siress"
+		name = "Siress"
 		class = "pc_scorched"
 		orbit_distance = 25
 		size = 12
 		moon = {
-			name = "NAME_Siress_a"
+			name = "Siress_a"
 			class = "pc_geothermal"
 			orbit_distance = 10
 			size = 4
@@ -1322,7 +1322,7 @@ sys_fal_init = {
 	}
 
 	planet = {
-		name = "NAME_Yalson"
+		name = "Yalson"
 		class = "pc_carbon"
 		orbit_distance = 40
 		size = 15
@@ -1336,7 +1336,7 @@ sys_fal_init = {
 	}
 	
 	planet = {
-		name = "NAME_Tore"
+		name = "Tore"
 		class = "pc_ice_giant"
 		orbit_distance = 35
 		size = 28
@@ -1349,7 +1349,7 @@ sys_fal_init = {
 	}
 
 	planet = {
-		name = "NAME_Urjon"
+		name = "Urjon"
 		class = "pc_gas_giant"
 		orbit_distance = 50
 		size = 32
@@ -1364,7 +1364,7 @@ sys_fal_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "nemeanalpha_nemeandepths_massrelay" 
-			name = "NAME_Nemean_Alpha_4_Relay"
+			name = "Nemean_Alpha_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1374,7 +1374,7 @@ sys_fal_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "nemeanalpha_sinkelarcluster_massrelay" 
-			name = "NAME_Nemean_Alpha_5_Relay"
+			name = "Nemean_Alpha_5_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1383,7 +1383,7 @@ sys_fal_init = {
 }	
 	
 sys_olonnais_init = {
-	name = "NAME_Olonnais"
+	name = "Olonnais"
 	class = "sc_f"
 	
 	asteroid_belt = {
@@ -1392,21 +1392,21 @@ sys_olonnais_init = {
 	}	
 	
 	planet = {
-		name = "NAME_Olonnais"
+		name = "Olonnais"
 		class = "pc_f_star"
 		size = 30
 	}	
 		
 	
     planet = {
-        name = "NAME_Tortuga"
+        name = "Tortuga"
         class = "pc_savannah"
         orbit_distance = 45
         orbit_angle = 223
         has_ring = no
 		size = 16
         moon = {
-			name = "NAME_Batsch"
+			name = "Batsch"
             class = "pc_desolate"
             orbit_distance = 10
             orbit_angle = 116
@@ -1416,7 +1416,7 @@ sys_olonnais_init = {
     }
 	
 	planet = {
-		name = "NAME_Hayti"
+		name = "Hayti"
 		class = "pc_ice_giant"
 		orbit_distance = 75
 		size = 28
@@ -1432,7 +1432,7 @@ sys_olonnais_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "nemeanalpha_omeganebula_massrelay" 
-			name = "NAME_Nemean_Alpha_6_Relay"
+			name = "Nemean_Alpha_6_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1444,18 +1444,18 @@ sys_olonnais_init = {
 #####OMEGA NEBULA#####
 
 sys_amada_init = {
-    name = "NAME_Amada"
+    name = "Amada"
     class = "sc_f"
 
     planet = {
-	    name = "NAME_Amada"
+	    name = "Amada"
         class = "pc_f_star"
         orbit_distance = 0
         size = 24
     }
 
     planet = {
-        name = "NAME_Takkan"
+        name = "Takkan"
         class = "pc_scorched"
         orbit_distance = 45
         orbit_angle = 22
@@ -1465,7 +1465,7 @@ sys_amada_init = {
     }
 
     planet = {
-        name = "NAME_Karora"
+        name = "Karora"
         class = "pc_scorched"
         orbit_distance = 20
         orbit_angle = 151
@@ -1474,14 +1474,14 @@ sys_amada_init = {
     }
 
     planet = {
-        name = "NAME_Eingana"
+        name = "Eingana"
         class = "pc_tropical"
         orbit_distance = 40
         orbit_angle = 157
         has_ring = no
         size = 14
 		moon = {
-			name = "NAME_Barraiya"
+			name = "Barraiya"
 			class = "pc_desolate"
 			orbit_distance = 10
 			size = 8
@@ -1489,26 +1489,26 @@ sys_amada_init = {
     }
 
     planet = {
-        name = "NAME_Alchera"
+        name = "Alchera"
         class = "pc_ammonia_tundra"
         orbit_distance = 20
         orbit_angle = 272
         has_ring = no
         size = 23
 		moon = {
-			name = "NAME_Uluru"
+			name = "Uluru"
 			class = "pc_desolate"
 			orbit_distance = 8
 			size = 4
 		}
 		moon = {
-			name = "NAME_Wandjina"
+			name = "Wandjina"
 			class = "pc_frozen"
 			orbit_distance = 8
 			size = 6
 		}
 		moon = {
-			name = "NAME_Balame"
+			name = "Balame"
 			class = "pc_cryovolcanic"
 			orbit_distance = 7
 			size = 3
@@ -1517,7 +1517,7 @@ sys_amada_init = {
 	
 
     planet = {
-        name = "NAME_Anjea"
+        name = "Anjea"
         class = "pc_ice_giant"
         orbit_distance = 30
         orbit_angle = 343
@@ -1529,7 +1529,7 @@ sys_amada_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "omeganebula_sigurdscradle_massrelay" 
-			name = "NAME_Omega_7_Relay"
+			name = "Omega_7_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1538,7 +1538,7 @@ sys_amada_init = {
 }
 
 sys_arinlarkan_init = {
-    name = "NAME_Arinlarkan"
+    name = "Arinlarkan"
     class = "sc_a"
 
     planet = {
@@ -1553,7 +1553,7 @@ sys_arinlarkan_init = {
 	}
 
     planet = {
-        name = "NAME_Utha"
+        name = "Utha"
         class = "pc_toxic_ocean"
         orbit_distance = 80
         orbit_angle = 218
@@ -1565,7 +1565,7 @@ sys_arinlarkan_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "calestonrift_omeganebula_massrelay" 
-			name = "NAME_Omega_2_Relay"
+			name = "Omega_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1575,7 +1575,7 @@ sys_arinlarkan_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "yggdrasilnebula_omeganebula_massrelay" 
-			name = "NAME_Omega_1_Relay"
+			name = "Omega_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1584,7 +1584,7 @@ sys_arinlarkan_init = {
 }
 
 sys_batalla_init = {
-    name = "NAME_Batalla"
+    name = "Batalla"
     class = "sc_k"
 
     planet = {
@@ -1594,7 +1594,7 @@ sys_batalla_init = {
     }
 
     planet = {
-        name = "NAME_Logasiri"
+        name = "Logasiri"
         class = "pc_arid"
         orbit_distance = 40
         orbit_angle = 143
@@ -1604,7 +1604,7 @@ sys_batalla_init = {
     }
 
     planet = {
-        name = "NAME_Thunawanuro"
+        name = "Thunawanuro"
         class = "pc_continental"
         orbit_distance = 30
         orbit_angle = 305
@@ -1614,7 +1614,7 @@ sys_batalla_init = {
     }
 
     planet = {
-        name = "NAME_Nearog"
+        name = "Nearog"
         class = "pc_gas_giant"
         orbit_distance = 60
         orbit_angle = 65
@@ -1632,7 +1632,7 @@ sys_batalla_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "nemeanalpha_omeganebula_massrelay" 
-			name = "NAME_Omega_5_Relay"
+			name = "Omega_5_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1642,7 +1642,7 @@ sys_batalla_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "omeganebula_oshibkacliff_massrelay" 
-			name = "NAME_Omega_6_Relay"
+			name = "Omega_6_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1651,7 +1651,7 @@ sys_batalla_init = {
 }
 
 sys_fathar_init = {
-    name = "NAME_Fathar"
+    name = "Fathar"
     class = "sc_m"
 
     planet = {
@@ -1661,7 +1661,7 @@ sys_fathar_init = {
     }
 
     planet = {
-        name = "NAME_Lorek"
+        name = "Lorek"
         class = "pc_ocean"
         orbit_distance = 40
         orbit_angle = 327
@@ -1671,7 +1671,7 @@ sys_fathar_init = {
     }
 
     planet = {
-        name = "NAME_Korar"
+        name = "Korar"
         class = "pc_frozen"
         orbit_distance = 20
         orbit_angle = 257
@@ -1681,7 +1681,7 @@ sys_fathar_init = {
     }
 
     planet = {
-        name = "NAME_Dorgal"
+        name = "Dorgal"
         class = "pc_toxic_arctic"
         orbit_distance = 50
         orbit_angle = 262
@@ -1693,7 +1693,7 @@ sys_fathar_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "byenzinecloud_omeganebula_massrelay" 
-			name = "NAME_Omega_8_Relay"
+			name = "Omega_8_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1702,18 +1702,18 @@ sys_fathar_init = {
 }
 
 sys_kairavamori_init = {
-    name = "NAME_Kairavamori"
+    name = "Kairavamori"
     class = "sc_k"
 
     planet = {
-	    name = "NAME_Kairavamori"
+	    name = "Kairavamori"
         class = "pc_k_star"
         orbit_distance = 0
         size = 25
     }
 
     planet = {
-        name = "NAME_Sehtor"
+        name = "Sehtor"
         class = "pc_hothouse"
         orbit_distance = 40
         orbit_angle = 352
@@ -1723,7 +1723,7 @@ sys_kairavamori_init = {
     }
 
     planet = {
-        name = "NAME_Vatar"
+        name = "Vatar"
         class = "pc_frozen"
         orbit_distance = 40
         orbit_angle = 28
@@ -1733,7 +1733,7 @@ sys_kairavamori_init = {
     }
 
     planet = {
-        name = "NAME_Uwan_Oche"
+        name = "Uwan_Oche"
         class = "pc_toxic_frozen"
         orbit_distance = 30
         orbit_angle = 183
@@ -1745,7 +1745,7 @@ sys_kairavamori_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "pylosnebula_omeganebula_massrelay" 
-			name = "NAME_Omega_9_Relay"
+			name = "Omega_9_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1754,7 +1754,7 @@ sys_kairavamori_init = {
 }
 
 sys_sahrabarik_init = {
-	name = "NAME_Sahrabarik"
+	name = "Sahrabarik"
     class = "sc_m"
 
 
@@ -1770,7 +1770,7 @@ sys_sahrabarik_init = {
 	}
 
     planet = {
-        name = "NAME_Urdak"
+        name = "Urdak"
         class = "pc_l_star"
         orbit_distance = 50
         orbit_angle = 129
@@ -1785,7 +1785,7 @@ sys_sahrabarik_init = {
     }
 
     planet = {
-        name = "NAME_Omega"
+        name = "Omega"
         class = "pc_asteroid"
         orbit_distance = 30
         orbit_angle = 58
@@ -1794,7 +1794,7 @@ sys_sahrabarik_init = {
     }
 
     planet = {
-        name = "NAME_Imorkan"
+        name = "Imorkan"
         class = "pc_gas_giant"
         orbit_distance = 40
         orbit_angle = 136
@@ -1804,7 +1804,7 @@ sys_sahrabarik_init = {
     }
 
     planet = {
-        name = "NAME_Bindur"
+        name = "Bindur"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 279
@@ -1816,7 +1816,7 @@ sys_sahrabarik_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hourglassnebula_omeganebula_massrelay" 
-			name = "NAME_Omega_3_Relay"
+			name = "Omega_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1826,7 +1826,7 @@ sys_sahrabarik_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "galacticcore_omeganebula4relay_massrelay" 
-			name = "NAME_Omega_4_Relay"
+			name = "Omega_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1838,7 +1838,7 @@ sys_sahrabarik_init = {
 #####PERSEUS VEIL#####
 
 sys_tikkun_init = {
-    name = "NAME_Tikkun"
+    name = "Tikkun"
     class = "sc_k"
   
     planet = {
@@ -1853,14 +1853,14 @@ sys_tikkun_init = {
 	}
 
     planet = {
-        name = "NAME_Rannoch"
+        name = "Rannoch"
         class = "pc_dextro_arid"
         orbit_distance = 40
         orbit_angle = 63
         has_ring = no
         size = 15
 		moon = {
-			name = "NAME_Jelachai"
+			name = "Jelachai"
 			class = "pc_desolate"
 			orbit_distance = 8
 			size = 4
@@ -1868,12 +1868,12 @@ sys_tikkun_init = {
 	}
 
 	planet = {
-		name = "NAME_Uriyah"
+		name = "Uriyah"
 		class = "pc_desolate"
 		orbit_distance = 20
 		size = 3
 		moon = {
-			name = "NAME_Etiel"
+			name = "Etiel"
 			class = "pc_desolate"
 			orbit_distance = 4
 			size = 2
@@ -1881,7 +1881,7 @@ sys_tikkun_init = {
 	}	
 
     planet = {
-        name = "NAME_Adas"
+        name = "Adas"
         class = "pc_geothermal"
         orbit_distance = 25
         orbit_angle = 171
@@ -1891,8 +1891,8 @@ sys_tikkun_init = {
     }
 
     planet = {
-        name = "NAME_Kaddi"
-        class = "pc_dextro_frozen"
+        name = "Kaddi"
+        class = "pc_frozen"
         orbit_distance = 40
         orbit_angle = 40
         has_ring = no
@@ -1901,7 +1901,7 @@ sys_tikkun_init = {
     }
 
     planet = {
-        name = "NAME_Haza"
+        name = "Haza"
         class = "pc_ice_giant"
         orbit_distance = 50
         orbit_angle = 281
@@ -1913,7 +1913,7 @@ sys_tikkun_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "farrim_perseusveil_massrelay" 
-			name = "NAME_Perseus_Relay"
+			name = "Perseus_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1925,7 +1925,7 @@ sys_tikkun_init = {
 #####THE PHOENIX MASSING#####
 
 sys_chomos_init = {
-    name = "NAME_Chomos"
+    name = "Chomos"
     class = "sc_f"
 
     planet = {
@@ -1935,26 +1935,26 @@ sys_chomos_init = {
     }
 
     planet = {
-        name = "NAME_Trigestis"
+        name = "Trigestis"
         class = "pc_gas_giant"
         orbit_distance = 60
         orbit_angle = 194
         has_ring = no
 		size = 34
 		moon = {
-			name = "NAME_Sidacha"
+			name = "Sidacha"
 			class = "pc_cryovolcanic"
 			orbit_distance = 6
 			size = 4
 		}
 		moon = {
-			name = "NAME_Norem"
+			name = "Norem"
 			class = "pc_desolate"
 			orbit_distance = 5
 			size = 3
 		}
 		moon = {
-			name = "NAME_Bestia"
+			name = "Bestia"
 			class = "pc_dextro_arctic"
 			orbit_distance = 8
 			size = 6
@@ -1962,7 +1962,7 @@ sys_chomos_init = {
     }
 
     planet = {
-        name = "NAME_Lattesh"
+        name = "Lattesh"
         class = "pc_frozen"
         orbit_distance = 30
         orbit_angle = 119
@@ -1974,7 +1974,7 @@ sys_chomos_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "sentryomega_thephoenixmassing_massrelay" 
-			name = "NAME_Phoenix_1_Relay"
+			name = "Phoenix_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -1983,7 +1983,7 @@ sys_chomos_init = {
 }
 
 sys_ekarii_init = {
-	name = "NAME_Ekarii"
+	name = "Ekarii"
 	class = "sc_m"
 	
 	asteroid_belt = {
@@ -2002,21 +2002,21 @@ sys_ekarii_init = {
 	}	
 	
 	planet = {
-		name = "NAME_Ekarii"
+		name = "Ekarii"
 		class = "pc_m_star"
 		orbit_distance = 0
 		size = 20
 	}
 
 	planet = {
-		name = "NAME_Serak"
+		name = "Serak"
 		class = "pc_desolate"
 		orbit_distance = 90
 		size = 6
 	}
 
 	planet = {
-		name = "NAME_Gotea"
+		name = "Gotea"
 		class = "pc_ice_giant"
 		orbit_distance = 100
 		size = 34
@@ -2026,7 +2026,7 @@ sys_ekarii_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hadesnexus_thephoenixmassing_massrelay" 
-			name = "NAME_Phoenix_2_Relay"
+			name = "Phoenix_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2035,7 +2035,7 @@ sys_ekarii_init = {
 }	
 	
 sys_salahiel_init = {
-    name = "NAME_Salahiel"
+    name = "Salahiel"
     class = "sc_k"
 
     planet = {
@@ -2045,7 +2045,7 @@ sys_salahiel_init = {
     }
 
     planet = {
-        name = "NAME_Ekuna"
+        name = "Ekuna"
         class = "pc_tundra"
         orbit_distance = 60
         orbit_angle = 24
@@ -2057,7 +2057,7 @@ sys_salahiel_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "farrim_thephoenixmassing_massrelay" 
-			name = "NAME_Phoenix_3_Relay"
+			name = "Phoenix_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2066,11 +2066,11 @@ sys_salahiel_init = {
 }
 
 sys_theseaofstorms_init = {
-    name = "NAME_The_Sea_of_Storms"
+    name = "The_Sea_of_Storms"
     class = "sc_none"
 
     planet = {
-        name = "NAME_Heretic_Station"
+        name = "Heretic_Station"
         class = pc_habitat
         orbit_distance = 0
         orbit_angle = 144
@@ -2080,18 +2080,18 @@ sys_theseaofstorms_init = {
 }
 
 sys_tassrah_init = {
-    name = "NAME_Tassrah"
+    name = "Tassrah"
     class = "sc_a"
 
     planet = {
-	    name = "NAME_Tassrah"
+	    name = "Tassrah"
         class = "pc_a_star"
         orbit_distance = 0
         size = 30
     }
 
     planet = {
-        name = "NAME_Pahhur"
+        name = "Pahhur"
         class = "pc_scorched"
         orbit_distance = 50
         orbit_angle = 218
@@ -2101,7 +2101,7 @@ sys_tassrah_init = {
     }
 
     planet = {
-        name = "NAME_Sarapai"
+        name = "Sarapai"
         class = "pc_hothouse"
         orbit_distance = 30
         orbit_angle = 234
@@ -2111,7 +2111,7 @@ sys_tassrah_init = {
     }
 
     planet = {
-        name = "NAME_Ishassara"
+        name = "Ishassara"
         class = "pc_ice_giant"
         orbit_distance = 50
         orbit_angle = 95
@@ -2123,7 +2123,7 @@ sys_tassrah_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "calestonrift_thephoenixmassing_massrelay" 
-			name = "NAME_Phoenix_4_Relay"
+			name = "Phoenix_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2132,18 +2132,18 @@ sys_tassrah_init = {
 }
 
 sys_typhon_init = {
-    name = "NAME_Typhon"
+    name = "Typhon"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Typhon"
+	    name = "Typhon"
         class = "pc_g_star"
         orbit_distance = 0
         size = 25
     }
 
     planet = {
-        name = "NAME_Echidna"
+        name = "Echidna"
         class = "pc_hot_jupiter"
         orbit_distance = 40
         orbit_angle = 198
@@ -2153,22 +2153,22 @@ sys_typhon_init = {
     }
 
     planet = {
-        name = "NAME_Aite"
+        name = "Aite"
         class = "pc_continental"
         orbit_distance = 25
         orbit_angle = 204
         has_ring = yes
 		size = 15
         moon = {
-            name = "NAME_Litae"
-            class = "pc_barren_cold"
+            name = "Litae"
+            class = "pc_frozen"
             orbit_distance = 7
             orbit_angle = 180
             has_ring = no
 			size = 5
         }
         moon = {
-            name = "NAME_Andrasteia"
+            name = "Andrasteia"
             class = "pc_desolate"
             orbit_distance = 10
             orbit_angle = 180
@@ -2178,7 +2178,7 @@ sys_typhon_init = {
     }
 
     planet = {
-        name = "NAME_Moros"
+        name = "Moros"
         class = "pc_desolate"
         orbit_distance = 25
         orbit_angle = 249
@@ -2188,7 +2188,7 @@ sys_typhon_init = {
     }
 
     planet = {
-        name = "NAME_Ponos"
+        name = "Ponos"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 77
@@ -2200,7 +2200,7 @@ sys_typhon_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "savianabyssal_thephoenixmassing_massrelay" 
-			name = "NAME_Phoenix_5_Relay"
+			name = "Phoenix_5_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -2211,7 +2211,7 @@ sys_typhon_init = {
 #####RADANA BURST#####
 
 sys_tiedcaur_init = {
-    name = "NAME_Tiedcaur"
+    name = "Tiedcaur"
     class = "sc_g"
 	max_instances = 1
     init_effect = {
@@ -2223,14 +2223,14 @@ sys_tiedcaur_init = {
     }
 	
     planet = {
-		name = "NAME_Tiedcaur"
+		name = "Tiedcaur"
         class = "pc_g_star"
         orbit_distance = 0
         size = 33
 	}
 
 	planet = {
-		name = "NAME_Bystryo" 
+		name = "Bystryo" 
 		class = "pc_scorched"
 		orbit_distance = 45
 		orbit_angle = 200
@@ -2238,7 +2238,7 @@ sys_tiedcaur_init = {
 	}			
 
     planet = {
-        name = "NAME_Ziednar"
+        name = "Ziednar"
         class = "pc_toxic_arid"
         orbit_distance = 35
         orbit_angle = 350
@@ -2248,8 +2248,8 @@ sys_tiedcaur_init = {
     }
 
     planet = {
-        name = "NAME_Undak"
-        class = "pc_dextro_frozen"
+        name = "Undak"
+        class = "pc_frozen"
         orbit_distance = 95
         orbit_angle = 110
         has_ring = no
@@ -2260,7 +2260,7 @@ sys_tiedcaur_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "pylosnebula_radanaburst_massrelay" 
-			name = "NAME_Radana_1_Relay"
+			name = "Radana_1_Relay"
 			orbit_angle = 179
 			orbit_distance = 200
 			
@@ -2269,7 +2269,7 @@ sys_tiedcaur_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "basillaeflare_radanaburst_massrelay" 
-			name = "NAME_Radana_2_Relay"
+			name = "Radana_2_Relay"
 			orbit_angle = 179
 			orbit_distance = 200
 			
@@ -2278,7 +2278,7 @@ sys_tiedcaur_init = {
 }	
 
 sys_jintanei_init = {
-    name = "NAME_Jintanei"
+    name = "Jintanei"
     class = "sc_g"
 	max_instances = 1
     init_effect = {
@@ -2286,19 +2286,19 @@ sys_jintanei_init = {
     }
 	
 	planet = {
-    name = "NAME_Jintanei"
-		class = "sc_g"
+    name = "Jintanei"
+		class = "pc_g_star"
 		orbit_distance = 0
 		size = 25
 	}
 	
 	planet = {
-		name = "NAME_Esse"
-		class = "pc_dextro_barren"
+		name = "Esse"
+		class = "pc_barren"
 		orbit_distance = 65
 		size = 8
 		moon = { 
-			name = "NAME_Esse_a"
+			name = "Esse_a"
 			class = "pc_arid"
 			orbit_angle = 270
 			orbit_distance = 8
@@ -2306,20 +2306,20 @@ sys_jintanei_init = {
 	}
 
 	planet = {
-		name = "NAME_Ferris_Fields"
+		name = "Ferris_Fields"
 		class = "pc_arid"
 		orbit_distance = 70
 		size = 14
 	}
 
 	planet = {
-		name = "NAME_Angom"
+		name = "Angom"
 		class = "pc_gas_giant"
 		orbit_distance = 70
 		size = 38
 		has_ring = yes
 		moon = {
-			name = "NAME_Pella"
+			name = "Pella"
 			class = "pc_dextro_continental"
 			orbit_distance = 10
 			size = 15
@@ -2329,7 +2329,7 @@ sys_jintanei_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "radanaburst_omeganebula_massrelay" 
-			name = "NAME_Radana_3_Relay"
+			name = "Radana_3_Relay"
 			random_pos = NO 
 			orbit_distance = 150
 			
@@ -2339,7 +2339,7 @@ sys_jintanei_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "radanaburst_sigurdscradle_massrelay" 
-			name = "NAME_Radana_4_Relay"
+			name = "Radana_4_Relay"
 			random_pos = NO 
 			orbit_distance = 150
 			
@@ -2348,7 +2348,7 @@ sys_jintanei_init = {
 }
 
 sys_razhek_init = {
-    name = "NAME_Razhek"
+    name = "Razhek"
     class = "sc_g"
 	max_instances = 1
     init_effect = {
@@ -2356,8 +2356,8 @@ sys_razhek_init = {
     }
 	
 	planet = {
-    name = "NAME_Razhek"
-		class = "sc_o"
+    name = "Razhek"
+		class = "pc_o_super_star"
 		orbit_distance = 0
 		size = 35
 	}
@@ -2368,28 +2368,28 @@ sys_razhek_init = {
 	}
 
 	planet = {
-		name = "NAME_Satur"
+		name = "Satur"
 		class = "pc_molten"
 		orbit_distance = 30
 		size = 8
 	}
 
 	planet = {
-		name = "NAME_New_Canton"
+		name = "New_Canton"
 		class = "pc_alpine"
 		orbit_distance = 35
 		size = 12
 	}	
 
 	planet = {
-		name = "NAME_Yanoc"
+		name = "Yanoc"
 		class = "pc_toxic_continental"
 		orbit_distance = 50
 		size = 15
 	}
 
 	planet = {
-		name = "NAME_Hobgaad"
+		name = "Hobgaad"
 		class = "pc_dextro_tundra"
 		orbit_distance = 70
 		size = 25
@@ -2398,7 +2398,7 @@ sys_razhek_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "radanaburst_rosettanebula_massrelay" 
-			name = "NAME_Radana_5_Relay"
+			name = "Radana_5_Relay"
 			random_pos = NO 
 			orbit_distance = 25
 			
@@ -2410,7 +2410,7 @@ sys_razhek_init = {
 #####ROSETTA NEBULA#####
 
 sys_alphadraconis_init = {
-    name = "NAME_Alpha_Draconis"
+    name = "Alpha_Draconis"
     class = "sc_a"
 
     planet = {
@@ -2420,7 +2420,7 @@ sys_alphadraconis_init = {
     }
 
     planet = {
-        name = "NAME_2175_Aeia"
+        name = "2175_Aeia"
         class = "pc_ocean"
         orbit_distance = 50
         orbit_angle = 149
@@ -2436,14 +2436,14 @@ sys_alphadraconis_init = {
     }
 
     planet = {
-        name = "NAME_2175_AR2"
+        name = "2175_AR2"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 181
         has_ring = no
 		size = 33
         moon = {
-            name = "NAME_2175_MR1"
+            name = "2175_MR1"
             class = "pc_desolate"
             orbit_distance = 15
             orbit_angle = 184
@@ -2452,7 +2452,7 @@ sys_alphadraconis_init = {
 
         }
         moon = {
-            name = "NAME_2175_MR2"
+            name = "2175_MR2"
             class = "pc_desolate"
             orbit_distance = 10
             orbit_angle = 192
@@ -2465,7 +2465,7 @@ sys_alphadraconis_init = {
 }
 
 sys_enoch_init = {
-    name = "NAME_Enoch"
+    name = "Enoch"
     class = "sc_g"
 
     planet = {
@@ -2475,7 +2475,7 @@ sys_enoch_init = {
     }
 
     planet = {
-        name = "NAME_Laban"
+        name = "Laban"
         class = "pc_hothouse"
         orbit_distance = 40
         orbit_angle = 334
@@ -2485,7 +2485,7 @@ sys_enoch_init = {
     }
 
     planet = {
-        name = "NAME_Mizraim"
+        name = "Mizraim"
         class = "pc_ice_giant"
         orbit_distance = 25
         orbit_angle = 247
@@ -2495,7 +2495,7 @@ sys_enoch_init = {
     }
 
     planet = {
-        name = "NAME_Joab"
+        name = "Joab"
         class = "pc_postgarden"
         orbit_distance = 40
         orbit_angle = 174
@@ -2511,7 +2511,7 @@ sys_enoch_init = {
     }
 
     planet = {
-        name = "NAME_Goliath"
+        name = "Goliath"
         class = "pc_gas_giant"
         orbit_distance = 20
         orbit_angle = 240
@@ -2523,7 +2523,7 @@ sys_enoch_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "radanaburst_rosettanebula_massrelay" 
-			name = "NAME_Rosetta_1_Relay"
+			name = "Rosetta_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 170
 			
@@ -2532,7 +2532,7 @@ sys_enoch_init = {
 }
 
 sys_phiclio_init = {
-    name = "NAME_Phi_Clio"
+    name = "Phi_Clio"
     class = "sc_g"
 
     planet = {
@@ -2542,7 +2542,7 @@ sys_phiclio_init = {
     }
 
     planet = {
-        name = "NAME_Cyllene"
+        name = "Cyllene"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 239
@@ -2552,7 +2552,7 @@ sys_phiclio_init = {
     }
 
     planet = {
-        name = "NAME_Parnassus"
+        name = "Parnassus"
         class = "pc_geothermal"
         orbit_distance = 30
         orbit_angle = 152
@@ -2564,7 +2564,7 @@ sys_phiclio_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "rosettanebula_sigurdscradle_massrelay" 
-			name = "NAME_Rosetta_2_Relay"
+			name = "Rosetta_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2573,7 +2573,7 @@ sys_phiclio_init = {
 }
 
 sys_iotaurania_init = {
-    name = "NAME_Iota_Urania"
+    name = "Iota_Urania"
     class = "sc_g"
 
 	asteroid_belt = {
@@ -2582,14 +2582,14 @@ sys_iotaurania_init = {
 	}	
 
     planet = {
-	    name = "NAME_Iota_Urania"
+	    name = "Iota_Urania"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Republic"
+        name = "Republic"
         class = "pc_gas_giant"
         orbit_distance = 45
         orbit_angle = 327
@@ -2598,7 +2598,7 @@ sys_iotaurania_init = {
     }
 
     planet = {
-        name = "NAME_Walden"
+        name = "Walden"
         class = "pc_alpine"
         orbit_distance = 90
         orbit_angle = 327
@@ -2607,7 +2607,7 @@ sys_iotaurania_init = {
     }
 
     planet = {
-        name = "NAME_Erewhon"
+        name = "Erewhon"
         class = "pc_ice_giant"
         orbit_distance = 40
         orbit_angle = 243
@@ -2623,7 +2623,7 @@ sys_iotaurania_init = {
     }
 
     planet = {
-        name = "NAME_Mizora"
+        name = "Mizora"
         class = "pc_ice_giant"
         orbit_distance = 50
         orbit_angle = 294
@@ -2631,7 +2631,7 @@ sys_iotaurania_init = {
 		size = 28
 		satellite_naming_policy = lower_case_latin_letters
 		moon = {
-			name = "NAME_Lane"
+			name = "Lane"
 			class = "pc_arctic"
 			orbit_distance = 8
 			size = 11
@@ -2645,7 +2645,7 @@ sys_iotaurania_init = {
     }
 
     planet = {
-        name = "NAME_Pala"
+        name = "Pala"
         class = "pc_desolate"
         orbit_distance = 80
         orbit_angle = 128
@@ -2654,7 +2654,7 @@ sys_iotaurania_init = {
     }
 
     planet = {
-        name = "NAME_Cascadia"
+        name = "Cascadia"
         class = "pc_ice_giant"
         orbit_distance = 50
         orbit_angle = 147
@@ -2675,7 +2675,7 @@ sys_iotaurania_init = {
 #####SAVIAN ABYSSAL#####
 
 sys_jiro_init = {
-	name = "NAME_Jiro"
+	name = "Jiro"
 	class = "sc_m"
 	
 	asteroid_belt = {
@@ -2684,13 +2684,13 @@ sys_jiro_init = {
 	}	
 	
 	planet = {
-		name = "NAME_Jiro"
+		name = "Jiro"
 		class = "pc_m_star"
 		size = 30
 	}
 	
 	planet = {
-		name = "NAME_LV_426"
+		name = "LV_426"
 		class = "pc_postgarden"
 		orbit_distance = 55
 		size = 15
@@ -2702,7 +2702,7 @@ sys_jiro_init = {
 		}	
 		moon = {
 			name = "LV_426_b"
-			class = "pc_goethermal"
+			class = "pc_geothermal"
 			orbit_distance = 5
 			size = 6
 		}	
@@ -2711,7 +2711,7 @@ sys_jiro_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "basillaeflare_savianabyssal_massrelay" 
-			name = "NAME_Savian_1_Relay"
+			name = "Savian_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2721,7 +2721,7 @@ sys_jiro_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "pylosnebula_savianabyssal_massrelay" 
-			name = "NAME_Savian_2_Relay"
+			name = "Savian_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2730,11 +2730,11 @@ sys_jiro_init = {
 }	
 
 sys_lazarus_init = {
-	name = "NAME_Lazarus"
+	name = "Lazarus"
 	class = "sc_none"
 	
 	planet = {
-		name = "NAME_Lazarus_Station"
+		name = "Lazarus_Station"
 		class = "pc_orbital_habitat"
 		size = 6
 		orbit_distance = 0
@@ -2742,35 +2742,35 @@ sys_lazarus_init = {
 }	
 
 sys_tydeous_init = {
-	name = "NAME_Tydeous"
+	name = "Tydeous"
 	class = "sc_k"
 	
 	planet = {
-		name = "NAME_Tydeous"
+		name = "Tydeous"
 		class = "pc_k_star"
 		size = 30
 	}
 
 	planet = {
-		name = "NAME_Farmac"
+		name = "Farmac"
 		class = "pc_scorched"
 		orbit_distance = 40
 		size = 8
 	}
 
 	planet = {
-		name = "NAME_Freedoms_Progress"
+		name = "Freedoms_Progress"
 		class = "pc_desert"
 		orbit_distance = 35
 		size = 14
 		moon = {
-			name = "NAME_Freedoms_Progress_a"
+			name = "Freedoms_Progress_a"
 			class = "pc_desolate"
 			orbit_distance = 8
 			size = 5
 		}	
 		moon = {
-			name = "NAME_Freedoms_Progress_b"
+			name = "Freedoms_Progress_b"
 			class = "pc_desolate"
 			orbit_distance = 8
 			size = 7
@@ -2778,7 +2778,7 @@ sys_tydeous_init = {
 	}
 
 	planet = {
-		name = "NAME_Eurptune"
+		name = "Eurptune"
 		class = "pc_gas_giant"
 		orbit_distance = 45
 		size = 37
@@ -2786,7 +2786,7 @@ sys_tydeous_init = {
 	}	
 	
 	planet = {
-		name = "NAME_Saptiter"
+		name = "Saptiter"
 		class = "pc_ice_giant"
 		orbit_distance = 30
 		has_ring = no
@@ -2796,7 +2796,7 @@ sys_tydeous_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "savianabyssal_thephoenixmassing_massrelay" 
-			name = "NAME_Savian_3_Relay"
+			name = "Savian_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2808,18 +2808,18 @@ sys_tydeous_init = {
 #####THE SHRIKE ABYSSAL#####
 
 sys_kyzil_init = {
-    name = "NAME_Kyzil"
+    name = "Kyzil"
     class = "sc_k"
 
     planet = {
-	    name = "NAME_Kyzil"
+	    name = "Kyzil"
         class = "pc_k_star"
         orbit_distance = 0
         size = 15
     }
 
     planet = {
-        name = "NAME_Naskral"
+        name = "Naskral"
         class = "pc_scorched"
         orbit_distance = 40
         orbit_angle = 331
@@ -2829,7 +2829,7 @@ sys_kyzil_init = {
     }
 
     planet = {
-        name = "NAME_Heshtok"
+        name = "Heshtok"
         class = "pc_arid"
         orbit_distance = 20
         orbit_angle = 251
@@ -2838,7 +2838,7 @@ sys_kyzil_init = {
     }
 
     planet = {
-        name = "NAME_Parasc"
+        name = "Parasc"
         class = "pc_frozen"
         orbit_distance = 20
         orbit_angle = 165
@@ -2848,7 +2848,7 @@ sys_kyzil_init = {
     }
 
     planet = {
-        name = "NAME_Lihrat"
+        name = "Lihrat"
         class = "pc_gas_giant"
         orbit_distance = 20
         orbit_angle = 101
@@ -2858,7 +2858,7 @@ sys_kyzil_init = {
     }
 
     planet = {
-        name = "NAME_Rustaka"
+        name = "Rustaka"
         class = "pc_ice_giant"
         orbit_distance = 20
         orbit_angle = 113
@@ -2870,7 +2870,7 @@ sys_kyzil_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "homunculuscluster_theshrikeabyssal_massrelay" 
-			name = "NAME_Shrike_1_Relay"
+			name = "Shrike_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2879,11 +2879,11 @@ sys_kyzil_init = {
 }
 
 sys_thal_init = {
-    name = "NAME_Thal"
+    name = "Thal"
     class = "sc_k"
 
     planet = {
-	    name = "NAME_Thal"
+	    name = "Thal"
         class = "pc_k_star"
         orbit_distance = 0
         size = 20
@@ -2900,7 +2900,7 @@ sys_thal_init = {
 	}
 
     planet = {
-        name = "NAME_Garan"
+        name = "Garan"
         class = "pc_molten"
         orbit_distance = 40
         orbit_angle = 232
@@ -2909,7 +2909,7 @@ sys_thal_init = {
     }
 
     planet = {
-        name = "NAME_Sarait"
+        name = "Sarait"
         class = "pc_hothouse"
         orbit_distance = 15
         orbit_angle = 196
@@ -2918,7 +2918,7 @@ sys_thal_init = {
     }
 
     planet = {
-        name = "NAME_Altakiril"
+        name = "Altakiril"
         class = "pc_dextro_tundra"
         orbit_distance = 15
         orbit_angle = 253
@@ -2927,7 +2927,7 @@ sys_thal_init = {
     }
 
     planet = {
-        name = "NAME_Tyrix"
+        name = "Tyrix"
         class = "pc_asteroid"
         orbit_distance = 15
         orbit_angle = 76
@@ -2937,7 +2937,7 @@ sys_thal_init = {
     }
 
     planet = {
-        name = "NAME_Xerceo"
+        name = "Xerceo"
         class = "pc_gas_giant"
         orbit_distance = 15
         orbit_angle = 343
@@ -2953,7 +2953,7 @@ sys_thal_init = {
     }
 
     planet = {
-        name = "NAME_Virits"
+        name = "Virits"
         class = "pc_asteroid"
         orbit_distance = 10
         orbit_angle = 171
@@ -2965,7 +2965,7 @@ sys_thal_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hourglassnebula_theshrikeabyssal_massrelay" 
-			name = "NAME_Shrike_2_Relay"
+			name = "Shrike_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -2974,19 +2974,19 @@ sys_thal_init = {
 }
 	
 sys_urlarast_init = {
-    name = "NAME_Urla_Rast"
+    name = "Urla_Rast"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Urla_Rast"
+	    name = "Urla_Rast"
         class = "pc_g_star"
         orbit_distance = 0
         size = 25
     }
 
     planet = {
-        name = "NAME_Bovis_Tor"
-        class = "pc_molton"
+        name = "Bovis_Tor"
+        class = "pc_molten"
         orbit_distance = 40
         orbit_angle = 164
         has_ring = no
@@ -2995,7 +2995,7 @@ sys_urlarast_init = {
     }
 
     planet = {
-        name = "NAME_Talis_Fia"
+        name = "Talis_Fia"
         class = "pc_ammonia_tundra"
         orbit_distance = 20
         orbit_angle = 148
@@ -3005,7 +3005,7 @@ sys_urlarast_init = {
     }
 
     planet = {
-        name = "NAME_Doz_Atab"
+        name = "Doz_Atab"
         class = "pc_ice_giant"
         orbit_distance = 50
         orbit_angle = 38
@@ -3015,7 +3015,7 @@ sys_urlarast_init = {
     }
 	
     planet = {
-        name = "NAME_Rosh"
+        name = "Rosh"
         class = "pc_frozen"
         orbit_distance = 50
         orbit_angle = 38
@@ -3026,7 +3026,7 @@ sys_urlarast_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "crescentnebula_theshrikeabyssal_massrelay" 
-			name = "NAME_Shrike_3_Relay"
+			name = "Shrike_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -3034,7 +3034,7 @@ sys_urlarast_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "ismarfrontier_theshrikeabyssal_massrelay" 
-			name = "NAME_Shrike_4_Relay"
+			name = "Shrike_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -3042,18 +3042,18 @@ sys_urlarast_init = {
 }
 
 sys_xecha_init = {
-    name = "NAME_Xe_Cha"
+    name = "Xe_Cha"
     class = "sc_k"
 
     planet = {
-	    name = "NAME_Xe_Cha"
+	    name = "Xe_Cha"
         class = "pc_k_star"
         orbit_distance = 0
         size = 25
     }
 
     planet = {
-        name = "NAME_Zada_Ban"
+        name = "Zada_Ban"
         class = "pc_scorched"
         orbit_distance = 40
         orbit_angle = 306
@@ -3063,7 +3063,7 @@ sys_xecha_init = {
     }
 
     planet = {
-        name = "NAME_Aphras"
+        name = "Aphras"
         class = "pc_postgarden"
         orbit_distance = 20
         orbit_angle = 56
@@ -3072,7 +3072,7 @@ sys_xecha_init = {
     }
 
     planet = {
-        name = "NAME_Tosal_Nym"
+        name = "Tosal_Nym"
         class = "pc_postgarden"
         orbit_distance = 20
         orbit_angle = 254
@@ -3081,7 +3081,7 @@ sys_xecha_init = {
     }
 
     planet = {
-        name = "NAME_Vem_Osca"
+        name = "Vem_Osca"
         class = "pc_gas_giant"
         orbit_distance = 30
         orbit_angle = 252
@@ -3098,7 +3098,7 @@ sys_xecha_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "theshrikeabyssal_vallhallanthreshold_massrelay" 
-			name = "NAME_Shrike_5_Relay"
+			name = "Shrike_5_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -3109,18 +3109,18 @@ sys_xecha_init = {
 #####SIGURD'S CRADLE#####
 
 sys_decoris_init = {
-    name = "NAME_Decoris"
+    name = "Decoris"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Decoris"
+	    name = "Decoris"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
     }
 
     planet = {
-        name = "NAME_Laena"
+        name = "Laena"
         class = "pc_hothouse"
         orbit_distance = 40
         orbit_angle = 218
@@ -3130,7 +3130,7 @@ sys_decoris_init = {
     }
 
     planet = {
-        name = "NAME_Sanctum"
+        name = "Sanctum"
         class = "pc_arctic"
         orbit_distance = 40
         orbit_angle = 178
@@ -3142,7 +3142,7 @@ sys_decoris_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "rosettanebula_sigurdscradle_massrelay" 
-			name = "NAME_Sigurds_1_Relay"
+			name = "Sigurds_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3151,19 +3151,19 @@ sys_decoris_init = {
 }
 
 sys_lenal_init = {
-    name = "NAME_Lenal"
+    name = "Lenal"
     class = "sc_f"
 
     planet = {
-	    name = "NAME_Lenal"
+	    name = "Lenal"
         class = "pc_f_star"
         orbit_distance = 0
         size = 22
     }
 
     planet = {
-        name = "NAME_Laconix"
-        class = "pc_toxic_barren"
+        name = "Laconix"
+        class = "pc_barren"
         orbit_distance = 40
         orbit_angle = 129
         has_ring = no
@@ -3172,7 +3172,7 @@ sys_lenal_init = {
     }
 
     planet = {
-        name = "NAME_Triginta_Petra"
+        name = "Triginta_Petra"
         class = "pc_dextro_arid"
         orbit_distance = 20
         orbit_angle = 238
@@ -3182,7 +3182,7 @@ sys_lenal_init = {
     }
 
     planet = {
-        name = "NAME_Choitadix"
+        name = "Choitadix"
         class = "pc_frozen"
         orbit_distance = 20
         orbit_angle = 266
@@ -3192,7 +3192,7 @@ sys_lenal_init = {
     }
 
     planet = {
-        name = "NAME_Nutus"
+        name = "Nutus"
         class = "pc_gas_giant"
         orbit_distance = 30
         orbit_angle = 284
@@ -3206,7 +3206,7 @@ sys_lenal_init = {
             orbit_angle = { min = 90 max = 270 }
         }
 		moon = {
-			name = "NAME_Etrat"
+			name = "Etrat"
 			class = "pc_frozen"
 			orbit_distance = 8
 			size = 6
@@ -3216,7 +3216,7 @@ sys_lenal_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "sigurdscradle_vallhallanthreshold_massrelay" 
-			name = "NAME_Sigurds_2_Relay"
+			name = "Sigurds_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3225,7 +3225,7 @@ sys_lenal_init = {
 }
 
 sys_mil_init = {
-    name = "NAME_Mil"
+    name = "Mil"
     class = "sc_g"
 
     planet = {
@@ -3240,7 +3240,7 @@ sys_mil_init = {
 	}
 
     planet = {
-        name = "NAME_Akraia"
+        name = "Akraia"
         class = "pc_scorched"
         orbit_distance = 25
         orbit_angle = 223
@@ -3250,7 +3250,7 @@ sys_mil_init = {
     }
 
     planet = {
-        name = "NAME_Lisir"
+        name = "Lisir"
         class = "pc_scorched"
         orbit_distance = 20
         orbit_angle = 99
@@ -3260,7 +3260,7 @@ sys_mil_init = {
     }
 
     planet = {
-        name = "NAME_Chalkhos"
+        name = "Chalkhos"
         class = "pc_arid"
         orbit_distance = 20
         orbit_angle = 196
@@ -3270,7 +3270,7 @@ sys_mil_init = {
     }
 
     planet = {
-        name = "NAME_Selvos"
+        name = "Selvos"
         class = "pc_desert"
         orbit_distance = 30
         orbit_angle = 343
@@ -3280,14 +3280,14 @@ sys_mil_init = {
     }
 
 	planet = {
-		name = "NAME_Mylasi"
+		name = "Mylasi"
 		class = "pc_asteroid"
 		orbit_distance = 30
 		size = 1
 	}	
 
     planet = {
-        name = "NAME_Terapso"
+        name = "Terapso"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 250
@@ -3305,7 +3305,7 @@ sys_mil_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "omeganebula_sigurdscradle_massrelay" 
-			name = "NAME_Sigurds_3_Relay"
+			name = "Sigurds_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 		} 
@@ -3313,7 +3313,7 @@ sys_mil_init = {
 }
 
 sys_psitophet_init = {
-    name = "NAME_Psi_Tophet"
+    name = "Psi_Tophet"
     class = "sc_g"
 
     planet = {
@@ -3323,7 +3323,7 @@ sys_psitophet_init = {
     }
 
     planet = {
-        name = "NAME_2181_Despoina"
+        name = "2181_Despoina"
         class = "pc_ocean"
         orbit_distance = 40
         orbit_angle = 318
@@ -3333,7 +3333,7 @@ sys_psitophet_init = {
     }
 
     planet = {
-        name = "NAME_2181_Arion"
+        name = "2181_Arion"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 59
@@ -3343,7 +3343,7 @@ sys_psitophet_init = {
     }
 
     planet = {
-        name = "NAME_2181_Eubolos"
+        name = "2181_Eubolos"
         class = "pc_gas_giant"
         orbit_distance = 50
         orbit_angle = 223
@@ -3361,7 +3361,7 @@ sys_psitophet_init = {
 	init_effect = { 
 		spawn_megastructure = { 
 			type = "radanaburst_sigurdscradle_massrelay" 
-			name = "NAME_Sigurds_4_Relay"
+			name = "Sigurds_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 170
 			
@@ -3370,7 +3370,7 @@ sys_psitophet_init = {
 }
 
 sys_skepsis_init = {
-    name = "NAME_Skepsis"
+    name = "Skepsis"
     class = "sc_g"
 
     planet = {
@@ -3380,7 +3380,7 @@ sys_skepsis_init = {
     }
 
     planet = {
-        name = "NAME_Wallace"
+        name = "Wallace"
         class = "pc_hot_jupiter"
         orbit_distance = 50
         orbit_angle = 26
@@ -3390,7 +3390,7 @@ sys_skepsis_init = {
     }
 
     planet = {
-        name = "NAME_Darwin"
+        name = "Darwin"
         class = "pc_hothouse"
         orbit_distance = 20
         orbit_angle = 174
@@ -3400,14 +3400,14 @@ sys_skepsis_init = {
     }
 
     planet = {
-        name = "NAME_Watson"
+        name = "Watson"
         class = "pc_alpine"
         orbit_distance = 30
         orbit_angle = 315
         has_ring = no
 		size = 16
         moon = {
-            name = "NAME_Franklin"
+            name = "Franklin"
             class = "pc_desolate"
             orbit_distance = 10
             orbit_angle = 180
@@ -3418,7 +3418,7 @@ sys_skepsis_init = {
     }
 
     planet = {
-        name = "NAME_Crick"
+        name = "Crick"
         class = "pc_cryovolcanic"
         orbit_distance = 20
         orbit_angle = 70
@@ -3428,7 +3428,7 @@ sys_skepsis_init = {
     }
 
     planet = {
-        name = "NAME_Pauling"
+        name = "Pauling"
         class = "pc_gas_giant"
         orbit_distance = 20
         orbit_angle = 192
@@ -3444,14 +3444,14 @@ sys_skepsis_init = {
     }
 
     planet = {
-        name = "NAME_Keimowitz"
+        name = "Keimowitz"
         class = "pc_desolate"
         orbit_distance = 20
         orbit_angle = 262
         has_ring = no
 		size = 25
 		moon = {
-			name = "NAME_Noa"
+			name = "Noa"
 			class = "pc_desolate"
 			orbit_distance = 8
 			size = 7
@@ -3461,7 +3461,7 @@ sys_skepsis_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "sigurdscradle_titannebula_massrelay" 
-			name = "NAME_Sigurds_5_Relay"
+			name = "Sigurds_5_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3473,17 +3473,17 @@ sys_skepsis_init = {
 #####SIN'KELAR CLUSTER#####
 
 sys_grebosht_init = {
-	name = "NAME_Grebosht"
+	name = "Grebosht"
 	class = "sc_k_giant"
 	
 	planet = {
-		name = "NAME_Grebosht"
+		name = "Grebosht"
 		class = "pc_k_giant_star"
 		size = 30
 	}
 
 	planet = {
-		name = "NAME_Kaimorak"
+		name = "Kaimorak"
 		class = "pc_toxic_tundra"
 		orbit_distance = 60
 		size = 19
@@ -3498,29 +3498,29 @@ sys_grebosht_init = {
 }
 
 sys_silparon_init = {
-		name = "NAME_Silparon"
+		name = "Silparon"
 		class = "sc_g_giant"
 		
 	planet = {
-		name = "NAME_Palash"
+		name = "Palash"
 		class = "pc_g_giant_star"
 		size = 40
 	}
 
 	planet = {
-		name = "NAME_Palash"
+		name = "Palash"
 		class = "pc_hot_jupiter"
 		orbit_distance = 30
 		size = 35
 	}	
 		
 	planet = {
-		name = "NAME_Ukiro"
+		name = "Ukiro"
 		class = "pc_toxic_tundra"
 		orbit_distance = 40
 		size = 8
 		moon = {
-			name = "NAME_Ukiro_a"
+			name = "Ukiro_a"
 			class = "pc_desolate"
 			orbit_distance = 8 
 			size = 6
@@ -3528,7 +3528,7 @@ sys_silparon_init = {
 	}
 
 	planet = {
-		name = "NAME_Ahnkedar"
+		name = "Ahnkedar"
 		class = "pc_arid"
 		orbit_distance = 50
 		size = 20
@@ -3536,7 +3536,7 @@ sys_silparon_init = {
 }	
 
 sys_jath_int = {
-	name = "NAME_Jath"
+	name = "Jath"
 	class = "sc_black_hole"
 	
 	asteroid_belt = {
@@ -3555,20 +3555,20 @@ sys_jath_int = {
 	}	
 	
 	planet = {
-		name = "NAME_Jath"
+		name = "Jath"
 		class = "pc_black_hole"
 		size = 40
 	}
 
 	planet = {
-		name = "NAME_Perah"
-		class = "pc_white_dwarf"
+		name = "Perah"
+		class = "pc_d_star"
 		size = 14
 		orbit_distance = 35
 	}
 
 	planet = {
-		name = "NAME_AmonOche"
+		name = "AmonOche"
 		class = "pc_molten"
 		orbit_distance = 60
 		size = 25
@@ -3576,7 +3576,7 @@ sys_jath_int = {
 }	
 
 sys_essul_init = {
-	name = "NAME_Essul"
+	name = "Essul"
 	class = "sc_g"
 	
 	asteroid_belt = {
@@ -3590,26 +3590,26 @@ sys_essul_init = {
 	}	
 	
 	planet = {
-		name = "NAME_Essul"
+		name = "Essul"
 		class = "pc_g_star"
 		size = 30
 	}
 
     planet = {
-        name = "NAME_Bekke"
+        name = "Bekke"
         class = "pc_toxic_desert"
         orbit_distance = 50
         orbit_angle = 49
         has_ring = no
 		size = 14
 		moon = {
-			name = "NAME_Mascus"
+			name = "Mascus"
 			class = "pc_desolate"
 			orbit_distance = 6
 			size = 6
 		}
 		moon = {
-			name = "NAME_Chim"
+			name = "Chim"
 			class = "pc_asteroid"
 			orbit_distance = 10
 			size = 3
@@ -3617,7 +3617,7 @@ sys_essul_init = {
     }
 	
 	planet = {
-		name = "NAME_Nuzark"
+		name = "Nuzark"
 		class = "pc_ice_giant"
 		orbit_distance = 200
 		size = 27
@@ -3629,7 +3629,7 @@ sys_essul_init = {
             orbit_angle = { min = 90 max = 270 }
         }
 		moon = {
-			name = "NAME_Sahi_Dau"
+			name = "Sahi_Dau"
 			class = "pc_ammonia_alpine"
 			orbit_distance = 14
 			size = 10
@@ -3639,7 +3639,7 @@ sys_essul_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "nemeanalpha_sinkelarcluster_massrelay" 
-			name = "NAME_Sinkelar_Relay"
+			name = "Sinkelar_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3651,29 +3651,29 @@ sys_essul_init = {
 #####TITAN NEBULA#####
 
 sys_brikhaun_init = {
-	name = "NAME_Brikhaun"
+	name = "Brikhaun"
 	class = "sc_f"
 	
 	planet = {
-		name = "NAME_Brikhaun"
+		name = "Brikhaun"
 		class = "pc_f_star"
 		size = 30
 	}	
 	
 	planet = {
-		name = "NAME_Thrednakka"
+		name = "Thrednakka"
 		class = "pc_arid"
 		orbit_distance = 60
 		size = 18
 	}	
 	
 	planet = {
-		name = "NAME_Cyrene"
+		name = "Cyrene"
 		class = "pc_gas_giant"
 		orbit_distance = 50
 		size = 36
 		moon = {
-			name = "NAME_Idmon"
+			name = "Idmon"
 			class = "pc_savannah"
 			orbit_distance = 10
 			size = 7
@@ -3682,18 +3682,18 @@ sys_brikhaun_init = {
 }
 
 sys_haskins_init = {
-    name = "NAME_Haskins"
+    name = "Haskins"
     class = "sc_a"
 
     planet = {
-	    name = "NAME_Haskins"
+	    name = "Haskins"
         class = "pc_a_star"
         orbit_distance = 0
         size = 25
     }
 
     planet = {
-        name = "NAME_Capek"
+        name = "Capek"
         class = "pc_toxic_desert"
         orbit_distance = 80
         orbit_angle = 331
@@ -3705,7 +3705,7 @@ sys_haskins_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "sigurdscradle_titannebula_massrelay" 
-			name = "NAME_Titan_Relay"
+			name = "Titan_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3717,11 +3717,11 @@ sys_haskins_init = {
 #####VALHALLAN THRESHOLD#####
 
 sys_micah_init = {
-    name = "NAME_Micah"
+    name = "Micah"
     class = "sc_g"
 
     planet = {
-	    name = "NAME_Micah"
+	    name = "Micah"
         class = "pc_g_star"
         orbit_distance = 0
         size = 20
@@ -3738,7 +3738,7 @@ sys_micah_init = {
 	}
 
     planet = {
-        name = "NAME_Elohi"
+        name = "Elohi"
         class = "pc_gas_giant"
         orbit_distance = 40
         orbit_angle = 265
@@ -3747,14 +3747,14 @@ sys_micah_init = {
     }
 
     planet = {
-        name = "NAME_Dumah"
+        name = "Dumah"
         class = "pc_gas_giant"
         orbit_distance = 20
         orbit_angle = 88
         has_ring = no
 		size = 34
         moon = {
-            name = "NAME_Anafiel"
+            name = "Anafiel"
             class = "pc_desolate"
             orbit_distance = 20
             orbit_angle = 180
@@ -3765,7 +3765,7 @@ sys_micah_init = {
     }
 
     planet = {
-        name = "NAME_Farlas"
+        name = "Farlas"
         class = "pc_asteroid"
         orbit_distance = 40
         orbit_angle = 214
@@ -3775,7 +3775,7 @@ sys_micah_init = {
     }
 
     planet = {
-        name = "NAME_Israfil"
+        name = "Israfil"
         class = "pc_asteroid"
         orbit_distance = 0
         orbit_angle = 234
@@ -3785,7 +3785,7 @@ sys_micah_init = {
     }
 
     planet = {
-        name = "NAME_Kakabel"
+        name = "Kakabel"
         class = "pc_asteroid"
         orbit_distance = 0
         orbit_angle = 246
@@ -3797,7 +3797,7 @@ sys_micah_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "byenzinecloud_vallhallanthreshold_massrelay" 
-			name = "NAME_Valhallan_1_Relay"
+			name = "Valhallan_1_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3806,18 +3806,18 @@ sys_micah_init = {
 }
 
 sys_paz_init = {
-    name = "NAME_Paz"
+    name = "Paz"
     class = "sc_a"
 
     planet = {
-	    name = "NAME_Paz"
+	    name = "Paz"
         class = "pc_a_star"
         orbit_distance = 0
         size = 28
     }
 
     planet = {
-        name = "NAME_Garvug"
+        name = "Garvug"
         class = "pc_tundra"
         orbit_distance = 60
         orbit_angle = 313
@@ -3835,7 +3835,7 @@ sys_paz_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "sigurdscradle_vallhallanthreshold_massrelay" 
-			name = "NAME_Valhallan_2_Relay"
+			name = "Valhallan_2_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3845,7 +3845,7 @@ sys_paz_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "hourglassnebula_vallhallanthreshold_massrelay" 
-			name = "NAME_Valhallan_3_Relay"
+			name = "Valhallan_3_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			
@@ -3854,7 +3854,7 @@ sys_paz_init = {
 }
 
 sys_raheelleyya_init = {
-    name = "NAME_Raheel-Leyya"
+    name = "Raheel-Leyya"
     class = "sc_binary_b_b"
 
     asteroid_belt = {
@@ -3864,7 +3864,7 @@ sys_raheelleyya_init = {
 
     planet = {
         class = "pc_b_giant_star"
-        name = "NAME_Raheel-Leyya_A"
+        name = "Raheel-Leyya_A"
         size = 15
         orbit_distance = 30
         orbit_angle = { min = 90 max = 270 }
@@ -3872,7 +3872,7 @@ sys_raheelleyya_init = {
 
     planet = {
         class = "pc_b_giant_star"
-        name = "NAME_Raheel-Leyya_B"
+        name = "Raheel-Leyya_B"
         size = 25 
         orbit_distance = 0
         orbit_angle = 180
@@ -3881,7 +3881,7 @@ sys_raheelleyya_init = {
     init_effect = { 
 		spawn_megastructure = { 
 			type = "theshrikeabyssal_vallhallanthreshold_massrelay" 
-			name = "NAME_Valhallan_4_Relay"
+			name = "Valhallan_4_Relay"
 			orbit_angle = random 
 			orbit_distance = 200
 			

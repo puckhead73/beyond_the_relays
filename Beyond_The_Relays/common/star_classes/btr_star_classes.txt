@@ -1542,6 +1542,34 @@ sc_tt_white = {
 
 }
 
+# None
+sc_none = {
+	class 			= none
+	planet			= {pc_none}
+	spawn_odds 		= 0.8
+	num_planets 	= { min = 1 max = 4 }
+	
+	icon_scale		= 1.5
+	
+	pc_gas_giant	= { spawn_odds = 0 }
+	pc_desert 		= { spawn_odds = 0 }
+	pc_tropical 	= { spawn_odds = 0 }
+	pc_arid 		= {	spawn_odds = 0 }
+	pc_continental 	= { spawn_odds = 0 }
+	pc_ocean 		= { spawn_odds = 0 }
+	pc_tundra 		= { spawn_odds = 0 }
+	pc_arctic 		= { spawn_odds = 0 }
+	pc_gaia			= { spawn_odds = 0 }
+	pc_alpine		= { spawn_odds = 0 }
+	pc_savannah		= { spawn_odds = 0 }
+	
+	is_environmental_hazard = yes
+	modifier = {
+		ship_disengage_chance_reduction = 0.5
+		ship_emergency_ftl_min_days_mult = 0.5
+	}
+}
+
 random_list = {
 	name = "btr_all_stars"
 	stars = {
