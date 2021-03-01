@@ -1,0 +1,20 @@
+# Advanced Resouces
+
+element_zero = {
+	tradable = yes
+	market_amount = 10
+	market_price = 300
+	max = 1000
+	
+	prerequisites = { "tech_mine_eezo_extraction" }
+	
+	deficit_modifier = element_zero_deficit #found in static modifiers
+	
+	ai_weight = {
+		weight = 10
+	}
+
+	ai_wants = {
+		base = 10
+	}
+}

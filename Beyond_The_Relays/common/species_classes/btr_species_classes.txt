@@ -13,6 +13,43 @@
 # gender: yes|no (default: yes). whether the species have a gender
 # portrait_modding: yes|no (default: no). whether the portrait can be modified with genemodding/robomodding
 
+ASA = {
+	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = {
+		"asari"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"asari"
+	}
+
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+COL = {
+	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = {
+		"collector"
+	}
+
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"collector"
+	}
+
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+
 QUA = {
 	archetype = BIOLOGICAL
 

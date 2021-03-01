@@ -20,6 +20,8 @@ quarian_female_hair_01 = {
 		random = {
 			list = {
 				"gfx/models/portraits/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_1.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_2.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_3.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"
 			}
@@ -36,6 +38,7 @@ quarian_female_hair_01 = {
 			trigger = { leader_class = general }
 			list = {
 				"gfx/models/portraits/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_1.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_2.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_3.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"
@@ -46,6 +49,7 @@ quarian_female_hair_01 = {
 			trigger = { leader_class = admiral }
 			list = {
 				"gfx/models/portraits/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_1.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_2.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_3.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"
@@ -55,7 +59,11 @@ quarian_female_hair_01 = {
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
+				"gfx/models/portraits/quarian/quarian_female_hair.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_1.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_2.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_3.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"
 			}
 		}		
 		
@@ -63,6 +71,7 @@ quarian_female_hair_01 = {
 			trigger = { leader_class = governor }
 			list = {
 				"gfx/models/portraits/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_1.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_2.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_3.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"
@@ -80,6 +89,7 @@ quarian_female_hair_01 = {
 				
 			list = {
 				"gfx/models/portraits/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_1.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_2.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_3.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"
@@ -93,9 +103,10 @@ quarian_female_hair_01 = {
 			
 			list = {
 				"gfx/models/portraits/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/quarian/quarian_female_hair_1.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_2.dds"
 				"gfx/models/portraits/quarian/quarian_female_hair_3.dds"
-				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"					
+				"gfx/models/portraits/quarian/quarian_female_hair_4.dds"				
 			}
 		}		
 		

@@ -1,0 +1,50 @@
+##################
+# Species Traits #
+##################
+
+trait_asari = {
+	cost = 0
+	#initial = no
+	modification = no
+	randomized = no
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {	
+		tile_resource_food_mult = -0.2
+		tile_resource_energy_mult = -0.05
+		tile_resource_minerals_mult = -0.05
+		tile_resource_engineering_research_mult = 0.1
+		tile_resource_physics_research_mult = 0.03
+		tile_resource_society_research_mult = 0.01
+		pop_environment_tolerance = -0.30
+		pop_growth_req_mult = 0.05
+		pop_migration_time = -0.5
+		pop_resettlement_cost_mult = -0.5
+		pop_happiness = 0.05
+		pop_other_species_happiness = -0.01
+		pop_government_ethic_attraction = -0.05
+		 
+	}
+}
+
+trait_quarian = {
+	cost = 0
+	#initial = no
+	modification = no
+	randomized = no
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {	
+		tile_resource_food_mult = -0.2
+		tile_resource_energy_mult = -0.05
+		tile_resource_minerals_mult = -0.05
+		tile_resource_engineering_research_mult = 0.1
+		tile_resource_physics_research_mult = 0.03
+		tile_resource_society_research_mult = 0.01
+		pop_environment_tolerance = -0.30
+		pop_growth_req_mult = 0.05
+		pop_migration_time = -0.5
+		pop_resettlement_cost_mult = -0.5
+		pop_happiness = 0.05
+		pop_other_species_happiness = -0.01
+		 pop_government_ethic_attraction = -0.05
+	}	
+}

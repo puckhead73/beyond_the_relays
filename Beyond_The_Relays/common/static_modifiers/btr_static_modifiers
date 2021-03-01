@@ -1,0 +1,5 @@
+element_zero_deficit = {
+	ship_weapon_damage = -0.75
+	ship_shield_mult = -0.75
+	ship_speed_reduction = -0.90
+}

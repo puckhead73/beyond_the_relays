@@ -8,6 +8,16 @@ ASA = {
 	}
 }
 
+COL = {
+	collector = {
+		name = Collector
+		plural = Collectors
+		home_planet = "Collector Base"
+		home_system = "Galactic Core"
+		name_list = "collectornames"
+	}
+}
+
 QUA = {
 	quarian = {
 		name = Quarian

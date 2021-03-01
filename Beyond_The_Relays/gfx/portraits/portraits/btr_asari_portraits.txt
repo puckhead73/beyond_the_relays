@@ -1,0 +1,80 @@
+portraits = {
+	asari_female_01 = {	entity = "portrait_asari_female_01_entity"	clothes_selector = "asari_female_clothes_01" hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { 
+			"gfx/models/portraits/asari/asari_female_body_01.dds" 
+		}
+	}
+	asari_female_02 = {	entity = "portrait_asari_female_02_entity"	clothes_selector = "asari_female_clothes_01" hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { 
+			"gfx/models/portraits/asari/asari_female_body_02.dds" 
+	}
+}
+}
+
+portrait_groups = {
+	asari = {
+		
+		default = asari_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					asari_female_01
+					asari_female_02
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					asari_female_01
+					asari_female_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					asari_female_01
+					asari_female_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					asari_female_01
+					asari_female_02
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					asari_female_01
+					asari_female_02
+				}
+			}
+
+		}
+	}
+}
