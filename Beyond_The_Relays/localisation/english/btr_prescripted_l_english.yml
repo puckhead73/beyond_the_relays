@@ -1,0 +1,94 @@
+﻿l_english:
+
+ ####################################
+ # Asari Prescripted Localization
+ ####################################
+
+ name_list_asarinames:0 "Asari"
+ name_list_asarinames_desc:0 "Blurb about Asari"
+ trait_asari:0 "Asari"
+ trait_asari_desc:0 "The Asari....."
+
+ ####################################
+ # Asari Species Class Localization
+ ####################################
+  
+ ASA:0 "Asari"
+ ASA_desc:1 "Species Class has no effect on your Empire, but Humanoid-class Species may consider other Humanoids to be less alien than other Species Classes."
+ ASA_plural:0 "Asari"
+ ASA_insult_01:0 "beast"
+ ASA_insult_plural_01:0 "beasts"
+ ASA_compliment_01:0 "sphinx"
+ ASA_compliment_plural_01:0 "sphinxes"
+ ASA_spawn:0 "cub"
+ ASA_spawn_plural:0 "cubs"
+ ASA_sound_01:0 "growling"
+ ASA_sound_02:0 "grunting"
+ ASA_sound_03:0 "yapping"
+ ASA_sound_04:0 "yowling"
+ ASA_sound_05:0 "mewling"
+ ASA_organ:0 "stomach"
+ ASA_mouth:0 "mouth"
+ ASA_hand:0 "hand"
+
+ ####################################
+ # Collector Prescripted Localization
+ ####################################
+
+ name_list_collectornames:0 "Collector"
+ name_list_collectornames_desc:0 "Blurb about Collector"
+ trait_collector:0 "Collector"
+ trait_collector_desc:0 "The Collector....."
+
+ ####################################
+ # Collector Species Class Localization
+ ####################################
+  
+ COL:0 "Collector"
+ COL_desc:1 "Species Class has no effect on your Empire, but Humanoid-class Species may consider other Humanoids to be less alien than other Species Classes."
+ COL_plural:0 "Collector"
+ COL_insult_01:0 "beast"
+ COL_insult_plural_01:0 "beasts"
+ COL_compliment_01:0 "sphinx"
+ COL_compliment_plural_01:0 "sphinxes"
+ COL_spawn:0 "cub"
+ COL_spawn_plural:0 "cubs"
+ COL_sound_01:0 "growling"
+ COL_sound_02:0 "grunting"
+ COL_sound_03:0 "yapping"
+ COL_sound_04:0 "yowling"
+ COL_sound_05:0 "mewling"
+ COL_organ:0 "stomach"
+ COL_mouth:0 "mouth"
+ COL_hand:0 "hand"
+
+ ####################################
+ # Quarian Prescripted Localization
+ ####################################
+
+ name_list_quariannames:0 "Quarians"
+ name_list_quariannames_desc:0 "Blurb about Quarians"
+ trait_quarian:0 "Quarian"
+ trait_quarian_desc:0 "The quarians are a nomadic species of humanoid aliens known for their skills with technology and synthetic intelligence. Since their homeworld Rannoch was conquered, the quarians live aboard the Migrant Fleet, a huge collection of starships."
+
+ ####################################
+ # Quarian Species Class Localization
+ ####################################
+  
+ QUA:0 "Quarians"
+ QUA_desc:1 "Species Class has no effect on your Empire, but Humanoid-class Species may consider other Humanoids to be less alien than other Species Classes."
+ QUA_plural:0 "Quarians"
+ QUA_insult_01:0 "beast"
+ QUA_insult_plural_01:0 "beasts"
+ QUA_compliment_01:0 "sphinx"
+ QUA_compliment_plural_01:0 "sphinxes"
+ QUA_spawn:0 "cub"
+ QUA_spawn_plural:0 "cubs"
+ QUA_sound_01:0 "growling"
+ QUA_sound_02:0 "grunting"
+ QUA_sound_03:0 "yapping"
+ QUA_sound_04:0 "yowling"
+ QUA_sound_05:0 "mewling"
+ QUA_organ:0 "stomach"
+ QUA_mouth:0 "mouth"
+ QUA_hand:0 "hand"

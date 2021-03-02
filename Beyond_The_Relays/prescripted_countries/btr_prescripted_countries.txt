@@ -1,0 +1,141 @@
+asari = {
+	adjective="Asari Republics"
+	name="Asari Republics"
+	spawn_enabled = yes
+	spawn_as_fallen=no
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_asari"
+
+	species={
+		class="ASA"
+		portrait="asari"
+		name="Asari"
+		plural="Asari"
+		adjective="Asari"
+		name_list="quariannames"
+		trait="trait_asari"
+		trait="trait_charismatic"
+		trait="trait_intelligent"
+		trait="trait_communal"
+		trait="trait_weak"
+		trait="trait_nonadaptive"
+	}
+
+	room = "quarian_flotilla_room"
+
+	authority="auth_democratic"
+	civics= { "civic_diplomatic_corps" "civic_parliamentary_system" }
+	government="gov_representative_democracy"
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_xenophile"
+	origin="origin_common_ground"
+
+	flags = { human_1 custom_start_screen }
+
+	planet_name="Thessia"
+	planet_class="pc_ocean"
+	initializer="ssb_parnitha_system_initializer"
+	system_name="Parintha"
+
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+
+	empire_flag={
+		icon={
+			category="masseffect"
+			file="Asari Republics.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler={
+		gender=female
+		name="Liana T'Soni"
+		portrait="asari_female_01"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+
+}
+
+quarians = {
+	adjective = "PRESCRIPTED_species_adjective_quarians"
+	name="Quarian Migrant Fleet"
+	spawn_enabled = yes
+	spawn_as_fallen=no
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_quarians"
+	
+	species = {
+		class = "QUA"
+		portrait = "quarian"
+		name = "Quarian Migrant Fleet"
+		plural = "Quarians"
+		adjective = "Quarian"
+		name_list="quariannames"
+		trait="trait_quarian"
+		trait="trait_intelligent"
+		trait="trait_communal"
+		trait="trait_nomadic"
+		trait="trait_nonadaptive"
+	}
+	
+	room = "quarian_flotilla_room"
+	
+	authority="auth_oligarchic" 
+	civics={ "civic_functional_architecture" "civic_byzantine_bureaucracy" }
+	government="gov_executive_committee"
+	
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	origin="origin_mechanists"
+
+	flags = { human_1 custom_start_screen }
+	
+	planet_name="Rannoch"
+	planet_class="pc_continental"
+	initializer="sb_tikkun_system_initializer"
+	system_name="Tikkun"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "masseffect"
+			file = "Migrant Fleet.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Tali Zora Vas Normandy"
+		gender = female
+		portrait = "quarian_female_01"
+		texture = 0
+		hair = 1
+		clothes = 0
+		leader_class = ruler
+	}
+}

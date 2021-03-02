@@ -1,0 +1,29 @@
+ASA = {
+	asari = {
+		name = Asari
+		plural = Asari
+		home_planet = Thessia
+		home_system = Xotranehika
+		name_list = "asarinames"
+	}
+}
+
+COL = {
+	collector = {
+		name = Collector
+		plural = Collectors
+		home_planet = "Collector Base"
+		home_system = "Galactic Core"
+		name_list = "collectornames"
+	}
+}
+
+QUA = {
+	quarian = {
+		name = Quarian
+		plural = Quarians
+		home_planet = Rannoch
+		home_system = Tikkun
+		name_list = "quariannames"
+	}
+}

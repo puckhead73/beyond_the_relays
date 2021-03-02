@@ -1,136 +1,276 @@
 ﻿l_english:
-
  ###################################################
  # Codex Modifiers
  ###################################################
- 
- #####ATTICAN TRAVERSE#####
- 
+ #####MASS EFFECT 1#####
+ ####Argos Rho####
+ ###Gorgon###
+ #Wuo
+ wuo_codex_modifier:0 "Wuo"
+ wuo_codex_modifier_desc:0 "Wuo is a terrestrial planet only known from scan data picked up by unmanned probes. Though over 76 AU from the blue giant Gorgon, temperatures in Wuo's orbit are still dangerously high. Only ships with very powerful heat radiating systems can venture that deep into the system. Fortunately, Wuo is not a terribly interesting world. It has a thin atmosphere of nitrogen and methane, and the scorching surface is mainly composed of alumina with deposits of platinum. The world is tidally locked to Gorgon, leaving the sunward side a scorched and irradiated wasteland, and the dark side frigid and ice-crusted."
+ #Vectra
+ vectra_codex_modifier:0 "Vectra"
+ vectra_codex_modifier_desc:0 "Vectra is a typical hydrogen-helium gas giant with traces of methane and sodium in its atmosphere. The heat of the star Gorgon is slowly blasting away the gas giant's massive atmosphere, which is visible as a long, dim tail that trails behind the planet."
+ #Camaron
+ camaron_codex_modifier:0 "Camaron"
+ camaron_codex_modifier_desc:0 "Camaron is a terrestrial world with a thin atmosphere of carbon dioxide and argon. The surface is scorching hot, primarily composed of iron with deposits of nickel. Like Wuo, Camaron is tide-locked to the blue giant, forever 'looking into the face of the Gorgon.'"
+ #Sharblu
+ sharblu_codex_modifier:0 "Sharblu"
+ sharblu_codex_modifier_desc:0 "A standard hydrogen-helium gas giant, the methane in Sharblu's atmosphere gives it an azure hue. The asari crew who initially surveyed the system (during Earth's 17th century) named Sharblu after a then-popular soprano. The singer was renowned for her unusual skin tone, which was quite similar to that of the planet."
+ #Slekon
+ slekon_codex_modifier:0 "Slekon"
+ slekon_codex_modifier_desc:0 "Orbiting at an unbelievable distance of 710 AU (over 66 billion kilometers) from Gorgon, Slekon is a huge gas giant, with an atmosphere tainted by methane and chlorine."
+ ###Hydra###
+ #Varmalus
+ varmalus_codex_modifier:0 "Varmalus"
+ varmalus_codex_modifier_desc:0 "Varmalus has a thick atmosphere of nitrogen and helium. Its surface is scorching hot, and mainly composed of alumina with deposits of borax. The planet has an extensive network of subterranean caves, formed over the millennia by volcanic processes. In these relatively cool areas, some primitive life has developed."
+ #Metgos
+ metgos_codex_modifier:0 "Metgos"
+ metgos_codex_modifier_desc:0 "Metgos is a large terrestrial planet with an atmosphere of carbon dioxide and nitrogen. Its hot surface is mainly composed of nickel with deposits of potassium and heavy metals. It is a mineralogical treasure trove, with concentrated heavy elements constantly being brought to the surface by volcanic activity. Metgos is inhospitable and dangerous, and expeditions must be well-prepared to survive any length of time. With its high mass, heat-trapping clouds and constant volcanic venting, Metgos seems well on its way to becoming a Venusian 'pressure cooker' world."
+ #Theyar
+ theyar_codex_modifier:0 "Theyar"
+ theyar_codex_modifier_desc:0 "Theyar is a large gas giant with traces of chlorine and sodium in its atmosphere. It also has a significant amount of water vapor in the clouds of its upper atmosphere. Theyar was struck by an asteroid at least 12 kilometers in diameter within the last hundred years. The superheating caused by the impactor's atmospheric passage created a large bank of vicious storms along the equatorial band."
+ #Canrum
+ canrum_codex_modifier:0 "Canrum"
+ canrum_codex_modifier_desc:0 "Canrum is a small, rocky world with a trace atmosphere of methane and krypton. Its surface is mainly composed of magnesium and silicates with deposits of carbon. Canrum was the site of the warlord Shiagur's defeat by turian peacekeeping forces during the Krogan Rebellions. While this band was not especially powerful, Shiagur was a female warlord – and one of the few remaining fertile females, at that. She had, through viciousness and cunning, parlayed her unique value into a position of power. Krogan males competed for the right to join her band and lie with her. When Shiagur's death was announced, vengeful male krogan admirers near and far swore blood oaths against the participating turian crews. In the end, several thousand of the turian participants were killed in open combat or through assassination. To this day, many krogan proudly proclaim that they have the 'blood of Shiagur.'"
+ #Syba
+ syba_codex_modifier:0 "Syba"
+ syba_codex_modifier_desc:0 "Syba is a standard Neptune-type gas giant, the upper cloud decks of its hydrogen-helium atmosphere tinted a dramatic blue by traces of methane."
+ ###Phoenix###
+ #Patashi
+ patashi_codex_modifier:0 "Patashi"
+ patashi_codex_modifier_desc:0 "Patashi is a sun-blasted terrestrial world whose atmosphere was blasted away millennia ago by the star Phoenix. The surface is scorching hot, and mainly composed of iron with deposits of tin. Due to its relatively low density, Patashi is tidally locked to Phoenix. Seas of molten light metals cover much of the sunward side."
+ #Sylsalto
+ sylsalto_codex_modifier:0 "Sylsalto"
+ sylsalto_codex_modifier_desc:0 "Sylsalto is a standard hydrogen-helium gas giant. It has no remarkable features."
+ #Intal'sei
+ intalsei_codex_modifier:0 "Intal'sei"
+ intalsei_codex_modifier_desc:0 "An atmosphere similar to Earth's made Intai'sei an early candidate for human colonization. However, prohibitively high temperatures and an arid climate have proven a hindrance to terraforming and agriculture. A few human cities were founded, but the majority of the human population on Intai'sei remains scattered across the vast deserts, operating wind farms and geological research stations."
+ #Tuntau
+ tuntau_codex_modifier:0 "Tuntau"
+ tuntau_codex_modifier_desc:0 "Tuntau is an enormous, low-density terrestrial planet, with a thick atmosphere of methane and helium. Despite being nearly 20 AU from Phoenix, the star's great heat and the insulating thickness of the atmosphere make the surface surprisingly temperate. The crust is mainly composed of sodium and silicon dioxide with deposits of various light metals. While Tuntau is not habitable, the relative pleasantness of the surface conditions make it a popular location for small ships traveling through the Argos Rho cluster to land for drive discharge."
+ #Pinnacle Station
+ pinnacle_codex_modifier:0 "Pinnacle"
+ pinnacle_codex_modifier_desc:0 "The asteroid-based Pinnacle Station was originally constructed as a concealed command center during the Krogan Rebellions. It has been retrofitted as a military training facility for all high-level special operations teams employed by the Council. The station's combat simulator allows teams to train under a variety of hazardous conditions."
+ #Vebinok
+ vebinok_codex_modifier:0 "Vebinok"
+ vebinok_codex_modifier_desc:0 "Vebinok is a small terrestrial world with a thin atmosphere of krypton and xenon. Its frozen surface is mainly composed of carbonaceous material, water ice, and low-density silicates. Rare but concentrated lodes of light metals have been deposited by asteroid impacts. One hemisphere of Vebinok is covered by surface deposits of oxidized copper. Approximately 270 years ago a turian bulk gas transport was attacked by pirates in the Phoenix system. Damaged, it made a rough landing on Vebinok. The heat of the landing melted significant quantities of surface ice, and ruptured shipping containers spilled LOX across the surface. Before this evaporated and escaped Vebinok's weak gravity, it reacted to cause the widespread rust."
  ####Armstrong Nebula####
- 
  ###Gagarin###
- 
  #Junthor
  junthor_codex_modifier:0 "Junthor"
- junthor_codex_modifier_desc:0 "Junthor is a large terrestrial planet with a thick atmosphere of carbon dioxide and chlorine. The surface is mainly composed of aluminum with deposits of nickel. Surveyors found the ruins of a technical civilization near the equator — evidently the colony of an ancient spacefaring race. The ruins had subsided to almost nothing — merely wind hollowed husks of arcologies and other megastructures. In the center of the ruins was a single column whose inscriptions defied translation for several centuries. When asari linguists finally managed a translation, the elaborate relief carvings said merely, "Walk among these works, and know our greatness." The crude scratches on the base of the reverse side said, "Monsters from the id." 
- 
+ junthor_codex_modifier_desc:0 "Junthor is a large terrestrial planet with a thick atmosphere of carbon dioxide and chlorine. The surface is mainly composed of aluminum with deposits of nickel. Surveyors found the ruins of a technical civilization near the equator — evidently the colony of an ancient spacefaring race. The ruins had subsided to almost nothing — merely wind hollowed husks of arcologies and other megastructures. In the center of the ruins was a single column whose inscriptions defied translation for several centuries. When asari linguists finally managed a translation, the elaborate relief carvings said merely, 'Walk among these works, and know our greatness.' The crude scratches on the base of the reverse side said, 'Monsters from the id.'" 
  #Pressha
  pressha_codex_modifier:0 "Pressha"
  pressha_codex_modifier_desc:0 "Pressha is a relatively small hydrogen-helium gas giant with large amounts of hydrocarbons in the middle layers of the atmosphere. When the Krogan Rebellions ended three millennia ago, the turian chief of naval operations, a distinguished soldier named Mehrkuri, declared his immediate retirement. He disappeared into what was then uncharted territory. It was only two hundred years ago that his ship was found on the surface of Pressha's largest moon. It had landed gently and been deliberately shut down. Of Admiral Mehrkuri, however, no trace was ever found."
- 
  #Rayingri
  rayingri_codex_modifier:0 "Rayingri"
  rayingri_codex_modifier_desc:0 "Rayingri is a small, barren terrestrial world. While it possesses a reasonably temperate climate and a number of useful resources, no mining corporation is willing to risk substantial investment. A rogue planetoid, dubbed Vahtz by the initial salarian surveyor team, entered the system approximately ten thousand years ago, and was trapped in a decaying orbit around Rayingri. It is nearing the end of its slow spiral inwards. Earthquakes and cyclonic windstorms are increasingly common on Rayingri. Within a few hundred years, the planets will rip each other apart."
- 
  #Vahtz
  vahtz_codex_modifier:0 "Vahtz"
  vahtz_codex_modifier_desc:0 "A rogue planetoid trapped in a decaying orbit around Rayingri, the tidal effects of Vahtz are creating earthquakes and cylconic windstorms increasingly common. Within a few hundred years, the planets will rip each other apart. Some asari travel consortiums have already announced sponsorship of cruises to observe the spectacle."
- 
  #Sogelrus
  sogelrus_codex_modifier:0 "Sogelrus"
  sogelrus_codex_modifier_desc:0 "Sogelrus is a small terrestrial planet with a thin atmosphere of nitrogen and argon. The frigid surface is mainly composed of water ice, which can be plainly seen in the bottoms of recent craters. The dark coloration of the surface is caused by a carbon and ferrous material, pushed up from the denser core by cryovolcanic processes."
- 
  #Antirumgon
  antirumgon_codex_modifier:0 "Antirumgon"
  antirumgon_codex_modifier_desc:0 "Antirumgon is a small rock and ice planet, with a trace atmosphere of methane and ethane. The frozen surface is mainly composed of carbon with deposits of calcium. Antirumgon has been used as a crude anchorage for Terminus pirates for many years. The shells of temporary dwellings blasted by Alliance frigate patrols dot the surface. But always, the pirates return to ground their ships' drive charges, chip out some water ice, and trade slaves and stories. The deeper layers of Antirumgon's interior are semi-liquid slush, due to the presence of methanol. It is thought that bacterium in the deep core create this natural anti-freeze. Some species of Terminus pirate drill through the ice crust to recover this natural alcohol."
- 
- 
  ###Grissom###
- 
  #Benda
  benda_codex_modifier:0 "Benda"
- benda_codex_modifier_desc:0 "Benda has a dense atmosphere of sulphur dioxide and chlorine. Though technically classified as a "terrestrial" world, the surface of the planet has never cooled enough for a crust to form. It is a global sea of molten rock. Like Zaherux, its atmosphere is being blasted away by the solar wind. Once its thick atmosphere is gone, Benda's surface will be a "mere" 400 degree C."
- 
+ benda_codex_modifier_desc:0 "Benda has a dense atmosphere of sulphur dioxide and chlorine. Though technically classified as a 'terrestrial' world, the surface of the planet has never cooled enough for a crust to form. It is a global sea of molten rock. Like Zaherux, its atmosphere is being blasted away by the solar wind. Once its thick atmosphere is gone, Benda's surface will be a 'mere' 400 degree C."
  #Zaherux
  zaherux_codex_modifier:0 "Zaherux"
- zaherux_codex_modifier_desc:0 "Zaherux's nitrogen-argon atmosphere is being blasted away by the solar wind of the blue giant Grissom. Its surface consists of "seas" of loose silica dust, some kilometers deep, which periodically swirl into global sandstorms. Many unmanned probes to Zaherux have been lost over the years. Though investigation has attributed all to mechanical failure or computational error, a popular extranet meme insists the entire planet is composed of dormant nanotechnology, created millennia ago by a race even more advanced than the Protheans. According to the story, Zaherux's silica dust is actually "disassembler" robots which periodically awaken to defend themselves. Though discounted by every reputable scientist, this theory has been popularized by a series of sensationalistic texts by asari author Delsae Orthysa."
- 
+ zaherux_codex_modifier_desc:0 "Zaherux's nitrogen-argon atmosphere is being blasted away by the solar wind of the blue giant Grissom. Its surface consists of 'seas' of loose silica dust, some kilometers deep, which periodically swirl into global sandstorms. Many unmanned probes to Zaherux have been lost over the years. Though investigation has attributed all to mechanical failure or computational error, a popular extranet meme insists the entire planet is composed of dormant nanotechnology, created millennia ago by a race even more advanced than the Protheans. According to the story, Zaherux's silica dust is actually 'disassembler' robots which periodically awaken to defend themselves. Though discounted by every reputable scientist, this theory has been popularized by a series of sensationalistic texts by asari author Delsae Orthysa."
  #Notanban
  notanban_codex_modifier:0 "Notanban"
- notanban_codex_modifier_desc:0 "Notanban is a hydrogen-helium gas giant with traces of ammonia. Molecular nitrogen is present in the highest levels of the atmosphere, giving the planet its odd violet tint. The upper levels of Notanban's atmosphere are inhabited by "shoals" of tiny ammonia-based lifeforms, no larger or more complex than the plankton of Earth's oceans. Held aloft by air pressure and wind, these bioluminescent creatures constantly flee from the approach of the terminator. Should they be exposed to the light and heat of Grissom, they die."
- 
+ notanban_codex_modifier_desc:0 "Notanban is a hydrogen-helium gas giant with traces of ammonia. Molecular nitrogen is present in the highest levels of the atmosphere, giving the planet its odd violet tint. The upper levels of Notanban's atmosphere are inhabited by 'shoals' of tiny ammonia-based lifeforms, no larger or more complex than the plankton of Earth's oceans. Held aloft by air pressure and wind, these bioluminescent creatures constantly flee from the approach of the terminator. Should they be exposed to the light and heat of Grissom, they die."
  #Solcrum
- 
  solcrum_codex_modifier:0 "Solcrum"
  solcrum_codex_modifier_desc:0 "Solcrum is the largest moon of the gas giant Notanban. It has a trace atmosphere of krypton and xenon. The crust is composed of various metals with deposits of sodium. As with every body in the solar system, the surface is scorching hot and thoroughly irradiated by the blue giant Grissom. Surface excursions without proper protective gear are certain to prove fatal. On approach to Notanban, Normandy's passive sensor array intercepted a fragmentary coded transmission from the surface of Solcrum. Attempts to decrypt the message were fruitless; it does not appear to be in any software coding language used by the Citadel races."
- 
- 
- ###HONG###
- 
+ ###Hong###
  #Pomal
  pomal_codex_modifier:0 "Pomal"
  pomal_codex_modifier_desc:0 "Pomal is an enormous terrestrial planet, with a very dense atmosphere of carbon dioxide and sodium. The surface is scorching hot, and mainly composed of sodium oxides and deposits of nickel. There is evidence that Pomal was once covered with broad, shallow seas. Should a probe ever be sent to the surface, a check for ancient fossil life might prove valuable."
- 
  #Casbin
  casbin_codex_modifier:0 "Casbin"
- casbin_codex_modifier_desc:0 "Casbin is a classic "pre-garden" terrestrial world, with conditions similar to those on Earth millions of years ago. Its hot, humid atmosphere is mainly composed of nitrogen and carbon dioxide. An increasing amount of the surface is covered by simple lichen and algae. Should no unexpected calamity occur, these tiny plants will change the atmosphere to an Earth-like nitrogen-oxygen mix over the next few millennia. Due to its potential for future habitability and sapient life, Casbin has been designated a Sanctuary World by the Citadel Council. Landing is prohibited by law, and any disturbance of the fragile young ecosystem will result in harsh fines and imprisonment. At present, the planet is passing through the debris trail of a long-period comet."
-  
+ casbin_codex_modifier_desc:0 "Casbin is a classic 'pre-garden' terrestrial world, with conditions similar to those on Earth millions of years ago. Its hot, humid atmosphere is mainly composed of nitrogen and carbon dioxide. An increasing amount of the surface is covered by simple lichen and algae. Should no unexpected calamity occur, these tiny plants will change the atmosphere to an Earth-like nitrogen-oxygen mix over the next few millennia. Due to its potential for future habitability and sapient life, Casbin has been designated a Sanctuary World by the Citadel Council. Landing is prohibited by law, and any disturbance of the fragile young ecosystem will result in harsh fines and imprisonment. At present, the planet is passing through the debris trail of a long-period comet."
  #Matar
  matar_codex_modifier:0 "Matar"
- matar_codex_modifier_desc:0 "Matar is a terrestrial planet with a thick atmosphere composed of nitrogen and krypton. Its frigid surface is mainly composed of sodium oxide with deposits of copper. Because of noxious surface gases, explorers are warned to use extreme caution. Matar lacks a magnetic field. This makes it useless for discharging FTL drive cores in orbit. The energetic particles of solar wind from Hong strike the upper atmosphere directly, ionizing the krypton. This gives the planet its distinctive "minty" green-white hue."
- 
+ matar_codex_modifier_desc:0 "Matar is a terrestrial planet with a thick atmosphere composed of nitrogen and krypton. Its frigid surface is mainly composed of sodium oxide with deposits of copper. Because of noxious surface gases, explorers are warned to use extreme caution. Matar lacks a magnetic field. This makes it useless for discharging FTL drive cores in orbit. The energetic particles of solar wind from Hong strike the upper atmosphere directly, ionizing the krypton. This gives the planet its distinctive 'minty' green-white hue."
  #Theshaca
  theshaca_codex_modifier:0 "Theshaca"
- theshaca_codex_modifier_desc:0 "Theshaca is a standard hydrogen-helium gas giant. In the past, it was often used as a drive discharge point for pirates raiding human settlements from the Terminus Systems. In 2178 the Alliance set up a network of covert sensing devices on Theshaca's moons. Recordings of pirate FTL exit vectors over the course of six months led the Alliance Navy to eight major pirate anchorages. Since the "Theshaca Raids," no ships from the Terminus have been reported in the Hong system."
- 
+ theshaca_codex_modifier_desc:0 "Theshaca is a standard hydrogen-helium gas giant. In the past, it was often used as a drive discharge point for pirates raiding human settlements from the Terminus Systems. In 2178 the Alliance set up a network of covert sensing devices on Theshaca's moons. Recordings of pirate FTL exit vectors over the course of six months led the Alliance Navy to eight major pirate anchorages. Since the 'Theshaca Raids,' no ships from the Terminus have been reported in the Hong system."
  #Treagir
  treagir_codex_modifier:0 "Treagir"
  treagir_codex_modifier_desc:0 "Treagir is a tiny ice dwarf, with a trace atmosphere of xenon and krypton. The frozen surface is mainly composed of water ice and ammonia. Cryovolcanic processes are gradually repaving the surface with sheets of fresh ice."
- 
- 
  ###Tereshkova###
- 
  #Antibaar
  antibaar_codex_modifier:0 "Antibaar"
  antibaar_codex_modifier_desc:0 "Antibaar is a cold terrestrial world with an atmosphere of methane and argon. Its frozen surface is mainly composed of iron with deposits of magnesium. The world has been noted as a possible target for long-term terraforming; if the atmosphere could be increased to the thickness of Earth's, the global average temperature would rise by 10 degrees Celsius. Antibaar's combination of low temperatures, high speed surface winds, and low visibility make it dangerous to explore on foot."
- 
  #Patamalrus
  patamalrus_codex_modifier:0 "Patamalrus"
  patamalrus_codex_modifier_desc:0 "Patamalrus' atmosphere is very similar to Venus in terms of pressure and temperature. Unlike Venus, however, Patamalrus' atmosphere has a significant quantity of oxygen, both free and bound in sulphur dioxides. The surface is largely composed of magnesia with deposits of carbon. It is possible, if unlikely, that simple life may be developing on Patamalrus. Computer modeling suggests that the powerful solar winds from the Tereshkova stars will blow off Patamalrus' atmosphere in a few million years, lowering the temperature on the surface to the -70s."
- 
  #Hunsalra
  hunsalra_codex_modifier:0 "Hunsalra"
- hunsalra_codex_modifier_desc:0 "Hunsalra is a small hydrogen-helium gas giant. It has unusually large amounts of nitrogen in the upper atmosphere, which glow purple when ionized by the solar wind. Hunsalra's convenience as a place to dump drive charge has left its orbit littered with debris "dumped overboard" by visiting crews."
- 
+ hunsalra_codex_modifier_desc:0 "Hunsalra is a small hydrogen-helium gas giant. It has unusually large amounts of nitrogen in the upper atmosphere, which glow purple when ionized by the solar wind. Hunsalra's convenience as a place to dump drive charge has left its orbit littered with debris 'dumped overboard' by visiting crews."
  #Thegeuse
  thegeuse_codex_modifier:0 "Thegeuse"
- thegeuse_codex_modifier_desc:0 "Thegeuse is a terrestrial world with an atmosphere of chlorine and krypton. The surface is mainly composed of silicates with deposits of carbon. Thegeuse has a low mass for its size, and is tidally locked to the star Tereshkova-A. The temperature difference between the sunward "hot pole" and the dark side "cold pole" creates constant gale-force winds across the terminator."
- 
+ thegeuse_codex_modifier_desc:0 "Thegeuse is a terrestrial world with an atmosphere of chlorine and krypton. The surface is mainly composed of silicates with deposits of carbon. Thegeuse has a low mass for its size, and is tidally locked to the star Tereshkova-A. The temperature difference between the sunward 'hot pole' and the dark side 'cold pole' creates constant gale-force winds across the terminator."
  #Solmarlon
  solmarlon_codex_modifer:0 "Solmarlon"
  solmarlon_codex_modifer_desc:0 "Solmarlon is one of Tereshkova's two outer worlds. Significantly removed from the rest of the system, and with unstable elliptical orbits, it is thought they may have formed within 3 AU of the binary stars, and were hurled outward due to the instability of such an orbit. Solmarlon is a hydrogen-helium gas giant with significant quantities of sodium in the upper atmosphere, giving it a distinct grey color."
- 
- 
  ###Vamshi###
- 
  #Maji
  maji_codex_modifier:0 "Maji"
  maji_codex_modifier_desc:0 "Maji orbits the Vamshi binary giant stars. Vamshi-A is a blue star of spectral class A4III which burns at half again the temperature of Sol. Vamshi-B is an aging red giant of class M5III, over 220 times the size of Sol. Maji has a thin atmosphere of methane and carbon monoxide. The difference in temperature between the hemisphere facing the suns and that facing deep space causes constant wind, stirring the silica and sodium dust of the surface. Unsavory characters from the Terminus Systems occasionally use Maji for forms of cruel sport, dumping slaves, hostages, quarreling shipmates, or even (when bored) vicious animals on the surface. One must kill the other before they will be rescued from the lethal radiation of the giant stars."
- 
  #Pregel
  pregel_codex_modifier:0 "Pregel"
  pregel_codex_modifier_desc:0 "Pregel is an enormous terrestrial world with an atmosphere of chlorine and ethane. Its surface is mainly composed of sulphur with deposits of aluminum. No landing has ever been attempted."
- 
  #Almos
  almos_codex_modifier:0 "Almos"
  almos_codex_modifier_desc:0 "Almos is a hydrogen-helium gas giant with traces of sodium darkening its atmosphere."
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  #Suen
  suen_codex_modifier:0 "Suen"
  suen_codex_modifier_desc:0 "Suen, the rachni homeworld, is tidally locked to the system's red dwarf. With one side constantly bombarded by the sun and the other completely frozen, life evolved in the terminator, the perpetual twilight zone between Suen's two extremes. The rachni mainly foraged underground- Suen's abundant subterranean rivers presented them with a place to thrive. Wrestling with the engineering problems of Suen's extreme surface environment may have given the rachni their first insights into how to build interstellar spacecraft."
-
- #
+ ####Artemis Tau####
+ ###Athens###
+ #Salamis
+ salamis_codex_modifier:0 "Salamis"
+ salamis_codex_modifier_desc:0 "The geological properties of Salamis have been scanned from orbit, but little else is known about it. Due to its thick carbon dioxide atmosphere and proximity to the energetic star Athens, the equatorial daytime temperatures have been known to turn the surface molten. The crust is composed of iron with deposits of platinum group metals."
+ #Proteus
+ proteus_codex_modifier:0 "Proteus"
+ proteus_codex_modifier_desc:0 "Like the hanar homeworld, Proteus has more than 90% oceanic cover. The incredible heat thrown off from Athens raises global humidity to 100%, creates constant cloud cover, and powers colossal typhoons that rage across the surface year-round. Hot, humid, and storm-wracked, Proteus' rare combination of oxygen-nitrogen atmosphere and carbon-based biosphere nevertheless recommend it for colonization. A pilot program is studying the possibility of colonies below the ocean surface, safe from the worst effects of the weather."
+ #Nausicaa
+ nausicaa_codex_modifier:0 "Nausicaa"
+ nausicaa_codex_modifier_desc:0 "Traces of sodium in the atmosphere give Nausicaa its overall dark grey color, but it is otherwise a typical hydrogen-helium gas giant. An abundance of water vapor in the upper atmosphere account for its white clouds."
+ #Circe
+ circe_codex_modifier:0 "Circe"
+ circe_codex_modifier_desc:0 "Circe is a modestly sized hydrogen-helium gas giant with traces of sulphur and chlorine. These give it its striking yellow-green tint. As the development of the Proteus colony continues, Circe will likely be developed for helium-3 mining."
+ #Pharos
+ pharos_codex_modifier:0 "Pharos"
+ pharos_codex_modifier_desc:0 "Distant Pharos has seen only a cursory examination by an unmanned probe. It has a trace atmosphere of nitrogen and argon. Its surface is mainly composed of tin with deposits of carbon. Deeper craters have been partly filled by ice, suggesting there may be a significant amount of water locked up beneath its frozen surface. A large, ice-bright crater in the southern hemisphere makes the planet visible from the inner system, leading to the planet's name."
+ ###Knossos###
+ #Phaistos
+ phaistos_codex_modifier:0 "Phaistos"
+ phaistos_codex_modifier_desc:0 "Phaistos is a small terrestrial with a trace atmosphere of carbon dioxide and xenon. The surface is scorching hot, and mainly composed of sulphur and various silicates. There is little of interest on this desolate world."
+ #Therum
+ therum_codex_modifier:0 "Therum"
+ therum_codex_modifier_desc:0 "Therum is a distant but rich industrial world claimed by the human Systems Alliance. Its plentiful heavy metals have fueled the recent manufacturing boom on Earth. Core samples rich with the fossils of simple silicon-based organisms indicate Therum was more habitable in the past than it is at present. Perhaps this explains the many Prothean ruins dotting the surface, most of which have been looted by mining corporations."
+ #Zakros
+ zakros_codex_modifier:0 "Zakros"
+ zakros_codex_modifier_desc:0 "Zakros is a terrestrial world with a nitrogen-methane atmosphere containing trace amounts of hydrocarbons. Its frigid surface is mainly composed of water ice and hydrocarbon slush. Most of the surface is not solid enough to support the full weight of a landed ship. If approach is necessary, use shuttles or keep the ship's mass effect envelope up."
+ #Armeni
+ armeni_codex_modifier:0 "Armeni"
+ armeni_codex_modifier_desc:0 "Armeni is a terrestrial world with an unusually thin atmosphere of krypton and xenon. Its surface is composed of silica with deposits of carbonaceous materials. The initial flyby probe of Armeni detected multiple areas at the equator with oddly regular surface protrusions. Closer investigation revealed these as millions of elaborate crypts a few meters below the surface, left by a long-extinct spacefaring species called the zeioph. Many human universities wish to perform archeological excavations. Council law holds grave sites as sacrosanct, however, and the matter has been tied up in court for a decade."
+ #Archanes
+ archanes_codex_modifier:0 "Archanes"
+ archanes_codex_modifier_desc:0 "A small hydrogen-helium gas giant, Archanes has been developed as a full-featured, if modest, stopover for ships hauling refined materials from Therum. In addition to a powerful magnetic field to dump drive charge, Archanes has a largely automated infrastructure of helium-3 refining and deuterium mining on its many water ice moons."
+ ###Macedon###
+ #Sharjila
+ sharjila_codex_modifier:0 "Sharjila"
+ sharjila_codex_modifier_desc:0 "Sharjila has a very dense atmosphere of ammonia and oxygen. Its temperate surface is mainly composed of alumina with deposits of sulfur. Comm buoys in the system have recently logged a number of unregistered vessels operating nearby. Sharjila has an extensive silicon-based, oxygen-breathing ecology. Heavily populated areas are covered with fine silica (silicon dioxide) dust, the respiratory by-product of the world's higher animal forms. High-speed surface winds, often laden with abrasive silica dust, present a hazard. In areas where the wind deposits a great deal of silica, footing can be treacherous. EVAs are discouraged."
+ #Porolan
+ porolan_codex_modifier:0 "Porolan"
+ porolan_codex_modifier_desc:0 "Porolan is an enormous terrestrial planet, half again the size of Earth. Despite its thick atmopshere, the weak output of the red dwarf Macedon leaves its surface biting cold. The crust is mainly composed of silica, but significant deposits of iron and other industrial metals are present. These lodes may prove rich enough to be profitably mined despite the heavy gravity."
+ #Patavig
+ patavig_codex_modifier:0 "Patavig"
+ patavig_codex_modifier_desc:0 "Patavig is the second of the Macedon system's giant terrestrial planets, and by far the more interesting. Most of the surface is covered by a vast sea of liquid ammonia, in which a unique aquatic ammonia-based biosphere has developed. While the frozen continents are largely bereft of life, a rich bounty of complex organisms — many larger than a human — flourish in the chilly, toxic seas. While dreadfully inhospitable to humans, Patavig is suitable for colonization by the volus. Negotiations between the Systems Alliance and the volus' patrons, the Turian Hierarchy, have made good progress."
+ #Fargeluse
+ fargeluse_codex_modifier:0 "Fargeluse"
+ fargeluse_codex_modifier_desc:0 "Fargeluse is a standard hydrogen-helium gas giant with an abundance of airborne hydrocarbons."
+ ###Sparta###
+ #Tremanre
+ tremanre_codex_modifier:0 "Tremanre"
+ tremanre_codex_modifier_desc:0 "Tremanre is a dwarf planet composed of light magnesium silicates, with deposits of aluminum. Its surface is covered by wide swathes of ancient, dark basaltic lava, possibly indicating the world was created through an impact with some other body in the system. Tremanre's magnetic field is nonexistent. This makes it impossible for ships to dump their drive core charge from orbit. That said, Tremanre's minuscule gravity allows even cruiser-sized vessels to land safely for direct grounding."
+ #Edolus
+ edolus_codex_modifier:0 "Edolus"
+ edolus_codex_modifier_desc:0 "Edolus is a terrestrial planet with an atmosphere of carbon dioxide and nitrogen. Edolus' surface is covered by wide deserts of silicate sand, with only a few areas of igneous rock highlands to break the abrasive, dust-choked wind. Edolus' orbit is congested with debris thrown inwards by the gravity of the gas giant Ontamalca. Due to a high rate of meteor impacts, exploration is highly dangerous."
+ #Altaaya
+ altaaya_codex_modifier:0 "Altaaya"
+ altaaya_codex_modifier_desc:0 "Altaaya is an unusually large terrestrial world with a trace atmosphere of methane and ammonia. The surface is frozen, and mainly composed of sandstone and other sedimentary rocks with deposits of iron and chlorides. Judging by the sedimentary composition of the crust, it appears that Altaaya once possessed an atmosphere thick enough to support some form of liquid. What cataclysm stripped the atmosphere and left the planet to freeze is not currently known."
+ #Ontamalca
+ ontamalca_codex_modifier:0 "Ontamalca"
+ ontamalca_codex_modifier_desc:0 "Ontamalca is a large hydrogen-helium gas giant with traces of chlorine and sulphur in the atmosphere. Its massive gravity well tugs many asteroids from the outer belt inwards, past the orbit of Altaaya and Edolus and eventually settle into the inner belt. Ontamalca's orbit is congested with hundreds of captured moons. Most last only a few thousand years before being ejected, dragged down into the atmosphere, or ripped apart by tidal forces and added to the gas giant's immense rings. Attempting to navigate this chaotic environment is hazardous at best. Ships without military grade kinetic barriers are likely to suffer catastrophic impacts."
+ #Alsages
+ alsages_codex_modifier:0 "Alsages"
+ alsages_codex_modifier_desc:0 "Small, distant Alsages is a small terrestrial, with a trace atmosphere of methane and argon. The surface is composed of water ice and calcium with occasional deposits of light metals. During the Alliance's pirate suppression campaign in the 2160's, the batarian Eluam Ran'perah was caught with his frigate Tunerron grounded on Alsages for drive discharge. When challenged by the cruiser Hyderabad, Ran'perah refused to surrender. The Tunerron was destroyed attempting to take off. The debris is strewn across the southern hemisphere."
+ ####Attican Beta####
+ ###Hercules###
+ #Xathorron
+ xathorron_codex_modifier:0 "Xathorron"
+ xathorron_codex_modifier_desc:0 "Xathorron is a small rock planet, with a thin atmosphere of carbon dioxide and hydrogen sulfide. The surface is scorching hot, and mainly composed of sulfur with deposits of boron."
+ #Syided
+ syided_codex_modifier:0 "Syided"
+ syided_codex_modifier_desc:0 "The proximity of the energetic star Hercules causes constant blue and violet auroras in Syided's nitrogen-argon atmosphere. During periods of increased solar flares, the auroras are bright enough to read by on the surface, and can be seen with off-the-shelf optics from a distance of several AU. Syided's scorching hot surface is mainly composed of magnesium with deposits of iron. A surprising variety of simple carbon-based life flourishes in a complex network of cave systems that wind through the crust, protected from Hercules' heat and radiation."
+ #Eletania
+ eletania_codex_modifier:0 "Eletania"
+ eletania_codex_modifier_desc:0 "Eletania appears to be a world eminently suited for colonization. Sadly, appearances are deceiving. It is covered by a verdant carpet of mosses, algae, and lichen, and possesses a thick oxygenated atmosphere, but the animal kingdom is a web of microscopic symbiotic creatures. These are impossible to filter from the air and necessary for the native life to thrive. Unfortunately, they also cause anaphylactic shock when inhaled by non-native life. In short, settlement requires either fully sealed environment suits, or replacement of the entire world’s ecosystem. Some have proposed limited colonization at altitudes above the symbiotes' range, or in areas where favorable winds keep the air clear."
+ #Zatorus
+ zatorus_codex_modifier:0 "Zatorus"
+ zatorus_codex_modifier_desc:0 "Zatorus is a hydrogen-helium gas giant, with high-level decks of sulphur clouds. A layer of hydrocarbons has formed deeper in the atmosphere. Vast electrical storm fronts can be seen flickering across the dark side."
+ ###Theseus###
+ #Sytau
+ sytau_codex_modifier:0 "Sytau"
+ sytau_codex_modifier_desc:0 "Sytau is shrouded by a high-pressure atmosphere composed of carbon dioxide and sulphuric acids. The surface is composed of geologically young plains of volcanic basalts and rhyolites, with high concentrations of carbon and radioactives. Sytau is rabidly volcanic; a dozen 'supervolcanoes' 50-120 kilometers wide are erupting across the planet. Sytau's carbon content and constant volcanism make natural diamonds plentiful, if extremely costly and dangerous to recover."
+ #Feros
+ feros_codex_modifier:0 "Feros"
+ feros_codex_modifier_desc:0 "The ExoGeni Corporation has founded a pilot colony on Feros to explore the Prothean ruins that blanket two-thirds of the planet's land mass. The atmosphere is fouled with dust. Terrestrial travel is hampered by crumbled debris dozens of meters deep. There are indications that Feros was a much colder world in the past. Feros has two large moons, Orcan (the farther) and Vardet."
+ #Sharring
+ sharring_codex_modifier:0 "Sharring"
+ sharring_codex_modifier_desc:0 "Sharring is a standard hydrogen-helium gas giant. The atmosphere contains traces of ammonia, methane, and surprisingly large amounts of water vapor, making the atmosphere a striking mix of browns, blues, and whites. Of Sharring's 60-odd moons, two have diameters of over 3,000 kilometers. Both have signs of former Prothean development, suggesting Sharring may have been mined for helium-3."
+ #Quana
+ quana_codex_modifier:0 "Quana"
+ quana_codex_modifier_desc:0 "Quana's frozen surface is rich with heavy metals, and the planet's higher than average density suggests further mineral richness in the depths. The atmosphere is composed of nitrogen and carbon monoxide. The remains of a well-developed Prothean mining infrastructure dot the planet. Abandoned mines are connected to dead cities by collapsed maglev lines. Unlike the crumbling skyscrapers of Feros, Quana's ruins are reasonably intact. Unfortunately, this only made it easier for looters to strip the silent necropoli of anything valuable."
+ #Logan
+ logan_codex_modifier:0 "Logan"
+ logan_codex_modifier_desc:0 "Logan is a standard hydrogen-helium gas giant. The survey team who charted the system twenty years ago reported many strange disturbances in Logan's cloud bands, suggesting many remarkably large solid objects were present beneath the cloud tops. As the ship approached, however, they subsided one by one. These disturbances have not been reported again."
+ ####Exodus Cluster####
+ ###Utopia###
+ #Arcadia
+ arcadia_codex_modifier:0 "Arcadia"
+ arcadia_codex_modifier_desc:0 "An unusually large terrestrial world, Arcadia has a dense atmosphere composed of nitrogen and helium. Its scorching hot surface is mainly composed of alkaline basalts, but metal deposits are plentiful. Although several spectacular examples of columnar basalt formation offer scenic beauty, Arcadia's hostile environment has precluded commercial development."
+ #Eden Prime
+ edenprime_codex_modifier:0 "Eden Prime"
+ edenprime_codex_modifier_desc:0 "This idyllic agrarian world was one of the first human colonies established beyond the Charon mass relay. Eden Prime's biosphere is unusually well-suited for importation of Earth-native life. This fertility drew heavy immigration and development by the Systems Alliance and various corporations. Today Eden Prime is a model of sustainable, organized development. The population is housed space-efficient arcologies that tower over thousands of kilometers of green fields and orchards."
+ #Zion
+ zion_codex_modifier:0 "Zion"
+ zion_codex_modifier_desc:0 "Zion is a hydrogen-helium gas giant even larger than Jupiter. Despite its deep gravity well and lethal radiation, it supports a small helium-3 mining industry. The reason is simple: as the only gas giant in the Utopia system, it is the only local source for fuel for Eden Prime's power stations and spaceports. Zion has 112 satellites, ranging from orbiting asteroids to the moon of Asphodel, which is large enough to retain a thick atmosphere."
+ #Nirvana
+ nirvana_codex_modifier:0 "Nirvana"
+ nirvana_codex_modifier_desc:0 "Nirvana has a trace atmosphere of xenon and krypton. The surface is a mix of water ice and iron oxides, with cryovolcanic plumes of potassium concentrated around the equatorial ridge. Nirvana has little of commercial or scientific interest. Though a few geological research stations were constructed in the early 2160s, all have been shut down for years. The Alliance maintains an automated ice cracking station, which has quietly stockpiled a large amount of deuterium fuel for use by the fleet."
+ #Xanadu
+ xanadu_codex_modifier:0 "Xanadu"
+ xanadu_codex_modifier_desc:0 "Xanadu's atmosphere is composed of methane and argon, while the planet's frozen surface is largely potassium with deposits of calcium. Its location in the deep cold of the outer system and its lack of valuable resources leave little to recommend it."
+ ###Asgard###
+ #Terra Nova
+ terranova_codex_modifier:0 "Terra Nova"
+ terranova_codex_modifier_desc:0 "Terra Nova was one of the Class-1 colonization prospects discovered by the first wave of Alliance surveys in 2150. It was the second human extrasolar colony, and the first beyond the Charon Mass Relay. It currently has the highest population of any Alliance colony. Though banded by a harsh equatorial desert, areas closer to the poles are temperate. The pace of development was modest until extensive deposits of platinum were discovered in the 2170s. This rare metal, required in the clean-burning hydrogen fuel cells that power private vehicles, attracted a 'platinum rush' of immigrants and investment from throughout Alliance space. In the past twelve years, Terra Nova has seen a 30% rise in population, and growth does not appear to be slowing."
+ #Borr
+ borr_codex_modifier:0 "Borr"
+ borr_codex_modifier_desc:0 "Borr is a huge hydrogen-helium gas giant with over 90 moons. Its striking coloration is caused by the light of ionized hydrogen filtering through an upper cloud deck of sodium. The source of the ionization has not yet been confirmed, but Borr's mass (equal to six Jupiters) and high temperature suggest it may be a small 'brown dwarf', a large gas giant that gained nearly enough mass to ignite into a small star. Through Borr's deep gravity well makes mining operations difficult, it is the only gas giant in the system. The hydrogen needed for the local fuel cell industry, combined with the ever-present need for helium-3 fusion torch fuel, make it economical to mine."
+ #Tyr
+ tyr_codex_modifier:0 "Tyr"
+ tyr_codex_modifier_desc:0 "Tyr is compositionally quite similar to Earth. However, it lies over 4 AU from Asgard, and possesses an atmosphere primarily composed of nitrogen and ethane. While a potential target for terraforming, the presence of the 'shirt sleeves' habitable Terra Nova relegated Tyr to a support role. Nearly a hundred corporations – human and alien – have constructed extensive teleoperated mining, refining, and manufacturing facilities across the face of Tyr. Combined with the platinum lodes of Terra Nova, the resources they produce are driving development of the local hydrogen fuel cell industries. The Asgard system now supplies nearly 4% of the galactic market."
+ #Loki
+ loki_codex_modifier:0 "Loki"
+ loki_codex_modifier_desc:0 "Loki is a small terrestrial world with little to recommend it. One hemisphere is largely covered by an ice cap, and the other by craggy basaltic highlands. The rough, varied terrain suggests an ancient cataclysm caused significant damage to the planet. This is seemingly reinforced by its unusually elliptical orbit, which reaches 6.5 AU at perigee and 7.1 AU at apogee. Penetrating scans of Loki's ice cap reveal a network of crisscrossing subterranean tunnels. Because some of the tunnels were surprisingly regular in shape and size, early expeditions looked for signs of excavation. It was concluded they formed by natural processes. Loki's thin atmosphere is mostly composed of krypton and xenon. When it approaches perigee, frozen sulphur trioxides and dioxides can evaporate into clouds on the hemisphere facing Asgard.
+ ####Gemini Sigma####
+ ###Han###
+ #Paravin
+ #Huningto
+ #Mavigon
+ #Farcrothu
+ #Patatanlis
+ ###Ming###
+ #Antiroprus
+ #MSV Worthington
+ #Parag
+ #Altanorch
+ 
+ 
+ 
+ 
+ 
+ 
+ 

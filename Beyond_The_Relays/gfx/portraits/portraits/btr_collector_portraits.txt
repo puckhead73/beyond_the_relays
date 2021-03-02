@@ -1,0 +1,108 @@
+portraits = {
+	collector_female_01 = {	entity = "portrait_collector_female_01_entity"	clothes_selector = "collector_female_clothes_01" hair_selector = "collector_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { 
+			"gfx/models/portraits/collector/collector_female_body_01.dds" 
+		}
+	}
+	collector_male_01 = {	entity = "portrait_collector_male_01_entity"	clothes_selector = "collector_male_clothes_01" hair_selector = "collector_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+		character_textures = { 
+			"gfx/models/portraits/collector/collector_male_body_01.dds"
+		}
+	}		
+}
+
+portrait_groups = {
+	collector = {
+		
+		default = collector_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					collector_male_01
+					collector_male_02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					collector_female_01
+					collector_female_02
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					collector_female_01
+					collector_female_02
+					collector_male_01
+					collector_male_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					collector_female_01
+					collector_female_02
+					collector_male_01
+					collector_male_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					collector_female_01
+					collector_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					collector_male_01
+					collector_male_02
+				}
+			}		
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					collector_female_01
+					collector_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					collector_male_01
+					collector_male_02
+				}
+			}
+		}
+	}
+}

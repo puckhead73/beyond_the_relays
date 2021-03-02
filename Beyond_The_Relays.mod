@@ -8,5 +8,4 @@ tags={
 	"Species"
 }
 picture="btr.png"
-supported_version="2.7.*"
-remote_file_id="2101887883"
+supported_version="2.8.*"
