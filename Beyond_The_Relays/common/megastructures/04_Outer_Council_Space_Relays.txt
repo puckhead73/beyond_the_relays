@@ -6,7 +6,7 @@
 #####ATHENA NEBULA#####
 
 athenanebula_minoswasteland_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -17,7 +17,7 @@ athenanebula_minoswasteland_massrelay = {
 }
 
 athenanebula_nimbuscluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -28,7 +28,7 @@ athenanebula_nimbuscluster_massrelay = {
 }
 
 athenanebula_serpentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -41,7 +41,7 @@ athenanebula_serpentnebula_massrelay = {
 #####MINOS WASTELAND#####
 
 minoswasteland_crescentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -52,7 +52,7 @@ minoswasteland_crescentnebula_massrelay = {
 }
 
 minoswasteland_eaglenebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -63,7 +63,7 @@ minoswasteland_eaglenebula_massrelay = {
 }
 
 minoswasteland_nimbuscluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -74,7 +74,7 @@ minoswasteland_nimbuscluster_massrelay = {
 }
 
 minoswasteland_vesuviusnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -88,7 +88,7 @@ minoswasteland_vesuviusnebula_massrelay = {
 #####NIMBUS CLUSTER#####
 
 nimbuscluster_sileannebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -102,7 +102,7 @@ nimbuscluster_sileannebula_massrelay = {
 #####SERPENT NEBULA#####
 
 serpentnebula_sileannebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -116,7 +116,7 @@ serpentnebula_sileannebula_massrelay = {
 #####SILEAN NEBULA#####
 
 sileannebula_nimbuscluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no

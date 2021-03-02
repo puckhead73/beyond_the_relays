@@ -2827,16 +2827,15 @@ sys_nedlus_init = {
 			set_planet_flag = hecatompylos_codex
 			}
 
-		moon = {
-			name = "Minuteman_Station"
-			class = "pc_orbital_habitat"
-			orbit_distance = 8
-			size = 6
-			init_effect = {
-				set_planet_flag = minuteman_station_codex
-				}
-	
-		}	
+		#moon = {
+		#	name = "Minuteman_Station"
+		#	class = "pc_orbital_habitat"
+		#	orbit_distance = 8
+		#	size = 6
+		#	init_effect = {
+		#		set_planet_flag = minuteman_station_codex
+		#		}
+		#}	
 	}
 
 	planet = {

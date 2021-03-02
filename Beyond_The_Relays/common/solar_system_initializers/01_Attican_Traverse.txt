@@ -1305,7 +1305,7 @@ sys_imir_init = {
 
     planet = {
         name = "Korlus"
-        class = "pc_garbage"
+        class = "pc_polluted"
         orbit_distance = 35
         orbit_angle = 217
         has_ring = no

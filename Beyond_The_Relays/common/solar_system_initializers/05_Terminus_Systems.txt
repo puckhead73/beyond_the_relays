@@ -1851,6 +1851,16 @@ sys_tikkun_init = {
 		type = rocky_asteroid_belt
 		radius = 60
 	}
+	usage = custom_empire
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}	
 
     planet = {
         name = "Rannoch"
@@ -1859,6 +1869,15 @@ sys_tikkun_init = {
         orbit_angle = 63
         has_ring = no
         size = 15
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+		}		
+		init_effect = {
+			generate_start_buildings_and_blockers = yes
+		}		
 		moon = {
 			name = "Jelachai"
 			class = "pc_desolate"
@@ -2733,12 +2752,12 @@ sys_lazarus_init = {
 	name = "Lazarus"
 	class = "sc_none"
 	
-	planet = {
-		name = "Lazarus_Station"
-		class = "pc_orbital_habitat"
-		size = 6
-		orbit_distance = 0
-	}
+	#planet = {
+	#	name = "Lazarus_Station"
+	#	class = "pc_orbital_habitat"
+	#	size = 6
+	#	orbit_distance = 0
+	#}
 }	
 
 sys_tydeous_init = {

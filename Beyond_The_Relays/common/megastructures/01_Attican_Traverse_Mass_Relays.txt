@@ -5,7 +5,7 @@
 #####ARMSTRONG NEBULA#####
 
 armstrongnebula_atticanbeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -16,7 +16,7 @@ armstrongnebula_atticanbeta_massrelay = {
 }
 
 armstrongnebula_nubianexpanse_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -27,7 +27,7 @@ armstrongnebula_nubianexpanse_massrelay = {
 }
 
 armstrongnebula_sentryomega_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -38,7 +38,7 @@ armstrongnebula_sentryomega_massrelay = {
 }
 
 armstrongnebula_voyagercluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -51,7 +51,7 @@ armstrongnebula_voyagercluster_massrelay = {
 #####BULUC NEBULA#####
 
 bulucnebula_crescentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -62,7 +62,7 @@ bulucnebula_crescentnebula_massrelay = {
 }
 
 bulucnebula_eaglenebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -73,7 +73,7 @@ bulucnebula_eaglenebula_massrelay = {
 }
 
 bulucnebula_ismarfrontier_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -87,7 +87,7 @@ bulucnebula_ismarfrontier_massrelay = {
 #####CALESTON RIFT#####
 
 calestonrift_hadesnexus_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -98,7 +98,7 @@ calestonrift_hadesnexus_massrelay = {
 }
 
 calestonrift_hawkingeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -109,7 +109,7 @@ calestonrift_hawkingeta_massrelay = {
 }
 
 calestonrift_nubianexpanse_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -120,7 +120,7 @@ calestonrift_nubianexpanse_massrelay = {
 }
 
 calestonrift_omeganebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -131,7 +131,7 @@ calestonrift_omeganebula_massrelay = {
 }
 
 calestonrift_pylosnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -142,7 +142,7 @@ calestonrift_pylosnebula_massrelay = {
 }
 
 calestonrift_styxtheta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -153,7 +153,7 @@ calestonrift_styxtheta_massrelay = {
 }
 
 calestonrift_thephoenixmassing_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -167,7 +167,7 @@ calestonrift_thephoenixmassing_massrelay = {
 #####EAGLE NEBULA#####
 
 eaglenebula_bulucnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -178,7 +178,7 @@ eaglenebula_bulucnebula_massrelay = {
 }
 
 eaglenebula_crescentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -189,7 +189,7 @@ eaglenebula_crescentnebula_massrelay = {
 }
 
 eaglenebula_nemeanalpha_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -200,7 +200,7 @@ eaglenebula_nemeanalpha_massrelay = {
 }
 
 eaglenebula_minoswasteland_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -211,7 +211,7 @@ eaglenebula_minoswasteland_massrelay = {
 }
 
 eaglenebula_oshibkacliff_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -222,7 +222,7 @@ eaglenebula_oshibkacliff_massrelay = {
 }
 
 eaglenebula_serpentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -236,7 +236,7 @@ eaglenebula_serpentnebula_massrelay = {
 #####HADES NEXUS#####
 
 hadesnexus_calestonrift_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -247,7 +247,7 @@ hadesnexus_calestonrift_massrelay = {
 }
 
 hadesnexus_farrim_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -258,7 +258,7 @@ hadesnexus_farrim_massrelay = {
 }
 
 hadesnexus_nubianexpanse_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -269,7 +269,7 @@ hadesnexus_nubianexpanse_massrelay = {
 }
 
 hadesnexus_sentryomega_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -280,7 +280,7 @@ hadesnexus_sentryomega_massrelay = {
 }
 
 hadesnexus_thephoenixmassing_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -294,7 +294,7 @@ hadesnexus_thephoenixmassing_massrelay = {
 #####HAWKING ETA#####
 
 hawkingeta_calestonrift_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -305,7 +305,7 @@ hawkingeta_calestonrift_massrelay = {
 }
 
 hawkingeta_ninmahcluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -316,7 +316,7 @@ hawkingeta_ninmahcluster_massrelay = {
 }
 
 hawkingeta_pangaeaexpanse_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -327,7 +327,7 @@ hawkingeta_pangaeaexpanse_massrelay = {
 }
 
 hawkingeta_shadowsea_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -338,7 +338,7 @@ hawkingeta_shadowsea_massrelay = {
 }
 
 hawkingeta_yggdrasilnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -352,7 +352,7 @@ hawkingeta_yggdrasilnebula_massrelay = {
 #####ISMAR FRONTIER#####
 
 ismarfrontier_bulucnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -363,7 +363,7 @@ ismarfrontier_bulucnebula_massrelay = {
 }
 
 ismarfrontier_crescentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -374,7 +374,7 @@ ismarfrontier_crescentnebula_massrelay = {
 }
 
 ismarfrontier_minoswasteland_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -385,7 +385,7 @@ ismarfrontier_minoswasteland_massrelay = {
 }
 
 ismarfrontier_theshrikeabyssal_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -399,7 +399,7 @@ ismarfrontier_theshrikeabyssal_massrelay = {
 #####KEPLER VERGE#####
 
 keplerverge_atticanbeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -410,7 +410,7 @@ keplerverge_atticanbeta_massrelay = {
 }
 
 keplerverge_shadowsea_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -424,7 +424,7 @@ keplerverge_shadowsea_massrelay = {
 #####MAROON SEA#####
 
 maroonsea_argosrho_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -435,7 +435,7 @@ maroonsea_argosrho_massrelay = {
 }
 
 maroonsea_atticanbeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -446,7 +446,7 @@ maroonsea_atticanbeta_massrelay = {
 }
 
 maroonsea_geminisigma_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -457,7 +457,7 @@ maroonsea_geminisigma_massrelay = {
 }
 
 maroonsea_shadowsea_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -470,7 +470,7 @@ maroonsea_shadowsea_massrelay = {
 #####NINMAH CLUSTER#####
 
 ninmahcluster_hawkingeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -483,7 +483,7 @@ ninmahcluster_hawkingeta_massrelay = {
 #####NUBIAN EXPANSE#####
 
 nubianexpanse_armstrongnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -494,7 +494,7 @@ nubianexpanse_armstrongnebula_massrelay = {
 }
 
 nubianexpanse_atticanbeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -505,7 +505,7 @@ nubianexpanse_atticanbeta_massrelay = {
 }
 
 nubianexpanse_calestonrift_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -516,7 +516,7 @@ nubianexpanse_calestonrift_massrelay = {
 }
 
 nubianexpanse_hadesnexus_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -527,7 +527,7 @@ nubianexpanse_hadesnexus_massrelay = {
 }
 
 nubianexpanse_shadowsea_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -540,7 +540,7 @@ nubianexpanse_shadowsea_massrelay = {
 #####OSHIBKA CLIFF#####
 
 oshibkacliff_eaglenebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -551,7 +551,7 @@ oshibkacliff_eaglenebula_massrelay = {
 }
 
 oshibkacliff_omeganebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -564,7 +564,7 @@ oshibkacliff_omeganebula_massrelay = {
 #####PANGAEA EXPANSE#####
 
 pangaeaexpanse_hawkingeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -577,7 +577,7 @@ pangaeaexpanse_hawkingeta_massrelay = {
 #####PYLOS NEBULA#####
 
 pylosnebula_calestonrift_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -588,7 +588,7 @@ pylosnebula_calestonrift_massrelay = {
 }
 
 pylosnebula_farrim_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -599,7 +599,7 @@ pylosnebula_farrim_massrelay = {
 }
 
 pylosnebula_omeganebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -610,7 +610,7 @@ pylosnebula_omeganebula_massrelay = {
 }
 
 pylosnebula_radanaburst_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -621,7 +621,7 @@ pylosnebula_radanaburst_massrelay = {
 }
 
 pylosnebula_savianabyssal_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -634,7 +634,7 @@ pylosnebula_savianabyssal_massrelay = {
 #####SENTRY OMEGA#####
 
 sentryomega_armstrongnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -645,7 +645,7 @@ sentryomega_armstrongnebula_massrelay = {
 }
 
 sentryomega_atticanbeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -656,7 +656,7 @@ sentryomega_atticanbeta_massrelay = {
 }
 
 sentryomega_hadesnexus_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -667,7 +667,7 @@ sentryomega_hadesnexus_massrelay = {
 }
 
 sentryomega_thephoenixmassing_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -681,7 +681,7 @@ sentryomega_thephoenixmassing_massrelay = {
 #####SHADOW SEA#####
 
 shadowsea_argosrho_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -692,7 +692,7 @@ shadowsea_argosrho_massrelay = {
 }
 
 shadowsea_horseheadnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -703,7 +703,7 @@ shadowsea_horseheadnebula_massrelay = {
 }
 
 shadowsea_keplerverge_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -714,7 +714,7 @@ shadowsea_keplerverge_massrelay = {
 }
 
 shadowsea_hawkingeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -725,7 +725,7 @@ shadowsea_hawkingeta_massrelay = {
 }
 
 shadowsea_maroonsea_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -736,7 +736,7 @@ shadowsea_maroonsea_massrelay = {
 }
 
 shadowsea_nubianexpanse_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -747,7 +747,7 @@ shadowsea_nubianexpanse_massrelay = {
 }
 
 shadowsea_styxtheta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -761,7 +761,7 @@ shadowsea_styxtheta_massrelay = {
 #####STYX THETA#####
 
 styxtheta_calestonrift_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -772,7 +772,7 @@ styxtheta_calestonrift_massrelay = {
 }
 
 styxtheta_shadowsea_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -786,7 +786,7 @@ styxtheta_shadowsea_massrelay = {
 #####YGGDRASIL NEBULA#####
 
 yggdrasilnebula_hawkingeta_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -797,7 +797,7 @@ yggdrasilnebula_hawkingeta_massrelay = {
 }
 
 yggdrasilnebula_omeganebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no

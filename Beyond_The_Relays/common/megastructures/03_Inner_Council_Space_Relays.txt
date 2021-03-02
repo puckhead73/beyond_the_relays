@@ -5,7 +5,7 @@
 #####AETHON CLUSTER#####
 
 aethoncluster_apiencrest_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -16,7 +16,7 @@ aethoncluster_apiencrest_massrelay = {
 }
 
 aethoncluster_xingyuncluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -30,7 +30,7 @@ aethoncluster_xingyuncluster_massrelay = {
 #####ANNOS BASIN#####
 
 annosbasin_horseheadnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -41,7 +41,7 @@ annosbasin_horseheadnebula_massrelay = {
 }
 
 annosbasin_serpentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -55,7 +55,7 @@ annosbasin_serpentnebula_massrelay = {
 #####APIEN CREST#####
 
 apiencrest_aethoncluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -66,7 +66,7 @@ apiencrest_aethoncluster_massrelay = {
 }
 
 apiencrest_serpentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -77,7 +77,7 @@ apiencrest_serpentnebula_massrelay = {
 }
 
 apiencrest_xingyuncluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -91,7 +91,7 @@ apiencrest_xingyuncluster_massrelay = {
 #####KROGAN DMZ#####
 
 krogandmz_serpentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -102,7 +102,7 @@ krogandmz_serpentnebula_massrelay = {
 }
 
 krogandmz_meadecluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -115,7 +115,7 @@ krogandmz_meadecluster_massrelay = {
 #####MEADE CLUSTER#####
 
 meadecluster_krogandmz_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -126,7 +126,7 @@ meadecluster_krogandmz_massrelay = {
 }
 
 meadecluster_xingyuncluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -139,7 +139,7 @@ meadecluster_xingyuncluster_massrelay = {
 #####OLIN PROTECTORATE#####
 
 olinprotectorate_horseheadnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -150,7 +150,7 @@ olinprotectorate_horseheadnebula_massrelay = {
 }
 
 olinprotectorate_serpentnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -161,7 +161,7 @@ olinprotectorate_serpentnebula_massrelay = {
 }
 
 olinprotectorate_vesuviusnebula_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -175,7 +175,7 @@ olinprotectorate_vesuviusnebula_massrelay = {
 #####VESUVIUS NEBULA#####
 
 vesuviusnebula_minoswasteland_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -186,7 +186,7 @@ vesuviusnebula_minoswasteland_massrelay = {
 }
 
 vesuviusnebula_olinprotectorate_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -200,7 +200,7 @@ vesuviusnebula_olinprotectorate_massrelay = {
 #####XINGYUN CLUSTER#####
 
 xingyuncluster_aethoncluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -211,7 +211,7 @@ xingyuncluster_aethoncluster_massrelay = {
 }
 
 xingyuncluster_apiencrest_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -222,7 +222,7 @@ xingyuncluster_apiencrest_massrelay = {
 }
 
 xingyuncluster_localcluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no
@@ -233,7 +233,7 @@ xingyuncluster_localcluster_massrelay = {
 }
 
 xingyuncluster_meadecluster_massrelay = {
-	entity = "gateway_entity"
+	entity = "reactivated_gateway_entity"
 	portrait = "GFX_megastructure_construction_background"
 	build_outside_gravity_well = yes						
 	show_galactic_map_icon = no

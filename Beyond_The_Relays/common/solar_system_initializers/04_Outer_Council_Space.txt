@@ -136,7 +136,17 @@ sys_parnitha_init = {
 		type = rocky_asteroid_belt
 		radius = 160
 	}
-
+	usage = custom_empire
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+	
 	planet = {
 		name = "Parnitha"
 		class = "pc_g_star"
