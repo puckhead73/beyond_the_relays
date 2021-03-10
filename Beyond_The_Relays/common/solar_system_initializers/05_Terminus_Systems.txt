@@ -1870,14 +1870,11 @@ sys_tikkun_init = {
         has_ring = no
         size = 15
 		starting_planet = yes
-		tile_blockers = none
 		modifiers = none
 		init_effect = {
 			prevent_anomaly = yes
 		}		
-		init_effect = {
-			generate_start_buildings_and_blockers = yes
-		}		
+		
 		moon = {
 			name = "Jelachai"
 			class = "pc_desolate"

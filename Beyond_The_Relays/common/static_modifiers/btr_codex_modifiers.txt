@@ -2,6 +2,7 @@
 
 ####ATTICAN TRAVERSE####
 ###Armstrong Nebula###
+##Gagarin##
 #Junthor
 junthor_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
@@ -32,6 +33,7 @@ antirumgon_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
 	icon_frame = 1
 }
+##Grissom##
 #Benda
 benda_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
@@ -52,6 +54,7 @@ solcrum_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
 	icon_frame = 1
 }
+##Hong##
 #Pomal
 pomal_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
@@ -77,6 +80,7 @@ treagir_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
 	icon_frame = 1
 }
+##Tereshkova##
 #Antibaar
 antibaar_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
@@ -97,12 +101,13 @@ solmarlon_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
 	icon_frame = 1
 }
+##Vamshi##
 #Maji
 maji_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
 	icon_frame = 1
 }
-#pregel
+#Pregel
 pregel_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
 	icon_frame = 1
@@ -112,22 +117,1280 @@ almos_codex_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
 	icon_frame = 1
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###Buluc Nebula###
+##Chabtan##
+#Parnack
+parnack_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Noviz
+noviz_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Ubroni##
+#Zankep
+zankep_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Unoweb
+unoweb_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Hasik
+hasik_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Caleston Rift###
+##Aysur##
+#Agnin
+agnin_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Shasu
+shasu_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Dranen
+dranen_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Arvuna
+arvuna_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Alformus
+alformus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Shir
+shir_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Tamgauta
+tamgauta_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Balor##
+#Cernunnos
+cernunnos_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Caleston
+caleston_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Bres
+bres_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Elatha
+elatha_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Partholon
+partholon_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Solveig
+#Surtur
+surtur_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Sinmara
+sinmara_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#thrivaldi
+thrivaldi_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Talava
+#Aitarus
+aitarus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#kaushus
+kaushus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Maitrum
+maitrum_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Taitus
+taitus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Yakawa
+#Sakata
+sakata_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Nambu
+nambu_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Maskawa
+maskawa_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Karumto
+karumto_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Kobayashi
+kobayashi_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Eagle Nebula###
+##Amun##
+#Sekhmet
+sekhmet_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Sobek
+sobek_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Heqet
+heqet_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Anhur
+anhur_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Neith
+neith_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Bast
+bast_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Imir
+#Osalri
+osalri_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Korlus
+korlus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Quodis
+quodis_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Gregas
+gregas_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Malgus##
+#Uzin
+uzin_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Wrill
+wrill_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Flett
+flett_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Relic##
+#Murky Water
+murky_water_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Fitful Current
+fitful_current_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#First Land
+first_land_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Island Wind
+island_wind_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Rough Tide
+rough_tide_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Preying Mouth
+preying_mouth_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Beach Thunder
+beach_thunder_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Strabo
+#Antigar
+antigar_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Hades Nexus###
+##Azedes##
+#Vesskur
+vess'kur_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Turvess
+turvess_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Ikura
+ikura_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Vaal
+vaal_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Sakur
+sakur_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Kuroi
+kuroi_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Hekate
+#Asteria
+asteria_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Ker
+ker_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Triodia
+triodia_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Bothros
+bothros_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Hoplos##
+#Talaria
+talaria_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Makhaira
+makhaira_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Kopis
+kopis_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Trident
+trident_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Aegis
+aegis_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Pamyat##
+#Komarov
+komarov_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Dobrovolski
+dobrovolski_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Patsayev
+patsayev_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Volkov
+volkov_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Zenevieva
+zenevieva_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Alena
+alena_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Quiet Eddy
+quiet_eddy_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Sheol##
+#Gei Hinnom
+gei_hinnom_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Hawking Eta###
+##Century##
+#Tamahera
+tamahera_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Klendagon
+klendagon_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Presrop
+presrop_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Lukap
+lukap_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Morule
+morule_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Canctra
+canctra_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Tharopto
+tharopto_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Chandrasekhar##
+#Teshub
+teshub_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Hebat
+hebat_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Schwarzschild##
+#Atahil
+atahil_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Etamis
+etamis_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Linossa
+linossa_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Rihali
+rihali_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Thorne##
+#Mnemosyne
+mnemosyne_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Lethe
+lethe_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Verr##
+#Corang
+corang_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Allusah
+allusah_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Serao
+serao_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Ismar Frontier###
+##Aquila##
+#Lepini
+lepini_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Vecchio
+vecchio_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Volturno
+volturno_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Metaponto
+metaponto_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Pollino
+pollino_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Elysta
+#Saleas
+saleas_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Zeona
+zeona_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Odasst
+odasst_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Hesano
+hesano_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Melile
+melile_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Faia
+#Imaen
+imaen_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Zorya
+zorya_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Utrenn
+utrenn_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Vechern
+vechern_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Viantel
+viantel_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Hito
+hito_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Kepler Verge###
+##Herschel
+#Tungel
+tungel_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Matol
+matol_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Clugon
+clugon_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Clobaka
+clobaka_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Newton
+#Ontarom
+ontarom_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Thonal
+thonal_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Klencory
+klencory_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Juncro
+juncro_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Sesmose
+sesmose_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Maroon Sea###
+##Caspian##
+#Clotanca
+clotanca_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Farnuri
+farnuri_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Almarcrux
+almarcrux_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Antida
+antida_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Matano##
+#Inti
+inti_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Chasca
+chasca_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Apo
+apo_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Illapa
+illapa_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Corinaya
+corinaya_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Supay
+supay_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Vostok##
+#Clomarthu
+clomarthu_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Nodacrux
+nodacrux_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Alko
+alko_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Pataiton
+pataiton_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Ninmah Cluster###
+##Maskim Xul##
+#Suen
+suen_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Kashshaptu
+kashshaptu_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Damkianna
+damkianna_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Mulla Xul##
+#Maldor
+maldor_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Utukku
+utukku_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Inahkos
+inakhos_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Keph
+keph_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Nubian Expanse###
+##Dakka##
+#Bannik
+bannik_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Pragia
+pragia_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Alkonost
+alkanost_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Gamayun
+gamayun_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Gigula
+gigula_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Zirnitra
+zirnitra_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Debod##
+#Philae
+philae_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Agilkia
+agilkia_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Kalabsha##
+#Yamm
+yamm_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Tefnut
+tefnut_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Qertassi##
+#Norehsa
+norehsa_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##NX2185##
+#113 Kerad
+113_kerad_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#433 Spidau
+433_spidau_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#704 Jawinar
+704_jawinar_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##NX2176##
+#NX2176I
+nx2176I_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#NX2176II
+nx2176ii_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#NX2176III
+nx2176iii_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#NX2176IV
+nx2176IV_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#NX2176V
+nx2176V_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Oshibka Cliff##
+##Cubseh##
+#Qualog
+qualog_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Toaloc
+toaloc_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Phelinia
+phelinia_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Senarc
+senarc_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Asta
+asta_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Tonat
+tonat_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Klin##
+#Orbid
+orbid_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Pangaea Expanse###
+##Refuge##
+#Agetoton
+agetoton_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Ilos
+ilos_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Zafe
+zafe_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Pylos Nebula###
+##Dirada##
+#Siano
+siano_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Thenusi
+thenusi_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Canalus
+canalus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Zeth
+zeth_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Sineus
+sineus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Vioresa
+vioresa_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Kriseroi##
+#Neidus
+neidus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Theonax
+theonax_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Uzin (Kriseroi)
+uzin_kriseroi_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Chithess
+chithess_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Geus
+geus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Tenoth
+tenoth_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Nariph##
+#Isale
+isale_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Jonus
+jonus_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Satent##
+#Rescel
+rescel_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Raisaris
+raisaris_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Anedia
+anedia_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Boro
+boro_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Nataisa
+nataisa_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Zaherin##
+#Ehstag
+ehstag_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Namakli
+namakli_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Azrahas
+azrahas_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Rotesk
+rotesk_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Sentry Omega###
+##Hoc##
+#Jarfor
+jarfor_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Nemata
+nemata_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Virmire
+virmire_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Cloroplon
+cloroplon_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Prescyla
+prescyla_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Telith##
+#Sapfir
+sapfir_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Shadow Sea###
+##Anauroch##
+#Thultanthar
+thultanthar_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Drannor
+drannor_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Bahanak##
+#Elgarnan
+elgarnan_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Mythal
+mythal_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Falon'Din
+falondin_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Dirthamen
+dirthamen_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Andruil
+andruil_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Sylaise
+sylaise_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#June
+june_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Iera##
+#Venture
+venture_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Prospect
+prospect_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Horizon
+horizon_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Watchman
+watchman_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Netheril##
+#Landeth
+landeth_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Oreme
+oreme_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Styx Theta###
+##Acheron##
+#Farthorl
+farthorl_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Altahe
+altahe_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Ontahe
+ontahe_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Grosalgen
+grosalgen_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Imaneya
+imaneya_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Erebus##
+#Nepmos
+nepmos_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Quaji
+quaji_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Wermani
+wermani_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Chofen
+chofen_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Karaht##
+#Murch
+murch_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Vida
+vida_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Nymbar
+nymbar_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Torfan
+torfan_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Flin
+flin_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Phlegethon##
+#Alecto
+alecto_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Tisiphone
+tisiphone_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Timshar##
+#Timshar I
+timshari_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Timshar II
+timsharii_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Timshar III
+timshariii_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Timshar IV
+timshariv_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Adounia
+adounia_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+###Yggdrasil Nebula###
+##Baldr
+#Coten
+coten_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Mindoir
+mindoir_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Brekkenz##
+#Bil
+bil_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Yuki
+yuki_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Fen##
+#Vingolf
+vingolf_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Amsvartnir
+amsvartnir_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+#Lyngvi
+lyngvi_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Hedek
+#Nuuk
+nuuk_codex_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/codex_modifier.dds"
+	icon_frame = 1
+}
+##Qedek##
+#
+##Vali##
+#

@@ -1257,15 +1257,64 @@ sc_y = {
 	
 	icon_scale		= 0.6
 	
-	pc_continental 	= { spawn_odds = 0.0 }
-	pc_desert		= { spawn_odds = 0.0 }
-	pc_tropical		= { spawn_odds = 0.0 }
-	pc_arid 		= { spawn_odds = 0.0 }
-	pc_ocean		= { spawn_odds = 0.0 }
-	pc_tundra		= { spawn_odds = 0.1 }
-	pc_arctic		= { spawn_odds = 0.2 }
-	pc_alpine		= { spawn_odds = 0.1 }
-	pc_savannah		= { spawn_odds = 0.0 }
+    pc_barren                       = { spawn_odds = 0.80 }
+	pc_continental 	                = { spawn_odds = 0.15 }
+	pc_desert		                = { spawn_odds = 0.30 }
+	pc_tropical		                = { spawn_odds = 0.10 }
+	pc_arid 		                = { spawn_odds = 0.20 }
+	pc_ocean		                = { spawn_odds = 0.10 }
+	pc_tundra		                = { spawn_odds = 0.35 }
+	pc_arctic		                = { spawn_odds = 0.35 }
+	pc_alpine		                = { spawn_odds = 0.35 }
+    pc_savannah		                = { spawn_odds = 0.10 }
+    pc_frozen		                = { spawn_odds = 0.45 }
+	pc_dextro_continental 	        = { spawn_odds = 0.15 }
+	pc_dextro_desert		        = { spawn_odds = 0.30 }
+	pc_dextro_tropical		        = { spawn_odds = 0.10 }
+	pc_dextro_arid 		            = { spawn_odds = 0.20 }
+	pc_dextro_ocean		            = { spawn_odds = 0.10 }
+	pc_dextro_tundra		        = { spawn_odds = 0.35 }
+	pc_dextro_arctic		        = { spawn_odds = 0.35 }
+	pc_dextro_alpine		        = { spawn_odds = 0.35 }
+    pc_dextro_savannah		        = { spawn_odds = 0.10 }
+	pc_toxic_continental            = { spawn_odds = 0.15 }
+	pc_toxic_desert		            = { spawn_odds = 0.30 }
+	pc_toxic_tropical               = { spawn_odds = 0.10 }
+	pc_toxic_arid 		            = { spawn_odds = 0.20 }
+	pc_toxic_ocean		            = { spawn_odds = 0.10 }
+	pc_toxic_tundra		            = { spawn_odds = 0.35 }
+	pc_toxic_arctic		            = { spawn_odds = 0.35 }
+	pc_toxic_alpine		            = { spawn_odds = 0.35 }
+    pc_toxic_savannah  	            = { spawn_odds = 0.10 }
+    pc_toxic_frozen		            = { spawn_odds = 0.25 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0.15 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0.30 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0.10 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0.20 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0.10 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0.35 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0.35 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0.35 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0.10 }
+	pc_ammonia_continental 	        = { spawn_odds = 0.15 }
+	pc_ammonia_desert		        = { spawn_odds = 0.30 }
+	pc_ammonia_tropical		        = { spawn_odds = 0.10 }
+	pc_ammonia_arid 		        = { spawn_odds = 0.20 }
+	pc_ammonia_ocean		        = { spawn_odds = 0.10 }
+	pc_ammonia_tundra		        = { spawn_odds = 0.35 }
+	pc_ammonia_arctic		        = { spawn_odds = 0.35 }
+	pc_ammonia_alpine		        = { spawn_odds = 0.35 }
+    pc_ammonia_savannah		        = { spawn_odds = 0.35 }
+    pc_ammonia_frozen		        = { spawn_odds = 0.25 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0.15 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0.30 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0.10 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0.20 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0.10 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0.35 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0.35 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0.35 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0.10 }	   
 }
 
 # Black Hole
@@ -1277,17 +1326,64 @@ sc_black_hole = {
 	
 	icon_scale		= 1.5
 	
-	pc_gas_giant	= { spawn_odds = 0 }
-	pc_desert 		= { spawn_odds = 0 }
-	pc_tropical 	= { spawn_odds = 0 }
-	pc_arid 		= {	spawn_odds = 0 }
-	pc_continental 	= { spawn_odds = 0 }
-	pc_ocean 		= { spawn_odds = 0 }
-	pc_tundra 		= { spawn_odds = 0 }
-	pc_arctic 		= { spawn_odds = 0 }
-	pc_gaia			= { spawn_odds = 0 }
-	pc_alpine		= { spawn_odds = 0 }
-	pc_savannah		= { spawn_odds = 0 }
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	   
 	
 	is_environmental_hazard = yes
 	modifier = {
@@ -1305,16 +1401,64 @@ sc_c_giant = {
 	
 	icon_scale		= 0.8
 	
-	pc_continental 	= { spawn_odds = 0.0 }
-	pc_desert		= { spawn_odds = 0.1 }
-	pc_tropical		= { spawn_odds = 0.0 }
-	pc_arid 		= { spawn_odds = 0.1 }
-	pc_ocean		= { spawn_odds = 0.0 }
-	pc_tundra		= { spawn_odds = 0.0 }
-	pc_arctic		= { spawn_odds = 0.0 }
-	pc_alpine		= { spawn_odds = 0.0 }
-	pc_savannah		= { spawn_odds = 0.0 }
-	pc_gaia			= { spawn_odds = 0.0 }
+    pc_barren                       = { spawn_odds = 0.2 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0.1 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0.1 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0.1 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0.1 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0.1 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0.1 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0.1 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0.1 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }
 }
 
 # Magnetar
@@ -1326,16 +1470,64 @@ sc_magnetar = {
 
 	icon_scale		= 1.1
 	
-	pc_desert 		= { spawn_odds = 0 }
-	pc_tropical 	= { spawn_odds = 0 }	
-	pc_arid 		= {	spawn_odds = 0 }
-	pc_continental 	= { spawn_odds = 0 }
-	pc_ocean 		= { spawn_odds = 0 }
-	pc_tundra 		= { spawn_odds = 0 }
-	pc_arctic 		= { spawn_odds = 0 }
-	pc_gaia			= { spawn_odds = 0 }
-	pc_alpine		= { spawn_odds = 0 }
-	pc_savannah		= { spawn_odds = 0 }
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	
 	
 	is_environmental_hazard = yes
 	modifier = {
@@ -1353,16 +1545,65 @@ sc_neutron_star = {
 
 	icon_scale		= 0.8
 	
-	pc_desert 		= { spawn_odds = 0 }
-	pc_tropical 	= { spawn_odds = 0 }	
-	pc_arid 		= {	spawn_odds = 0 }
-	pc_continental 	= { spawn_odds = 0 }
-	pc_ocean 		= { spawn_odds = 0 }
-	pc_tundra 		= { spawn_odds = 0 }
-	pc_arctic 		= { spawn_odds = 0 }
-	pc_gaia			= { spawn_odds = 0 }
-	pc_alpine		= { spawn_odds = 0 }
-	pc_savannah		= { spawn_odds = 0 }
+	
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	
 	
 	is_environmental_hazard = yes
 	modifier = {
@@ -1379,16 +1620,65 @@ sc_nova_1 = {
 
 	icon_scale		= 1.65
 	
-	pc_continental 	= { spawn_odds = 0.0 }
-	pc_desert		= { spawn_odds = 0.1 }
-	pc_tropical		= { spawn_odds = 0.0 }
-	pc_arid 		= { spawn_odds = 0.1 }
-	pc_ocean		= { spawn_odds = 0.0 }
-	pc_tundra		= { spawn_odds = 0.0 }
-	pc_arctic		= { spawn_odds = 0.0 }
-	pc_alpine		= { spawn_odds = 0.0 }
-	pc_savannah		= { spawn_odds = 0.0 }
-	pc_gaia			= { spawn_odds = 0.0 }
+	
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	
 	
 	is_environmental_hazard = yes
 	modifier = {
@@ -1407,16 +1697,65 @@ sc_nova_2 = {
 
 	icon_scale		= 1.65
 	
-	pc_continental 	= { spawn_odds = 0.0 }
-	pc_desert		= { spawn_odds = 0.1 }
-	pc_tropical		= { spawn_odds = 0.0 }
-	pc_arid 		= { spawn_odds = 0.1 }
-	pc_ocean		= { spawn_odds = 0.0 }
-	pc_tundra		= { spawn_odds = 0.0 }
-	pc_arctic		= { spawn_odds = 0.0 }
-	pc_alpine		= { spawn_odds = 0.0 }
-	pc_savannah		= { spawn_odds = 0.0 }
-	pc_gaia			= { spawn_odds = 0.0 }
+	
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	
 	
 	is_environmental_hazard = yes
 	modifier = {
@@ -1435,16 +1774,65 @@ sc_protostar = {
 
 	icon_scale		= 2.5
 	
-	pc_desert 		= { spawn_odds = 0 }
-	pc_tropical 	= { spawn_odds = 0 }	
-	pc_arid 		= {	spawn_odds = 0 }
-	pc_continental 	= { spawn_odds = 0 }
-	pc_ocean 		= { spawn_odds = 0 }
-	pc_tundra 		= { spawn_odds = 0 }
-	pc_arctic 		= { spawn_odds = 0 }
-	pc_gaia			= { spawn_odds = 0 }
-	pc_alpine		= { spawn_odds = 0 }
-	pc_savannah		= { spawn_odds = 0 }
+	
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	
 
 	#is_environmental_hazard = no
 	#modifier = {
@@ -1461,16 +1849,65 @@ sc_pulsar = {
 
 	icon_scale		= 0.8
 	
-	pc_desert 		= { spawn_odds = 0 }
-	pc_tropical 	= { spawn_odds = 0 }	
-	pc_arid 		= {	spawn_odds = 0 }
-	pc_continental 	= { spawn_odds = 0 }
-	pc_ocean 		= { spawn_odds = 0 }
-	pc_tundra 		= { spawn_odds = 0 }
-	pc_arctic 		= { spawn_odds = 0 }
-	pc_gaia			= { spawn_odds = 0 }
-	pc_alpine		= { spawn_odds = 0 }
-	pc_savannah		= { spawn_odds = 0 }
+	
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	
 	
 	is_environmental_hazard = yes
 	modifier = {
@@ -1488,15 +1925,65 @@ sc_tt_red = {
 	
 	icon_scale		= 1.0
 	
-	pc_continental 	= { spawn_odds = 0.0 }
-	pc_desert		= { spawn_odds = 0.1 }
-	pc_tropical		= { spawn_odds = 0.0 }
-	pc_arid 		= { spawn_odds = 0.1 }
-	pc_ocean		= { spawn_odds = 0.1 }
-	pc_tundra		= { spawn_odds = 0.0 }
-	pc_arctic		= { spawn_odds = 0.1 }
-	pc_alpine		= { spawn_odds = 0.0 }
-	pc_savannah		= { spawn_odds = 0.1 }
+	
+    pc_barren                       = { spawn_odds = 0.2 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0.1 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0.1 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0.1 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0.1 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0.1 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0.1 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0.1 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0.1 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0.1 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0.1 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0.1 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0.1 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0.1 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0.1 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0.1 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0.1 }	
 
 }
 
@@ -1509,15 +1996,64 @@ sc_tt_orange = {
 	
 	icon_scale		= 1.0
 	
-	pc_continental 	= { spawn_odds = 0.0 }
-	pc_desert		= { spawn_odds = 0.1 }
-	pc_tropical		= { spawn_odds = 0.0 }
-	pc_arid 		= { spawn_odds = 0.1 }
-	pc_ocean		= { spawn_odds = 0.1 }
-	pc_tundra		= { spawn_odds = 0.0 }
-	pc_arctic		= { spawn_odds = 0.1 }
-	pc_alpine		= { spawn_odds = 0.0 }
-	pc_savannah		= { spawn_odds = 0.1 }
+    pc_barren                       = { spawn_odds = 0.2 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0.1 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0.1 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0.1 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0.1 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0.1 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0.1 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0.1 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0.1 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0.1 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0.1 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0.1 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0.1 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0.1 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0.1 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0.1 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0.1 }
 
 }
 
@@ -1530,38 +2066,134 @@ sc_tt_white = {
 	
 	icon_scale		= 1.0
 	
-	pc_continental 	= { spawn_odds = 0.0 }
-	pc_desert		= { spawn_odds = 0.1 }
-	pc_tropical		= { spawn_odds = 0.0 }
-	pc_arid 		= { spawn_odds = 0.1 }
-	pc_ocean		= { spawn_odds = 0.1 }
-	pc_tundra		= { spawn_odds = 0.0 }
-	pc_arctic		= { spawn_odds = 0.1 }
-	pc_alpine		= { spawn_odds = 0.0 }
-	pc_savannah		= { spawn_odds = 0.1 }
+    pc_barren                       = { spawn_odds = 0.2 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0.1 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0.1 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0.1 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0.1 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0.1 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0.1 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0.1 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0.1 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0.1 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0.1 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0.1 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0.1 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0.1 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0.1 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0.1 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0.1 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0.1 }
 
 }
 
 # None
 sc_none = {
 	class 			= none
-	planet			= {pc_none}
+	planet			= { key =pc_none}
 	spawn_odds 		= 0.8
 	num_planets 	= { min = 1 max = 4 }
 	
 	icon_scale		= 1.5
 	
-	pc_gas_giant	= { spawn_odds = 0 }
-	pc_desert 		= { spawn_odds = 0 }
-	pc_tropical 	= { spawn_odds = 0 }
-	pc_arid 		= {	spawn_odds = 0 }
-	pc_continental 	= { spawn_odds = 0 }
-	pc_ocean 		= { spawn_odds = 0 }
-	pc_tundra 		= { spawn_odds = 0 }
-	pc_arctic 		= { spawn_odds = 0 }
-	pc_gaia			= { spawn_odds = 0 }
-	pc_alpine		= { spawn_odds = 0 }
-	pc_savannah		= { spawn_odds = 0 }
+    pc_barren                       = { spawn_odds = 0 }
+	pc_continental 	                = { spawn_odds = 0 }
+	pc_desert		                = { spawn_odds = 0 }
+	pc_tropical		                = { spawn_odds = 0 }
+	pc_arid 		                = { spawn_odds = 0 }
+	pc_ocean		                = { spawn_odds = 0 }
+	pc_tundra		                = { spawn_odds = 0 }
+	pc_arctic		                = { spawn_odds = 0 }
+	pc_alpine		                = { spawn_odds = 0 }
+    pc_savannah		                = { spawn_odds = 0 }
+    pc_frozen		                = { spawn_odds = 0 }
+	pc_dextro_continental 	        = { spawn_odds = 0 }
+	pc_dextro_desert		        = { spawn_odds = 0 }
+	pc_dextro_tropical		        = { spawn_odds = 0 }
+	pc_dextro_arid 		            = { spawn_odds = 0 }
+	pc_dextro_ocean		            = { spawn_odds = 0 }
+	pc_dextro_tundra		        = { spawn_odds = 0 }
+	pc_dextro_arctic		        = { spawn_odds = 0 }
+	pc_dextro_alpine		        = { spawn_odds = 0 }
+    pc_dextro_savannah		        = { spawn_odds = 0 }
+	pc_toxic_continental            = { spawn_odds = 0 }
+	pc_toxic_desert		            = { spawn_odds = 0 }
+	pc_toxic_tropical               = { spawn_odds = 0 }
+	pc_toxic_arid 		            = { spawn_odds = 0 }
+	pc_toxic_ocean		            = { spawn_odds = 0 }
+	pc_toxic_tundra		            = { spawn_odds = 0 }
+	pc_toxic_arctic		            = { spawn_odds = 0 }
+	pc_toxic_alpine		            = { spawn_odds = 0 }
+    pc_toxic_savannah  	            = { spawn_odds = 0 }
+    pc_toxic_frozen		            = { spawn_odds = 0 }
+	pc_toxic_dextro_continental     = { spawn_odds = 0 }
+	pc_toxic_dextro_desert		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tropical        = { spawn_odds = 0 }
+	pc_toxic_dextro_arid 		    = { spawn_odds = 0 }
+	pc_toxic_dextro_ocean		    = { spawn_odds = 0 }
+	pc_toxic_dextro_tundra		    = { spawn_odds = 0 }
+	pc_toxic_dextro_arctic		    = { spawn_odds = 0 }
+	pc_toxic_dextro_alpine		    = { spawn_odds = 0 }
+    pc_toxic_dextro_savannah        = { spawn_odds = 0 }
+	pc_ammonia_continental 	        = { spawn_odds = 0 }
+	pc_ammonia_desert		        = { spawn_odds = 0 }
+	pc_ammonia_tropical		        = { spawn_odds = 0 }
+	pc_ammonia_arid 		        = { spawn_odds = 0 }
+	pc_ammonia_ocean		        = { spawn_odds = 0 }
+	pc_ammonia_tundra		        = { spawn_odds = 0 }
+	pc_ammonia_arctic		        = { spawn_odds = 0 }
+	pc_ammonia_alpine		        = { spawn_odds = 0 }
+    pc_ammonia_savannah		        = { spawn_odds = 0 }
+    pc_ammonia_frozen		        = { spawn_odds = 0 }
+	pc_ammonia_dextro_continental 	= { spawn_odds = 0 }
+	pc_ammonia_dextro_desert		= { spawn_odds = 0 }
+	pc_ammonia_dextro_tropical		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arid 		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_ocean		    = { spawn_odds = 0 }
+	pc_ammonia_dextro_tundra		= { spawn_odds = 0 }
+	pc_ammonia_dextro_arctic		= { spawn_odds = 0 }
+	pc_ammonia_dextro_alpine		= { spawn_odds = 0 }
+    pc_ammonia_dextro_savannah		= { spawn_odds = 0 }	
 	
 	is_environmental_hazard = yes
 	modifier = {
@@ -1579,13 +2211,32 @@ random_list = {
         "sc_b_super"
         "sc_a"
         "sc_a_super"
+		"sc_d"
         "sc_f"
         "sc_f_giant"
         "sc_g"
         "sc_g_giant"
+		"sc_k"
+		"sc_k_giant"
         "sc_m"
         "sc_m_giant"
         "sc_m_super"
         "sc_m_hyper"
+		"sc_l"
+		"sc_t"
+		"sc_y"
+		"sc_black_hole"
+		"sc_c_giant"
+		"sc_magnetar"
+		"sc_pulsar"
+		"sc_neutron_star"
+		"sc_nova_1"
+		"sc_nova_2"
+		"sc_protostar"
+		"sc_pulsar"
+		"sc_tt_red"
+		"sc_tt_orange"
+		"sc_tt_white"
+		"sc_none"
 	}
 }
